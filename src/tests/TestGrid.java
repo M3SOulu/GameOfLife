@@ -2,6 +2,8 @@ package tests;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -40,5 +42,28 @@ public class TestGrid {
 		//Act
 		grid=new Grid(null, -10, -10);
 		//Assert
+	}
+	
+	
+
+	
+	@Test
+	public void printGridGameOfLife() throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException{
+		//Arrange
+		ArrayList cells = null;
+		cells.add(new Cell(0,0, true));
+		cells.add(new Cell(0,1, true));
+		cells.add(new Cell(0,2, false));
+		cells.add(new Cell(1,0, true));
+		cells.add(new Cell(1,1, false));
+		cells.add(new Cell(1,2, false));
+		cells.add(new Cell(2,0, true));
+		cells.add(new Cell(2,1, true));
+		cells.add(new Cell(2,2, false));
+		//Act
+		grid=new Grid(cells, 3, 3);
+		//Assert
+		assertEquals("**-/n*--/n**-", grid.print());
+		
 	}
 }
