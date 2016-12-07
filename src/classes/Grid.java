@@ -90,12 +90,29 @@ public class Grid {
 		setWidth(w);
 	}
 
-	public String print() {
-		return null;
-	}
-
 	public Grid tick() {
-		return null;
+		ArrayList<Cell> cellsAfterTick = new ArrayList<>();
+		for(Cell c: cells){
+			if(c.getX() == 0 && c.getY() == 0 || c.getX() == width && c.getY() == 0 ||
+				 c.getX() == 0 && c.getY() == height || c.getX() == width && c.getY() == height){
+				if(c.getX() == 0){
+					if(c.getY() == 0){
+						
+					}
+				}
+			}
+		}
+	}
+	
+	public boolean neighbor(ArrayList<Cell> neighCells){
+		for(Cell c : neighCells){
+			if(c.getState()){
+				
+			}
+			else{
+				if
+			}
+		}
 	}
 
 	public ArrayList<Cell> getCells() {
@@ -108,7 +125,7 @@ public class Grid {
 		this.cells = cells;
 	}
 
-	public String printState() {
+	public String print() {
 		String state = "";
 
 		for (Cell c : cells) {

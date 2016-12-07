@@ -397,3 +397,23 @@ EditAction 1481126601361 Grid.java 2418 13 29 0
 UnitTestCaseAction 1481126601918 TestGrid.java OK
 UnitTestSessionAction 1481126601919 TestGrid OK
 EditAction 1481126612550 Grid.java 2422 13 29 0
+UnitTestCaseAction 1481126627484 TestGrid.java OK
+UnitTestSessionAction 1481126627484 TestGrid OK
+RefactoringAction 1481126685356 Grid.java ADD void t FIELD
+RefactoringAction 1481126686387 Grid.java RENAME t=>void tick FIELD
+RefactoringAction 1481126687453 Grid.java RENAME tick=>void tick()/2 METHOD
+RefactoringAction 1481126707528 Grid.java REMOVE tick()/2 METHOD
+RefactoringAction 1481126720545 Grid.java REMOVE print() METHOD
+RefactoringAction 1481126733080 Grid.java RENAME printState()=>String print() METHOD
+CompilationAction 1481126744560 Grid.java
+RefactoringAction 1481127032810 Grid.java ADD NumberFormatException e FIELD
+RefactoringAction 1481127040383 Grid.java REMOVE e FIELD
+RefactoringAction 1481127192539 Cell.java ADD Cell(int, int)/2 METHOD
+RefactoringAction 1481127198551 Cell.java RENAME Cell(int, int)/2=>Cell(int, int, boolean) METHOD
+RefactoringAction 1481127294787 Grid.java ADD boolean neibor FIELD
+RefactoringAction 1481127297798 Grid.java RENAME neibor=>boolean neighn FIELD
+RefactoringAction 1481127300307 Grid.java RENAME neighn=>boolean neighbor FIELD
+RefactoringAction 1481127304833 Grid.java RENAME neighbor=>boolean neighbor() METHOD
+RefactoringAction 1481127313885 Grid.java RENAME neighbor()=>boolean neighbor(ArrayList<Cell>) METHOD
+RefactoringAction 1481127382611 Cell.java ADD import java.util.ArrayList IMPORT
+EditAction 1481127822587 Cell.java 1236 8 18 0

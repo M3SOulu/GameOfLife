@@ -22,7 +22,7 @@ public class TestGrid {
 	public void setUp() throws NegativeCoordinateException {
 		int j = 0;
 		cells = new ArrayList();
-		width = 9;
+		width = 13;
 		height = width;
 		for (int i = 0; i < width * height; i++) {
 			if (j == 0) {
@@ -69,7 +69,7 @@ public class TestGrid {
 	public void gridStateStringIsCorrect() throws CustomLifeException{
 		g = new Grid(cells, width, height);
 		cells = g.getCells();
-		char[] charOfState = g.printState().toCharArray();
+		char[] charOfState = g.print().toCharArray();
 		int i=0;
 		
 		for(Cell c:cells){
@@ -82,6 +82,6 @@ public class TestGrid {
 				assertEquals(charOfState[i++],'-');
 			}
 		}
-		System.out.println(g.printState());
+		System.out.println(g.print());
 	}
 }
