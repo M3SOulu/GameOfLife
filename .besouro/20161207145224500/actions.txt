@@ -207,3 +207,128 @@ RefactoringAction 1481124105504 Grid.java ADD void initialize() METHOD
 RefactoringAction 1481124125270 Grid.java RENAME initialize()=>void initialize(ArrayList<Cell>) METHOD
 RefactoringAction 1481124331034 Cell.java ADD void setState(boolean) METHOD
 EditAction 1481124351676 Cell.java 632 6 11 0
+UnitTestCaseAction 1481124355320 TestGrid.java FAIL
+UnitTestSessionAction 1481124355320 TestGrid FAIL
+UnitTestCaseAction 1481124383611 TestGrid.java FAIL
+UnitTestSessionAction 1481124383612 TestGrid FAIL
+UnitTestCaseAction 1481124389554 TestGrid.java FAIL
+UnitTestSessionAction 1481124389555 TestGrid FAIL
+UnitTestCaseAction 1481124391385 TestGrid.java FAIL
+UnitTestSessionAction 1481124391386 TestGrid FAIL
+UnitTestCaseAction 1481124393235 TestGrid.java FAIL
+UnitTestSessionAction 1481124393236 TestGrid FAIL
+RefactoringAction 1481124469410 Grid.java ADD ArrayList<Cell> getCells() METHOD
+RefactoringAction 1481124469414 Grid.java ADD void setCells(ArrayList<Cell>) METHOD
+UnitTestCaseAction 1481124525635 TestGrid.java FAIL
+UnitTestSessionAction 1481124525635 TestGrid FAIL
+UnitTestCaseAction 1481124554844 TestGrid.java FAIL
+UnitTestSessionAction 1481124554844 TestGrid FAIL
+UnitTestCaseAction 1481124662962 TestGrid.java FAIL
+UnitTestSessionAction 1481124662963 TestGrid FAIL
+UnitTestCaseAction 1481124677925 TestGrid.java FAIL
+UnitTestSessionAction 1481124677926 TestGrid FAIL
+UnitTestCaseAction 1481124728791 TestGrid.java FAIL
+UnitTestSessionAction 1481124728792 TestGrid FAIL
+UnitTestCaseAction 1481124752652 TestGrid.java FAIL
+UnitTestSessionAction 1481124752652 TestGrid FAIL
+UnitTestCaseAction 1481124785642 TestGrid.java OK
+UnitTestSessionAction 1481124785643 TestGrid OK
+UnitTestCaseAction 1481124788364 TestGrid.java FAIL
+UnitTestSessionAction 1481124788364 TestGrid FAIL
+RefactoringAction 1481124917073 Grid.java ADD import java.util.Random IMPORT
+UnitTestCaseAction 1481125033164 TestGrid.java FAIL
+UnitTestSessionAction 1481125033164 TestGrid FAIL
+UnitTestCaseAction 1481125036778 TestGrid.java FAIL
+UnitTestSessionAction 1481125036778 TestGrid FAIL
+UnitTestCaseAction 1481125046876 TestGrid.java OK
+UnitTestSessionAction 1481125046877 TestGrid OK
+UnitTestCaseAction 1481125052436 TestGrid.java OK
+UnitTestSessionAction 1481125052437 TestGrid OK
+UnitTestCaseAction 1481125053312 TestGrid.java FAIL
+UnitTestSessionAction 1481125053313 TestGrid FAIL
+UnitTestCaseAction 1481125054027 TestGrid.java OK
+UnitTestSessionAction 1481125054028 TestGrid OK
+UnitTestCaseAction 1481125054793 TestGrid.java OK
+UnitTestSessionAction 1481125054793 TestGrid OK
+UnitTestCaseAction 1481125055692 TestGrid.java OK
+UnitTestSessionAction 1481125055692 TestGrid OK
+UnitTestCaseAction 1481125056754 TestGrid.java OK
+UnitTestSessionAction 1481125056755 TestGrid OK
+UnitTestCaseAction 1481125057822 TestGrid.java OK
+UnitTestSessionAction 1481125057823 TestGrid OK
+UnitTestCaseAction 1481125058752 TestGrid.java OK
+UnitTestSessionAction 1481125058753 TestGrid OK
+UnitTestCaseAction 1481125059858 TestGrid.java OK
+UnitTestSessionAction 1481125059858 TestGrid OK
+UnitTestCaseAction 1481125060855 TestGrid.java OK
+UnitTestSessionAction 1481125060856 TestGrid OK
+UnitTestCaseAction 1481125061843 TestGrid.java OK
+UnitTestSessionAction 1481125061844 TestGrid OK
+UnitTestCaseAction 1481125063056 TestGrid.java OK
+UnitTestSessionAction 1481125063057 TestGrid OK
+UnitTestCaseAction 1481125068568 TestGrid.java OK
+UnitTestSessionAction 1481125068568 TestGrid OK
+UnitTestCaseAction 1481125069610 TestGrid.java OK
+UnitTestSessionAction 1481125069611 TestGrid OK
+UnitTestCaseAction 1481125070513 TestGrid.java OK
+UnitTestSessionAction 1481125070513 TestGrid OK
+UnitTestCaseAction 1481125071418 TestGrid.java OK
+UnitTestSessionAction 1481125071419 TestGrid OK
+UnitTestCaseAction 1481125072332 TestGrid.java OK
+UnitTestSessionAction 1481125072333 TestGrid OK
+UnitTestCaseAction 1481125073142 TestGrid.java OK
+UnitTestSessionAction 1481125073143 TestGrid OK
+UnitTestCaseAction 1481125073997 TestGrid.java OK
+UnitTestSessionAction 1481125073998 TestGrid OK
+UnitTestCaseAction 1481125074967 TestGrid.java OK
+UnitTestSessionAction 1481125074968 TestGrid OK
+UnitTestCaseAction 1481125075973 TestGrid.java OK
+UnitTestSessionAction 1481125075973 TestGrid OK
+UnitTestCaseAction 1481125077100 TestGrid.java OK
+UnitTestSessionAction 1481125077101 TestGrid OK
+UnitTestCaseAction 1481125078052 TestGrid.java FAIL
+UnitTestSessionAction 1481125078053 TestGrid FAIL
+UnitTestCaseAction 1481125164409 TestGrid.java FAIL
+UnitTestSessionAction 1481125164409 TestGrid FAIL
+UnitTestCaseAction 1481125170690 TestGrid.java OK
+UnitTestSessionAction 1481125170690 TestGrid OK
+UnitTestCaseAction 1481125171691 TestGrid.java FAIL
+UnitTestSessionAction 1481125171692 TestGrid FAIL
+UnitTestCaseAction 1481125172427 TestGrid.java OK
+UnitTestSessionAction 1481125172427 TestGrid OK
+UnitTestCaseAction 1481125173167 TestGrid.java OK
+UnitTestSessionAction 1481125173168 TestGrid OK
+UnitTestCaseAction 1481125174283 TestGrid.java FAIL
+UnitTestSessionAction 1481125174284 TestGrid FAIL
+UnitTestCaseAction 1481125210864 TestGrid.java FAIL
+UnitTestSessionAction 1481125210864 TestGrid FAIL
+UnitTestCaseAction 1481125282484 TestGrid.java OK
+UnitTestSessionAction 1481125282484 TestGrid OK
+UnitTestCaseAction 1481125284855 TestGrid.java OK
+UnitTestSessionAction 1481125284855 TestGrid OK
+UnitTestCaseAction 1481125288385 TestGrid.java OK
+UnitTestSessionAction 1481125288386 TestGrid OK
+UnitTestCaseAction 1481125300140 TestGrid.java OK
+UnitTestSessionAction 1481125300140 TestGrid OK
+UnitTestCaseAction 1481125301102 TestGrid.java OK
+UnitTestSessionAction 1481125301102 TestGrid OK
+UnitTestCaseAction 1481125301834 TestGrid.java OK
+UnitTestSessionAction 1481125301834 TestGrid OK
+UnitTestCaseAction 1481125302550 TestGrid.java OK
+UnitTestSessionAction 1481125302550 TestGrid OK
+UnitTestCaseAction 1481125303507 TestGrid.java OK
+UnitTestSessionAction 1481125303508 TestGrid OK
+UnitTestCaseAction 1481125304479 TestGrid.java OK
+UnitTestSessionAction 1481125304480 TestGrid OK
+UnitTestCaseAction 1481125350417 TestGrid.java OK
+UnitTestSessionAction 1481125350418 TestGrid OK
+UnitTestCaseAction 1481125352139 TestGrid.java OK
+UnitTestSessionAction 1481125352140 TestGrid OK
+RefactoringAction 1481125404023 Grid.java ADD String printState FIELD
+RefactoringAction 1481125412538 Grid.java RENAME printState=>String printSa FIELD
+RefactoringAction 1481125414066 Grid.java RENAME printSa=>String printState FIELD
+RefactoringAction 1481125415076 Grid.java RENAME printState=>String printState() METHOD
+RefactoringAction 1481125532878 TestGrid.java ADD void g/2 FIELD
+RefactoringAction 1481125537391 TestGrid.java RENAME g/2=>void gridStateString FIELD
+RefactoringAction 1481125546413 TestGrid.java RENAME gridStateString=>void gridStateStringIsCorrect FIELD
+EditAction 1481125564447 TestGrid.java 1404 4 13 1

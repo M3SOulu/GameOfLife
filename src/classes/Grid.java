@@ -1,6 +1,7 @@
 package classes;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Grid {
 	private ArrayList<Cell> cells;
@@ -38,17 +39,19 @@ public class Grid {
 		}
 		this.initialize(cells);
 		if (this.isUniformlyInitialized(cells)) {
-			this.cells = cells;
+			this.setCells(cells);
 		} else {
 			throw new CustomLifeException("uniformly initialized");
 		}
 	}
 
 	private void initialize(ArrayList<Cell> cells) {
-		int i=0;
-		while(!this.isUniformlyInitialized(cells)){
-			boolean state = cells.get(i).getState();
-			cells.get(i++).setState(state);
+		int i = 0;
+		Random r = new Random();
+		while (!this.isUniformlyInitialized(cells)) {
+			i = r.nextInt(width * height);
+			boolean state = cells.get(r.nextInt(width * height)).getState();
+			cells.get(i).setState(!state);
 		}
 	}
 
@@ -62,11 +65,21 @@ public class Grid {
 				deadCells++;
 			}
 		}
-		if (Math.abs(aliveCells - deadCells) >= 0 && Math.abs(aliveCells - deadCells) <= 1) {
-			return true;
+
+		if ((width * height) % 2 == 0) {
+			if (Math.abs(aliveCells - deadCells) == 0) {
+				return true;
+			} else {
+				return false;
+			}
 		} else {
-			return false;
+			if (Math.abs(aliveCells - deadCells) >= 0 && Math.abs(aliveCells - deadCells) <= 1) {
+				return true;
+			} else {
+				return false;
+			}
 		}
+
 	}
 
 	public Grid(int w, int h) throws CustomLifeException {
@@ -83,6 +96,16 @@ public class Grid {
 
 	public Grid tick() {
 		return null;
+	}
+
+	public ArrayList<Cell> getCells() {
+		ArrayList<Cell> cellsTemp = new ArrayList();
+		cellsTemp = cells;
+		return cellsTemp;
+	}
+
+	public void setCells(ArrayList<Cell> cells) {
+		this.cells = cells;
 	}
 
 }
