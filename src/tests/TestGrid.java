@@ -95,12 +95,12 @@ public class TestGrid {
 	@Test
 	public void tickingAnAliveCellWithMoreThan3AliveNeighborsMakesItDie() throws NegativeCoordinateException {
 		// Arrange
-		Cell cell = new Cell(0, 2, true);
-		Cell neighbor1 = new Cell(0, 1, true);
-		Cell neighbor2 = new Cell(0, 3, false);
-		Cell neighbor3 = new Cell(1, 1, true);
-		Cell neighbor4 = new Cell(1, 2, true);
-		Cell neighbor5 = new Cell(1, 3, true);
+		Cell cell = new Cell(0, 1, true);
+		Cell neighbor1 = new Cell(0, 0, true);
+		Cell neighbor2 = new Cell(0, 2, false);
+		Cell neighbor3 = new Cell(1, 0, true);
+		Cell neighbor4 = new Cell(1, 1, true);
+		Cell neighbor5 = new Cell(1, 2, true);
 		
 	
 		cells.add(cell);
@@ -110,7 +110,7 @@ public class TestGrid {
 		cells.add(neighbor4);
 		cells.add(neighbor5);
 
-		grid = new Grid(cells, 2, 4);
+		grid = new Grid(cells, 2, 3);
 		// Act
 		grid = grid.tick();
 		// Assert
