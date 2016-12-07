@@ -146,3 +146,12 @@ CompilationAction 1481122952271 Grid.java
 UnitTestCaseAction 1481123022949 TestGrid.java FAIL
 UnitTestSessionAction 1481123022950 TestGrid FAIL
 EditAction 1481123055821 Grid.java 1167 7 18 0
+UnitTestCaseAction 1481123059693 TestCell.java OK
+UnitTestSessionAction 1481123059694 TestCell OK
+RefactoringAction 1481123076137 Grid.java REMOVE main(String METHOD
+UnitTestCaseAction 1481123085067 TestGrid.java OK
+UnitTestSessionAction 1481123085068 TestGrid.testCellCoordinate OK
+RefactoringAction 1481123310991 CellCoordinateDuplicate.java ADD CellCoordinateDuplicate.java CLASS
+FileOpenedAction 1481123311543 CellCoordinateDuplicate.java 65 0 0 0
+RefactoringAction 1481123348081 CellCoordinateDuplicate.java ADD CellCoordinateDuplicate(String) METHOD
+EditAction 1481123361421 CellCoordinateDuplicate.java 151 1 1 0

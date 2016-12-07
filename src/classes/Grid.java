@@ -13,7 +13,6 @@ public class Grid {
 		height=h;
 		this.cells=new ArrayList<Cell>();
 		for(Cell cell : cells){
-			System.out.println(cell.getX()+","+cell.getY());
 			if(cell.getX()>height || cell.getY()>width)
 					throw new CellCoordinateOutOfBoundariesException("CellCoordinateOutOfBoundaries");
 			
@@ -44,16 +43,5 @@ public class Grid {
 		return height;
 	}
 	
-	public static void main(String args[]) throws NegativeCoordinateException{
-		System.out.println("gsgs");
-		Grid grid;
-		ArrayList<Cell> arrayCell;
-		arrayCell = new ArrayList<Cell>();
-		arrayCell.add(new Cell(1,1));
-		arrayCell.add(new Cell(1,2));
-		arrayCell.add(new Cell(1,4));
-		grid = new Grid(arrayCell,3,3);
-		
-	}
 	
 }
