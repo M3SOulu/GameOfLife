@@ -54,6 +54,7 @@ public class TestGrid {
 	public void GridNumberOfCellisOk()
 			throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CustomLifeException {
 		cells = new ArrayList<>(100);
+		
 		boolean alive=false;
 		for (int i = 0; i < 10; i++) {
 			if(i==5){
@@ -63,7 +64,6 @@ public class TestGrid {
 				cells.add(new Cell(i, j, alive));
 			}
 		}
-
 		griglia = new Grid(cells, 10, 10);
 	}
 
