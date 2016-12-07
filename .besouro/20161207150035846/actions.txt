@@ -59,3 +59,23 @@ CompilationAction 1481120331515 TestCell.java
 CompilationAction 1481120331515 TestCell.java
 CompilationAction 1481120331515 TestCell.java
 EditAction 1481120336523 TestCell.java 602 3 5 4
+CompilationAction 1481120336677 TestCell.java
+CompilationAction 1481120336677 TestCell.java
+CompilationAction 1481120336678 TestCell.java
+CompilationAction 1481120345133 TestCell.java
+CompilationAction 1481120345133 TestCell.java
+CompilationAction 1481120345133 TestCell.java
+CompilationAction 1481120345296 TestCell.java
+CompilationAction 1481120345297 TestCell.java
+CompilationAction 1481120345297 TestCell.java
+RefactoringAction 1481120352031 Cell.java ADD Cell(boolean, int, int) METHOD
+RefactoringAction 1481120356602 Cell.java RENAME Cell(boolean, int, int)=>Cell()/2 METHOD
+RefactoringAction 1481120359614 Cell.java RENAME Cell()/2=>Cell(boolean, int, int) METHOD
+CompilationAction 1481120386722 Cell.java
+CompilationAction 1481120386723 TestCell.java
+CompilationAction 1481120386723 TestCell.java
+CompilationAction 1481120391483 Cell.java
+CompilationAction 1481120391679 TestCell.java
+CompilationAction 1481120391679 TestCell.java
+RefactoringAction 1481120395586 Cell.java ADD Object getX() METHOD
+EditAction 1481120400620 Cell.java 632 5 7 0

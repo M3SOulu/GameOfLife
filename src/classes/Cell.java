@@ -18,8 +18,22 @@ public class Cell {
 	}
 
 
+	public Cell(boolean alive, int x, int y) throws NegativeCoordinateException {
+		// TODO Auto-generated constructor stub
+		this( alive );
+		this.x = x;
+		this.y = y;
+	}
+
+
 	public Object isAlive() {
 		// TODO Auto-generated method stub
 		return alive;
+	}
+
+
+	public int getX() {
+		// TODO Auto-generated method stub
+		return x;
 	}
 }
