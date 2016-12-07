@@ -28,6 +28,11 @@ public class TestGrid {
 	
 	@Test(expected=CellCoordinateOutOfBoundariesException.class)
 	public void grigliaErrataWithCellException() throws NegativeCoordinateException{
-		griglia=new Grid(cella,50,10);
+		griglia=new Grid(cells,50,10);
+	}
+	
+	@Test
+	public void grigliaQuadrataCorretta(){
+		griglia=new Grid(10,10);
 	}
 }

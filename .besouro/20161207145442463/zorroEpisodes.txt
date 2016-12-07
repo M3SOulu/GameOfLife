@@ -1,3 +1,7 @@
 1481120363807 test-last 1 1480 false
-1481120685561 refactoring 3 321 false
-1481120693818 regression 1 8 false
+1481120685561 refactoring 3 321 true
+1481120693818 regression 1 8 true
+1481120975229 test-first 4 281 true
+1481120976912 regression 1 1 true
+1481120977960 regression 1 1 true
+1481120987610 regression 1 9 true
