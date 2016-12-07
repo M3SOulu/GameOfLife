@@ -1,0 +1,7 @@
+FileOpenedAction 1481119983594 TestCell.java 178 1 1 0
+RefactoringAction 1481119998465 TestCell.java RENAME <initializer /1>=>void test() METHOD
+RefactoringAction 1481120005987 TestCell.java RENAME test()=>void testCell() METHOD
+RefactoringAction 1481120008000 TestCell.java RENAME testCell()=>void testCellState() METHOD
+FileOpenedAction 1481120017627 TestGrid.java 181 1 1 0
+CompilationAction 1481120094878 TestCell.java
+EditAction 1481120101330 Cell.java 162 1 0 0
