@@ -36,7 +36,7 @@ public class TestCell {
 		cell.makeAlive();
 		
 		assertEquals(cell.isAlive(), true);
-		
-		
 	}
+	
+	
 }
