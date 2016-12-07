@@ -116,4 +116,29 @@ public class TestGrid {
 		// Assert
 		assertTrue(grid.getCells().get(0).isAlive());
 	}
+	
+	@Test
+	public void tickingABottomSideAliveCellWithMoreThan3AliveNeighborsMakesItDie() throws NegativeCoordinateException {
+		// Arrange
+		Cell cell = new Cell(1, 1, true);
+		Cell neighbor1 = new Cell(1, 0, true);
+		Cell neighbor2 = new Cell(1, 2, false);
+		Cell neighbor3 = new Cell(0, 0, true);
+		Cell neighbor4 = new Cell(0, 1, true);
+		Cell neighbor5 = new Cell(0, 2, true);
+		
+	
+		cells.add(cell);
+		cells.add(neighbor1);
+		cells.add(neighbor2);
+		cells.add(neighbor3);
+		cells.add(neighbor4);
+		cells.add(neighbor5);
+
+		grid = new Grid(cells, 2, 3);
+		// Act
+		grid = grid.tick();
+		// Assert
+		assertTrue(grid.getCells().get(0).isAlive());
+	}
 }

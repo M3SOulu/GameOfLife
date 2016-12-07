@@ -119,3 +119,6 @@ RefactoringAction 1481127555448 TestGrid.java RENAME tickingAnAliveCellWithMoreT
 EditAction 1481127567805 TestGrid.java 2942 6 52 4
 RefactoringAction 1481127580032 TestGrid.java RENAME tickingASideAliveCellWithMoreThan3AliveNeighborsMakesItDie()=>void tickingAnUpperSideAliveCellWithMoreThan3AliveNeighborsMakesItDie() METHOD
 EditAction 1481127581194 TestGrid.java 2948 6 52 4
+RefactoringAction 1481127633078 TestGrid.java ADD void tickingAnUpperSideAliveCellWithMoreThan3AliveNeighborsMakesItDie()/2 METHOD
+RefactoringAction 1481127640604 TestGrid.java RENAME tickingAnUpperSideAliveCellWithMoreThan3AliveNeighborsMakesItDie()/2=>void tickingABottomSideAliveCellWithMoreThan3AliveNeighborsMakesItDie() METHOD
+EditAction 1481127705898 TestGrid.java 3600 7 67 5
