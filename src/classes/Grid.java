@@ -79,7 +79,7 @@ public class Grid {
 					state = "-";
 				}
 				sGrid = sGrid + state;
-				if(c.getY() == height) {
+				if(c.getY() == height && c.getX() != width) {
 					sGrid = sGrid + "\n";
 				}
 			}
