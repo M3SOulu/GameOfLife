@@ -130,3 +130,5 @@ EditAction 1481121825031 Grid.java 679 4 7 0
 EditAction 1481121884966 Grid.java 737 4 10 0
 EditAction 1481121927001 Grid.java 821 4 11 0
 EditAction 1481121928023 TestGrid.java 862 5 5 0
+RefactoringAction 1481121984412 TestGrid.java ADD Cell primaCella FIELD
+EditAction 1481122012194 TestGrid.java 897 5 5 0
