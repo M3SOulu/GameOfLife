@@ -38,8 +38,10 @@ public class TestGrid {
 	@Test(expected=CellCoordinateDuplicate.class)
 	public void testCellCoordinateDuplicate() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, CellConformityException{
 		arrayCell = new ArrayList<Cell>();
-		arrayCell.add(new Cell(1,3));
-		arrayCell.add(new Cell(1,3));
+		arrayCell.add(new Cell(1,1,"alive"));
+		arrayCell.add(new Cell(1,2,"alive"));
+		arrayCell.add(new Cell(1,3,"dead"));
+		arrayCell.add(new Cell(1,3,"dead"));
 		grid = new Grid(arrayCell,3,3);
 	}
 	
