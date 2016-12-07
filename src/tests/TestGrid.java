@@ -53,17 +53,18 @@ public class TestGrid {
 	@Test
 	public void GridNumberOfCellisOk()
 			throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CustomLifeException {
-		cells = new ArrayList<>(4);
-		cells.add(primaCella);
-		cells.add(secondaCella);
-		cells.add(terzaCella);
-		cells.add(quartaCella);
-		griglia = new Grid(cells, 2, 2);
+		cells = new ArrayList<>(100);
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; i < 10; i++) {
+				cells.add(new Cell(i, j, true));
+			}
+		}
+
+		griglia = new Grid(cells, 10, 10);
 	}
 
 	@Test
-	public void GridCellDeadOrAliveIsEquals()
-			throws CellCoordinateOutOfBoundariesException, CustomLifeException {
+	public void GridCellDeadOrAliveIsEquals() throws CellCoordinateOutOfBoundariesException, CustomLifeException {
 		cells = new ArrayList<>(4);
 		cells.add(primaCella);
 		cells.add(secondaCella);

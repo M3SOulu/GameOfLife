@@ -9,3 +9,5 @@
 1481122252159 refactoring 3 701 false
 1481123521178 test-first 1 1245 true
 1481124173453 refactoring 3 540 false
+1481124190219 refactoring 2A 6 true
+1481124207886 regression 1 0 false
