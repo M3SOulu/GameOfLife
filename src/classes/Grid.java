@@ -65,7 +65,7 @@ public class Grid {
 				count++;
 		}
 
-		else if (x == 0 && y != 0 && y<=width) {
+		else if (x == 0 && y != 0 && y<width) {
 			// Upper Side
 			if (grid[x][y - 1].isAlive())
 				count++;
