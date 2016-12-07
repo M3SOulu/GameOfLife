@@ -104,7 +104,23 @@ public class TestGrid {
 //	}
 	
 	@Test
-	public void getNeighborsCellAtTheCornerOfTheGrid() throws NegativeCoordinateException{
+	public void getNeighborsCellAtTheCornerOfTheGrid2X2() throws NegativeCoordinateException{
+		//Arrange
+		ArrayList<Cell> cells = new ArrayList<>();
+		cells.add(new Cell(true, 1, 1));
+		cells.add(new Cell(false, 1, 2));
+		cells.add(new Cell(true, 2, 1));
+		cells.add(new Cell(false, 2, 2));
+		
+		//Act
+		Grid grid = new Grid(cells, 3, 3);
+
+		//Assert
+		assertEquals(3, grid.getNeighborsNumber( 0 ));
+	}
+	
+	@Test
+	public void getNeighborsCellAtTheCornerOfTheGrid3X3() throws NegativeCoordinateException{
 		//Arrange
 		ArrayList<Cell> cells = new ArrayList<>();
 		cells.add(new Cell(true, 1, 1));

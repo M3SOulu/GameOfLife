@@ -167,3 +167,11 @@ UnitTestCaseAction 1481122718413 TestGrid.java FAIL
 UnitTestSessionAction 1481122718414 TestGrid FAIL
 EditAction 1481122871386 Grid.java 1421 10 18 0
 EditAction 1481122906986 Grid.java 1460 10 18 0
+UnitTestCaseAction 1481122907533 TestGrid.java OK
+UnitTestSessionAction 1481122907534 TestGrid OK
+RefactoringAction 1481122916192 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid()=>void getNeighborsCellAtTheCornerOfTheGrid3£() METHOD
+RefactoringAction 1481122917700 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid3£()=>void getNeighborsCellAtTheCornerOfTheGrid3() METHOD
+RefactoringAction 1481122919207 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid3()=>void getNeighborsCellAtTheCornerOfTheGrid3X3() METHOD
+RefactoringAction 1481122925232 TestGrid.java ADD void getNeighborsCellAtTheCornerOfTheGrid3X3()/2 METHOD
+RefactoringAction 1481122929742 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid3X3()/2=>void getNeighborsCellAtTheCornerOfTheGrid2X2() METHOD
+EditAction 1481122942689 TestGrid.java 3700 5 44 8
