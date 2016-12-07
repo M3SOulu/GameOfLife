@@ -52,7 +52,7 @@ public class Cell {
 		this.alive = state;
 	}
 	
-	public boolean neighbor(ArrayList<Cell> neighCells){
+	public boolean getStateAfterTick(ArrayList<Cell> neighCells){
 		int liveNeigh = 0;
 		for(Cell c : neighCells){
 			if(c.getState()){
@@ -73,5 +73,6 @@ public class Cell {
 				return false;
 		}
 	}
+
 	
 }

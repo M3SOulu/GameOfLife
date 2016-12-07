@@ -92,27 +92,28 @@ public class Grid {
 
 	public Grid tick() {
 		ArrayList<Cell> cellsAfterTick = new ArrayList<>();
+		ArrayList<Cell> neighbors = new ArrayList<>();
 		for(Cell c: cells){
-			if(c.getX() == 0 && c.getY() == 0 || c.getX() == width && c.getY() == 0 ||
-				 c.getX() == 0 && c.getY() == height || c.getX() == width && c.getY() == height){
-				if(c.getX() == 0){
-					if(c.getY() == 0){
-						
-					}
-				}
-			}
+			neighbors = getNeighbors(c.getX(),c.getY());
 		}
+//			if(c.getX() == 0 && c.getY() == 0 || c.getX() == width && c.getY() == 0 ||
+//				 c.getX() == 0 && c.getY() == height || c.getX() == width && c.getY() == height){
+//				if(c.getX() == 0){
+//					if(c.getY() == 0){
+//						
+//					}
+//				}
+//			}
+//		}
 	}
 	
-	public boolean neighbor(ArrayList<Cell> neighCells){
-		for(Cell c : neighCells){
-			if(c.getState()){
-				
-			}
-			else{
-				if
-			}
+	private ArrayList<Cell> getNeighbors(int x, int y) {
+		ArrayList<Cell> neighs = new ArrayList<>();
+		Cell c = new Cell();
+		for(Cell ce : this.cells){
 		}
+		neighs.add(c);
+		return null;
 	}
 
 	public ArrayList<Cell> getCells() {
