@@ -44,8 +44,12 @@ public class TestGrid {
 		Cell secondaCella=new Cell(0,1,true);
 		Cell terzaCella=new Cell(1,0,false);
 		Cell quartaCella=new Cell(1,1,false);
-		cells.add(primaCella,secondaCella,terzaCella,quartaCella);
-		griglia=new Grid(2,2);
+		
+		cells.add(primaCella);
+		cells.add(secondaCella);
+		cells.add(terzaCella);
+		cells.add(quartaCella);
+		griglia=new Grid(cells,2,2);
 		
 		
 	}
