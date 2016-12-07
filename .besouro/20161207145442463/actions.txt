@@ -3,3 +3,15 @@ EditAction 1481119715614 Grid.java 507 4 6 0
 EditAction 1481119716694 Cell.java 156 1 0 0
 FileOpenedAction 1481119726332 TestCell.java 178 1 1 0
 EditAction 1481119751813 TestCell.java 180 1 1 0
+RefactoringAction 1481119867484 TestCell.java ADD Cell cella FIELD
+RefactoringAction 1481119870243 TestCell.java ADD import classes.Cell IMPORT
+RefactoringAction 1481119928408 Cell.java ADD Cell()/2 METHOD
+RefactoringAction 1481119952482 Cell.java RENAME Cell()/2=>Cell(int, int) METHOD
+RefactoringAction 1481119954515 Cell.java RENAME Cell(int, int)=>Cell(int, int, boolean) METHOD
+RefactoringAction 1481119955522 Cell.java RENAME Cell(int, int, boolean)=>Cell(int, int) METHOD
+RefactoringAction 1481119956581 Cell.java RENAME Cell(int, int)=>Cell(int, int, boolean) METHOD
+RefactoringAction 1481119999812 Cell.java ADD a unique() METHOD
+RefactoringAction 1481119999813 Cell.java ADD void cell(including) METHOD
+RefactoringAction 1481120004342 Cell.java REMOVE cell(including) METHOD
+RefactoringAction 1481120004342 Cell.java REMOVE unique() METHOD
+EditAction 1481120078677 Cell.java 345 2 4 0
