@@ -39,9 +39,12 @@ public class Grid {
 		for (Cell cell : arrayCells) {
 			if (cell.getState().equals("alive"))
 				alive++;
+			else dead++;
 		}
 
-		return false;
+		if(alive==dead)
+			return true;
+		else return false;
 	}
 
 	public String print() {
