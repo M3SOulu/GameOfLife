@@ -117,7 +117,7 @@ public class Grid {
 			} else {
 				state += "-";
 			}
-			if ((c.getY()) % width == 0) {
+			if ((c.getY()+1) % width == 0) {
 				state+="\n";
 			}
 		}
