@@ -1,0 +1,21 @@
+# Gioco della Vita
+
+_Il Gioco di Life_ si svolge su un bi-dimensionale, finito, e 2D griglia quadrata di cellule. Ogni `Cell` è in uno dei due stati possibili: _alive_ o _dead_.
+Una volta che la griglia viene inizializzato, il gioco progredisce a passi discreti chiamati `ticks`.
+Ad ogni tick l'istantanea esistente della griglia viene utilizzato per ogni cella di interagire con i propri vicini basato su quattro regole fondamentali per determinare lo stato successivo della griglia.
+Lo stato della rete è una rappresentazione delle cellule morte e vive in una griglia di dimensioni fisse.
+Le seguenti regole vengono applicate per il `Grid` a muoversi verso un nuovo stato:
+
+1. Qualsiasi cellule vive con meno di due vicini dal vivo muore.
+2. Ogni cella dal vivo con due o tre vicini di casa vivono una vita.
+3. Qualsiasi cellule vive con più di tre vicini vivo muore.
+4. Ogni cellula morta con esattamente tre vicini dal vivo diventa viva.
+
+Requisiti
+- Una cellula deve essere in due stati possibili: vivo o morto
+- La griglia deve essere di qualsiasi dimensione che si compone di una disposizione quadrata di cellule in 2D, ad esempio 10x10, 50x50 ecc Pertanto, ogni cella deve essere accessibile da un unico (x, y) di coordinate.
+- Gli stati delle celle della griglia sono inizializzati uniformemente all'inizio, cioè il numero di cellule vive dovrebbe essere all'incirca uguale al numero di cellule morte.
+- vicini di una cella sono definiti come quelli che sono nelle immediate vicinanze che circondano la cella (comprese le diagonali). Per esempio. qualsiasi cella all'interno della griglia ha 8 vicini, mentre le cellule dei confini hanno 5 e le cellule negli angoli avere 3 vicini. Una cella non è il suo vicino di casa.
+- Ad ogni tick, lo stato della rete è aggiornato secondo le quattro regole di quartiere a base di cui sopra. Queste regole si applicano a tutte le celle contemporaneamente, cioè l'ordine delle celle a cui le regole vengono applicate non dovrebbe influenzare l'esito.
+- Lo stato della rete è rappresentato come una stringa, in cui le cellule morte sono rappresentate con un â € œ â €-(trattino) e cellule vive sono rappresentati con un â € œ â € * carattere (stella). Quando stampata, questa stringa dovrebbe essere visualizzato in N righe (righe della griglia), ciascuno composto da N caratteri (colonne della griglia), dove NxN è la dimensione della griglia.
+- Si deve gettare un `NegativeCoordinateException` quando una cellula riceve coordinate negative, un` CellCoordinateOutOfBoundariesException` quando il `Grid` contiene cellule di fuori dei suoi limiti, e un` CustomLifeException` per tutti gli altri casi di errore.
