@@ -162,3 +162,7 @@ RefactoringAction 1481122711622 TestGrid.java REMOVE getNeighborsCellInsideTheGr
 RefactoringAction 1481122711622 TestGrid.java REMOVE getNeighborsCellAtTheBorderOfTheGrid() METHOD
 EditAction 1481122711705 TestGrid.java 3286 4 37 7
 EditAction 1481122717266 Grid.java 1399 10 16 0
+CompilationAction 1481122717380 Grid.java
+UnitTestCaseAction 1481122718413 TestGrid.java FAIL
+UnitTestSessionAction 1481122718414 TestGrid FAIL
+EditAction 1481122871386 Grid.java 1421 10 18 0
