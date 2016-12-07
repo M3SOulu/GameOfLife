@@ -12,9 +12,17 @@ public class TestGrid {
 	public void isGridNotASquareArrengment() throws CustomLifeException  {
 		
 		Grid grid = new Grid(30, 20);
-		
-		
-		
-		
+
 	}
+	
+	@Test
+	public void areCellsInGridInizialized() throws CustomLifeException  {
+		
+		Grid grid = new Grid(1, 1);
+		
+		
+
+	}
+	
+	
 }
