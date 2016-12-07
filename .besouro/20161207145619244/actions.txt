@@ -64,3 +64,15 @@ EditAction 1481122294503 TestGrid.java 930 4 2 0
 UnitTestCaseAction 1481122295170 TestGrid.java FAIL
 UnitTestSessionAction 1481122295171 TestGrid FAIL
 EditAction 1481122342950 Grid.java 1061 5 12 0
+UnitTestCaseAction 1481122343688 TestGrid.java OK
+UnitTestSessionAction 1481122343688 TestGrid OK
+RefactoringAction 1481122995389 TestCell.java ADD void firstCellTest() METHOD
+RefactoringAction 1481122996401 TestCell.java REMOVE firstCellTest() METHOD
+RefactoringAction 1481122999828 TestGrid.java ADD void firstCellTest() METHOD
+RefactoringAction 1481123004840 TestGrid.java RENAME firstCellTest()=>void print() METHOD
+RefactoringAction 1481123007373 TestGrid.java RENAME print()=>void printGame() METHOD
+RefactoringAction 1481123010415 TestGrid.java RENAME printGame()=>void printGameOf() METHOD
+RefactoringAction 1481123011932 TestGrid.java RENAME printGameOf()=>void printGameOfLife() METHOD
+RefactoringAction 1481123015446 TestGrid.java RENAME printGameOfLife()=>void printGridGameOfLife() METHOD
+RefactoringAction 1481123102476 TestGrid.java ADD import java.util.ArrayList IMPORT
+EditAction 1481123351031 TestCell.java 555 3 1 0
