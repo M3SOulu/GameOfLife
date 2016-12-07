@@ -49,13 +49,16 @@ public class TestGrid {
 	}
 
 	@Test
-	public void cellsIsEqualDeadOrAlive() throws NegativeCoordinateException {
+	public void GridNumberOfCellisOk() throws NegativeCoordinateException {
 		cells = new ArrayList<>(4);
 		cells.add(primaCella);
 		cells.add(secondaCella);
 		cells.add(terzaCella);
 		cells.add(quartaCella);
 		griglia = new Grid(cells, 2, 2);
-
+	}
+	@Test
+	public void GridCellDeadOrAliveIsEquals(){
+		
 	}
 }

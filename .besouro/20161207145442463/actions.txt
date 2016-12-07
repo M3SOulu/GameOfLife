@@ -161,3 +161,14 @@ RefactoringAction 1481122344025 TestGrid.java RENAME primaCella/4=>Cell secondaC
 RefactoringAction 1481122346041 TestGrid.java RENAME primaCella/3=>Cell terzaCella FIELD
 RefactoringAction 1481122348067 TestGrid.java RENAME primaCella/2=>Cell quartaCella FIELD
 EditAction 1481122356750 TestGrid.java 1342 6 13 0
+RefactoringAction 1481122367668 TestGrid.java RENAME cellsIsEqualDeadOrAlive()=>void Grid() METHOD
+RefactoringAction 1481122369185 TestGrid.java RENAME Grid()=>void GridIs() METHOD
+RefactoringAction 1481122375203 TestGrid.java RENAME GridIs()=>void GridIsThe() METHOD
+RefactoringAction 1481122376711 TestGrid.java RENAME GridIsThe()=>void GridIsTh() METHOD
+RefactoringAction 1481122377717 TestGrid.java RENAME GridIsTh()=>void GridIsThe() METHOD
+RefactoringAction 1481122384730 TestGrid.java RENAME GridIsThe()=>void GridNumberOf() METHOD
+RefactoringAction 1481122386736 TestGrid.java RENAME GridNumberOf()=>void GridNumberOfCell() METHOD
+RefactoringAction 1481122388310 TestGrid.java RENAME GridNumberOfCell()=>void GridNumberOfCellisOk() METHOD
+RefactoringAction 1481122408872 TestGrid.java ADD void GridCell FIELD
+RefactoringAction 1481122415886 TestGrid.java RENAME GridCell=>void GridCellDeadOrAliveIsEquals() METHOD
+EditAction 1481122422145 TestGrid.java 1395 7 13 0
