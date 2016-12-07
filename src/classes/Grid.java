@@ -112,13 +112,13 @@ public class Grid {
 		String state = "";
 
 		for (Cell c : cells) {
-			if ((c.getY()) % width == 0) {
-				state+="\n";
-			}
 			if (c.getState()) {
 				state += "*";
 			} else {
 				state += "-";
+			}
+			if ((c.getY()) % width == 0) {
+				state+="\n";
 			}
 		}
 

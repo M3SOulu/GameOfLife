@@ -73,6 +73,8 @@ public class TestGrid {
 		int i=0;
 		
 		for(Cell c:cells){
+			if(charOfState[i] == '\n')
+				i++;
 			if (c.getState()){
 				assertEquals(charOfState[i++],'*');
 			}
