@@ -13,16 +13,15 @@ public class Grid {
 		setHeight(h);
 		grid = new Cell[width][height];
 		this.cells = cells;
-		
-		//Carica le celle nella griglia
+
+		// Carica le celle nella griglia
 		for (int i = 0; i < cells.size(); i++) {
 			if (cells.get(i).getX() > w || cells.get(i).getY() > h)
 				throw new CellCoordinateOutOfBoundariesException("");
 			else
 				grid[cells.get(i).getX()][cells.get(i).getY()] = cells.get(i);
 		}
-		
-		
+
 	}
 
 	public Cell[][] getGrid() {
@@ -62,7 +61,7 @@ public class Grid {
 
 	private int countAliveNeighbors(int x, int y) {
 		int count = 0;
-		
+
 		// Upper-Left Angle
 		if (x == 0 && y == 0) {
 			if (grid[x][y + 1].isAlive())
@@ -74,8 +73,8 @@ public class Grid {
 		}
 
 		// Upper Side
-		else if (x == 0 && y != 0 && y<width-1) {
-			
+		else if (x == 0 && y != 0 && y < width - 1) {
+
 			if (grid[x][y - 1].isAlive())
 				count++;
 			if (grid[x][y + 1].isAlive())
@@ -87,7 +86,23 @@ public class Grid {
 			if (grid[x + 1][y + 1].isAlive())
 				count++;
 		}
-		
+
+		else if (y == 0 && y != 0 && x < height - 1) {
+
+			if (grid[x - 1][y].isAlive())
+				count++;
+			if (grid[x + 1][y].isAlive())
+				count++;
+			if (grid[x - 1][y + 1].isAlive())
+				count++;
+			if (grid[x][y + 1].isAlive())
+				count++;
+			if (grid[x + 1][y + 1].isAlive())
+				count++;
+		}
+
+		// Left Side
+
 		return count;
 	}
 
