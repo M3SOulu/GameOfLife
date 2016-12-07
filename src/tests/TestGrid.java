@@ -93,7 +93,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void tickingASideAliveCellWithMoreThan3AliveNeighborsMakesItDie() throws NegativeCoordinateException {
+	public void tickingAnUpperSideAliveCellWithMoreThan3AliveNeighborsMakesItDie() throws NegativeCoordinateException {
 		// Arrange
 		Cell cell = new Cell(0, 1, true);
 		Cell neighbor1 = new Cell(0, 0, true);
