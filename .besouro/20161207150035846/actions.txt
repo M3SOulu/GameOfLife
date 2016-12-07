@@ -156,3 +156,8 @@ RefactoringAction 1481122359029 TestGrid.java RENAME getNeighborsCellAtTheBorder
 RefactoringAction 1481122379563 TestGrid.java ADD void getNeighborsCellAtTheBorderOfTheGrid()/2 METHOD
 RefactoringAction 1481122394073 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid()/2=>void getNeighborsCellAtTheCornerOfTheGrid() METHOD
 EditAction 1481122402039 TestGrid.java 3204 6 61 9
+UnitTestCaseAction 1481122404447 TestGrid.java FAIL
+UnitTestSessionAction 1481122404447 TestGrid FAIL
+RefactoringAction 1481122711622 TestGrid.java REMOVE getNeighborsCellInsideTheGrid() METHOD
+RefactoringAction 1481122711622 TestGrid.java REMOVE getNeighborsCellAtTheBorderOfTheGrid() METHOD
+EditAction 1481122711705 TestGrid.java 3286 4 37 7
