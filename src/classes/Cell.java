@@ -30,9 +30,8 @@ public class Cell {
 		return y;
 	}
 	
-	public Cell getCella(int x,int y){
-		return new Cell(x,y);
-	}
+
+	
 	
 
 }

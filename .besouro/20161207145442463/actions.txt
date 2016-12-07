@@ -392,3 +392,12 @@ RefactoringAction 1481128471122 Cell.java RENAME returnCella()=>Cell()/2 METHOD
 RefactoringAction 1481128476138 Cell.java RENAME Cell()/2=>Cell getCella() METHOD
 RefactoringAction 1481128481148 Cell.java RENAME getCella()=>Cell getCella(int, int) METHOD
 EditAction 1481128498901 Cell.java 572 6 9 0
+CompilationAction 1481128499068 Cell.java
+CompilationAction 1481128499069 Grid.java
+CompilationAction 1481128499069 Grid.java
+CompilationAction 1481128499069 Grid.java
+RefactoringAction 1481128528228 Cell.java REMOVE getCella(int, int) METHOD
+CompilationAction 1481128528869 Grid.java
+CompilationAction 1481128528869 Grid.java
+CompilationAction 1481128528869 Grid.java
+EditAction 1481128530395 Grid.java 1546 6 16 0
