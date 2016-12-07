@@ -47,7 +47,7 @@ public class Grid {
 	public Grid tick() throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException {
 		ArrayList<Cell> newCells = new ArrayList<>();
 		Cell temp;
-		int numNeighbors;
+		int numNeighborsLife;
 		int w = 0;
 		int h = 0;
 		for (int i = 0; i < width * height; i++) {
@@ -57,14 +57,14 @@ public class Grid {
 			} else {
 				h++;
 			}
-			numNeighbors = neighbors(i);
+			numNeighborsLife = neighborsLife(i);
 			if (cells.get(i).getAlive()) {
-				if (numNeighbors < 2 || numNeighbors > 3)
+				if (numNeighborsLife < 2 || numNeighborsLife > 3)
 					temp = new Cell(w, h, false);
 				else
 					temp = new Cell(w, h, true);
 			} else {
-				if (numNeighbors == 3)
+				if (numNeighborsLife == 3)
 					temp = new Cell(w, h, true);
 				else
 					temp = new Cell(w, h, false);
@@ -91,18 +91,20 @@ public class Grid {
 		}
 	}
 
-	private int neighbors(int pos) {
-		Cell c = cells.get(pos);
-		int res;
-		int x = c.getX();
-		int y = c.getY();
+	private int neighborsLife(int pos) {
+		int p;
+		int res = 0;
+		int[] arrayNeighbors = { pos - 1, pos + 1, pos - width, pos - width + 1, pos - width - 1, pos + width,
+				pos + width + 1, pos + width - 1 };
 
-		if ((x == 0 && (y == 0 || y == height - 1)) || (x == width - 1 && (y == 0 || y == height - 1)))
-			res = 3;
-		else if (x == 0 || x == width - 1 || y == 0 || y == height - 1) {
-			res = 5;
-		} else {
-			res = 8;
+		for (int i = 0; i < 8; i++) {
+			p=arrayNeighbors[i];
+			if (p < 0 || p > width) {
+				continue;
+			} else {
+				if (cells.get(p).getAlive())
+					res++;
+			}
 		}
 
 		return res;
