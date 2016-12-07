@@ -116,3 +116,19 @@ RefactoringAction 1481124269522 Cell.java ADD void setY(int) METHOD
 RefactoringAction 1481124269522 Cell.java ADD boolean isAlive() METHOD
 RefactoringAction 1481124269522 Cell.java ADD void setAlive(boolean) METHOD
 EditAction 1481124278603 Cell.java 430 7 6 0
+CompilationAction 1481124278884 Grid.java
+CompilationAction 1481124278884 Grid.java
+CompilationAction 1481124508315 Grid.java
+CompilationAction 1481124508315 Grid.java
+CompilationAction 1481124508476 Grid.java
+CompilationAction 1481124520202 Grid.java
+RefactoringAction 1481124528161 Grid.java REMOVE import java.util.Iterator IMPORT
+UnitTestCaseAction 1481124830766 TestGrid.java OK
+UnitTestSessionAction 1481124830766 TestGrid OK
+UnitTestCaseAction 1481124835613 TestCell.java FAIL
+UnitTestSessionAction 1481124835619 TestCell FAIL
+RefactoringAction 1481125699704 Grid.java ADD import java.util.Iterator IMPORT
+RefactoringAction 1481126032359 TestCell.java ADD print print FIELD
+RefactoringAction 1481126059866 TestCell.java REMOVE print FIELD
+RefactoringAction 1481126175567 TestCell.java ADD import classes.Grid IMPORT
+EditAction 1481126202191 Grid.java 1183 10 17 0

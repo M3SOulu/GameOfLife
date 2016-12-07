@@ -41,16 +41,24 @@ public class Grid {
 	public String print() {
 		
 		String state = null;
-		int i;
-		ArrayList<Cell> cell = new ArrayList<Cell>();
-		Grid grid = new Grid(cell,10,10);
-		//if(grid.getHeight() != grid.getWidth()) state = "Grid invalid";	
-	
-		return state;   
-		for(i = 0; i < cell.size();i++) {
-			if(cell.ge)
+		Cell currentCell;
+		ArrayList<Cell> cells = new ArrayList<Cell>();
+		Grid grid = new Grid(cells,10,10);	
+		Iterator<Cell> iterator = cells.iterator();
+		int alive = 0;
+		int dead = 0;
+		
+		while(iterator.hasNext()) {
+			currentCell = iterator.next();
+			if(currentCell.isAlive()){
+				alive++;
+			}
+			else dead++;
 		}
-			
+		
+		if(dead != alive) state = null;
+		
+		return state;   			
 	}
 	
 	public Grid tick() {
