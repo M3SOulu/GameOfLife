@@ -40,7 +40,21 @@ public class Grid {
 			cell.setX(iW++);
 			cell.setY(iH);
 			
-			if(ce..g)
+			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 == 0) {
+				cell.makeDead();
+			}
+			
+			if((float)cell.getX() % 2 != 0 && cell.getY() % 2 == 0) {
+				cell.makeAlive();;
+			}
+			
+			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 != 0) {
+				cell.makeDead();;
+			}
+			
+			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 == 0) {
+				cell.makeAlive();;
+			}
 			
 			this.cells.add(cell);
 		}
@@ -49,6 +63,19 @@ public class Grid {
 	}
 
 	public String print() {
+		String sGrid = "";
+		for (int i = 0; i < width * height; i++)  {
+			for (Cell c : cells) {
+				String state;
+				if(c.isAlive()) {
+					state = "*";
+				} else {
+					state = "-";
+				}
+				sGrid = sGrid + state;
+			}
+		}
+		
 	    return null;
 	}
 	
