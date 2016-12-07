@@ -10,16 +10,15 @@ public class Grid {
 
 	Iterator<Cell> cellIterator;
 
-	public Grid(ArrayList<Cell> cells, int w, int h)
-			throws CellCoordinateOutOfBoundariesException, CustomLifeException {
-		if (w != h)
-			throw new CellCoordinateOutOfBoundariesException("Rows and Columns not Equals");
-		this.cells = new ArrayList<>(cells.size());
-		if (cells.size() != (w * h))
-			throw new CellCoordinateOutOfBoundariesException("Index Out Of Boundaries");
+	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException, CustomLifeException {
+		if (w != h) throw new CellCoordinateOutOfBoundariesException("Rows and Columns not Equals");
 		
-		if (!isEqualsAliveDead())
-			throw new CustomLifeException("cells alive!=dead");
+		this.cells = new ArrayList<>(cells.size());
+		System.out.println(cells.size());
+		System.out.println(w*h);
+		if (cells.size() != (w * h)) throw new CellCoordinateOutOfBoundariesException("Index Out Of Boundaries");
+		
+		if (!isEqualsAliveDead()) throw new CustomLifeException("cells alive!=dead");
 		width = w;
 		height = h;
 	}
