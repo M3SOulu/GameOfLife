@@ -29,6 +29,10 @@ public class Cell {
 		this.alive = alive;
 	}
 	
+	public Cell(int x, int y, boolean alive) throws NegativeCoordinateException {
+		
+	}
+	
 	public Cell() throws NegativeCoordinateException {
 	}
 }

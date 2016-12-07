@@ -21,3 +21,8 @@ RefactoringAction 1481120203185 Cell.java ADD void setY(int) METHOD
 RefactoringAction 1481120203185 Cell.java ADD boolean isAlive() METHOD
 RefactoringAction 1481120203185 Cell.java ADD void setAlive(boolean) METHOD
 EditAction 1481120221802 Cell.java 436 7 6 0
+RefactoringAction 1481120252280 Cell.java ADD Cell()/2 METHOD
+RefactoringAction 1481120297862 Cell.java RENAME Cell()/2=>Cell(int) METHOD
+RefactoringAction 1481120305416 Cell.java RENAME Cell(int)=>Cell(int, int) METHOD
+RefactoringAction 1481120308924 Cell.java RENAME Cell(int, int)=>Cell(int, int, boolean) METHOD
+EditAction 1481120335433 Cell.java 523 8 6 0
