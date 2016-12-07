@@ -394,3 +394,11 @@ EditAction 1481128216244 TestGrid.java 10277 16 204 43
 RefactoringAction 1481128266036 TestGrid.java RENAME twoCellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void cellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
 EditAction 1481128266468 TestGrid.java 10274 16 204 43
 EditAction 1481128417876 TestGrid.java 10274 16 204 43
+UnitTestCaseAction 1481128419848 TestGrid.java FAIL
+UnitTestSessionAction 1481128419848 TestGrid FAIL
+RefactoringAction 1481128486616 TestGrid.java RENAME cellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void TwocellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+RefactoringAction 1481128488136 TestGrid.java RENAME TwocellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void cellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+RefactoringAction 1481128489144 TestGrid.java RENAME cellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void twocellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+RefactoringAction 1481128491654 TestGrid.java RENAME twocellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void twoCornercellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+RefactoringAction 1481128493163 TestGrid.java RENAME twoCornercellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void twoCornerCellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+EditAction 1481128500953 TestGrid.java 10297 16 204 43
