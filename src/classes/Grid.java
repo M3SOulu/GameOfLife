@@ -11,13 +11,13 @@ public class Grid {
 	Iterator<Cell> cellIterator;
 
 	public Grid(ArrayList<Cell> cells, int w, int h)
-			throws CellCoordinateOutOfBoundariesException, isNotDeadAliveEqualsException {
+			throws CellCoordinateOutOfBoundariesException, CustomLifeException {
 		if (w != h)
 			throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
 		if (cells.size() != (w * h))
 			throw new CellCoordinateOutOfBoundariesException("errore fuori indice");
 		if (!isEqualsAliveDead())
-			throw new isNotDeadAliveEqualsException(" ");
+			throw new CustomLifeException(" cells alive !=dead");
 		width = w;
 		height = h;
 		this.cells = new ArrayList<>(cells.size());
