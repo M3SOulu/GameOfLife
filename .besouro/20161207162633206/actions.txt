@@ -55,3 +55,6 @@ RefactoringAction 1481125006443 TestGrid.java RENAME tickingAnAngleAliveCellWith
 RefactoringAction 1481125007448 TestGrid.java RENAME tickingAnAngleAliveCellWith2O3AliveNeighborsMakesItAlive()=>void tickingAnAngleAliveCellWith2Or3AliveNeighborsMakesItAlive() METHOD
 RefactoringAction 1481125016506 TestGrid.java RENAME tickingAnAngleAliveCellWith2Or3AliveNeighborsMakesItAlive()=>void tickingAnAngleAliveCellWith2Or3AliveNeighborsMakesItStayAlive() METHOD
 EditAction 1481125055037 TestGrid.java 2360 5 37 3
+UnitTestCaseAction 1481125060395 TestGrid.java FAIL
+UnitTestSessionAction 1481125060395 TestGrid FAIL
+EditAction 1481125108308 Grid.java 1781 11 21 0

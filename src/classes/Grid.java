@@ -37,7 +37,7 @@ public class Grid {
 			for(int j = 0; j<2; j++){
 				if(grid[i][j].isAlive() && countAliveNeighbors(i, j)<2)
 					tickedCells.add(new Cell(i, j, false));	
-				else if(grid[i][j].isAlive() && countAliveNeighbors(i, j)==3)
+				else if(!grid[i][j].isAlive() && countAliveNeighbors(i, j)==3)
 					tickedCells.add(new Cell(i, j, true));
 			}
 		}
