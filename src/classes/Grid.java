@@ -61,4 +61,17 @@ public class Grid {
 		
 		return count;
 	}
+	
+	public int getDeadCells() {
+		// TODO Auto-generated method stub
+		int count = 0;
+		
+		for( Cell cell : cells ){
+			if( ! cell.isAlive() ){
+				count++;
+			}
+		}
+		
+		return count;
+	}
 }

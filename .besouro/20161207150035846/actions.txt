@@ -129,3 +129,9 @@ RefactoringAction 1481121696310 Grid.java ADD Object getAliveCells() METHOD
 EditAction 1481121740207 Grid.java 1038 8 13 0
 CompilationAction 1481121740357 Grid.java
 EditAction 1481121768396 TestGrid.java 1465 3 25 6
+CompilationAction 1481121768521 TestGrid.java
+UnitTestCaseAction 1481121769977 TestCell.java OK
+UnitTestSessionAction 1481121769978 TestCell OK
+RefactoringAction 1481121787652 Grid.java ADD int getAliveCells()/2 METHOD
+RefactoringAction 1481121791663 Grid.java RENAME getAliveCells()/2=>int getDeadCells() METHOD
+EditAction 1481121794689 Grid.java 1225 9 16 0
