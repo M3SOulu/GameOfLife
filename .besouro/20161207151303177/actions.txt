@@ -91,3 +91,6 @@ RefactoringAction 1481121926119 Cell.java RENAME Cell(int)=>Cell(int, int) METHO
 EditAction 1481121938121 Cell.java 446 4 4 0
 RefactoringAction 1481121959105 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
 EditAction 1481121985686 TestGrid.java 747 3 5 1
+CompilationAction 1481121985815 TestGrid.java
+CompilationAction 1481121985816 TestGrid.java
+EditAction 1481122019399 Grid.java 537 6 6 0
