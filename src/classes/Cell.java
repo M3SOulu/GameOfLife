@@ -15,13 +15,6 @@ public class Cell {
 			throw new NegativeCoordinateException("Coordinate negative");
 		}
 		
-		Random random = new Random();
-		int k = random.nextInt(1);//1 o 0
-		
-		if(k == 0) {
-			this.alive = false;
-		}
-		
 		
 	}
 	
