@@ -39,6 +39,9 @@ public class Grid {
 			}
 			cell.setX(iW++);
 			cell.setY(iH);
+			
+			if(ce..g)
+			
 			this.cells.add(cell);
 		}
 		

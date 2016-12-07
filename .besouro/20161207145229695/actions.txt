@@ -140,3 +140,4 @@ RefactoringAction 1481124363826 Cell.java RENAME getX(int)=>int getX() METHOD
 RefactoringAction 1481124369843 Cell.java ADD int getX()/2 METHOD
 RefactoringAction 1481124372356 Cell.java RENAME getX()/2=>int getY() METHOD
 EditAction 1481124374378 Cell.java 873 8 10 0
+EditAction 1481124374472 Grid.java 977 4 6 0
