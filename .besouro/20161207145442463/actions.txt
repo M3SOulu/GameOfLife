@@ -266,3 +266,4 @@ RefactoringAction 1481123850965 Cell.java REMOVE Cell() METHOD
 RefactoringAction 1481123851978 Cell.java ADD Cell() METHOD
 EditAction 1481123864022 Grid.java 1237 5 16 0
 EditAction 1481123866503 Cell.java 458 3 6 0
+EditAction 1481123867305 TestCell.java 397 2 1 0
