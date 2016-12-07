@@ -52,13 +52,37 @@ public class Grid {
 			throw new CellConformityException("Number of alive != numbere of dead");
 	}
 	
-	public void calculateNeighbors(){
+	public void calculateNeighbors() throws NegativeCoordinateException{
 		int neighbors=0;
 		
 		for (Cell cell : cells){
-			Cell newCell = new Cell(cell.getX(), cell.getY());
+			Cell newCell = new Cell(cell.getX(), cell.getY()+1);
 			if(cells.contains(newCell))
-	
+				neighbors++;
+			newCell = new Cell(cell.getX()+1, cell.getY());
+			if(cells.contains(newCell))
+				neighbors++;
+			newCell = new Cell(cell.getX(), cell.getY()-1);
+			if(cells.contains(newCell))
+				neighbors++;
+			newCell = new Cell(cell.getX()-1, cell.getY());
+			if(cells.contains(newCell))
+				neighbors++;
+			newCell = new Cell(cell.getX()-1, cell.getY()-1);
+			if(cells.contains(newCell))
+				neighbors++;
+			newCell = new Cell(cell.getX()+1, cell.getY()+1);
+			if(cells.contains(newCell))
+				neighbors++;
+			newCell = new Cell(cell.getX()-1, cell.getY()+1);
+			if(cells.contains(newCell))
+				neighbors++;
+			newCell = new Cell(cell.getX()+1, cell.getY()-1);
+			if(cells.contains(newCell))
+				neighbors++;
+			
+			cell.setNeighbors(neighbors);
+			neighbors=0;
 		}
 		
 		
