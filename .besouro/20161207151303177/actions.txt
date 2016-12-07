@@ -100,3 +100,6 @@ UnitTestCaseAction 1481122019920 TestGrid.java FAIL
 UnitTestSessionAction 1481122019921 TestGrid FAIL
 RefactoringAction 1481122046158 TestGrid.java REMOVE testCellCoordinate() METHOD
 EditAction 1481122048877 TestGrid.java 766 2 5 1
+UnitTestCaseAction 1481122049377 TestGrid.java FAIL
+UnitTestSessionAction 1481122049378 TestGrid FAIL
+EditAction 1481122079599 TestGrid.java 768 2 5 1

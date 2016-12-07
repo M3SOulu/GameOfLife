@@ -17,6 +17,7 @@ public class TestGrid {
 
 	Grid grid;
 	ArrayList<Cell> arrayCell;
+	
 	@Before
 	public void initialize() throws NegativeCoordinateException{
 		arrayCell.add(new Cell(1,1));
