@@ -89,7 +89,7 @@ public class Grid {
 				cells.add(cell);
 			}
 		}
-	}
+	} 
 
 	private int neighborsLife(int pos) {
 		int p;
