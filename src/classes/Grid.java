@@ -36,6 +36,19 @@ public class Grid {
 	    return null;
 	}
 	
+	protected boolean isEqualsAliveDead(){
+		int alive=0;
+		int dead=0;
+		while(cellIterator.hasNext()){
+			if(cellIterator.next().getAlive()==true){
+				alive++;
+			}else{
+				alive--;
+			}
+		}
+		return alive==dead;
+	}
+	
 	
 	
 	

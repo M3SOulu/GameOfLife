@@ -185,3 +185,8 @@ RefactoringAction 1481122572145 Cell.java ADD import java.util.Iterator IMPORT
 RefactoringAction 1481122584666 Cell.java REMOVE cellIterator FIELD
 RefactoringAction 1481122595263 Grid.java ADD Iterator<Cell> cellIterator FIELD
 EditAction 1481122595552 Grid.java 878 4 11 0
+RefactoringAction 1481122623359 Grid.java ADD void is FIELD
+RefactoringAction 1481122631406 Grid.java RENAME is=>void isEqualsAlive FIELD
+RefactoringAction 1481122633421 Grid.java RENAME isEqualsAlive=>void isEqualsAliveDead FIELD
+RefactoringAction 1481122634950 Grid.java RENAME isEqualsAliveDead=>void isEqualsAliveDead() METHOD
+EditAction 1481122721532 Grid.java 1097 5 15 0
