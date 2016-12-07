@@ -55,7 +55,7 @@ public class TestGrid {
 		cells.add(deadNeighbor8);
 		grid = new Grid(cells, 10, 10);
 		//Act
-		grid.tick(5, 5);
+		grid = grid.tick();
 		//Assert
 		assertTrue(!grid.getCells().get(0).isAlive());
 		
