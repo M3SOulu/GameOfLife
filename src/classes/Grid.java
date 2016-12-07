@@ -21,4 +21,12 @@ public class Grid {
 	public Grid tick() {
 	    return null;
 	}
+	
+	public int getWidth(){
+		return width;
+	}
+	
+	public int getHeight(){
+		return height;
+	}
 }

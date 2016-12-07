@@ -49,3 +49,17 @@ RefactoringAction 1481121017274 TestGrid.java ADD void initialize() METHOD
 RefactoringAction 1481121030792 TestGrid.java ADD import org.junit.Before IMPORT
 EditAction 1481121097100 Cell.java 355 3 2 0
 EditAction 1481121098109 TestGrid.java 395 3 3 1
+CompilationAction 1481121098420 TestGrid.java
+CompilationAction 1481121098420 TestGrid.java
+UnitTestCaseAction 1481121110410 TestGrid.java FAIL
+UnitTestSessionAction 1481121110412 TestGrid FAIL
+RefactoringAction 1481121122442 TestGrid.java REMOVE firstGridTest() METHOD
+RefactoringAction 1481121138834 Grid.java ADD int get FIELD
+RefactoringAction 1481121142844 Grid.java RENAME get=>int getWi FIELD
+RefactoringAction 1481121144359 Grid.java RENAME getWi=>int getWidth FIELD
+RefactoringAction 1481121145373 Grid.java RENAME getWidth=>int getWidth() METHOD
+RefactoringAction 1481121167517 Grid.java ADD int get FIELD
+RefactoringAction 1481121170021 Grid.java RENAME get=>int getHei FIELD
+RefactoringAction 1481121171042 Grid.java RENAME getHei=>int getHeight FIELD
+RefactoringAction 1481121172559 Grid.java RENAME getHeight=>int getHeight() METHOD
+EditAction 1481121178845 Grid.java 508 6 4 0
