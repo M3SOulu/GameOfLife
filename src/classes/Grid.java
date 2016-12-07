@@ -8,8 +8,6 @@ public class Grid {
 	private int width;
 	private int height;
 
-	Iterator<Cell> cellIterator;
-
 	public Grid(ArrayList<Cell> cells, int w, int h)
 			throws CellCoordinateOutOfBoundariesException, CustomLifeException {
 		if (w != h)
@@ -44,20 +42,19 @@ public class Grid {
 		return null;
 	}
 
-	public void countCellNeighbors(Cell cella) {
+	public void countCellNeighbors(int w, int h) {
 		int numberNeighborsAlive = 0;
 		int numberNeighborsDead = 0;
 
-		if(cella.getX()==0 && cella.getY()==0){
-			
-		}else{
-			for(int i=cella.getX()-1;i<cella.getX();i++){
-				for(int j=cella.getY()-1;j<cella.getY();j--){
-					
+		if (w == 0 && w == 0) {
+
+		} else {
+			for (int i = w - 1; i <= w; i++) {
+				for (int j = h - 1; j <= h; j--) {
+					if(cells.contains(cells.))
 				}
 			}
 		}
-		
 
 	}
 

@@ -1,6 +1,5 @@
 package classes;
 
-import java.util.Iterator;
 
 public class Cell {
 	private int x;
@@ -30,5 +29,10 @@ public class Cell {
 	public int getY(){
 		return y;
 	}
+	
+	public Cell getCella(int x,int y){
+		return new Cell(x,y);
+	}
+	
 
 }

@@ -368,3 +368,27 @@ EditAction 1481125919094 Cell.java 532 5 8 0
 FileOpenedAction 1481125923134 Grid.java 1351 6 17 0
 RefactoringAction 1481125944183 Grid.java RENAME countCellNeighbors(int, int)=>void countCellNeighbors(Cell) METHOD
 EditAction 1481127625434 Grid.java 1548 6 19 0
+RefactoringAction 1481127820787 Grid.java ADD int i FIELD
+RefactoringAction 1481127821802 Grid.java REMOVE i FIELD
+RefactoringAction 1481127822808 Grid.java ADD int i FIELD
+RefactoringAction 1481127823814 Grid.java REMOVE i FIELD
+RefactoringAction 1481127825835 Grid.java ADD int i FIELD
+RefactoringAction 1481127843383 Grid.java REMOVE i FIELD
+RefactoringAction 1481127880461 Grid.java ADD void elseif() METHOD
+RefactoringAction 1481127901510 Grid.java REMOVE elseif() METHOD
+RefactoringAction 1481127962053 Grid.java REMOVE cellIterator FIELD
+RefactoringAction 1481128151341 Grid.java RENAME countCellNeighbors(Cell)=>void countCellNeighbors(int) METHOD
+RefactoringAction 1481128156358 Grid.java RENAME countCellNeighbors(int)=>void countCellNeighbors(int, int) METHOD
+RefactoringAction 1481128302909 Cell.java ADD int getCell() METHOD
+RefactoringAction 1481128305926 Cell.java RENAME getCell()=>int getCell(int, int) METHOD
+RefactoringAction 1481128360526 Cell.java REMOVE getCell(int, int) METHOD
+CompilationAction 1481128374617 Grid.java
+CompilationAction 1481128374618 Grid.java
+CompilationAction 1481128374618 Grid.java
+RefactoringAction 1481128462577 Cell.java ADD Cell altr FIELD
+RefactoringAction 1481128463598 Cell.java REMOVE altr FIELD
+RefactoringAction 1481128467108 Cell.java ADD Cell returnCella() METHOD
+RefactoringAction 1481128471122 Cell.java RENAME returnCella()=>Cell()/2 METHOD
+RefactoringAction 1481128476138 Cell.java RENAME Cell()/2=>Cell getCella() METHOD
+RefactoringAction 1481128481148 Cell.java RENAME getCella()=>Cell getCella(int, int) METHOD
+EditAction 1481128498901 Cell.java 572 6 9 0
