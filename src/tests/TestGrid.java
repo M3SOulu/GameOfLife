@@ -65,7 +65,7 @@ public class TestGrid {
 		int y=1;
 		//Dimensione array
 		int n=4;
-		for (int i = 0;i<=(n*n); i++){
+		for (int i = 0;i<(n*n); i++){
 			if(i % 2 == 0)
 				state = "alive";
 			else state = "dead";
