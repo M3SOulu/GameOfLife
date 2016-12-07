@@ -156,7 +156,12 @@ public class Grid {
 
 		ArrayList<Integer> indexes = new ArrayList<>();
 
+		for( int i = 0; i < (width*height); i++ ){
+			indexes.add(i);
+		}
 		
+		indexes.removeAll( getCornerValues() );
+		indexes.removeAll( getBorderValues() );
 
 		return indexes;
 	}
