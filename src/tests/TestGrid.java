@@ -46,7 +46,7 @@ public class TestGrid {
 		
 		
 		
-		assertEquals(grid.print(), "*-\n-*");
+		assertEquals(grid.print(), "*-\n*-");
 		
 
 	}
