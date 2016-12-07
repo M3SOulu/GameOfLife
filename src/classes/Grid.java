@@ -74,4 +74,9 @@ public class Grid {
 		
 		return count;
 	}
+
+	public int getNeighborsNumber(int index) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
