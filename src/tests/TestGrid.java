@@ -94,7 +94,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void areCellsInGridInizializedWell() throws CustomLifeException, NegativeCoordinateException  {
+	public void GridHasTheRightPrint() throws CustomLifeException, NegativeCoordinateException  {
 		
 		Grid grid = new Grid(2, 2);
 		
