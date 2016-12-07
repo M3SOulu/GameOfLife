@@ -34,3 +34,12 @@ CompilationAction 1481120333597 TestCell.java
 CompilationAction 1481120333597 TestCell.java
 CompilationAction 1481120333597 TestCell.java
 EditAction 1481120342044 Cell.java 342 2 3 0
+CompilationAction 1481120342314 TestCell.java
+CompilationAction 1481120342314 TestCell.java
+RefactoringAction 1481120347095 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
+CompilationAction 1481120353106 TestCell.java
+CompilationAction 1481120353107 TestCell.java
+UnitTestCaseAction 1481120363792 TestCell.java OK
+UnitTestSessionAction 1481120363807 TestCell OK
+FileOpenedAction 1481120374080 TestGrid.java 181 1 1 0
+EditAction 1481120376772 TestCell.java 394 2 1 0

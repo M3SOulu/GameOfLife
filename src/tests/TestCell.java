@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import classes.Cell;
+import classes.NegativeCoordinateException;
 public class TestCell {
 	
 	Cell cella;
@@ -14,9 +15,11 @@ public class TestCell {
 	}
 	
 	@Test(expected=NegativeCoordinateException.class)
-	public void testNegativeCoordinateForCell(){
+	public void testNegativeCoordinateForCell() throws NegativeCoordinateException{
 		cella=new Cell(-1,-1);
 	}
+	
+	
 
 	
 }
