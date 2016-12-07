@@ -232,3 +232,12 @@ EditAction 1481124992671 Cell.java 649 7 9 0
 EditAction 1481125028655 TestGrid.java 1660 4 15 1
 EditAction 1481125071293 TestGrid.java 1754 4 17 1
 EditAction 1481125090431 TestGrid.java 1777 4 17 1
+UnitTestCaseAction 1481125092996 TestGrid.java OK
+UnitTestSessionAction 1481125092997 TestGrid OK
+RefactoringAction 1481125102547 TestGrid.java REMOVE import org.junit.Before IMPORT
+RefactoringAction 1481125741696 TestGrid.java ADD void calculate FIELD
+RefactoringAction 1481125747203 TestGrid.java RENAME calculate=>void testCalculate FIELD
+RefactoringAction 1481125757710 TestGrid.java RENAME testCalculate=>void testCalculateNeighbo FIELD
+RefactoringAction 1481125758740 TestGrid.java RENAME testCalculateNeighbo=>void testCalculateNeighbors FIELD
+RefactoringAction 1481125766745 TestGrid.java RENAME testCalculateNeighbors=>void testCalculateNeighbors() METHOD
+EditAction 1481126331062 TestGrid.java 2059 5 22 1
