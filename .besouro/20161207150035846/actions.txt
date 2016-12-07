@@ -375,3 +375,14 @@ UnitTestCaseAction 1481127797962 TestGrid.java OK
 UnitTestSessionAction 1481127797963 TestGrid OK
 RefactoringAction 1481127816244 TestGrid.java ADD void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2()/2 METHOD
 EditAction 1481127821040 TestGrid.java 9652 15 190 41
+RefactoringAction 1481127905312 TestGrid.java RENAME anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void cellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481127916322 TestGrid.java RENAME anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void cellWithFewerThanTwoLiveNeighborsDiesTest2X2()/2 METHOD
+RefactoringAction 1481127936343 TestGrid.java RENAME cellWithFewerThanTwoLiveNeighborsDiesTest2X2()/2=>void ellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481127937353 TestGrid.java RENAME ellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void NoellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481127938876 TestGrid.java RENAME NoellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void NoCellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128026416 TestGrid.java RENAME cellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void noCellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128041428 TestGrid.java RENAME noCellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void ellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128042436 TestGrid.java RENAME ellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void cellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128061946 TestGrid.java RENAME NoCellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void CellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128062954 TestGrid.java RENAME CellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void twoCellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+EditAction 1481128113971 TestGrid.java 9639 15 190 41

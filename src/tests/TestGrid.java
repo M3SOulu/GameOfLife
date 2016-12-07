@@ -302,7 +302,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2() throws NegativeCoordinateException{
+	public void cellWithFewerThanTwoLiveNeighborsDiesTest2X2() throws NegativeCoordinateException{
 		ArrayList<Cell> cells = new ArrayList<>();
 		cells.add(new Cell(true, 1, 1));
 		cells.add(new Cell(false, 1, 2));
@@ -318,11 +318,11 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest3X3() throws NegativeCoordinateException{
+	public void twoCellWithFewerThanTwoLiveNeighborsDiesTest2X2() throws NegativeCoordinateException{
 		ArrayList<Cell> cells = new ArrayList<>();
 		cells.add(new Cell(true, 1, 1));
-		cells.add(new Cell(false, 1, 2));
-		cells.add(new Cell(true, 2, 1));
+		cells.add(new Cell(true, 1, 2));
+		cells.add(new Cell(false, 2, 1));
 		cells.add(new Cell(false, 2, 2));
 
 		Grid grid = new Grid(cells, 2, 2);
@@ -332,7 +332,6 @@ public class TestGrid {
 		assertEquals( 4, grid2.getDeadCells() );
 		assertEquals( 0, grid2.getAliveCells() );
 	}
-	
 	
 	
 	
