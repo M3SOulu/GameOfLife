@@ -113,10 +113,13 @@ public class TestGrid {
 		cells.add(new Cell(false, 2, 2));
 		
 		//Act
-		Grid grid = new Grid(cells, 3, 3);
+		Grid grid = new Grid(cells, 2, 2);
 
 		//Assert
 		assertEquals(3, grid.getNeighborsNumber( 0 ));
+		assertEquals(3, grid.getNeighborsNumber( 1 ));
+		assertEquals(3, grid.getNeighborsNumber( 2 ));
+		assertEquals(3, grid.getNeighborsNumber( 3 ));
 	}
 	
 	@Test
