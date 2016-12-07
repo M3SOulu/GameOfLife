@@ -48,18 +48,26 @@ public class Grid {
 		ArrayList<Cell> newCells = new ArrayList<>();
 		Cell temp;
 		int numNeighbors;
+		int w = 0;
+		int h = 0;
 		for (int i = 0; i < width * height; i++) {
+			if (h + 1 - width == 0) {
+				h = 0;
+				w++;
+			} else {
+				h++;
+			}
 			numNeighbors = neighbors(i);
 			if (cells.get(i).getAlive()) {
 				if (numNeighbors < 2 || numNeighbors > 3)
-					temp = new Cell(false);
+					temp = new Cell(w, h, false);
 				else
-					temp = new Cell(true);
+					temp = new Cell(w, h, true);
 			} else {
 				if (numNeighbors == 3)
-					temp = new Cell(true);
+					temp = new Cell(w, h, true);
 				else
-					temp=new Cell(false);
+					temp = new Cell(w, h, false);
 			}
 			newCells.add(temp);
 		}
@@ -84,10 +92,8 @@ public class Grid {
 	}
 
 	private int neighbors(int pos) {
-		Cell c=cells.get(pos);
-		
-		
-		
+		Cell c = cells.get(pos);
+			
 		return 0;
 	}
 }
