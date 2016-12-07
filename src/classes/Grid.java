@@ -75,9 +75,20 @@ public class Grid {
 		return count;
 	}
 
+	private boolean isCornerCell( int index ){
+		if( index == 0 || 
+				index == (width-1) || 
+				index == (width*height - width) || 
+				index == (width*height -1) ){
+			return true;
+		}
+		
+		return false;
+	}
+	
 	public int getNeighborsNumber(int index) {
 		// TODO Auto-generated method stub
-		if( index == 0 || index == (width-1) || index == (width*height - width) || index == (width*height -1) ){	//corner cell
+		if( isCornerCell( index ) ){	//corner cell
 			return 3;
 		}
 		return 0;
