@@ -6,11 +6,13 @@ import org.junit.Before;
 import org.junit.Test;
 
 import classes.Cell;
+import classes.Grid;
 import classes.NegativeCoordinateException;
 
 public class TestCell {
 	
 	private Cell cell;
+	
 	
 	@Before
 	public void inizialize() throws NegativeCoordinateException{
@@ -19,6 +21,6 @@ public class TestCell {
 	
 	@Test
 	public void NegativeCoordinateExceptionTest(){
-		assertEquals("",cell);
+		assertEquals("",Grid.print());
 	}
 }
