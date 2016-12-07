@@ -138,7 +138,7 @@ public class TestGrid {
 //	}
 	
 	@Test
-	public void getNeighborsCellAtTheBorderOfTheGrid() throws NegativeCoordinateException{
+	public void getNeighborsCellAtTheBorderOfTheGrid3X3() throws NegativeCoordinateException{
 		//Arrange
 		ArrayList<Cell> cells = new ArrayList<>();
 		cells.add(new Cell(true, 1, 1));
@@ -153,6 +153,37 @@ public class TestGrid {
 		
 		//Act
 		Grid grid = new Grid(cells, 3, 3);
+
+		//Assert
+		assertEquals(5, grid.getNeighborsNumber( 1 ));
+		assertEquals(5, grid.getNeighborsNumber( 3 ));
+		assertEquals(5, grid.getNeighborsNumber( 5 ));
+		assertEquals(5, grid.getNeighborsNumber( 7 ));
+	}
+	
+	@Test
+	public void getNeighborsCellAtTheBorderOfTheGrid4X4() throws NegativeCoordinateException{
+		//Arrange
+		ArrayList<Cell> cells = new ArrayList<>();
+		cells.add(new Cell(true, 1, 1));
+		cells.add(new Cell(false, 1, 2));
+		cells.add(new Cell(true, 1, 3));
+		cells.add(new Cell(true, 1, 4));
+		cells.add(new Cell(false, 2, 1));
+		cells.add(new Cell(true, 2, 2));
+		cells.add(new Cell(false, 2, 3));
+		cells.add(new Cell(true, 2, 4));
+		cells.add(new Cell(true, 3, 1));
+		cells.add(new Cell(false, 3, 2));
+		cells.add(new Cell(true, 3, 3));
+		cells.add(new Cell(true, 3, 4));
+		cells.add(new Cell(true, 4, 1));
+		cells.add(new Cell(false, 4, 2));
+		cells.add(new Cell(true, 4, 3));
+		cells.add(new Cell(true, 4, 4));
+		
+		//Act
+		Grid grid = new Grid(cells, 4, 4);
 
 		//Assert
 		assertEquals(5, grid.getNeighborsNumber( 1 ));

@@ -100,7 +100,7 @@ public class Grid {
 	/**
 	 * 
 	 * @param index
-	 * @return true if the cell at "index" is in the corner
+	 * @return true if the cell at "index" is in the corner of sqaure grid
 	 */
 	private boolean isCornerCell( int index ){
 		if( index == 0 || 
@@ -112,13 +112,17 @@ public class Grid {
 
 		return false;
 	}
+	
+	private ArrayList<Integer> getBorderValues(){
+		return null;
+	}
 
 	public int getNeighborsNumber(int index) {
 		// TODO Auto-generated method stub
 		if( isCornerCell( index ) ){	//corner cell
 			return 3;
 		}
-		if( index == 1 ){
+		if( getBorderValues().contains(index) ){				
 			return 5;
 		}
 

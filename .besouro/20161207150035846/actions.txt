@@ -254,3 +254,17 @@ EditAction 1481124189455 TestGrid.java 6647 9 97 20
 UnitTestCaseAction 1481124189948 TestGrid.java OK
 UnitTestSessionAction 1481124189949 TestGrid OK
 EditAction 1481124193081 TestGrid.java 6599 10 112 24
+UnitTestCaseAction 1481124195526 TestGrid.java FAIL
+UnitTestSessionAction 1481124195527 TestGrid FAIL
+RefactoringAction 1481124278997 Grid.java ADD boolean get FIELD
+RefactoringAction 1481124282008 Grid.java REMOVE get FIELD
+RefactoringAction 1481124283513 Grid.java ADD boolean is FIELD
+RefactoringAction 1481124286519 Grid.java RENAME is=>boolean isBorder FIELD
+RefactoringAction 1481124290035 Grid.java REMOVE isBorder FIELD
+RefactoringAction 1481124317083 Grid.java ADD ArrayList<Integer> get FIELD
+RefactoringAction 1481124322589 Grid.java RENAME get=>ArrayList<Integer> getBorderValues() METHOD
+RefactoringAction 1481124485105 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid()=>void getNeighborsCellAtTheBorderOfTheGrid3() METHOD
+RefactoringAction 1481124486114 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid3()=>void getNeighborsCellAtTheBorderOfTheGrid3X3() METHOD
+RefactoringAction 1481124491621 TestGrid.java ADD void getNeighborsCellAtTheBorderOfTheGrid3X3()/2 METHOD
+RefactoringAction 1481124495645 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid3X3()/2=>void getNeighborsCellAtTheBorderOfTheGrid4X4() METHOD
+EditAction 1481124511990 TestGrid.java 7583 11 134 28
