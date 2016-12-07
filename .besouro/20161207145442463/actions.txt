@@ -45,3 +45,13 @@ FileOpenedAction 1481120374080 TestGrid.java 181 1 1 0
 EditAction 1481120376772 TestCell.java 394 2 1 0
 EditAction 1481120407826 Cell.java 359 2 4 0
 EditAction 1481120547167 Grid.java 591 4 7 0
+RefactoringAction 1481120571781 TestGrid.java ADD void E FIELD
+RefactoringAction 1481120572798 TestGrid.java REMOVE E FIELD
+RefactoringAction 1481120579808 TestGrid.java ADD void grigliaErrata FIELD
+RefactoringAction 1481120582817 TestGrid.java RENAME grigliaErrata=>void grigliaErrataException() METHOD
+RefactoringAction 1481120599852 TestGrid.java ADD import classes.CellCoordinateOutOfBoundariesException IMPORT
+RefactoringAction 1481120617957 TestGrid.java ADD Grid griglia FIELD
+RefactoringAction 1481120655995 TestGrid.java REMOVE griglia FIELD
+RefactoringAction 1481120657009 TestGrid.java ADD Grid griglia FIELD
+RefactoringAction 1481120659406 TestGrid.java ADD import classes.Grid IMPORT
+EditAction 1481120676769 TestGrid.java 406 2 2 0
