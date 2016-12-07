@@ -333,6 +333,29 @@ public class TestGrid {
 		assertEquals( 0, grid2.getAliveCells() );
 	}
 	
+	@Test
+	public void twoCellWithFewerThanTwoLiveNeighborsDiesTest3X3() throws NegativeCoordinateException{
+		ArrayList<Cell> cells = new ArrayList<>();
+		cells.add(new Cell(true, 1, 1));
+		cells.add(new Cell(false, 1, 2));
+		cells.add(new Cell(true, 1, 3));
+		cells.add(new Cell(false, 2, 1));
+		cells.add(new Cell(true, 2, 2));
+		cells.add(new Cell(false, 2, 3));
+		cells.add(new Cell(true, 3, 1));
+		cells.add(new Cell(false, 3, 2));
+		cells.add(new Cell(true, 3, 3));
+
+		Grid grid = new Grid(cells, 2, 2);
+		
+		Grid grid2 = grid.tick();
+		
+		assertEquals( 4, grid2.getDeadCells() );
+		assertEquals( 0, grid2.getAliveCells() );
+	}
+	
+	
+	
 	
 	
 	

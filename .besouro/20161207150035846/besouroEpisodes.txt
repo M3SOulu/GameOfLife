@@ -169,3 +169,5 @@
 1481127797968 test-addition 2 872 true
 1481127797969 test-addition 2 872 true
 1481127797970 test-addition 1 872 true
+1481128116920 test-addition 1 300 true
+1481128116921 test-addition 1 300 true
