@@ -17,7 +17,7 @@ public class TestCell {
 		cell = new Cell(10,10,true);
 	}
 	@Test
-	public void firstCellTest(){
-		fail("implement some proper tests");
+	public void NegativeCoordinateExceptionTest(){
+		assertEquals("",cell);
 	}
 }
