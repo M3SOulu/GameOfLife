@@ -7,7 +7,7 @@ public class Cell {
 	private int y;
 	private boolean alive;
 	
-	Iterator<Cell>cellIterator;
+	
 
 	public Cell() throws NegativeCoordinateException {
 		this(0,0,false);
