@@ -92,3 +92,4 @@ RefactoringAction 1481121016139 TestGrid.java ADD void griglia/2 FIELD
 RefactoringAction 1481121019171 TestGrid.java RENAME griglia/2=>void grigliaCorretta FIELD
 RefactoringAction 1481121024679 TestGrid.java RENAME grigliaCorretta=>void grigliaQuadrataCorretta() METHOD
 EditAction 1481121057038 TestGrid.java 750 4 3 0
+EditAction 1481121197310 Grid.java 612 4 7 0
