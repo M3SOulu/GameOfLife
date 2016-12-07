@@ -100,3 +100,9 @@ UnitTestCaseAction 1481120476603 TestGrid.java OK
 UnitTestCaseAction 1481120476603 TestCell.java OK
 UnitTestSessionAction 1481120476603 GameOfLife OK
 EditAction 1481120603437 Grid.java 631 4 6 0
+UnitTestCaseAction 1481120606364 TestGrid.java OK
+UnitTestCaseAction 1481120606365 TestCell.java OK
+UnitTestSessionAction 1481120606365 GameOfLife OK
+RefactoringAction 1481120669838 Grid.java ADD ArrayList<Cell> getCells() METHOD
+RefactoringAction 1481120669838 Grid.java ADD void setCells(ArrayList<Cell>) METHOD
+EditAction 1481120669842 Grid.java 761 6 8 0
