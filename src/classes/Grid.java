@@ -31,15 +31,15 @@ public class Grid {
 		this.height = h;
 		
 		
-		int iW = 0;
-		int iH = 0;
+		int iW = 1;
+		int iH = 1;
 		for (int i = 0; i < w * h; i++) {
 			
 			Cell cell = new Cell();
 			
 			if(this.width == iW) {
 				iH++;
-				iW = 0;
+				iW = 1;
 			}
 			cell.setX(iW++);
 			cell.setY(iH);
