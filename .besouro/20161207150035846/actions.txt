@@ -23,3 +23,8 @@ UnitTestSessionAction 1481119654917 TestCell FAIL
 RefactoringAction 1481119672995 Cell.java ADD Object isAlive() METHOD
 EditAction 1481119677049 Cell.java 386 3 3 0
 EditAction 1481119679060 TestCell.java 294 1 1 1
+UnitTestCaseAction 1481119680132 TestCell.java OK
+UnitTestSessionAction 1481119680132 TestCell OK
+RefactoringAction 1481119691561 TestCell.java ADD void cellAliveTest()/2 METHOD
+RefactoringAction 1481119694070 TestCell.java RENAME cellAliveTest()/2=>void cellNotAliveTest() METHOD
+EditAction 1481119699237 TestCell.java 426 2 2 2

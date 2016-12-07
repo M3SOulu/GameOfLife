@@ -12,4 +12,9 @@ public class TestCell {
 	public void cellAliveTest() throws NegativeCoordinateException{
 		assertEquals(true, new Cell( true ).isAlive());
 	}
+	
+	@Test
+	public void cellNotAliveTest() throws NegativeCoordinateException{
+		assertEquals(false, new Cell( false ).isAlive());
+	}
 }
