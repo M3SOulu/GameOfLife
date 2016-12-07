@@ -23,3 +23,33 @@ RefactoringAction 1481120609696 TestCell.java RENAME firstCellTest()/2=>void s()
 RefactoringAction 1481120643809 TestCell.java ADD Cell cell FIELD
 EditAction 1481120738672 Cell.java 457 4 6 0
 EditAction 1481120738924 TestCell.java 632 4 1 0
+UnitTestCaseAction 1481120741194 TestCell.java OK
+UnitTestSessionAction 1481120741202 TestCell OK
+RefactoringAction 1481120758179 TestCell.java RENAME s()=>void NegativeCoordinateException() METHOD
+RefactoringAction 1481120760203 TestCell.java RENAME NegativeCoordinateException()=>void negativeCoordinateException() METHOD
+RefactoringAction 1481120761723 TestCell.java RENAME negativeCoordinateException()=>void egativeCoordinateException() METHOD
+RefactoringAction 1481120762743 TestCell.java RENAME egativeCoordinateException()=>void NegativeCoordinateException() METHOD
+RefactoringAction 1481120764760 TestCell.java RENAME NegativeCoordinateException()=>void testNegativeCoordinateException() METHOD
+RefactoringAction 1481120771273 TestCell.java RENAME testNegativeCoordinateException()=>void testNegativeCoordinateExceptionIn() METHOD
+RefactoringAction 1481120773282 TestCell.java RENAME testNegativeCoordinateExceptionIn()=>void testNegativeCoordinateExceptionInCell() METHOD
+RefactoringAction 1481120778302 TestCell.java RENAME testNegativeCoordinateExceptionInCell()=>void testNegativeCoordinateExceptionForCell() METHOD
+RefactoringAction 1481121147829 Grid.java ADD void Grid(ArrayList<Cell>, int, int)/2 METHOD
+RefactoringAction 1481121173317 Grid.java REMOVE Grid(ArrayList<Cell>, int, int)/2 METHOD
+RefactoringAction 1481121623475 Grid.java ADD import java.util.Random IMPORT
+FileOpenedAction 1481121793537 TestGrid.java 181 1 1 0
+RefactoringAction 1481121805067 TestGrid.java ADD import org.junit.After IMPORT
+RefactoringAction 1481121805067 TestGrid.java ADD import org.junit.Before IMPORT
+RefactoringAction 1481121805068 TestGrid.java ADD import classes.Cell IMPORT
+RefactoringAction 1481121805068 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
+RefactoringAction 1481121814626 TestGrid.java RENAME cell=>Grid gri FIELD
+RefactoringAction 1481121815646 TestGrid.java RENAME gri=>Grid grid FIELD
+RefactoringAction 1481121817264 TestGrid.java ADD import classes.Grid IMPORT
+RefactoringAction 1481121830684 TestGrid.java REMOVE import classes.Cell IMPORT
+RefactoringAction 1481121878828 Grid.java ADD void random FIELD
+RefactoringAction 1481121880842 Grid.java RENAME random=>void randomGrid FIELD
+RefactoringAction 1481121881857 Grid.java RENAME randomGrid=>void randomGrid() METHOD
+RefactoringAction 1481121998192 TestCell.java REMOVE firstCellTest() METHOD
+RefactoringAction 1481122031739 TestGrid.java ADD import classes.Cell IMPORT
+RefactoringAction 1481122109883 TestGrid.java ADD import classes.CellCoordinateOutOfBoundariesException IMPORT
+RefactoringAction 1481122116391 TestGrid.java RENAME testNegativeCoordinateExceptionForCell()=>void testCellCoordinateOutOfBoundariesException() METHOD
+EditAction 1481122142886 TestCell.java 553 3 1 0

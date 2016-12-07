@@ -22,18 +22,8 @@ public class TestCell {
 	}
 	
 	
-	@Test
-	public void firstCellTest() throws NegativeCoordinateException{
-		//Arrange
-		
-		//Act
-		//Assert
-		
-	}
-	
-	
 	@Test(expected = NegativeCoordinateException.class)
-	public void s() throws NegativeCoordinateException{
+	public void testNegativeCoordinateExceptionForCell() throws NegativeCoordinateException{
 		//Arrange
 		//Act
 		cell=new Cell(-1, 5, true);
