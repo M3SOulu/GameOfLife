@@ -72,7 +72,7 @@ public class TestGrid {
 	private void addCell() throws NegativeCoordinateException{
 		boolean alive=false;
 		for (int i = 0; i < 10; i++) {
-			if(i==5){
+			if(i%2==0){
 				alive=true;
 			}
 			for (int j = 0; j < 10; j++) {
