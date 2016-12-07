@@ -85,12 +85,11 @@ public class Grid {
 		int aliveCells = getAliveCells();
 		int deadCells = getDeadCells();
 
-		if( (width*height)%2 == 0  ){
-			if(aliveCells != deadCells)
-				return false;
+		if( (width*height)%2 == 0 && aliveCells != deadCells  ){
+			return false;
 
 		}
-		else if( aliveCells != (deadCells+1) && deadCells != (aliveCells+1) ){
+		else if( (width*height)%2 != 0 && aliveCells != (deadCells+1) && deadCells != (aliveCells+1) ){
 			return false;
 		}
 
@@ -99,54 +98,59 @@ public class Grid {
 
 	/**
 	 * 
-	 * @param index
-	 * @return true if the cell at "index" is in the corner of sqaure grid
+	 * @return a list with indexes of corner in 2D square grid
 	 */
-	private boolean isCornerCell( int index ){
-		if( index == 0 || 
-				index == (width-1) || 
-				index == (width*height - width) || 
-				index == (width*height -1) ){
-			return true;
-		}
+	private ArrayList<Integer> getCornerValues(){
+		ArrayList<Integer> indexes = new ArrayList<>();
 
-		return false;
+		indexes.add(0);
+		indexes.add( width-1 );
+		indexes.add( width*height - width );
+		indexes.add( width*height -1 );
+
+		return indexes;
 	}
-	
+
+	/**
+	 * 
+	 * @return a list with indexes of border in 2D square grid
+	 */
 	private ArrayList<Integer> getBorderValues(){
 		if( width <= 2 ){
 			return null;
 		}
+
 		ArrayList<Integer> indexes = new ArrayList<>();
+
 		for( int i = 1; i < width-1; i++ ){	//border values first row
 			indexes.add(i);
 		}
-		
-		int j = width;
+
+		int j = width;		//border values rows in the middle
 		int count = 0;
 		while( j < (width*height)-width ){
 			indexes.add(j);
-			
+
 			count++;
 			if( (count%2) == 0 )
 				j++;
 			else
 				j += (width-1);
 		}
-		
+
 		for( int i = (width*height)-width+1; i < (width*height-1); i++ ){	//border values last row
 			indexes.add(i);
 		}
-		
+
 		return indexes;
 	}
 
 	public int getNeighborsNumber(int index) {
 		// TODO Auto-generated method stub
-		if( isCornerCell( index ) ){	//corner cell
+		if( getCornerValues().contains( index ) ){	//corner cell
 			return 3;
 		}
-		if( getBorderValues().contains(index) ){				
+		if( getBorderValues().contains(index) ){	//border cell			
 			return 5;
 		}
 

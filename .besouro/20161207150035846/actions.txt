@@ -292,3 +292,25 @@ UnitTestSessionAction 1481125739715 TestGrid FAIL
 UnitTestCaseAction 1481125771118 TestGrid.java FAIL
 UnitTestSessionAction 1481125771118 TestGrid FAIL
 EditAction 1481125816573 Grid.java 2682 13 33 0
+UnitTestCaseAction 1481125819267 TestGrid.java OK
+UnitTestSessionAction 1481125819267 TestGrid OK
+RefactoringAction 1481125849863 Grid.java RENAME isCornerCell(int)=>boolean getCornerValues(int) METHOD
+CompilationAction 1481125929780 Grid.java
+CompilationAction 1481125929781 Grid.java
+CompilationAction 1481125933235 Grid.java
+CompilationAction 1481125933235 Grid.java
+CompilationAction 1481125933404 Grid.java
+CompilationAction 1481125958323 Grid.java
+CompilationAction 1481125958490 Grid.java
+CompilationAction 1481125970216 Grid.java
+UnitTestCaseAction 1481125972521 TestGrid.java OK
+UnitTestSessionAction 1481125972521 TestGrid OK
+UnitTestCaseAction 1481126175717 TestGrid.java OK
+UnitTestSessionAction 1481126175717 TestGrid OK
+UnitTestCaseAction 1481126233701 TestGrid.java OK
+UnitTestSessionAction 1481126233702 TestGrid OK
+RefactoringAction 1481126244528 TestGrid.java ADD void getNeighborsCellInsideTheGrid() METHOD
+RefactoringAction 1481126247546 TestGrid.java RENAME getNeighborsCellInsideTheGrid()=>void getNeighborsCellInsideTheGrid3() METHOD
+RefactoringAction 1481126248553 TestGrid.java RENAME getNeighborsCellInsideTheGrid3()=>void getNeighborsCellInsideTheGrid3X() METHOD
+RefactoringAction 1481126249561 TestGrid.java RENAME getNeighborsCellInsideTheGrid3X()=>void getNeighborsCellInsideTheGrid3X3() METHOD
+EditAction 1481126301721 TestGrid.java 7745 12 150 33
