@@ -112,3 +112,19 @@ EditAction 1481120674129 Grid.java 869 8 10 0
 RefactoringAction 1481120678957 Grid.java ADD int getHeight() METHOD
 RefactoringAction 1481120678957 Grid.java ADD void setHeight(int) METHOD
 EditAction 1481120678965 Grid.java 983 10 12 0
+RefactoringAction 1481120976860 TestGrid.java ADD void aNotSquare FIELD
+RefactoringAction 1481120979886 TestGrid.java RENAME aNotSquare=>void aNotSquareGr FIELD
+RefactoringAction 1481120980900 TestGrid.java RENAME aNotSquareGr=>void aNotSquareGrid FIELD
+RefactoringAction 1481120982406 TestGrid.java RENAME aNotSquareGrid=>void aNotSquareGridR FIELD
+RefactoringAction 1481120984418 TestGrid.java RENAME aNotSquareGridR=>void aNotSquareGridRises FIELD
+RefactoringAction 1481120987435 TestGrid.java RENAME aNotSquareGridRises=>void aNotSquareGridRisesAnExce FIELD
+RefactoringAction 1481120989955 TestGrid.java RENAME aNotSquareGridRisesAnExce=>void aNotSquareGridRisesAnException FIELD
+RefactoringAction 1481120991972 TestGrid.java RENAME aNotSquareGridRisesAnException=>void aNotSquareGridRisesAnException() METHOD
+FileOpenedAction 1481121000987 CustomLifeException.java 189 1 1 0
+RefactoringAction 1481121016541 TestGrid.java RENAME aNotSquareGridRisesAnException()=>void CustomLifeExceptionaNotSquareGridRisesAnException() METHOD
+RefactoringAction 1481121018565 TestGrid.java RENAME CustomLifeExceptionaNotSquareGridRisesAnException()=>void CustomLifeException FIELD
+RefactoringAction 1481121021574 TestGrid.java REMOVE CustomLifeException FIELD
+RefactoringAction 1481121024095 TestGrid.java REMOVE aNotSquareGridRisesAnException() METHOD
+RefactoringAction 1481121162225 TestGrid.java ADD void trickingALiveCellWithLessThan2LiveNeighBorsMakesItDie() METHOD
+RefactoringAction 1481121270487 TestGrid.java RENAME trickingALiveCellWithLessThan2LiveNeighBorsMakesItDie()=>void trickingALiveCellWithLessThan2LiveNeighborsMakesItDie() METHOD
+EditAction 1481121691880 TestGrid.java 1504 3 22 0
