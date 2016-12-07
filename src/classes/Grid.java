@@ -1,6 +1,7 @@
 package classes;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Grid {
 	private ArrayList<Cell> cells;
@@ -15,11 +16,12 @@ public class Grid {
 	}
 
 	public String print() {
-		int i;
+		
 		String state = null;
 		ArrayList<Cell> cell = null;
-		Grid grid = new Grid(10,5);
-		if(grid.getHeight() != grid.getWidth()) state = "Grid invalid";		
+		Grid grid = new Grid(cell,10,10);
+		//if(grid.getHeight() != grid.getWidth()) state = "Grid invalid";	
+		Iterator<Cell> i;
 		return state;   
 			
 	}

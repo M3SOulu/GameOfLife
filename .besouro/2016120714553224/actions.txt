@@ -88,3 +88,12 @@ EditAction 1481122834981 Grid.java 930 10 13 0
 RefactoringAction 1481122958292 Grid.java ADD import java.util.Iterator IMPORT
 EditAction 1481123130404 TestCell.java 396 2 2 1
 EditAction 1481123130517 TestGrid.java 396 2 1 0
+UnitTestCaseAction 1481123133900 TestGrid.java OK
+UnitTestSessionAction 1481123133901 TestGrid OK
+RefactoringAction 1481123365444 Cell.java REMOVE getX() METHOD
+RefactoringAction 1481123365444 Cell.java REMOVE setX(int) METHOD
+RefactoringAction 1481123365444 Cell.java REMOVE getY() METHOD
+RefactoringAction 1481123365445 Cell.java REMOVE isAlive() METHOD
+RefactoringAction 1481123365445 Cell.java REMOVE setAlive(boolean) METHOD
+RefactoringAction 1481123365445 Cell.java REMOVE setY(int) METHOD
+EditAction 1481123371562 Cell.java 153 1 0 0
