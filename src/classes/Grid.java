@@ -11,6 +11,8 @@ public class Grid {
 		return  this.cells;
 	}
 	
+
+	
 	
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException, CustomLifeException{
 	this.cells = cells;

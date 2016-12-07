@@ -123,5 +123,17 @@ public class TestGrid {
 
 	}
 	
+	@Test
+	public void GridHasTheRightPrint2() throws CustomLifeException, NegativeCoordinateException  {
+		
+		Grid grid = new Grid(3,3);
+		
+		
+		
+		assertEquals(grid.print(), "*-*\n-*-\n*-*");
+		
+
+	}
+	
 	
 }

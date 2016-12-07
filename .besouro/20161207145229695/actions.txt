@@ -278,3 +278,21 @@ EditAction 1481127587694 Grid.java 1803 5 16 0
 UnitTestCaseAction 1481127589998 TestGrid.java FAIL
 UnitTestSessionAction 1481127589998 TestGrid FAIL
 EditAction 1481127658458 Grid.java 1824 5 16 0
+UnitTestCaseAction 1481127660899 TestGrid.java OK
+UnitTestSessionAction 1481127660899 TestGrid OK
+RefactoringAction 1481127678365 TestGrid.java ADD void GridHasTheRightPrint()/2 METHOD
+RefactoringAction 1481127680371 TestGrid.java RENAME GridHasTheRightPrint()/2=>void GridHasTheRightPrint2() METHOD
+UnitTestCaseAction 1481127708328 TestGrid.java OK
+UnitTestSessionAction 1481127708329 TestGrid OK
+RefactoringAction 1481127786028 TestGrid.java ADD void TestCellNeighbor FIELD
+RefactoringAction 1481127794565 TestGrid.java RENAME TestCellNeighbor=>void TestCellNeighbors FIELD
+RefactoringAction 1481127795618 TestGrid.java RENAME TestCellNeighbors=>void TestCellNeighbors() METHOD
+RefactoringAction 1481127952215 TestGrid.java RENAME TestCellNeighbors()=>void TestNumberCellNeighbors() METHOD
+RefactoringAction 1481127997277 Grid.java ADD int numberOf FIELD
+RefactoringAction 1481128000298 Grid.java RENAME numberOf=>int numberOfnei FIELD
+RefactoringAction 1481128001311 Grid.java RENAME numberOfnei=>int numberOfneigh FIELD
+RefactoringAction 1481128003821 Grid.java RENAME numberOfneigh=>int numberOfNei FIELD
+RefactoringAction 1481128007845 Grid.java RENAME numberOfNei=>int numberOfNeighbours() METHOD
+RefactoringAction 1481128010863 Grid.java RENAME numberOfNeighbours()=>int numberOfNeighbours(Cell) METHOD
+RefactoringAction 1481128950493 Grid.java REMOVE numberOfNeighbours(Cell) METHOD
+EditAction 1481128978368 Grid.java 1827 5 16 0
