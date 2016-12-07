@@ -55,15 +55,15 @@ public class TestGrid {
 	@Test
 	public void tickingAnAngleDeadCellWith3AliveNeighborsMakesItAlive() throws NegativeCoordinateException {
 		// Arrange
-		Cell liveCell = new Cell(0, 0, false);
-		Cell liveNeighbor1 = new Cell(0, 1, true);
-		Cell deadNeighbor2 = new Cell(1, 0, true);
-		Cell deadNeighbor3 = new Cell(1, 1, true);
+		Cell cell = new Cell(0, 0, false);
+		Cell neighbor1 = new Cell(0, 1, true);
+		Cell neighbor2 = new Cell(1, 0, true);
+		Cell neighbor3 = new Cell(1, 1, true);
 
-		cells.add(liveCell);
-		cells.add(liveNeighbor1);
-		cells.add(deadNeighbor2);
-		cells.add(deadNeighbor3);
+		cells.add(cell);
+		cells.add(neighbor1);
+		cells.add(neighbor2);
+		cells.add(neighbor3);
 
 		grid = new Grid(cells, 3, 3);
 		// Act
@@ -75,10 +75,31 @@ public class TestGrid {
 	@Test
 	public void tickingAnAngleAliveCellWith2Or3AliveNeighborsMakesItStayAlive() throws NegativeCoordinateException {
 		// Arrange
-		Cell liveCell = new Cell(0, 0, true);
+		Cell cell = new Cell(0, 0, true);
+		Cell neighbor1 = new Cell(0, 1, true);
+		Cell neighbor2 = new Cell(1, 0, false);
+		Cell neighbor3 = new Cell(1, 1, true);
+
+		cells.add(cellliveCell);
+		cells.add(neighbor1);
+		cells.add(neighbor2);
+		cells.add(neighbor3);
+
+		grid = new Grid(cells, 3, 3);
+		// Act
+		grid = grid.tick();
+		// Assert
+		assertTrue(grid.getCells().get(0).isAlive());
+	}
+	
+	@Test
+	public void tickingAnAngleAliveCellWithMoreThan3AliveNeighborsMakesItDie() throws NegativeCoordinateException {
+		// Arrange
+		Cell liveCell = new Cell(0, 2, true);
 		Cell liveNeighbor1 = new Cell(0, 1, true);
-		Cell deadNeighbor2 = new Cell(1, 0, false);
-		Cell deadNeighbor3 = new Cell(1, 1, true);
+		Cell deadNeighbor2 = new Cell(0, 3, false);
+		Cell deadNeighbor3 = new Cell(1, 2, true);
+		
 
 		cells.add(liveCell);
 		cells.add(liveNeighbor1);
