@@ -45,7 +45,7 @@ public class TestGrid {
 		cells.add(deadNeighbor2);
 		cells.add(deadNeighbor3);
 
-		grid = new Grid(cells, 3, 3);
+		grid = new Grid(cells, 2, 2);
 		// Act
 		grid = grid.tick();
 		// Assert
@@ -65,7 +65,7 @@ public class TestGrid {
 		cells.add(neighbor2);
 		cells.add(neighbor3);
 
-		grid = new Grid(cells, 3, 3);
+		grid = new Grid(cells, 2, 2);
 		// Act
 		grid = grid.tick();
 		// Assert
@@ -85,7 +85,7 @@ public class TestGrid {
 		cells.add(neighbor2);
 		cells.add(neighbor3);
 
-		grid = new Grid(cells, 3, 3);
+		grid = new Grid(cells, 2, 2);
 		// Act
 		grid = grid.tick();
 		// Assert
@@ -110,7 +110,7 @@ public class TestGrid {
 		cells.add(neighbor4);
 		cells.add(neighbor5);
 
-		grid = new Grid(cells, 4, 4);
+		grid = new Grid(cells, 2, 4);
 		// Act
 		grid = grid.tick();
 		// Assert
