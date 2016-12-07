@@ -1,0 +1,17 @@
+FileOpenedAction 1481119135889 Cell.java 151 1 0 0
+RefactoringAction 1481119206998 Cell.java ADD void Set FIELD
+RefactoringAction 1481119211029 Cell.java REMOVE Set FIELD
+RefactoringAction 1481119214539 Cell.java ADD void Make FIELD
+RefactoringAction 1481119217054 Cell.java RENAME Make=>void mak FIELD
+RefactoringAction 1481119258632 Cell.java RENAME mak=>void ma FIELD
+RefactoringAction 1481119262137 Cell.java RENAME ma=>void makeAlive FIELD
+RefactoringAction 1481119263188 Cell.java RENAME makeAlive=>void makeAlive() METHOD
+RefactoringAction 1481119280390 Cell.java ADD void makeAlive()/2 METHOD
+RefactoringAction 1481119283898 Cell.java RENAME makeAlive()/2=>void makeDead() METHOD
+FileOpenedAction 1481119314648 Grid.java 416 4 2 0
+FileOpenedAction 1481119337443 TestCell.java 178 1 1 0
+RefactoringAction 1481119360978 TestCell.java RENAME firstCellTest()=>void makeADeadCellAlive() METHOD
+RefactoringAction 1481119423580 Cell.java ADD Cell()/2 METHOD
+RefactoringAction 1481119438224 TestCell.java RENAME import org.junit.Assert.*=>import classes.Cell IMPORT
+RefactoringAction 1481119483611 Cell.java REMOVE Cell()/2 METHOD
+EditAction 1481119483728 Cell.java 267 3 2 0
