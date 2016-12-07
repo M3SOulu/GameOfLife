@@ -1,0 +1,7 @@
+FileOpenedAction 1481118932471 Grid.java 416 4 2 0
+FileOpenedAction 1481119171240 TestCell.java 178 1 1 0
+FileOpenedAction 1481119171959 TestGrid.java 181 1 1 0
+FileOpenedAction 1481119412184 CellCoordinateOutOfBoundariesException.java 235 1 1 0
+FileOpenedAction 1481119416042 CustomLifeException.java 189 1 1 0
+FileOpenedAction 1481119420268 NegativeCoordinateException.java 205 1 1 0
+EditAction 1481119657187 TestCell.java 179 1 1 0
