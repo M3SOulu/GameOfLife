@@ -31,3 +31,20 @@ RefactoringAction 1481120436755 Cell.java RENAME setC=>String setState FIELD
 RefactoringAction 1481120437771 Cell.java RENAME setState=>String setState() METHOD
 RefactoringAction 1481120446356 Cell.java RENAME setState()=>void setState(String) METHOD
 EditAction 1481120482128 Cell.java 352 3 2 0
+UnitTestCaseAction 1481120507342 TestCell.java OK
+UnitTestSessionAction 1481120507343 TestCell OK
+RefactoringAction 1481120608099 TestCell.java ADD void test FIELD
+RefactoringAction 1481120612612 TestCell.java RENAME test=>void testGridSize FIELD
+RefactoringAction 1481120617624 TestCell.java RENAME testGridSize=>void testGridSize() METHOD
+FileOpenedAction 1481120634523 Grid.java 416 4 2 0
+RefactoringAction 1481120739207 TestCell.java ADD Grid grid FIELD
+RefactoringAction 1481120742817 TestCell.java ADD import classes.Grid IMPORT
+CompilationAction 1481120794569 TestCell.java
+CompilationAction 1481120813380 TestCell.java
+RefactoringAction 1481120970141 TestCell.java REMOVE testGridSize() METHOD
+RefactoringAction 1481120978617 TestGrid.java ADD import classes.Grid IMPORT
+RefactoringAction 1481120993152 TestCell.java REMOVE grid FIELD
+RefactoringAction 1481120997651 TestGrid.java ADD Grid grid FIELD
+RefactoringAction 1481121017274 TestGrid.java ADD void initialize() METHOD
+RefactoringAction 1481121030792 TestGrid.java ADD import org.junit.Before IMPORT
+EditAction 1481121097100 Cell.java 355 3 2 0

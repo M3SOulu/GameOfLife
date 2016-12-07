@@ -20,5 +20,7 @@ public class Cell {
 		else alive = false;
 	}
 	
+
+	
 	
 }
