@@ -25,11 +25,6 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void firstGridTest(){
-		fail("implement some proper tests");
-	}
-	
-	@Test
 	public void GridCoordinate(){
 		assertEquals(y,x);
 	}
