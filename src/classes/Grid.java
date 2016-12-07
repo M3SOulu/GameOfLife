@@ -64,7 +64,6 @@ public class Grid {
 
 	public String print() {
 		String sGrid = "";
-		for (int i = 0; i < width * height; i++)  {
 			for (Cell c : cells) {
 				if(c.getX() == width) {
 					sGrid = sGrid + "\n";
@@ -75,9 +74,9 @@ public class Grid {
 				} else {
 					state = "-";
 				}
-				sGrid = sGrid + state + "1";
+				sGrid = sGrid + state;
 			}
-		}
+		
 		
 	    return sGrid;
 	}
