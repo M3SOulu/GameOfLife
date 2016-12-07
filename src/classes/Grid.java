@@ -1,24 +1,68 @@
 package classes;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Grid {
 	private ArrayList<Cell> cells;
 	private int width;
 	private int height;
 
+	public Grid(ArrayList<Cell> cells, int w, int h)
+			throws CellCoordinateOutOfBoundariesException, CustomLifeException {
+		if (w != h)
+			throw new CellCoordinateOutOfBoundariesException("Rows and Columns not Equals");
 
-	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
+		this.cells = new ArrayList<>(cells.size());
+
+		if (cells.size() != (w * h))
+			throw new CellCoordinateOutOfBoundariesException("Index Out Of Boundaries");
+
+		if (!isEqualsAliveDead())
+			throw new CustomLifeException("cells alive!=dead");
+		width = w;
+		height = h;
 	}
-	
+
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
-	}
+		if (w != h)
+			throw new CellCoordinateOutOfBoundariesException("Rows and Columns not Equals");
+		width = w;
+		height = h;
+		this.cells = new ArrayList<>(w * h);
 
-	public String print() {
-	    return null;
 	}
 	
-	public Grid tick() {
-	    return null;
+	
+
+	
+	public String print() {
+		
+		//TODO
+		return null;
 	}
+
+	public Grid tick() {
+		//TODO
+		return null;
+	}
+
+	public void countCellNeighbors(int w, int h) {
+		//TODO
+
+	}
+
+	public boolean isEqualsAliveDead() {
+		int alive = 0;
+		int dead = 0;
+		for (int i = 0; i < cells.size(); i++) {
+			if (cells.get(i).getAlive() == true) {
+				alive++;
+			} else {
+				dead++;
+			}
+		}
+		return alive == dead;
+	}
+
 }
