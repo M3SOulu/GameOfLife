@@ -71,7 +71,7 @@ public class Grid {
 	public String print() {
 		String sGrid = "";
 			for (Cell c : cells) {
-				if(c.getX() == width) {
+				if(c.getY() == height) {
 					sGrid = sGrid + "\n";
 				}
 				String state;
