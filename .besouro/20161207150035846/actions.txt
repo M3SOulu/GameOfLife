@@ -150,3 +150,9 @@ EditAction 1481122224582 TestGrid.java 2026 4 37 7
 RefactoringAction 1481122322910 Grid.java ADD Object getNeighborsNumber(int) METHOD
 EditAction 1481122332246 Grid.java 1322 10 17 0
 EditAction 1481122333926 TestGrid.java 2034 4 37 7
+RefactoringAction 1481122339005 TestGrid.java ADD void getNeighborsCellInsideTheGrid()/2 METHOD
+RefactoringAction 1481122357521 TestGrid.java RENAME getNeighborsCellInsideTheGrid()/2=>void getNeighborsCellAtTheBorderTheGrid() METHOD
+RefactoringAction 1481122359029 TestGrid.java RENAME getNeighborsCellAtTheBorderTheGrid()=>void getNeighborsCellAtTheBorderOfTheGrid() METHOD
+RefactoringAction 1481122379563 TestGrid.java ADD void getNeighborsCellAtTheBorderOfTheGrid()/2 METHOD
+RefactoringAction 1481122394073 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid()/2=>void getNeighborsCellAtTheCornerOfTheGrid() METHOD
+EditAction 1481122402039 TestGrid.java 3204 6 61 9
