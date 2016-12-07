@@ -71,4 +71,24 @@ public class TestGrid {
 		// Assert
 		assertTrue(grid.getCells().get(0).isAlive());
 	}
+	
+	@Test
+	public void tickingAnAngleAliveCellWith2Or3AliveNeighborsMakesItStayAlive() throws NegativeCoordinateException {
+		// Arrange
+		Cell liveCell = new Cell(0, 0, true);
+		Cell liveNeighbor1 = new Cell(0, 1, true);
+		Cell deadNeighbor2 = new Cell(1, 0, false);
+		Cell deadNeighbor3 = new Cell(1, 1, true);
+
+		cells.add(liveCell);
+		cells.add(liveNeighbor1);
+		cells.add(deadNeighbor2);
+		cells.add(deadNeighbor3);
+
+		grid = new Grid(cells, 3, 3);
+		// Act
+		grid = grid.tick();
+		// Assert
+		assertTrue(grid.getCells().get(0).isAlive());
+	}
 }
