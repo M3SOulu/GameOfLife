@@ -187,9 +187,13 @@ public class TestGrid {
 
 		//Assert
 		assertEquals(5, grid.getNeighborsNumber( 1 ));
-		assertEquals(5, grid.getNeighborsNumber( 3 ));
-		assertEquals(5, grid.getNeighborsNumber( 5 ));
+		assertEquals(5, grid.getNeighborsNumber( 2 ));
+		assertEquals(5, grid.getNeighborsNumber( 4 ));
 		assertEquals(5, grid.getNeighborsNumber( 7 ));
+		assertEquals(5, grid.getNeighborsNumber( 8 ));
+		assertEquals(5, grid.getNeighborsNumber( 11 ));
+		assertEquals(5, grid.getNeighborsNumber( 13 ));
+		assertEquals(5, grid.getNeighborsNumber( 14 ));
 	}
 	
 	@Test

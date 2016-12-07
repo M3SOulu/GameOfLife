@@ -268,3 +268,4 @@ RefactoringAction 1481124486114 TestGrid.java RENAME getNeighborsCellAtTheBorder
 RefactoringAction 1481124491621 TestGrid.java ADD void getNeighborsCellAtTheBorderOfTheGrid3X3()/2 METHOD
 RefactoringAction 1481124495645 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid3X3()/2=>void getNeighborsCellAtTheBorderOfTheGrid4X4() METHOD
 EditAction 1481124511990 TestGrid.java 7583 11 134 28
+EditAction 1481124634589 TestGrid.java 7782 11 138 32
