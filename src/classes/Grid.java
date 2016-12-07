@@ -33,6 +33,7 @@ public class Grid {
 	}
 
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException {
+		if(w != h) throw new CellCoordinateOutOfBoundariesException("Grid dimension error");
 	}
 
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
