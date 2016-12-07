@@ -35,4 +35,11 @@ public class TestGrid {
 	public void grigliaQuadrataCorretta(){
 		griglia=new Grid(10,10);
 	}
+	
+	@Test
+	public void cellsIsEqualDeadOrAlive(){
+		cells=new ArrayList<>(100);
+		griglia=new Grid(10,10);
+		
+	}
 }
