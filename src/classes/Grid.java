@@ -32,17 +32,17 @@ public class Grid {
 		
 		
 		int iW = 1;
-		int iH = 0;
+		int iH = 1;
 		for (int i = 0; i < w * h; i++) {
 			
 			Cell cell = new Cell();
 			
-			if(this.width == iW) {
-				iH++;
-				iW = 1;
+			if(this.height == iH) {
+				iH = 1;
+				iW++;
 			}
-			cell.setX(iW++);
-			cell.setY(iH);
+			cell.setX(iW);
+			cell.setY(iH++);
 			
 			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 == 0) { //riga pari, colonna pari
 				cell.makeAlive();
