@@ -1,3 +1,5 @@
 FileOpenedAction 1481118883000 Cell.java 151 1 0 0
 EditAction 1481119715614 Grid.java 507 4 6 0
 EditAction 1481119716694 Cell.java 156 1 0 0
+FileOpenedAction 1481119726332 TestCell.java 178 1 1 0
+EditAction 1481119751813 TestCell.java 180 1 1 0
