@@ -32,20 +32,23 @@ public class Grid {
 		this.cells = new ArrayList<>(w * h);
 
 	}
+	
+	
 
+	
 	public String print() {
+		
+		//TODO
 		return null;
 	}
 
 	public Grid tick() {
-
+		//TODO
 		return null;
 	}
 
 	public void countCellNeighbors(int w, int h) {
-		int numberNeighborsAlive = 0;
-		int numberNeighborsDead = 0;
-		Cell altraCella;
+		//TODO
 
 	}
 
