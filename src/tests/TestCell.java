@@ -1,5 +1,7 @@
 package tests;
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 import classes.Cell;
@@ -18,8 +20,22 @@ public class TestCell {
 		
 		cell.makeDead();
 		
+		assertEquals(cell.isAlive(), false);
+	}
+	
+	@Test
+	public void makeAAliveCellDead(){
+		Cell cell = null;
+		try {
+			cell = new Cell();
+		}
+		catch (NegativeCoordinateException e) {
+			// TODO: handle exception
+		}
 		
+		cell.makeAlive();
 		
+		assertEquals(cell.isAlive(), true);
 		
 		
 	}
