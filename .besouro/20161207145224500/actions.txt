@@ -1,0 +1,20 @@
+FileOpenedAction 1481118745066 Grid.java 416 4 2 0
+FileOpenedAction 1481119093244 TestCell.java 178 1 1 0
+RefactoringAction 1481119328131 Grid.java ADD int getWidth() METHOD
+RefactoringAction 1481119328159 Grid.java ADD void setWidth(int) METHOD
+RefactoringAction 1481119344320 Grid.java ADD int getHeight() METHOD
+RefactoringAction 1481119344321 Grid.java ADD void setHeight(int) METHOD
+RefactoringAction 1481119380324 Grid.java REMOVE getHeight() METHOD
+RefactoringAction 1481119380325 Grid.java REMOVE setWidth(int) METHOD
+RefactoringAction 1481119380325 Grid.java REMOVE setHeight(int) METHOD
+RefactoringAction 1481119380325 Grid.java REMOVE getWidth() METHOD
+RefactoringAction 1481119383402 Grid.java ADD int getWidth() METHOD
+RefactoringAction 1481119383403 Grid.java ADD void setWidth(int) METHOD
+RefactoringAction 1481119383403 Grid.java ADD int getHeight() METHOD
+RefactoringAction 1481119383404 Grid.java ADD void setHeight(int) METHOD
+FileOpenedAction 1481119495688 CellCoordinateOutOfBoundariesException.java 235 1 1 0
+RefactoringAction 1481119748875 TestCell.java ADD void setUp() METHOD
+RefactoringAction 1481119751396 TestCell.java RENAME import org.junit.Assert.*=>import org.junit.Before IMPORT
+RefactoringAction 1481119769975 TestCell.java ADD Cell cell FIELD
+RefactoringAction 1481119774990 TestCell.java ADD import classes.Cell IMPORT
+EditAction 1481119778186 Grid.java 885 8 13 0
