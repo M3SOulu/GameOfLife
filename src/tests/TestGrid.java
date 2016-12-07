@@ -34,5 +34,6 @@ public class TestGrid {
 	@Test
 	public void grigliaQuadrataCorretta(){
 		griglia=new Grid(10,10);
+		assertEquals();
 	}
 }

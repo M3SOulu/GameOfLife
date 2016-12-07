@@ -16,7 +16,7 @@ public class TestCell {
 	
 	@Test(expected=NegativeCoordinateException.class)
 	public void testNegativeCoordinateForCell() throws NegativeCoordinateException{
-		cella=new Cell(-1,-1);
+		cella=new Cell(-1,-1,true);
 	}
 	
 	
