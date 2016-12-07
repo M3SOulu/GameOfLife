@@ -96,3 +96,7 @@ UnitTestCaseAction 1481120325472 TestGrid.java FAIL
 UnitTestCaseAction 1481120325472 TestCell.java OK
 UnitTestSessionAction 1481120325474 GameOfLife FAIL
 EditAction 1481120475249 Grid.java 567 4 3 0
+UnitTestCaseAction 1481120476603 TestGrid.java OK
+UnitTestCaseAction 1481120476603 TestCell.java OK
+UnitTestSessionAction 1481120476603 GameOfLife OK
+EditAction 1481120603437 Grid.java 631 4 6 0
