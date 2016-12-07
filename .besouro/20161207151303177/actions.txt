@@ -219,3 +219,4 @@ RefactoringAction 1481124472595 Grid.java RENAME controlCellsConformity=>boolean
 RefactoringAction 1481124526713 Grid.java RENAME controlCellsConformity()=>boolean controlCellsConformity(ArrayList<Cell>) METHOD
 EditAction 1481124633525 Grid.java 1216 7 14 0
 EditAction 1481124706153 Grid.java 1271 7 14 0
+EditAction 1481124711757 Grid.java 1281 7 14 0
