@@ -16,7 +16,12 @@ public class Grid {
 			if(cell.getX()>height || cell.getY()>width)
 					throw new CellCoordinateOutOfBoundariesException("CellCoordinateOutOfBoundaries");
 			
-			this.cells.add(cell);
+			for(Cell newCell: this.cells){
+				if(newCell.getX()==cell.getX() && newCell.getY()==cell.getY())
+					throw new CellCordinateDuplicate("CellCordinateDuplicate");
+				
+			}
+			
 		}
 		
 	}
