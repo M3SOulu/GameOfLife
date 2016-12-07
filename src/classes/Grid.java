@@ -21,12 +21,14 @@ public class Grid {
 	}
 
 	public String print() {
-	    
+	    return null;
 	}
 	
 	public Grid tick() {
 	    return null;
 	}
+	
+	
 	
 	
 }
