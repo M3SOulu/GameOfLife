@@ -21,9 +21,7 @@ public class Grid {
 	}
 
 	public String print() {
-	    for(int i=0;i<cells.size();i++){
-	    	
-	    }
+	    
 	}
 	
 	public Grid tick() {
