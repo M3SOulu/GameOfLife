@@ -24,11 +24,33 @@ public class Grid {
 		return null;
 	}
 
+	public int getAliveCells( ArrayList<Cell> cells ) {
+		// TODO Auto-generated method stub
+		int count = 0;
+
+		for( Cell cell : cells ){
+			if( cell.isAlive() ){
+				count++;
+			}
+		}
+
+		return count;
+	}
+	
 	public Grid tick() throws NegativeCoordinateException {
 		ArrayList<Cell> cells = new ArrayList<>();
-		for( Cell cell: this.cells ){
-			Cell cellToAdd = new Cell(false, cell.getX(), cell.getY());
-			cells.add(cellToAdd);
+		
+		for( int i = 0; i < cells.size(); i++ ){
+			if( getCornerValues().contains( i ) ){	//corner cell
+				ArrayList<Cell> neighbors = getCornerNeighbors(i);
+				int aliveCells = getAliveCells( neighbors );
+				if( aliveCells < 2 ){
+					cells.add(new Cell(false, cells.get(i).getX(), cells.get(i).getY()));
+				}
+				else{
+					cells.add(new Cell(cells.get(i).isAlive(), cells.get(i).getX(), cells.get(i).getY()));
+				}
+			}
 		}
 		
 		return new Grid(cells, width, height);
@@ -121,6 +143,35 @@ public class Grid {
 	}
 	
 	
+	
+	private ArrayList<Cell> getCornerNeighbors( int index ){
+		ArrayList<Cell> neighbors = new ArrayList<>();
+		
+		if( index == 0 ){	//first corner
+			neighbors.add( cells.get(1) );
+			neighbors.add( cells.get(width) );
+			neighbors.add( cells.get( width+1 ) );
+		}
+		else if( index == width-1 ){	//second corner
+			neighbors.add( cells.get(width-2) );
+			neighbors.add( cells.get(width*2 -2) );
+			neighbors.add( cells.get( width*2 -1 ) );
+		}
+		else if( index == width*height - width ){	//third corner
+			neighbors.add( cells.get(width*height - (width*2)) );
+			neighbors.add( cells.get(width*height - (width*2) + 1) );
+			neighbors.add( cells.get(width*height - (width-1)) );
+		}
+		else if( index == width*height -1 ){	//fourth corner
+			neighbors.add( cells.get(width*height -2) );
+			neighbors.add( cells.get(width*height - width - 1) );
+			neighbors.add( cells.get(width*height - width - 2 ) );
+		}
+		
+		return neighbors;
+	}
+	
+	
 
 	/**
 	 * 
@@ -192,5 +243,15 @@ public class Grid {
 		
 
 		return 0;
+	}
+	
+	public ArrayList<Cell> getNeighbors(int index) {
+		// TODO Auto-generated method stub
+		if( getCornerValues().contains( index ) ){	//corner cell
+			return getCornerNeighbors( index );
+		}
+		
+
+		return null;
 	}
 }
