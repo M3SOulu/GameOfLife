@@ -1,0 +1,152 @@
+FileOpenedAction 1481118932471 Grid.java 416 4 2 0
+FileOpenedAction 1481119171240 TestCell.java 178 1 1 0
+FileOpenedAction 1481119171959 TestGrid.java 181 1 1 0
+FileOpenedAction 1481119412184 CellCoordinateOutOfBoundariesException.java 235 1 1 0
+FileOpenedAction 1481119416042 CustomLifeException.java 189 1 1 0
+FileOpenedAction 1481119420268 NegativeCoordinateException.java 205 1 1 0
+EditAction 1481119657187 TestCell.java 179 1 1 0
+EditAction 1481119657754 Cell.java 151 1 0 0
+FileOpenedAction 1481119674501 Cell.java 151 1 0 0
+UnitTestCaseAction 1481119837429 TestGrid.java FAIL
+UnitTestSessionAction 1481119837439 TestGrid FAIL
+RefactoringAction 1481119879027 TestCell.java ADD Cell cell FIELD
+RefactoringAction 1481119903072 TestCell.java ADD void inizialize() METHOD
+RefactoringAction 1481119918678 TestCell.java ADD import classes.Cell IMPORT
+RefactoringAction 1481119921530 TestCell.java ADD import org.junit.Before IMPORT
+RefactoringAction 1481119931770 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
+RefactoringAction 1481120203184 Cell.java ADD int getX() METHOD
+RefactoringAction 1481120203184 Cell.java ADD void setX(int) METHOD
+RefactoringAction 1481120203184 Cell.java ADD int getY() METHOD
+RefactoringAction 1481120203185 Cell.java ADD void setY(int) METHOD
+RefactoringAction 1481120203185 Cell.java ADD boolean isAlive() METHOD
+RefactoringAction 1481120203185 Cell.java ADD void setAlive(boolean) METHOD
+EditAction 1481120221802 Cell.java 436 7 6 0
+RefactoringAction 1481120252280 Cell.java ADD Cell()/2 METHOD
+RefactoringAction 1481120297862 Cell.java RENAME Cell()/2=>Cell(int) METHOD
+RefactoringAction 1481120305416 Cell.java RENAME Cell(int)=>Cell(int, int) METHOD
+RefactoringAction 1481120308924 Cell.java RENAME Cell(int, int)=>Cell(int, int, boolean) METHOD
+EditAction 1481120335433 Cell.java 523 8 6 0
+EditAction 1481120491185 TestCell.java 400 2 2 0
+EditAction 1481120491294 Cell.java 550 8 6 0
+CompilationAction 1481120491421 Cell.java
+EditAction 1481120491436 TestGrid.java 183 1 1 0
+RefactoringAction 1481120586872 Grid.java ADD ArrayList<Cell> getCells() METHOD
+RefactoringAction 1481120586873 Grid.java ADD void setCells(ArrayList<Cell>) METHOD
+RefactoringAction 1481120586881 Grid.java ADD int getWidth() METHOD
+RefactoringAction 1481120586881 Grid.java ADD void setWidth(int) METHOD
+RefactoringAction 1481120586881 Grid.java ADD int getHeight() METHOD
+RefactoringAction 1481120586882 Grid.java ADD void setHeight(int) METHOD
+EditAction 1481120606945 Grid.java 764 10 8 0
+CompilationAction 1481120607084 Cell.java
+FileOpenedAction 1481120836384 CellCoordinateOutOfBoundariesException.java 235 1 1 0
+RefactoringAction 1481120889864 TestGrid.java ADD Grid grid FIELD
+RefactoringAction 1481120892267 TestGrid.java ADD import classes.Grid IMPORT
+RefactoringAction 1481120911448 TestGrid.java ADD void inizialize() METHOD
+RefactoringAction 1481120914207 TestGrid.java ADD import org.junit.Before IMPORT
+RefactoringAction 1481120953524 TestGrid.java ADD int x FIELD
+RefactoringAction 1481120953524 TestGrid.java ADD int y FIELD
+RefactoringAction 1481120995583 TestGrid.java ADD ArrayList<Cell> cell FIELD
+RefactoringAction 1481121002502 TestGrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1481121005405 TestGrid.java ADD import classes.Cell IMPORT
+RefactoringAction 1481121041129 TestGrid.java ADD void firstGridTest()/2 METHOD
+RefactoringAction 1481121047135 TestGrid.java RENAME firstGridTest()/2=>void Grid() METHOD
+RefactoringAction 1481121049142 TestGrid.java RENAME Grid()=>void GridC() METHOD
+RefactoringAction 1481121051649 TestGrid.java RENAME GridC()=>void GridCoordinate() METHOD
+RefactoringAction 1481121053157 TestGrid.java RENAME GridCoordinate()=>void GridCoordinateOut() METHOD
+RefactoringAction 1481121055180 TestGrid.java RENAME GridCoordinateOut()=>void GridCoordinateOutOf() METHOD
+RefactoringAction 1481121058195 TestGrid.java RENAME GridCoordinateOutOf()=>void GridCoordinateOutOfBound() METHOD
+EditAction 1481121099252 Grid.java 859 10 9 0
+EditAction 1481121099379 TestGrid.java 525 3 3 0
+EditAction 1481121099492 Cell.java 555 8 6 0
+EditAction 1481121331473 Grid.java 778 10 9 0
+RefactoringAction 1481121346235 TestGrid.java RENAME GridCoordinateOutOfBound()=>void GridCoordinate() METHOD
+EditAction 1481121476487 TestGrid.java 497 3 3 1
+UnitTestCaseAction 1481121476997 TestGrid.java FAIL
+UnitTestSessionAction 1481121476998 TestGrid FAIL
+RefactoringAction 1481121510888 TestGrid.java REMOVE firstGridTest() METHOD
+EditAction 1481121518920 TestGrid.java 416 2 2 1
+RefactoringAction 1481121560016 TestCell.java RENAME firstCellTest()=>void NegativeCoordinateExceptionTest() METHOD
+RefactoringAction 1481121674115 TestCell.java ADD int x FIELD
+RefactoringAction 1481121678621 TestCell.java ADD int y FIELD
+RefactoringAction 1481121774761 TestCell.java ADD boolean alive FIELD
+EditAction 1481121829011 Cell.java 617 8 7 0
+RefactoringAction 1481121884305 TestCell.java REMOVE y FIELD
+RefactoringAction 1481121884305 TestCell.java REMOVE alive FIELD
+RefactoringAction 1481121884305 TestCell.java REMOVE x FIELD
+EditAction 1481122096075 Grid.java 767 10 8 0
+EditAction 1481122096203 Cell.java 522 8 6 0
+EditAction 1481122096331 TestCell.java 404 2 2 1
+RefactoringAction 1481122125305 Cell.java REMOVE Cell(int, int, boolean) METHOD
+EditAction 1481122314635 Grid.java 869 10 11 0
+CompilationAction 1481122314771 Grid.java
+EditAction 1481122314782 Cell.java 439 7 6 0
+CompilationAction 1481122315852 Grid.java
+CompilationAction 1481122315852 TestCell.java
+EditAction 1481122650664 Cell.java 436 7 6 0
+CompilationAction 1481122650798 TestCell.java
+EditAction 1481122834981 Grid.java 930 10 13 0
+RefactoringAction 1481122958292 Grid.java ADD import java.util.Iterator IMPORT
+EditAction 1481123130404 TestCell.java 396 2 2 1
+EditAction 1481123130517 TestGrid.java 396 2 1 0
+UnitTestCaseAction 1481123133900 TestGrid.java OK
+UnitTestSessionAction 1481123133901 TestGrid OK
+RefactoringAction 1481123365444 Cell.java REMOVE getX() METHOD
+RefactoringAction 1481123365444 Cell.java REMOVE setX(int) METHOD
+RefactoringAction 1481123365444 Cell.java REMOVE getY() METHOD
+RefactoringAction 1481123365445 Cell.java REMOVE isAlive() METHOD
+RefactoringAction 1481123365445 Cell.java REMOVE setAlive(boolean) METHOD
+RefactoringAction 1481123365445 Cell.java REMOVE setY(int) METHOD
+EditAction 1481123371562 Cell.java 153 1 0 0
+RefactoringAction 1481123580043 Grid.java REMOVE getCells() METHOD
+RefactoringAction 1481123580043 Grid.java REMOVE getHeight() METHOD
+RefactoringAction 1481123580043 Grid.java REMOVE setWidth(int) METHOD
+RefactoringAction 1481123580043 Grid.java REMOVE setCells(ArrayList<Cell>) METHOD
+RefactoringAction 1481123580044 Grid.java REMOVE setHeight(int) METHOD
+RefactoringAction 1481123580044 Grid.java REMOVE getWidth() METHOD
+RefactoringAction 1481123584568 Grid.java ADD ArrayList<Cell> getCells() METHOD
+RefactoringAction 1481123584569 Grid.java ADD void setCells(ArrayList<Cell>) METHOD
+RefactoringAction 1481123584569 Grid.java ADD int getWidth() METHOD
+RefactoringAction 1481123584570 Grid.java ADD void setWidth(int) METHOD
+RefactoringAction 1481123584571 Grid.java ADD int getHeight() METHOD
+RefactoringAction 1481123584571 Grid.java ADD void setHeight(int) METHOD
+RefactoringAction 1481124269521 Cell.java ADD int getX() METHOD
+RefactoringAction 1481124269521 Cell.java ADD void setX(int) METHOD
+RefactoringAction 1481124269521 Cell.java ADD int getY() METHOD
+RefactoringAction 1481124269522 Cell.java ADD void setY(int) METHOD
+RefactoringAction 1481124269522 Cell.java ADD boolean isAlive() METHOD
+RefactoringAction 1481124269522 Cell.java ADD void setAlive(boolean) METHOD
+EditAction 1481124278603 Cell.java 430 7 6 0
+CompilationAction 1481124278884 Grid.java
+CompilationAction 1481124278884 Grid.java
+CompilationAction 1481124508315 Grid.java
+CompilationAction 1481124508315 Grid.java
+CompilationAction 1481124508476 Grid.java
+CompilationAction 1481124520202 Grid.java
+RefactoringAction 1481124528161 Grid.java REMOVE import java.util.Iterator IMPORT
+UnitTestCaseAction 1481124830766 TestGrid.java OK
+UnitTestSessionAction 1481124830766 TestGrid OK
+UnitTestCaseAction 1481124835613 TestCell.java FAIL
+UnitTestSessionAction 1481124835619 TestCell FAIL
+RefactoringAction 1481125699704 Grid.java ADD import java.util.Iterator IMPORT
+RefactoringAction 1481126032359 TestCell.java ADD print print FIELD
+RefactoringAction 1481126059866 TestCell.java REMOVE print FIELD
+RefactoringAction 1481126175567 TestCell.java ADD import classes.Grid IMPORT
+EditAction 1481126202191 Grid.java 1183 10 17 0
+EditAction 1481126202298 TestCell.java 427 2 2 1
+EditAction 1481126202411 TestGrid.java 396 2 1 0
+EditAction 1481126202519 Cell.java 432 7 6 0
+CompilationAction 1481126202833 TestCell.java
+CompilationAction 1481126224927 TestCell.java
+CompilationAction 1481126225085 TestCell.java
+EditAction 1481126243708 TestCell.java 417 2 2 1
+RefactoringAction 1481126248028 TestCell.java REMOVE import classes.Grid IMPORT
+EditAction 1481127006127 TestGrid.java 418 2 2 1
+EditAction 1481127016993 Grid.java 1319 10 19 0
+RefactoringAction 1481127880749 TestGrid.java ADD import classes.CustomLifeException IMPORT
+EditAction 1481127891893 Grid.java 1319 10 19 0
+UnitTestCaseAction 1481127892555 TestGrid.java FAIL
+UnitTestSessionAction 1481127892555 TestGrid FAIL
+RefactoringAction 1481127994076 TestGrid.java ADD import classes.CellCoordinateOutOfBoundariesException IMPORT
+UnitTestCaseAction 1481128004328 TestGrid.java FAIL
+UnitTestSessionAction 1481128004329 TestGrid FAIL
+EditAction 1481128027758 TestGrid.java 568 2 2 1
