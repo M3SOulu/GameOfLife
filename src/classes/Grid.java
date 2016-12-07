@@ -29,13 +29,17 @@ public class Grid {
 
 	public String print() {
 		String res = "";
+		int count = 1;
 		for (int i = 0; i < width * height; i++) {
+			count++;
 			if (cells.get(i).getAlive())
 				res += "*";
 			else
 				res += "-";
-			if(i+1-width==0)
-				res+="/n";
+			if (count - width == 0) {
+				res += "/n";
+				count = 1;
+			}
 		}
 		return res;
 	}
