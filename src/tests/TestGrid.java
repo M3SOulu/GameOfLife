@@ -311,10 +311,10 @@ public class TestGrid {
 
 		Grid grid = new Grid(cells, 2, 2);
 		
-		grid.tick();
+		Grid grid2 = grid.tick();
 		
-		assertEquals( 4, grid.getDeadCells() );
-		assertEquals( 0, grid.getAliveCells() );
+		assertEquals( 4, grid2.getDeadCells() );
+		assertEquals( 0, grid2.getAliveCells() );
 	}
 	
 	
