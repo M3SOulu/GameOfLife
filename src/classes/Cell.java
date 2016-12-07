@@ -38,7 +38,14 @@ public class Cell {
 	public int getY(){
 		return y;
 	}
+	
+	public int getNeighbors(){
+		return neighbors;
+	}
 
+	public void setNeighbors(int n){
+		neighbors=n;
+	}
 	
 	
 }

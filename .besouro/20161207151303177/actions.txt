@@ -256,3 +256,10 @@ RefactoringAction 1481126743717 Cell.java RENAME n=>int nei FIELD
 RefactoringAction 1481126744736 Cell.java RENAME nei=>int neigh FIELD
 RefactoringAction 1481126746247 Cell.java RENAME neigh=>int neighbors FIELD
 EditAction 1481126755944 Cell.java 667 7 9 0
+RefactoringAction 1481126765288 Cell.java ADD int get FIELD
+RefactoringAction 1481126766306 Cell.java RENAME get=>int getNe FIELD
+RefactoringAction 1481126769817 Cell.java RENAME getNe=>int getNeighbors() METHOD
+RefactoringAction 1481126792887 Cell.java ADD void setNeighbors FIELD
+RefactoringAction 1481126794896 Cell.java RENAME setNeighbors=>void setNeighbors() METHOD
+RefactoringAction 1481126796407 Cell.java RENAME setNeighbors()=>void setNeighbors(int) METHOD
+EditAction 1481126807332 Cell.java 772 9 11 0
