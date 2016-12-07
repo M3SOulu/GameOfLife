@@ -11,8 +11,14 @@ public class TestCell {
 	Cell cell;
 	
 	@Test(expected = NegativeCoordinateException.class)
-	public void constructingACellWithNegativeCoordinateShouldRiseAnException() throws NegativeCoordinateException{
+	public void constructingACellWithNegativeXShouldRiseAnException() throws NegativeCoordinateException{
 		//Arrange & Act
 		cell = new Cell(-1, 0, true);
+	}
+	
+	@Test(expected = NegativeCoordinateException.class)
+	public void constructingACellWithNegativeYShouldRiseAnException() throws NegativeCoordinateException{
+		//Arrange & Act
+		cell = new Cell(0, 1, true);
 	}
 }

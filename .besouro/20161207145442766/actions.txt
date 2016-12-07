@@ -40,3 +40,12 @@ UnitTestCaseAction 1481119699171 TestGrid.java FAIL
 UnitTestCaseAction 1481119699171 TestCell.java FAIL
 UnitTestSessionAction 1481119699179 GameOfLife FAIL
 EditAction 1481119756394 Cell.java 576 7 10 0
+UnitTestCaseAction 1481119758423 TestGrid.java FAIL
+UnitTestCaseAction 1481119758423 TestCell.java OK
+UnitTestSessionAction 1481119758424 GameOfLife FAIL
+RefactoringAction 1481119778202 TestCell.java RENAME constructingACellWithNegativeCoordinateShouldRiseAnException()=>void constructingACellWithNegativeXShouldRiseAnException() METHOD
+RefactoringAction 1481119783729 TestCell.java RENAME constructingACellWithNegativeXShouldRiseAnException()=>void constructingACellWithNegativeCoordinateShouldRiseAnException() METHOD
+RefactoringAction 1481119785258 TestCell.java RENAME constructingACellWithNegativeCoordinateShouldRiseAnException()=>void constructingACellWithNegativeXShouldRiseAnException() METHOD
+RefactoringAction 1481119793288 TestCell.java ADD void constructingACellWithNegativeXShouldRiseAnException()/2 METHOD
+RefactoringAction 1481119798318 TestCell.java RENAME constructingACellWithNegativeXShouldRiseAnException()/2=>void constructingACellWithNegativeYShouldRiseAnException() METHOD
+EditAction 1481119807684 TestCell.java 601 2 2 0
