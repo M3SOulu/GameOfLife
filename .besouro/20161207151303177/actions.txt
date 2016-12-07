@@ -137,3 +137,12 @@ RefactoringAction 1481122859345 Grid.java ADD static void main() METHOD
 RefactoringAction 1481122862857 Grid.java RENAME main()=>static void main(String) METHOD
 RefactoringAction 1481122863876 Grid.java RENAME main(String)=>static void main(String METHOD
 EditAction 1481122876702 Grid.java 919 7 11 0
+CompilationAction 1481122876869 Grid.java
+CompilationAction 1481122876869 Grid.java
+CompilationAction 1481122942334 Grid.java
+CompilationAction 1481122942334 Grid.java
+CompilationAction 1481122942509 Grid.java
+CompilationAction 1481122952271 Grid.java
+UnitTestCaseAction 1481123022949 TestGrid.java FAIL
+UnitTestSessionAction 1481123022950 TestGrid FAIL
+EditAction 1481123055821 Grid.java 1167 7 18 0
