@@ -244,3 +244,5 @@ RefactoringAction 1481123633117 isNotDeadAliveEqualsException.java ADD isNotDead
 FileOpenedAction 1481123633291 isNotDeadAliveEqualsException.java 89 0 0 0
 RefactoringAction 1481123642793 isNotDeadAliveEqualsException.java ADD isNotDeadAliveEqualsException() METHOD
 EditAction 1481123646094 isNotDeadAliveEqualsException.java 145 1 1 0
+CompilationAction 1481123646388 isNotDeadAliveEqualsException.java
+EditAction 1481123649304 Grid.java 1161 5 16 0
