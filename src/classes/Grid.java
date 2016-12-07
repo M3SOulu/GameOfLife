@@ -75,7 +75,7 @@ public class Grid {
 				} else {
 					state = "-";
 				}
-				sGrid = sGrid + state;
+				sGrid = sGrid + state + "1";
 			}
 		}
 		
