@@ -23,7 +23,7 @@ public class TestGrid {
 		
 		Grid grid = new Grid(2, 2);
 		
-		assertEquals(grid.print(), "*-\\n");
+		assertEquals(grid.print(), "*-\n");
 		
 
 	}
