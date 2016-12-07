@@ -42,7 +42,7 @@ public class Grid {
 				iW++;
 			}
 			cell.setX(iW);
-			cell.setY(iH++);
+			cell.setY(iH);
 			
 			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 == 0) { //riga pari, colonna pari
 				cell.makeAlive();
