@@ -15,3 +15,4 @@ RefactoringAction 1481119999813 Cell.java ADD void cell(including) METHOD
 RefactoringAction 1481120004342 Cell.java REMOVE cell(including) METHOD
 RefactoringAction 1481120004342 Cell.java REMOVE unique() METHOD
 EditAction 1481120078677 Cell.java 345 2 4 0
+EditAction 1481120091695 Cell.java 360 2 4 0
