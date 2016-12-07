@@ -59,8 +59,7 @@ public class Grid {
 			currentCell = iterator.next();
 			if (currentCell.isAlive()) {
 				alive++;
-			} else
-				dead++;
+			} else dead++;
 		}
 
 		if (dead != alive)
