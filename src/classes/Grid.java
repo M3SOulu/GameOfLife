@@ -26,6 +26,11 @@ public class Grid {
 		this.width = w;
 		this.height = h;
 		
+		for (int i = 0; i < w * h; i++) {
+			Cell cell = new Cell()
+			this.cells.add()
+		}
+		
 		
 	}
 

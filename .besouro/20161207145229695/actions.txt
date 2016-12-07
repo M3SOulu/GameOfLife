@@ -90,3 +90,4 @@ RefactoringAction 1481122652457 TestGrid.java RENAME areCellsInGridInizialize()=
 RefactoringAction 1481122656478 TestGrid.java RENAME areCellsInGridInizializ()=>void areCellsInGridInizialized() METHOD
 RefactoringAction 1481122865222 Cell.java ADD import java.util.Random IMPORT
 EditAction 1481122933436 Cell.java 605 4 7 0
+EditAction 1481122933527 Grid.java 791 4 6 0
