@@ -336,3 +336,31 @@ CompilationAction 1481125564614 TestGrid.java
 CompilationAction 1481125564615 TestGrid.java
 CompilationAction 1481125564615 TestGrid.java
 EditAction 1481125564627 Grid.java 2362 13 29 0
+CompilationAction 1481125564826 TestGrid.java
+CompilationAction 1481125564827 TestGrid.java
+CompilationAction 1481125564827 TestGrid.java
+UnitTestCaseAction 1481125567897 TestGrid.java FAIL
+UnitTestSessionAction 1481125567898 TestGrid FAIL
+CompilationAction 1481125601314 TestGrid.java
+CompilationAction 1481125601477 TestGrid.java
+CompilationAction 1481125601478 TestGrid.java
+CompilationAction 1481125601478 TestGrid.java
+RefactoringAction 1481125636228 TestGrid.java RENAME aliveCells()=>void isCorrectlyInitialized() METHOD
+RefactoringAction 1481125640241 TestGrid.java REMOVE gridStateStringIsCorrect FIELD
+RefactoringAction 1481125643771 TestGrid.java ADD void gridStateStringIsCorrect FIELD
+CompilationAction 1481125658882 TestGrid.java
+CompilationAction 1481125659044 TestGrid.java
+CompilationAction 1481125659045 TestGrid.java
+CompilationAction 1481125659045 TestGrid.java
+RefactoringAction 1481125663337 TestGrid.java REMOVE gridStateStringIsCorrect FIELD
+RefactoringAction 1481125666362 TestGrid.java ADD void gridStateStringIsCorrect FIELD
+RefactoringAction 1481125698396 TestGrid.java REMOVE gridStateStringIsCorrect() METHOD
+RefactoringAction 1481125701415 TestGrid.java ADD void gridStateStringIsCorrect() METHOD
+CompilationAction 1481125886843 TestGrid.java
+UnitTestCaseAction 1481125887275 TestGrid.java OK
+UnitTestSessionAction 1481125887276 TestGrid OK
+UnitTestCaseAction 1481125889356 TestGrid.java OK
+UnitTestSessionAction 1481125889357 TestGrid OK
+UnitTestCaseAction 1481125890392 TestGrid.java OK
+UnitTestSessionAction 1481125890392 TestGrid OK
+EditAction 1481125999411 Grid.java 2418 13 29 0

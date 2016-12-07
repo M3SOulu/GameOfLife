@@ -46,9 +46,9 @@ public class TestGrid {
 	public void gridWithDifferentWidthAndHeight() throws CustomLifeException {
 		g = new Grid(cells, width - 1, height);
 	}
-
+	
 	@Test
-	public void aliveCells() throws CustomLifeException {
+	public void isCorrectlyInitialized() throws CustomLifeException {
 		g = new Grid(cells, width, height);
 		cells = g.getCells();
 
@@ -64,9 +64,21 @@ public class TestGrid {
 		}
 		assertEquals(Math.min(aliveCells, deadCells), width * height / 2);
 	}
-
+	
 	@Test
-	public void gridStateStringIsCorrect throws CustomLifeException{
+	public void gridStateStringIsCorrect() throws CustomLifeException{
+		g = new Grid(cells, width, height);
+		cells = g.getCells();
+		char[] charOfState = g.printState().toCharArray();
+		int i=0;
 		
+		for(Cell c:cells){
+			if (c.getState()){
+				assertEquals(charOfState[i++],'*');
+			}
+			else{
+				assertEquals(charOfState[i++],'-');
+			}
+		}
 	}
 }
