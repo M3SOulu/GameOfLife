@@ -251,3 +251,6 @@ UnitTestSessionAction 1481124099420 TestGrid OK
 EditAction 1481124184483 TestGrid.java 6599 10 112 24
 RefactoringAction 1481124187551 TestGrid.java REMOVE getNeighborsCellAtTheBorderOfTheGrid() METHOD
 EditAction 1481124189455 TestGrid.java 6647 9 97 20
+UnitTestCaseAction 1481124189948 TestGrid.java OK
+UnitTestSessionAction 1481124189949 TestGrid OK
+EditAction 1481124193081 TestGrid.java 6599 10 112 24
