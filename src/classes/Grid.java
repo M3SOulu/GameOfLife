@@ -170,7 +170,7 @@ public class Grid {
 			return 5;
 		}
 		if( getInsideValues().contains(index) ){	//border cell			
-			return 5;
+			return 8;
 		}
 		
 

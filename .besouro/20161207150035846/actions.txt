@@ -322,3 +322,4 @@ RefactoringAction 1481126312083 Grid.java ADD ArrayList<Integer> getBorderValues
 RefactoringAction 1481126326591 Grid.java RENAME getBorderValues()/2=>ArrayList<Integer> getIsValues() METHOD
 RefactoringAction 1481126334100 Grid.java RENAME getIsValues()=>ArrayList<Integer> getInsideValues() METHOD
 EditAction 1481126411569 Grid.java 3186 14 41 0
+EditAction 1481126414785 Grid.java 3186 14 41 0
