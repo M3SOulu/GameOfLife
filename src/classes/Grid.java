@@ -25,6 +25,14 @@ public class Grid {
 		
 	}
 
+	public Cell[][] getGrid() {
+		return grid;
+	}
+
+	public void setGrid(Cell[][] grid) {
+		this.grid = grid;
+	}
+
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
 		this(new ArrayList<Cell>(), w, h);
 	}

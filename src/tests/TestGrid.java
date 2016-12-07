@@ -49,7 +49,7 @@ public class TestGrid {
 		// Act
 		grid = grid.tick();
 		// Assert
-		assertTrue(!grid.getCells().get(0).isAlive());
+		assertTrue(!grid.getGrid()[0][0].isAlive());
 	}
 	
 	@Test
@@ -69,7 +69,7 @@ public class TestGrid {
 		// Act
 		grid = grid.tick();
 		// Assert
-		assertTrue(grid.getCells().get(0).isAlive());
+		assertTrue(grid.getGrid()[0][0].isAlive());
 	}
 	
 	@Test
@@ -89,7 +89,7 @@ public class TestGrid {
 		// Act
 		grid = grid.tick();
 		// Assert
-		assertTrue(grid.getCells().get(0).isAlive());
+		assertTrue(grid.getGrid()[0][0].isAlive());
 	}
 	
 	@Test
@@ -114,7 +114,7 @@ public class TestGrid {
 		// Act
 		grid = grid.tick();
 		// Assert
-		assertTrue(!grid.getCells().get(0).isAlive());
+		assertTrue(!grid.getGrid()[0][1].isAlive());
 	}
 	
 	@Test
@@ -139,6 +139,6 @@ public class TestGrid {
 		// Act
 		grid = grid.tick();
 		// Assert
-		assertTrue(!grid.getCells().get(0).isAlive());
+		assertTrue(!grid.getGrid()[1][1].isAlive());
 	}
 }
