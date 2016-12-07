@@ -77,6 +77,15 @@ public class TestGrid {
 			}
 		}
 		grid = new Grid(arrayCell, 4, 4);
+		grid.calculateNeighbors();
+		Cell cell = new Cell(2,2);
+		for (Cell newCell : arrayCell){
+			if(cell.equals(newCell)){
+				cell=newCell;
+				break;
+			}
+		}
+		assertTrue(cell.getNeighbors()==8);
 	}
 	
 
