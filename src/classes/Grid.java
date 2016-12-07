@@ -8,7 +8,7 @@ public class Grid {
 	private int height;
 
 
-	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
+	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate{
 		width=w;
 		height=h;
 		this.cells=new ArrayList<Cell>();
@@ -18,10 +18,10 @@ public class Grid {
 			
 			for(Cell newCell: this.cells){
 				if(newCell.getX()==cell.getX() && newCell.getY()==cell.getY())
-					throw new CellCordinateDuplicate("CellCordinateDuplicate");
-				
+					throw new CellCoordinateDuplicate("CellCordinateDuplicate");
 			}
 			
+			this.cells.add(cell);
 		}
 		
 	}

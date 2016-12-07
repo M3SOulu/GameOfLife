@@ -160,3 +160,6 @@ CompilationAction 1481123369988 Grid.java
 FileOpenedAction 1481123402967 CellCoordinateDuplicate.java 151 1 1 0
 RefactoringAction 1481123412914 CellCoordinateDuplicate.java ADD long serialVersionUID FIELD
 EditAction 1481123417770 CellCoordinateDuplicate.java 222 1 1 0
+CompilationAction 1481123504796 Grid.java
+CompilationAction 1481123504975 TestGrid.java
+EditAction 1481123509034 TestGrid.java 805 3 7 1
