@@ -13,12 +13,15 @@ public class Grid {
 		setHeight(h);
 		grid = new Cell[width][height];
 		this.cells = cells;
+		
+		//Carica le celle nella griglia
 		for (int i = 0; i < cells.size(); i++) {
 			if (cells.get(i).getX() > w || cells.get(i).getY() > h)
 				throw new CellCoordinateOutOfBoundariesException("");
 			else
 				grid[cells.get(i).getX()][cells.get(i).getY()] = cells.get(i);
 		}
+		
 	}
 
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
@@ -32,8 +35,8 @@ public class Grid {
 	public Grid tick() throws NegativeCoordinateException {
 		ArrayList<Cell> tickedCells = new ArrayList<Cell>();
 
-		for (int i = 0; i < 4; i++) {
-			for (int j = 0; j < 4; j++) {
+		for (int i = 0; i < width; i++) {
+			for (int j = 0; j < height; j++) {
 				if (grid[i][j].isAlive() && countAliveNeighbors(i, j) < 2)
 					tickedCells.add(new Cell(i, j, false));
 				else if (grid[i][j].isAlive() && (countAliveNeighbors(i, j) == 2 || countAliveNeighbors(i, j) == 3))
