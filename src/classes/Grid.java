@@ -71,9 +71,7 @@ public class Grid {
 	public String print() {
 		String sGrid = "";
 			for (Cell c : cells) {
-				if(c.getY() == height) {
-					sGrid = sGrid + "\n";
-				}
+				
 				String state;
 				if(c.isAlive()) {
 					state = "*";
@@ -81,6 +79,9 @@ public class Grid {
 					state = "-";
 				}
 				sGrid = sGrid + state;
+				if(c.getY() == height) {
+					sGrid = sGrid + "\n";
+				}
 			}
 		
 		
