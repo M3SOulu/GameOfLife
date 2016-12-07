@@ -39,14 +39,14 @@ public class Grid {
 	public boolean isEqualsAliveDead(){
 		int alive=0;
 		int dead=0;
-		while(cellIterator.hasNext()){
-			if(cellIterator.next().getAlive()==true){
+		for(int i=0;i<cells.size();i++){
+			if(cells.get(i).getAlive()=true){
 				alive++;
 			}else{
 				dead++;
 			}
 		}
-		return true;
+		return alive==dead;
 	}
 	
 	
