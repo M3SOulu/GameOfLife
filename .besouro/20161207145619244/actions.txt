@@ -1,0 +1,15 @@
+FileOpenedAction 1481118979299 Cell.java 151 1 0 0
+FileOpenedAction 1481119042572 Grid.java 416 4 2 0
+FileOpenedAction 1481119638438 NegativeCoordinateException.java 205 1 1 0
+RefactoringAction 1481120048846 Cell.java ADD Cell()/2 METHOD
+RefactoringAction 1481120057404 Cell.java RENAME Cell()/2=>Cell(int, int) METHOD
+RefactoringAction 1481120068451 Cell.java RENAME Cell(int, int)=>Cell(int, int, boolean) METHOD
+FileOpenedAction 1481120165283 NegativeCoordinateException.java 205 1 1 0
+FileOpenedAction 1481120313612 TestCell.java 178 1 1 0
+RefactoringAction 1481120369694 TestCell.java ADD void setUp() METHOD
+RefactoringAction 1481120395253 TestCell.java ADD import org.junit.Before IMPORT
+RefactoringAction 1481120407343 TestCell.java ADD void setUp()/2 METHOD
+RefactoringAction 1481120433895 TestCell.java RENAME setUp()/2=>void Tear() METHOD
+RefactoringAction 1481120435907 TestCell.java RENAME Tear()=>void TearDown() METHOD
+RefactoringAction 1481120439633 TestCell.java ADD import org.junit.After IMPORT
+EditAction 1481120452222 Cell.java 339 2 4 0
