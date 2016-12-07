@@ -139,3 +139,10 @@ UnitTestCaseAction 1481121797775 TestGrid.java OK
 UnitTestSessionAction 1481121797776 TestGrid OK
 EditAction 1481121812329 TestGrid.java 1465 3 25 6
 EditAction 1481121814298 TestGrid.java 1462 3 25 6
+RefactoringAction 1481122167300 TestGrid.java ADD void get FIELD
+RefactoringAction 1481122169812 TestGrid.java RENAME get=>void getNeight FIELD
+RefactoringAction 1481122170827 TestGrid.java RENAME getNeight=>void getNeigh FIELD
+RefactoringAction 1481122176342 TestGrid.java RENAME getNeigh=>void getNeighbors FIELD
+RefactoringAction 1481122179348 TestGrid.java RENAME getNeighbors=>void getNeighborsCellIn FIELD
+RefactoringAction 1481122188854 TestGrid.java RENAME getNeighborsCellIn=>void getNeighborsCellInsideTheGrid() METHOD
+EditAction 1481122211367 TestGrid.java 2060 4 38 8
