@@ -80,5 +80,6 @@ public class TestGrid {
 				assertEquals(charOfState[i++],'-');
 			}
 		}
+		System.out.println(g.printState());
 	}
 }
