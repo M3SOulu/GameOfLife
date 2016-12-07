@@ -37,12 +37,13 @@ public class Grid {
 			
 			Cell cell = new Cell();
 			
+			
+			cell.setX(iW);
+			cell.setY(iH++);
 			if(this.height == iH) {
 				iH = 1;
 				iW++;
 			}
-			cell.setX(iW);
-			cell.setY(iH++);
 			
 			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 == 0) { //riga pari, colonna pari
 				cell.makeAlive();
