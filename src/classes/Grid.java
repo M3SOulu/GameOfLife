@@ -1,6 +1,7 @@
 package classes;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Grid {
 	private ArrayList<Cell> cells;
@@ -8,17 +9,41 @@ public class Grid {
 	private int height;
 
 
-	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
+	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException{
+		if(w!=h) throw new CellCoordinateOutOfBoundariesException("");
+		width=w;
+		height=h;
+		if(cells==null){
+			randomGrid();
+		}else{this.cells=cells;}
 	}
 	
-	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
+	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException {
+		this(null, w, h);
 	}
 
 	public String print() {
-	    return null;
+	    return  null;
 	}
 	
 	public Grid tick() {
 	    return null;
+	}
+	
+	
+	private void randomGrid() throws NegativeCoordinateException{
+		Cell cell;
+		Random random = new Random();
+		int r;
+		for(int i=0; i<width; i++){
+			for(int y=0; y<height; y++){
+				r = random.nextInt(2);
+				if(r==0)
+					cell=new Cell(i, y, true);
+				else
+					cell=new Cell(i, y, false);
+				cells.add(cell);
+			}
+		}
 	}
 }

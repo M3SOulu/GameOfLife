@@ -25,12 +25,20 @@ public class TestGrid {
 		
 	}
 	
-	
+
 	@Test(expected = CellCoordinateOutOfBoundariesException.class)
 	public void testCellCoordinateOutOfBoundariesException() throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException{
 		//Arrange
 		//Act
 		grid=new Grid(null, 10, 4);
+		//Assert
+	}
+	
+	@Test(expected = NegativeCoordinateException.class)
+	public void testNegativeCoordinateException() throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException{
+		//Arrange
+		//Act
+		grid=new Grid(null, -10, -10);
 		//Assert
 	}
 }
