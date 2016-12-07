@@ -76,3 +76,5 @@ RefactoringAction 1481121884305 TestCell.java REMOVE x FIELD
 EditAction 1481122096075 Grid.java 767 10 8 0
 EditAction 1481122096203 Cell.java 522 8 6 0
 EditAction 1481122096331 TestCell.java 404 2 2 1
+RefactoringAction 1481122125305 Cell.java REMOVE Cell(int, int, boolean) METHOD
+EditAction 1481122314635 Grid.java 869 10 11 0

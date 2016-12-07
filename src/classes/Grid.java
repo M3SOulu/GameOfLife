@@ -15,8 +15,12 @@ public class Grid {
 	}
 
 	public String print() {
+		int i;
+		String state = null;
+		Grid grid = new Grid(10,10);
 		
-	    return null;
+		for(i = 0; i < grid.getWidth();i++)
+	    return state;
 	}
 	
 	public Grid tick() {
