@@ -230,3 +230,22 @@ RefactoringAction 1481123654883 TestGrid.java RENAME numberOfAliveCellsShouldBeI
 RefactoringAction 1481123680435 TestGrid.java ADD void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber2X2()/2 METHOD
 RefactoringAction 1481123686943 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber2X2()/2=>void numberOfAliveCellsAreNotInitializedRoughlyEqualToDeadCellNumber2X2() METHOD
 EditAction 1481123696180 TestGrid.java 6647 9 97 20
+UnitTestCaseAction 1481123697681 TestGrid.java FAIL
+UnitTestSessionAction 1481123697682 TestGrid FAIL
+CompilationAction 1481123708164 Grid.java
+CompilationAction 1481123739350 Grid.java
+UnitTestCaseAction 1481123792914 TestGrid.java FAIL
+UnitTestSessionAction 1481123792914 TestGrid FAIL
+CompilationAction 1481123862171 Grid.java
+CompilationAction 1481123866971 Grid.java
+UnitTestCaseAction 1481123870492 TestGrid.java OK
+UnitTestSessionAction 1481123870492 TestGrid OK
+UnitTestCaseAction 1481123995801 TestGrid.java FAIL
+UnitTestSessionAction 1481123995802 TestGrid FAIL
+UnitTestCaseAction 1481124006546 TestGrid.java FAIL
+UnitTestSessionAction 1481124006546 TestGrid FAIL
+UnitTestCaseAction 1481124049183 TestGrid.java OK
+UnitTestSessionAction 1481124049184 TestGrid OK
+UnitTestCaseAction 1481124099419 TestGrid.java OK
+UnitTestSessionAction 1481124099420 TestGrid OK
+EditAction 1481124184483 TestGrid.java 6599 10 112 24

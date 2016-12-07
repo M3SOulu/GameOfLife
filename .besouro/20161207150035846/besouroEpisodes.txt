@@ -111,3 +111,17 @@
 1481123266711 test-first 3 181 true
 1481123266712 test-last 1 181 false
 1481123582002 test-addition 1 288 true
+1481123870492 test-addition 2 259 true
+1481123870493 test-addition 2 259 true
+1481123870494 test-addition 1 259 true
+1481123870495 test-addition 2 259 true
+1481123870496 test-addition 2 259 true
+1481123870497 test-addition 1 259 true
+1481123870498 test-addition 2 259 true
+1481123870499 test-addition 2 259 true
+1481123870500 test-addition 1 259 true
+1481123870501 test-addition 2 259 true
+1481123870502 test-addition 2 259 true
+1481123870503 test-addition 1 259 true
+1481124049184 regression 2 53 true
+1481124099420 regression 1 0 true

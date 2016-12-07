@@ -12,20 +12,20 @@ public class Grid {
 		this( w, h );
 		this.cells = cells;
 	}
-	
+
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
 		this.width = w;
 		this.height = h;
 	}
-	
-	
+
+
 
 	public String print() {
-	    return null;
+		return null;
 	}
-	
+
 	public Grid tick() {
-	    return null;
+		return null;
 	}
 
 	public int getWidth() {
@@ -38,6 +38,12 @@ public class Grid {
 		return height;
 	}
 
+	/**
+	 * 
+	 * @param x
+	 * @param y
+	 * @return a cell at (x, y) coordinate
+	 */
 	public Cell get(int x, int y) {
 		// TODO Auto-generated method stub
 		for( Cell cell: cells ){
@@ -45,43 +51,57 @@ public class Grid {
 				return cell;
 			}
 		}
-		
+
 		return null;
 	}
 
 	public int getAliveCells() {
 		// TODO Auto-generated method stub
 		int count = 0;
-		
+
 		for( Cell cell : cells ){
 			if( cell.isAlive() ){
 				count++;
 			}
 		}
-		
+
 		return count;
 	}
-	
+
 	public int getDeadCells() {
 		// TODO Auto-generated method stub
 		int count = 0;
-		
+
 		for( Cell cell : cells ){
 			if( ! cell.isAlive() ){
 				count++;
 			}
 		}
-		
+
 		return count;
 	}
-	
+
 	public boolean areCellsUniformlyInitialized(){
 		int aliveCells = getAliveCells();
 		int deadCells = getDeadCells();
-		
-		return false;
+
+		if( (width*height)%2 == 0  ){
+			if(aliveCells != deadCells)
+				return false;
+
+		}
+		else if( aliveCells != (deadCells+1) && deadCells != (aliveCells+1) ){
+			return false;
+		}
+
+		return true;
 	}
 
+	/**
+	 * 
+	 * @param index
+	 * @return true if the cell at "index" is in the corner
+	 */
 	private boolean isCornerCell( int index ){
 		if( index == 0 || 
 				index == (width-1) || 
@@ -89,10 +109,10 @@ public class Grid {
 				index == (width*height -1) ){
 			return true;
 		}
-		
+
 		return false;
 	}
-	
+
 	public int getNeighborsNumber(int index) {
 		// TODO Auto-generated method stub
 		if( isCornerCell( index ) ){	//corner cell
@@ -101,7 +121,7 @@ public class Grid {
 		if( index == 1 ){
 			return 5;
 		}
-		
+
 		return 0;
 	}
 }
