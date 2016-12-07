@@ -30,7 +30,8 @@ public class TestGrid {
 	@Test(expected=CellCoordinateOutOfBoundariesException.class)
 	public void testCellCoordinate() throws CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, NegativeCoordinateException, CellConformityException{
 		arrayCell = new ArrayList<Cell>();
-		arrayCell.add(new Cell(1,4));	
+		arrayCell.add(new Cell(1,1,"alive"));
+		arrayCell.add(new Cell(1,4,"dead"));	
 		grid = new Grid(arrayCell,3,3);
 	}
 	
@@ -48,7 +49,6 @@ public class TestGrid {
 		arrayCell.add(new Cell(1,1));
 		arrayCell.add(new Cell(1,2));
 		arrayCell.add(new Cell(2,1));
-		arrayCell.add(new Cell(2,2));
 		grid = new Grid(arrayCell,2,2);
 		
 		
