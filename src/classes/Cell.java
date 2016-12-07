@@ -1,5 +1,7 @@
 package classes;
 
+import java.util.Random;
+
 public class Cell {
 	private int x;
 	private int y;
@@ -12,7 +14,16 @@ public class Cell {
 		if(this.x < 0 && this.y < 0) {
 			throw new NegativeCoordinateException("Coordinate negative");
 		}
-		alive = false;
+		
+		Random random = new Random();
+		int k = random.nextInt(1);//1 o 0
+		
+		if(k == 0) {
+			this.alive = false;
+		} else {
+			this.alive = true;
+		}
+		
 	}
 	
 	

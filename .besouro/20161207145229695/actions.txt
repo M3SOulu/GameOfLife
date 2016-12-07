@@ -75,3 +75,18 @@ UnitTestSessionAction 1481122104334 TestGrid FAIL
 UnitTestCaseAction 1481122189597 TestGrid.java FAIL
 UnitTestSessionAction 1481122189597 TestGrid FAIL
 EditAction 1481122207050 Grid.java 702 4 9 0
+UnitTestCaseAction 1481122208834 TestGrid.java FAIL
+UnitTestSessionAction 1481122208835 TestGrid FAIL
+CompilationAction 1481122319165 TestGrid.java
+UnitTestCaseAction 1481122330847 TestGrid.java FAIL
+UnitTestSessionAction 1481122330848 TestGrid FAIL
+CompilationAction 1481122500455 TestGrid.java
+UnitTestCaseAction 1481122501705 TestGrid.java OK
+UnitTestSessionAction 1481122501705 TestGrid OK
+RefactoringAction 1481122620384 TestGrid.java ADD void isGridNotASquareArrengment()/2 METHOD
+RefactoringAction 1481122650403 TestGrid.java RENAME isGridNotASquareArrengment()/2=>void areCellsInGridInizializ() METHOD
+RefactoringAction 1481122651437 TestGrid.java RENAME areCellsInGridInizializ()=>void areCellsInGridInizialize() METHOD
+RefactoringAction 1481122652457 TestGrid.java RENAME areCellsInGridInizialize()=>void areCellsInGridInizializ() METHOD
+RefactoringAction 1481122656478 TestGrid.java RENAME areCellsInGridInizializ()=>void areCellsInGridInizialized() METHOD
+RefactoringAction 1481122865222 Cell.java ADD import java.util.Random IMPORT
+EditAction 1481122933436 Cell.java 605 4 7 0

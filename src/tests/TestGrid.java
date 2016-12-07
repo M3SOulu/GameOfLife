@@ -9,13 +9,10 @@ import classes.Grid;
 public class TestGrid {
 
 	@Test (expected = CustomLifeException.class)
-	public void isGridNotASquareArrengment(){
-		try {
-			Grid grid = new Grid(30, 20);
-		}
-		catch (CustomLifeException e) {
-			// to do
-		}
+	public void isGridNotASquareArrengment() throws CustomLifeException  {
+		
+		Grid grid = new Grid(30, 20);
+		
 		
 		
 		
