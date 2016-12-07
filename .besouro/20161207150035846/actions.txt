@@ -112,3 +112,18 @@ UnitTestSessionAction 1481121097071 TestGrid FAIL
 UnitTestCaseAction 1481121176520 TestGrid.java OK
 UnitTestSessionAction 1481121176521 TestGrid OK
 EditAction 1481121211485 TestGrid.java 813 2 12 4
+UnitTestCaseAction 1481121213486 TestGrid.java OK
+UnitTestSessionAction 1481121213486 TestGrid OK
+RefactoringAction 1481121505441 TestGrid.java ADD void eachCellShallBeAccessibleByUniqueXY()/2 METHOD
+RefactoringAction 1481121511955 TestGrid.java RENAME eachCellShallBeAccessibleByUniqueXY()/2=>void numberOf() METHOD
+RefactoringAction 1481121516474 TestGrid.java RENAME numberOf()=>void numberOfAliveCells() METHOD
+RefactoringAction 1481121520480 TestGrid.java RENAME numberOfAliveCells()=>void numberOfAliveCellsSho() METHOD
+RefactoringAction 1481121521489 TestGrid.java RENAME numberOfAliveCellsSho()=>void numberOfAliveCellsShould() METHOD
+RefactoringAction 1481121529998 TestGrid.java RENAME numberOfAliveCellsShould()=>void numberOfAliveCellsShouldBeInitialized() METHOD
+RefactoringAction 1481121567009 TestGrid.java RENAME numberOfAliveCellsShouldBeInitialized()=>void numberOfAliveCellsShouldBeInitializedRou() METHOD
+RefactoringAction 1481121570516 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRou()=>void numberOfAliveCellsShouldBeInitializedRoughly() METHOD
+RefactoringAction 1481121577027 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughly()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqual() METHOD
+RefactoringAction 1481121579536 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqual()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualTo() METHOD
+RefactoringAction 1481121584058 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualTo()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber() METHOD
+RefactoringAction 1481121696310 Grid.java ADD Object getAliveCells() METHOD
+EditAction 1481121740207 Grid.java 1038 8 13 0

@@ -48,4 +48,17 @@ public class Grid {
 		
 		return null;
 	}
+
+	public int getAliveCells() {
+		// TODO Auto-generated method stub
+		int count = 0;
+		
+		for( Cell cell : cells ){
+			if( cell.isAlive() ){
+				count++;
+			}
+		}
+		
+		return count;
+	}
 }
