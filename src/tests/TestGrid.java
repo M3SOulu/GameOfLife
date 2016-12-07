@@ -22,6 +22,7 @@ public class TestGrid {
 	
 	@Test
 	public void eachCellShallBeAccessibleByUniqueXY() throws NegativeCoordinateException{
+		//Arrange
 		ArrayList<Cell> cells = new ArrayList<>();
 		cells.add(new Cell(true, 1, 1));
 		cells.add(new Cell(true, 1, 2));
@@ -29,7 +30,10 @@ public class TestGrid {
 		cells.add(new Cell(true, 2, 2));
 		
 		Grid grid = new Grid(cells, 2, 2);
+		//Act
 		Cell cell = grid.get(2, 1);
+		
+		//Assert
 		assertEquals(2, cell.getX());
 		assertEquals(1, cell.getY());
 	}
