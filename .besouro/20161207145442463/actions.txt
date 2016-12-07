@@ -94,3 +94,5 @@ RefactoringAction 1481121024679 TestGrid.java RENAME grigliaCorretta=>void grigl
 EditAction 1481121057038 TestGrid.java 750 4 3 0
 EditAction 1481121197310 Grid.java 612 4 7 0
 EditAction 1481121332471 Cell.java 356 2 4 0
+RefactoringAction 1481121370826 Cell.java RENAME Cell(int, int)=>Cell(int, int, boolean) METHOD
+EditAction 1481121388311 Cell.java 363 2 4 0
