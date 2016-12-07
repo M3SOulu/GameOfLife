@@ -6,3 +6,18 @@ FileOpenedAction 1481119416042 CustomLifeException.java 189 1 1 0
 FileOpenedAction 1481119420268 NegativeCoordinateException.java 205 1 1 0
 EditAction 1481119657187 TestCell.java 179 1 1 0
 EditAction 1481119657754 Cell.java 151 1 0 0
+FileOpenedAction 1481119674501 Cell.java 151 1 0 0
+UnitTestCaseAction 1481119837429 TestGrid.java FAIL
+UnitTestSessionAction 1481119837439 TestGrid FAIL
+RefactoringAction 1481119879027 TestCell.java ADD Cell cell FIELD
+RefactoringAction 1481119903072 TestCell.java ADD void inizialize() METHOD
+RefactoringAction 1481119918678 TestCell.java ADD import classes.Cell IMPORT
+RefactoringAction 1481119921530 TestCell.java ADD import org.junit.Before IMPORT
+RefactoringAction 1481119931770 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
+RefactoringAction 1481120203184 Cell.java ADD int getX() METHOD
+RefactoringAction 1481120203184 Cell.java ADD void setX(int) METHOD
+RefactoringAction 1481120203184 Cell.java ADD int getY() METHOD
+RefactoringAction 1481120203185 Cell.java ADD void setY(int) METHOD
+RefactoringAction 1481120203185 Cell.java ADD boolean isAlive() METHOD
+RefactoringAction 1481120203185 Cell.java ADD void setAlive(boolean) METHOD
+EditAction 1481120221802 Cell.java 436 7 6 0
