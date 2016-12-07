@@ -13,6 +13,7 @@ public class Grid {
 		height=h;
 		cells=new ArrayList<Cell>();
 		for(Cell cell : cells){
+			System.out.println(cell.getX()+","+cell.getY());
 			if(cell.getX()>height || cell.getX()>width)
 					throw new CellCoordinateOutOfBoundariesException("CellCoordinateOutOfBoundaries");
 			
