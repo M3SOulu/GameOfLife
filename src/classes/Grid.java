@@ -108,4 +108,18 @@ public class Grid {
 		this.cells = cells;
 	}
 
+	public String printState() {
+		String state = "";
+
+		for (Cell c : cells) {
+			if (c.getState()) {
+				state += "*";
+			} else {
+				state += "-";
+			}
+		}
+		
+		return state;
+	}
+
 }

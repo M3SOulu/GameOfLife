@@ -332,3 +332,7 @@ RefactoringAction 1481125532878 TestGrid.java ADD void g/2 FIELD
 RefactoringAction 1481125537391 TestGrid.java RENAME g/2=>void gridStateString FIELD
 RefactoringAction 1481125546413 TestGrid.java RENAME gridStateString=>void gridStateStringIsCorrect FIELD
 EditAction 1481125564447 TestGrid.java 1404 4 13 1
+CompilationAction 1481125564614 TestGrid.java
+CompilationAction 1481125564615 TestGrid.java
+CompilationAction 1481125564615 TestGrid.java
+EditAction 1481125564627 Grid.java 2362 13 29 0
