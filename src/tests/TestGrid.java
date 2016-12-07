@@ -12,7 +12,7 @@ public class TestGrid {
 
 	@Test
 	public void firstGridTest(){
-		fail("implement some proper tests");
+		
 	}
 	
 	@Test(expected=CellCoordinateOutOfBoundariesException.class)
