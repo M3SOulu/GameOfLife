@@ -203,3 +203,4 @@ RefactoringAction 1481124187236 CellConformityException.java ADD CellConformityE
 FileOpenedAction 1481124187356 CellConformityException.java 65 0 0 0
 RefactoringAction 1481124211927 CellConformityException.java ADD CellConformityException(String) METHOD
 EditAction 1481124221124 CellConformityException.java 151 1 1 0
+EditAction 1481124228565 TestGrid.java 1530 4 15 1
