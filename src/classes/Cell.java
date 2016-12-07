@@ -25,6 +25,13 @@ public class Cell {
 		else alive = false;
 	}
 	
+	public int getX(){
+		return x;
+	}
+	
+	public int getY(){
+		return y;
+	}
 
 	
 	
