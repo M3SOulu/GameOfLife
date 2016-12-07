@@ -30,7 +30,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void GridCoordinateOutOfBound(){
-		fail("implement some proper tests");
+	public void GridCoordinate(){
+		assertEquals(y,x);
 	}
 }
