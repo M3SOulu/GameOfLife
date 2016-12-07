@@ -185,3 +185,17 @@ RefactoringAction 1481123786383 TestGrid.java ADD void initialize() METHOD
 EditAction 1481123793511 TestGrid.java 1241 4 10 1
 RefactoringAction 1481123798401 TestGrid.java REMOVE initialize() METHOD
 EditAction 1481123825383 TestGrid.java 1138 3 9 1
+UnitTestCaseAction 1481123827770 TestGrid.java OK
+UnitTestSessionAction 1481123827771 TestGrid OK
+RefactoringAction 1481123914967 TestGrid.java ADD void test FIELD
+RefactoringAction 1481123943478 TestGrid.java RENAME test=>void testCell FIELD
+RefactoringAction 1481123955490 TestGrid.java RENAME testCell=>void testCellU FIELD
+RefactoringAction 1481123956500 TestGrid.java RENAME testCellU=>void testCellUni FIELD
+RefactoringAction 1481123958018 TestGrid.java RENAME testCellUni=>void testCellUnifo FIELD
+RefactoringAction 1481123960026 TestGrid.java RENAME testCellUnifo=>void testCellUnifor FIELD
+RefactoringAction 1481123964033 TestGrid.java RENAME testCellUnifor=>void testCellUnif FIELD
+RefactoringAction 1481123966538 TestGrid.java RENAME testCellUnif=>void testCellUniformy FIELD
+RefactoringAction 1481123995548 TestGrid.java RENAME testCellUniformy=>void testCellConfor FIELD
+RefactoringAction 1481123997086 TestGrid.java RENAME testCellConfor=>void testCellConformity FIELD
+RefactoringAction 1481123999095 TestGrid.java RENAME testCellConformity=>void testCellConformity() METHOD
+EditAction 1481124128297 TestGrid.java 1490 4 15 1

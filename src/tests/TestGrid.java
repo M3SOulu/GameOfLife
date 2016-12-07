@@ -41,6 +41,18 @@ public class TestGrid {
 		grid = new Grid(arrayCell,3,3);
 	}
 	
+	@Test
+	public void testCellConformity() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate{
+		arrayCell = new ArrayList<Cell>();
+		arrayCell.add(new Cell(1,1));
+		arrayCell.add(new Cell(1,2));
+		arrayCell.add(new Cell(2,1));
+		arrayCell.add(new Cell(2,2));
+		grid = new Grid(arrayCell,2,2);
+		
+		
+	}
+	
 	
 	
 }
