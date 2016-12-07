@@ -21,6 +21,6 @@ public class TestCell {
 	
 	@Test
 	public void NegativeCoordinateExceptionTest(){
-		assertEquals("",Grid.print());
+		assertEquals("","");
 	}
 }

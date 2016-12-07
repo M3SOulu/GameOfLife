@@ -135,3 +135,7 @@ EditAction 1481126202191 Grid.java 1183 10 17 0
 EditAction 1481126202298 TestCell.java 427 2 2 1
 EditAction 1481126202411 TestGrid.java 396 2 1 0
 EditAction 1481126202519 Cell.java 432 7 6 0
+CompilationAction 1481126202833 TestCell.java
+CompilationAction 1481126224927 TestCell.java
+CompilationAction 1481126225085 TestCell.java
+EditAction 1481126243708 TestCell.java 417 2 2 1
