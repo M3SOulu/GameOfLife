@@ -262,3 +262,8 @@ EditAction 1481127054896 TestGrid.java 1818 6 23 5
 UnitTestCaseAction 1481127066729 TestGrid.java FAIL
 UnitTestSessionAction 1481127066730 TestGrid.GridHasTheRightPrint FAIL
 EditAction 1481127127558 TestGrid.java 1818 6 23 5
+UnitTestCaseAction 1481127129011 TestGrid.java FAIL
+UnitTestSessionAction 1481127129012 TestGrid FAIL
+RefactoringAction 1481127202281 TestGrid.java ADD void CellsHasTheRightCoordinateX2()/2 METHOD
+RefactoringAction 1481127204790 TestGrid.java RENAME CellsHasTheRightCoordinateX2()/2=>void CellsHasTheRightCoordinateX3() METHOD
+EditAction 1481127216192 TestGrid.java 2121 7 28 6
