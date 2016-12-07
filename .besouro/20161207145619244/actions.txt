@@ -117,3 +117,12 @@ RefactoringAction 1481124941387 Cell.java RENAME Cell(int, int, boolean)/2=>Cell
 EditAction 1481125130583 Cell.java 516 5 7 0
 CompilationAction 1481125130850 TestGrid.java
 EditAction 1481125130899 Grid.java 1953 6 21 0
+UnitTestCaseAction 1481125132980 TestGrid.java FAIL
+UnitTestSessionAction 1481125132981 TestGrid FAIL
+CompilationAction 1481125220425 TestGrid.java
+UnitTestCaseAction 1481125220851 TestGrid.java FAIL
+UnitTestSessionAction 1481125220851 TestGrid FAIL
+RefactoringAction 1481125335653 Grid.java RENAME neighbors(Cell)=>int neighbors(int) METHOD
+RefactoringAction 1481125337669 Grid.java RENAME neighbors(int)=>int neighbors() METHOD
+RefactoringAction 1481125341689 Grid.java RENAME neighbors()=>int neighbors(int) METHOD
+EditAction 1481125523125 Grid.java 1967 6 21 0

@@ -65,7 +65,7 @@ public class TestGrid {
 	}
 
 	@Test
-	public void tickTest(){
+	public void tickTest() throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException{
 		// Arrange
 		ArrayList<Cell> cells = new ArrayList<>();
 		cells.add(new Cell(0, 0, true));
@@ -79,8 +79,9 @@ public class TestGrid {
 		cells.add(new Cell(2, 2, false));
 		// Act
 		grid = new Grid(cells, 3, 3);
+		
 		// Assert
-		assertEquals("**-/n*--/n**-", grid.print());
+		assertEquals("**-/n*--/n**-", grid.tick().print());
 
 	}
 

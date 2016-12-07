@@ -46,13 +46,11 @@ public class Grid {
 
 	public Grid tick() throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException {
 		ArrayList<Cell> newCells = new ArrayList<>();
-		Cell c;
 		Cell temp;
 		int numNeighbors;
 		for (int i = 0; i < width * height; i++) {
-			c = cells.get(i);
-			numNeighbors = neighbors(c);
-			if (c.getAlive()) {
+			numNeighbors = neighbors(i);
+			if (cells.get(i).getAlive()) {
 				if (numNeighbors < 2 || numNeighbors > 3)
 					temp = new Cell(false);
 				else
@@ -85,8 +83,11 @@ public class Grid {
 		}
 	}
 
-	private int neighbors(Cell c) {
-
+	private int neighbors(int pos) {
+		Cell c=cells.get(pos);
+		
+		
+		
 		return 0;
 	}
 }
