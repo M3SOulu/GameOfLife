@@ -60,7 +60,7 @@ public class TestGrid {
 			if(i==5){
 				alive=true;
 			}
-			for (int j = 0; i < 10; i++) {
+			for (int j = 0; j < 10; j++) {
 				cells.add(new Cell(i, j, alive));
 			}
 		}
