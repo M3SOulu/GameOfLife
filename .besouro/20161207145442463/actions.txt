@@ -43,3 +43,4 @@ UnitTestCaseAction 1481120363792 TestCell.java OK
 UnitTestSessionAction 1481120363807 TestCell OK
 FileOpenedAction 1481120374080 TestGrid.java 181 1 1 0
 EditAction 1481120376772 TestCell.java 394 2 1 0
+EditAction 1481120407826 Cell.java 359 2 4 0
