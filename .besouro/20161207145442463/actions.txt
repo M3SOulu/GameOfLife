@@ -126,3 +126,4 @@ RefactoringAction 1481121665465 TestGrid.java ADD void stessoNumeroDi FIELD
 RefactoringAction 1481121670472 TestGrid.java RENAME stessoNumeroDi=>void cell FIELD
 RefactoringAction 1481121677485 TestGrid.java RENAME cell=>void cellsIsEqualDeadOrAlive() METHOD
 EditAction 1481121772551 Grid.java 616 4 7 0
+EditAction 1481121825031 Grid.java 679 4 7 0
