@@ -24,8 +24,14 @@ public class Grid {
 		return null;
 	}
 
-	public Grid tick() {
-		return null;
+	public Grid tick() throws NegativeCoordinateException {
+		ArrayList<Cell> cells = new ArrayList<>();
+		for( Cell cell: this.cells ){
+			Cell cellToAdd = new Cell(false, cell.getX(), cell.getY());
+			cells.add(cellToAdd);
+		}
+		
+		return new Grid(cells, width, height);
 	}
 
 	public int getWidth() {
@@ -113,6 +119,8 @@ public class Grid {
 
 		return indexes;
 	}
+	
+	
 
 	/**
 	 * 

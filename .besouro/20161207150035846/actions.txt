@@ -355,3 +355,23 @@ EditAction 1481127104978 TestGrid.java 9176 14 181 39
 UnitTestCaseAction 1481127109626 TestGrid.java FAIL
 UnitTestSessionAction 1481127109627 TestGrid FAIL
 EditAction 1481127169231 TestGrid.java 9191 14 181 39
+UnitTestCaseAction 1481127170943 TestGrid.java FAIL
+UnitTestSessionAction 1481127170944 TestGrid FAIL
+RefactoringAction 1481127255686 Grid.java ADD ArrayList<Cell> get FIELD
+RefactoringAction 1481127257692 Grid.java RENAME get=>ArrayList<Cell> getNeigh FIELD
+RefactoringAction 1481127261199 Grid.java RENAME getNeigh=>ArrayList<Cell> getNeighbors FIELD
+RefactoringAction 1481127262204 Grid.java RENAME getNeighbors=>ArrayList<Cell> getNeighbors() METHOD
+CompilationAction 1481127271199 Grid.java
+RefactoringAction 1481127407267 Grid.java REMOVE getNeighbors() METHOD
+RefactoringAction 1481127430292 Grid.java ADD ArrayList<Integer> getCorner FIELD
+RefactoringAction 1481127451799 Grid.java RENAME getCorner=>ArrayList<Integer> getCornerNeigh FIELD
+RefactoringAction 1481127459307 Grid.java RENAME getCornerNeigh=>ArrayList<Integer> getCornerNeighbors FIELD
+RefactoringAction 1481127461320 Grid.java RENAME getCornerNeighbors=>ArrayList<Integer> getCornerNeighbors() METHOD
+RefactoringAction 1481127482838 Grid.java RENAME getCornerNeighbors()=>ArrayList<Integer> getCornerNeighbors(int) METHOD
+RefactoringAction 1481127542347 Grid.java REMOVE getCornerNeighbors(int) METHOD
+UnitTestCaseAction 1481127750268 TestGrid.java FAIL
+UnitTestSessionAction 1481127750268 TestGrid FAIL
+UnitTestCaseAction 1481127797962 TestGrid.java OK
+UnitTestSessionAction 1481127797963 TestGrid OK
+RefactoringAction 1481127816244 TestGrid.java ADD void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2()/2 METHOD
+EditAction 1481127821040 TestGrid.java 9652 15 190 41
