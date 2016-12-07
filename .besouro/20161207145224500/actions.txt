@@ -39,3 +39,6 @@ RefactoringAction 1481120206830 Cell.java RENAME getStatu=>boolean getSt FIELD
 RefactoringAction 1481120207851 Cell.java RENAME getSt=>boolean getState FIELD
 RefactoringAction 1481120224387 Cell.java RENAME getState=>boolean getState() METHOD
 EditAction 1481120344043 TestCell.java 379 2 4 0
+CompilationAction 1481120344194 TestCell.java
+CompilationAction 1481120344195 TestCell.java
+EditAction 1481120344208 Cell.java 567 5 10 0

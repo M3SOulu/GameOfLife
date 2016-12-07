@@ -31,4 +31,8 @@ public class Cell {
 	public int getY(){
 		return y;
 	}
+	
+	public boolean getState(){
+		return alive;
+	}
 }
