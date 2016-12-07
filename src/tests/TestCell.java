@@ -15,6 +15,13 @@ public class TestCell {
 	
 	@Test
 	public void firstCellTest(){
+		boolean isAlive = false;
+		isAlive = cell.getState();
 		
+		if(isAlive == true){
+			assertTrue(isAlive,true);
+		}else{
+			assertTrue(isAlive,false);
+		}
 	}
 }
