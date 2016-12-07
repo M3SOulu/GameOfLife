@@ -18,6 +18,8 @@ public class TestCell {
 	
 	@Test
 	public void testCellState(){
-		assertFalse(cell.getState);
+		assertFalse(cell.getState());
+		
+		cell.setState("alive");
 	}
 }

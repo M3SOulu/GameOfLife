@@ -8,8 +8,10 @@ public class Cell {
 		
 	}
 	
-	public boolean getState(){
-		return alive;
+	public String getState(){
+		if(alive)
+			return "alive";
+		else return "dead";
 	}
 	
 	

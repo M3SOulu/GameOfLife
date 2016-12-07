@@ -11,3 +11,8 @@ RefactoringAction 1481120121698 Cell.java ADD boolean get FIELD
 RefactoringAction 1481120123707 Cell.java RENAME get=>boolean getState FIELD
 RefactoringAction 1481120124750 Cell.java RENAME getState=>boolean getState() METHOD
 EditAction 1481120132370 Cell.java 207 2 1 0
+CompilationAction 1481120132567 TestCell.java
+UnitTestCaseAction 1481120183409 TestCell.java OK
+UnitTestSessionAction 1481120183410 TestCell OK
+CompilationAction 1481120266346 TestCell.java
+EditAction 1481120330494 Cell.java 243 2 1 0
