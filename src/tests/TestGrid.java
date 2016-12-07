@@ -161,40 +161,40 @@ public class TestGrid {
 		assertEquals(5, grid.getNeighborsNumber( 7 ));
 	}
 	
-//	@Test
-//	public void getNeighborsCellAtTheBorderOfTheGrid4X4() throws NegativeCoordinateException{
-//		//Arrange
-//		ArrayList<Cell> cells = new ArrayList<>();
-//		cells.add(new Cell(true, 1, 1));
-//		cells.add(new Cell(false, 1, 2));
-//		cells.add(new Cell(true, 1, 3));
-//		cells.add(new Cell(true, 1, 4));
-//		cells.add(new Cell(false, 2, 1));
-//		cells.add(new Cell(true, 2, 2));
-//		cells.add(new Cell(false, 2, 3));
-//		cells.add(new Cell(true, 2, 4));
-//		cells.add(new Cell(true, 3, 1));
-//		cells.add(new Cell(false, 3, 2));
-//		cells.add(new Cell(true, 3, 3));
-//		cells.add(new Cell(true, 3, 4));
-//		cells.add(new Cell(true, 4, 1));
-//		cells.add(new Cell(false, 4, 2));
-//		cells.add(new Cell(true, 4, 3));
-//		cells.add(new Cell(true, 4, 4));
-//		
-//		//Act
-//		Grid grid = new Grid(cells, 4, 4);
-//
-//		//Assert
-//		assertEquals(5, grid.getNeighborsNumber( 1 ));
-//		assertEquals(5, grid.getNeighborsNumber( 2 ));
-//		assertEquals(5, grid.getNeighborsNumber( 4 ));
-//		assertEquals(5, grid.getNeighborsNumber( 7 ));
-//		assertEquals(5, grid.getNeighborsNumber( 8 ));
-//		assertEquals(5, grid.getNeighborsNumber( 11 ));
-//		assertEquals(5, grid.getNeighborsNumber( 13 ));
-//		assertEquals(5, grid.getNeighborsNumber( 14 ));
-//	}
+	@Test
+	public void getNeighborsCellAtTheBorderOfTheGrid4X4() throws NegativeCoordinateException{
+		//Arrange
+		ArrayList<Cell> cells = new ArrayList<>();
+		cells.add(new Cell(true, 1, 1));
+		cells.add(new Cell(false, 1, 2));
+		cells.add(new Cell(true, 1, 3));
+		cells.add(new Cell(true, 1, 4));
+		cells.add(new Cell(false, 2, 1));
+		cells.add(new Cell(true, 2, 2));
+		cells.add(new Cell(false, 2, 3));
+		cells.add(new Cell(true, 2, 4));
+		cells.add(new Cell(true, 3, 1));
+		cells.add(new Cell(false, 3, 2));
+		cells.add(new Cell(true, 3, 3));
+		cells.add(new Cell(true, 3, 4));
+		cells.add(new Cell(true, 4, 1));
+		cells.add(new Cell(false, 4, 2));
+		cells.add(new Cell(true, 4, 3));
+		cells.add(new Cell(true, 4, 4));
+		
+		//Act
+		Grid grid = new Grid(cells, 4, 4);
+
+		//Assert
+		assertEquals(5, grid.getNeighborsNumber( 1 ));
+		assertEquals(5, grid.getNeighborsNumber( 2 ));
+		assertEquals(5, grid.getNeighborsNumber( 4 ));
+		assertEquals(5, grid.getNeighborsNumber( 7 ));
+		assertEquals(5, grid.getNeighborsNumber( 8 ));
+		assertEquals(5, grid.getNeighborsNumber( 11 ));
+		assertEquals(5, grid.getNeighborsNumber( 13 ));
+		assertEquals(5, grid.getNeighborsNumber( 14 ));
+	}
 	
 	@Test
 	public void getNeighborsCellAtTheCornerOfTheGrid2X2() throws NegativeCoordinateException{
