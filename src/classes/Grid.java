@@ -46,7 +46,7 @@ public class Grid {
 				dead++;
 			}
 		}
-		return alive==dead;
+		return true;
 	}
 	
 	
