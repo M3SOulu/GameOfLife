@@ -7,7 +7,11 @@ public class Grid {
 	private int width;
 	private int height;
 
-
+	public ArrayList<Cell> getCells() {
+		return  this.cells;
+	}
+	
+	
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException, CustomLifeException{
 	this.cells = cells;
 	this.width = w;
@@ -66,7 +70,7 @@ public class Grid {
 		String sGrid = "";
 			for (Cell c : cells) {
 				if(c.getX() == width) {
-					sGrid = sGrid + "1";
+					sGrid = sGrid + "\n";
 				}
 				String state;
 				if(c.isAlive()) {

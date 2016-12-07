@@ -185,3 +185,14 @@ EditAction 1481125901155 TestGrid.java 591 2 3 1
 UnitTestCaseAction 1481125902678 TestGrid.java FAIL
 UnitTestSessionAction 1481125902679 TestGrid FAIL
 EditAction 1481125947775 Grid.java 1720 4 15 0
+UnitTestCaseAction 1481125949160 TestGrid.java FAIL
+UnitTestSessionAction 1481125949161 TestGrid FAIL
+UnitTestCaseAction 1481125951260 TestGrid.java FAIL
+UnitTestSessionAction 1481125951260 TestGrid FAIL
+RefactoringAction 1481126000620 TestGrid.java ADD void CellsHaveTheRightCoordinates FIELD
+RefactoringAction 1481126001645 TestGrid.java REMOVE CellsHaveTheRightCoordinates FIELD
+RefactoringAction 1481126002661 TestGrid.java ADD void CellsHaveTheRightCoordinates() METHOD
+RefactoringAction 1481126146016 Grid.java ADD ArrayList<Cell> get FIELD
+RefactoringAction 1481126148034 Grid.java RENAME get=>ArrayList<Cell> getCells FIELD
+RefactoringAction 1481126149049 Grid.java RENAME getCells=>ArrayList<Cell> getCells() METHOD
+EditAction 1481126161961 Grid.java 1786 5 16 0
