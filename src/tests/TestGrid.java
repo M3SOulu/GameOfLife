@@ -19,11 +19,6 @@ public class TestGrid {
 	Grid grid;
 	ArrayList<Cell> arrayCell;
 	
-	@Before
-	public void initialize() throws NegativeCoordinateException{
-
-
-	}
 	
 	@Test
 	public void testGridSize(){
@@ -34,14 +29,13 @@ public class TestGrid {
 	@Test(expected=CellCoordinateOutOfBoundariesException.class)
 	public void testCellCoordinate() throws CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, NegativeCoordinateException{
 		arrayCell = new ArrayList<Cell>();
-		arrayCell.add(new Cell(1,1));
-		arrayCell.add(new Cell(1,2));
 		arrayCell.add(new Cell(1,4));	
 		grid = new Grid(arrayCell,3,3);
 	}
 	
 	@Test(expected=CellCoordinateDuplicate.class)
 	public void testCellCoordinateDuplicate() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate{
+		arrayCell = new ArrayList<Cell>();
 		arrayCell.add(new Cell(1,3));
 		arrayCell.add(new Cell(1,3));
 		grid = new Grid(arrayCell,3,3);
