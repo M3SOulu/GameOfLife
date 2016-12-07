@@ -37,6 +37,40 @@ public class TestGrid {
 		assertEquals(2, cell.getX());
 		assertEquals(1, cell.getY());
 	}
+	
+	@Test
+	public void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber2X2() 
+			throws NegativeCoordinateException{
+		//Arrange
+		ArrayList<Cell> cells = new ArrayList<>();
+		cells.add(new Cell(true, 1, 1));
+		cells.add(new Cell(false, 1, 2));
+		cells.add(new Cell(true, 2, 1));
+		cells.add(new Cell(false, 2, 2));
+		
+		//Act
+		Grid grid = new Grid(cells, 2, 2);
+
+		//Assert
+		assertEquals(true, grid.areCellsUniformlyInitialized());
+	}
+	
+	@Test
+	public void numberOfAliveCellsAreNotInitializedRoughlyEqualToDeadCellNumber2X2() 
+			throws NegativeCoordinateException{
+		//Arrange
+		ArrayList<Cell> cells = new ArrayList<>();
+		cells.add(new Cell(true, 1, 1));
+		cells.add(new Cell(true, 1, 2));
+		cells.add(new Cell(true, 2, 1));
+		cells.add(new Cell(false, 2, 2));
+		
+		//Act
+		Grid grid = new Grid(cells, 2, 2);
+
+		//Assert
+		assertEquals(false, grid.areCellsUniformlyInitialized());
+	}
 
 	@Test
 	public void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3X3() 
