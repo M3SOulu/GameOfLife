@@ -93,7 +93,18 @@ public class Grid {
 
 	private int neighbors(int pos) {
 		Cell c = cells.get(pos);
-			
-		return 0;
+		int res;
+		int x = c.getX();
+		int y = c.getY();
+
+		if ((x == 0 && (y == 0 || y == height - 1)) || (x == width - 1 && (y == 0 || y == height - 1)))
+			res = 3;
+		else if (x == 0 || x == width - 1 || y == 0 || y == height - 1) {
+			res = 5;
+		} else {
+			res = 8;
+		}
+
+		return res;
 	}
 }
