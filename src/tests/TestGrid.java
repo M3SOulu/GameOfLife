@@ -135,5 +135,13 @@ public class TestGrid {
 
 	}
 	
+	@Test
+	public void TestNumberCellNeighbors() throws CustomLifeException, NegativeCoordinateException{
+		Grid grid = new Grid(1,1);
+		 
+		
+		
+	}
+	
 	
 }
