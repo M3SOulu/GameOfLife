@@ -30,3 +30,7 @@ CompilationAction 1481120320821 TestCell.java
 CompilationAction 1481120320822 TestCell.java
 RefactoringAction 1481120329241 Cell.java RENAME Cell(int, int, boolean)=>Cell(int, int) METHOD
 EditAction 1481120333264 TestCell.java 311 2 1 0
+CompilationAction 1481120333597 TestCell.java
+CompilationAction 1481120333597 TestCell.java
+CompilationAction 1481120333597 TestCell.java
+EditAction 1481120342044 Cell.java 342 2 3 0
