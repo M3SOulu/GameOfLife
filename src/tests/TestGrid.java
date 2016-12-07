@@ -20,12 +20,11 @@ public class TestGrid {
 
 	@Before
 	public void inizialize() {
-		grid = new Grid(x,y);
-		
+		grid = new Grid(x,y);	
 	}
 	
 	@Test
 	public void GridCoordinate(){
-		assertEquals(y,x);
+		
 	}
 }
