@@ -271,3 +271,5 @@ EditAction 1481123868127 TestGrid.java 1879 7 20 1
 EditAction 1481123868871 isNotDeadAliveEqualsException.java 233 1 1 0
 EditAction 1481123869716 CustomLifeException.java 191 1 1 0
 EditAction 1481123931589 Grid.java 1235 5 16 0
+CompilationAction 1481123931787 TestGrid.java
+EditAction 1481123940788 Grid.java 1233 5 16 0

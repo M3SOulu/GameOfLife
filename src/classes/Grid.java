@@ -17,7 +17,7 @@ public class Grid {
 		if (cells.size() != (w * h))
 			throw new CellCoordinateOutOfBoundariesException("errore fuori indice");
 		if (!isEqualsAliveDead())
-			throw new CustomLifeException(" cells alive !=dead");
+			throw new CustomLifeException("cells alive!=dead");
 		width = w;
 		height = h;
 		this.cells = new ArrayList<>(cells.size());
