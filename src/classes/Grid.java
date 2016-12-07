@@ -40,20 +40,20 @@ public class Grid {
 			cell.setX(iW++);
 			cell.setY(iH);
 			
-			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 == 0) {
+			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 == 0) { //riga pari, colonna pari
 				cell.makeDead();
 			}
 			
-			if((float)cell.getX() % 2 != 0 && cell.getY() % 2 == 0) {
-				cell.makeAlive();;
+			if((float)cell.getX() % 2 != 0 && cell.getY() % 2 == 0) {  //riga dispari, colonna pari
+				cell.makeAlive();
 			}
 			
-			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 != 0) {
-				cell.makeDead();;
+			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 != 0) { //riga pari, colonna dispari
+				cell.makeDead();
 			}
 			
-			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 == 0) {
-				cell.makeAlive();;
+			if((float)cell.getX() % 2 != 0 && cell.getY() % 2 != 0) {  //riga dispari, colonna dispari
+				cell.makeAlive();
 			}
 			
 			this.cells.add(cell);
