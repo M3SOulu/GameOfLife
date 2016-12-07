@@ -59,6 +59,7 @@ public class TestGrid {
 	}
 	@Test
 	public void GridCellDeadOrAliveIsEquals(){
-		
+		griglia = new Grid(cells, 2, 2);
+		assertTrue(griglia.isEqual)
 	}
 }

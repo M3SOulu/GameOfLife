@@ -191,3 +191,4 @@ RefactoringAction 1481122633421 Grid.java RENAME isEqualsAlive=>void isEqualsAli
 RefactoringAction 1481122634950 Grid.java RENAME isEqualsAliveDead=>void isEqualsAliveDead() METHOD
 EditAction 1481122721532 Grid.java 1097 5 15 0
 EditAction 1481122732366 Cell.java 464 3 6 0
+EditAction 1481122827765 TestGrid.java 1457 7 13 0
