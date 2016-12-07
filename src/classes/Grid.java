@@ -47,18 +47,6 @@ public class Grid {
 		int numberNeighborsDead = 0;
 		Cell altraCella;
 
-		if (w == 0 && w == 0) {
-
-		} else {
-			for (int i = w - 1; i <= w; i++) {
-				for (int j = h - 1; j <= h; j--) {
-					if(cells.contains(altraCella.get))){
-						
-					}
-				}
-			}
-		}
-
 	}
 
 	public boolean isEqualsAliveDead() {
