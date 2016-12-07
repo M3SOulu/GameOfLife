@@ -31,14 +31,29 @@ public class Grid {
 	}
 	
 	public Grid tick() {
+		Grid tickedGrid;
+		ArrayList<Cell> tickedCells = new ArrayList<Cell>();
+		
 		for(int i = 0; i<width; i++){
-			for(int j = 0; j<width; j++){
-				if(i > 0 && i<width-1 && j>0 && j<height-1){
-					if()
-				}
+			for(int j = 0; j<height; j++){
+				if(grid[i][j].isAlive() && countAliveNeighbors(i, j)<2)
+					tickedCells.add(new Cell(i, j, false));
+				
 			}
 		}
+		
 	    return null;
+	}
+	
+	private void countAliveNeighbors(int x, int y){
+		int count = 0;
+		//Upper-Left Angle
+		if(grid[0][1].isAlive())
+			count++;
+		if(grid[1][0].isAlive())
+			count++;
+		if(grid[1][1].isAlive())
+			count++;
 	}
 
 	public ArrayList<Cell> getCells() {

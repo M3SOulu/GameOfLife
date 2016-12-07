@@ -173,3 +173,12 @@ RefactoringAction 1481123170919 TestGrid.java RENAME trickingAnALiveCellWithLess
 RefactoringAction 1481123172931 TestGrid.java RENAME trickingAnAngleLiveCellWithLessThan2LiveNeighborsMakesItDie()=>void trickingAnAngleAiveCellWithLessThan2LiveNeighborsMakesItDie() METHOD
 RefactoringAction 1481123173962 TestGrid.java RENAME trickingAnAngleAiveCellWithLessThan2LiveNeighborsMakesItDie()=>void trickingAnAngleAliveCellWithLessThan2LiveNeighborsMakesItDie() METHOD
 EditAction 1481123353800 TestGrid.java 1274 3 15 1
+CompilationAction 1481123354096 Grid.java
+CompilationAction 1481123354096 Grid.java
+UnitTestCaseAction 1481123356412 TestGrid.java FAIL
+UnitTestCaseAction 1481123356412 TestCell.java OK
+UnitTestSessionAction 1481123356414 GameOfLife FAIL
+CompilationAction 1481123550032 Grid.java
+CompilationAction 1481123550032 Grid.java
+CompilationAction 1481123550194 Grid.java
+EditAction 1481123676702 Grid.java 1598 11 20 0
