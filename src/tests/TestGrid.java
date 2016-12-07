@@ -16,26 +16,27 @@ public class TestGrid {
 	int height;
 
 	@Before
-	public void setUp() throws NegativeCoordinateException{
-		int j=0;
+	public void setUp() throws NegativeCoordinateException {
+		int j = 0;
 		cells = new ArrayList();
 		width = 50;
 		height = width;
 		for (int i = 0; i < width * height; i++) {
-			Cell c = new Cell(j,i);
-			if(i == width){
+			Cell c = new Cell(j, i);
+			cells.add(c);
+			if (i == width) {
 				j++;
 			}
 		}
 	}
 
 	@Test(expected = CustomLifeException.class)
-	public void gridWithDifferentWidthAndHeight() {
-		Grid g = new Grid(cells, 30, 40);
+	public void gridWithDifferentWidthAndHeight() throws CustomLifeException {
+		Grid g = new Grid(cells, width - 1, height);
 	}
 
 	@Test
-	public void firstGridTest() {
-		Grid g = new Grid(cells, 40, 40);
+	public void firstGridTest() throws CustomLifeException {
+		Grid g = new Grid(cells, width, height);
 	}
 }

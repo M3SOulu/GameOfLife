@@ -23,7 +23,10 @@ public class Grid {
 		this.height = height;
 	}
 	
-	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
+	public Grid(ArrayList<Cell> cells, int w, int h) throws CustomLifeException, CellCoordinateOutOfBoundariesException{
+		if (w != h) {
+			throw new CustomLifeException("cell outside limits");
+		}
 		for(Cell c: cells){
 			if(c.getX() > w || c.getY() > h){
 				throw new CellCoordinateOutOfBoundariesException("cell outside limits");
@@ -35,10 +38,10 @@ public class Grid {
 		setWidth(w);
 	}
 	
-	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
-//		if (w != h) {
-//			throw new CellCoordinateOutOfBoundariesException("cell outside limits");
-//		}
+	public Grid(int w, int h) throws CustomLifeException {
+		if (w != h) {
+			throw new CustomLifeException("cell outside limits");
+		}
 		setHeight(h);
 		setWidth(w);
 	}
