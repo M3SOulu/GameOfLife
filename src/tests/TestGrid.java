@@ -23,7 +23,12 @@ public class TestGrid {
 		width = 10;
 		height = width;
 		for (int i = 0; i < width * height; i++) {
-			if (i == width * j) {
+			if(j!=0){
+				if(i == width){
+					j++;
+				}
+			}
+			else if (i == width * j) {
 				j++;
 			}
 			Cell c = new Cell(j, i - (width * j));
