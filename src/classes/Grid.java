@@ -24,18 +24,18 @@ public class Grid {
 	}
 	
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
-		if (w != h) {
-			throw new CellCoordinateOutOfBoundariesException("error");
-		}
+//		if (w != h) {
+//			throw new CellCoordinateOutOfBoundariesException("cell outside limits");
+//		}
 		this.cells = cells;
 		setHeight(h);
 		setWidth(w);
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
-		if (w != h) {
-			throw new CellCoordinateOutOfBoundariesException("error");
-		}
+//		if (w != h) {
+//			throw new CellCoordinateOutOfBoundariesException("cell outside limits");
+//		}
 		setHeight(h);
 		setWidth(w);
 	}
