@@ -28,6 +28,7 @@ public class Grid {
 		
 		for (int i = 0; i < w * h; i++) {
 			Cell cell = new Cell();
+			cell.makeAlive();
 			this.cells.add(cell);
 		}
 		
