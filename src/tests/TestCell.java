@@ -1,10 +1,12 @@
 package tests;
 
-import static org.junit.Assert.*;
 import org.junit.Test;
+
+import classes.Cell;
 public class TestCell {
 	@Test
-	public void firstCellTest(){
-		fail("implement some proper tests");
+	public void makeADeadCellAlive(){
+		Cell cell = new Cell();
+		
 	}
 }

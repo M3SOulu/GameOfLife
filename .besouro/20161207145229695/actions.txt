@@ -15,3 +15,4 @@ RefactoringAction 1481119423580 Cell.java ADD Cell()/2 METHOD
 RefactoringAction 1481119438224 TestCell.java RENAME import org.junit.Assert.*=>import classes.Cell IMPORT
 RefactoringAction 1481119483611 Cell.java REMOVE Cell()/2 METHOD
 EditAction 1481119483728 Cell.java 267 3 2 0
+EditAction 1481119484037 TestCell.java 161 1 1 0
