@@ -1,0 +1,454 @@
+FileOpenedAction 1481119236300 Cell.java 151 1 0 0
+FileOpenedAction 1481119356259 TestCell.java 178 1 1 0
+FileOpenedAction 1481119466041 Cell.java 151 1 0 0
+FileOpenedAction 1481119491426 CellCoordinateOutOfBoundariesException.java 235 1 1 0
+FileOpenedAction 1481119492346 CustomLifeException.java 189 1 1 0
+FileOpenedAction 1481119494390 Grid.java 416 4 2 0
+FileOpenedAction 1481119495440 NegativeCoordinateException.java 205 1 1 0
+RefactoringAction 1481119546314 TestCell.java RENAME firstCellTest()=>void c() METHOD
+RefactoringAction 1481119548820 TestCell.java RENAME c()=>void cellAlive() METHOD
+RefactoringAction 1481119549825 TestCell.java RENAME cellAlive()=>void cellAliveTes() METHOD
+RefactoringAction 1481119550832 TestCell.java RENAME cellAliveTes()=>void cellAliveTest() METHOD
+EditAction 1481119591948 TestCell.java 183 1 1 1
+CompilationAction 1481119592200 TestCell.java
+RefactoringAction 1481119600255 TestCell.java ADD import classes.Cell IMPORT
+RefactoringAction 1481119609696 Cell.java ADD Cell(boolean) METHOD
+CompilationAction 1481119647898 TestCell.java
+EditAction 1481119647915 Cell.java 301 2 2 0
+CompilationAction 1481119648155 TestCell.java
+RefactoringAction 1481119652179 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
+CompilationAction 1481119653104 TestCell.java
+UnitTestCaseAction 1481119654912 TestCell.java FAIL
+UnitTestSessionAction 1481119654917 TestCell FAIL
+RefactoringAction 1481119672995 Cell.java ADD Object isAlive() METHOD
+EditAction 1481119677049 Cell.java 386 3 3 0
+EditAction 1481119679060 TestCell.java 294 1 1 1
+UnitTestCaseAction 1481119680132 TestCell.java OK
+UnitTestSessionAction 1481119680132 TestCell OK
+RefactoringAction 1481119691561 TestCell.java ADD void cellAliveTest()/2 METHOD
+RefactoringAction 1481119694070 TestCell.java RENAME cellAliveTest()/2=>void cellNotAliveTest() METHOD
+EditAction 1481119699237 TestCell.java 426 2 2 2
+UnitTestCaseAction 1481119700774 TestCell.java OK
+UnitTestSessionAction 1481119700774 TestCell OK
+FileOpenedAction 1481119734246 Grid.java 416 4 2 0
+FileOpenedAction 1481119866754 TestGrid.java 181 1 1 0
+RefactoringAction 1481119910283 TestGrid.java RENAME firstGridTest()=>void grid() METHOD
+RefactoringAction 1481119912291 TestGrid.java RENAME grid()=>void gridTest() METHOD
+RefactoringAction 1481119927322 TestGrid.java ADD import classes.Grid IMPORT
+RefactoringAction 1481120002105 Grid.java ADD Object getWidth() METHOD
+RefactoringAction 1481120018596 Grid.java ADD Object getHeight() METHOD
+EditAction 1481120025247 Grid.java 586 6 4 0
+EditAction 1481120026872 TestGrid.java 266 1 3 2
+UnitTestCaseAction 1481120029312 TestGrid.java FAIL
+UnitTestSessionAction 1481120029318 TestGrid FAIL
+EditAction 1481120080707 TestGrid.java 266 1 3 2
+UnitTestCaseAction 1481120086993 TestGrid.java FAIL
+UnitTestSessionAction 1481120086993 TestGrid FAIL
+UnitTestCaseAction 1481120118097 TestGrid.java OK
+UnitTestSessionAction 1481120118098 TestGrid OK
+CompilationAction 1481120133457 Grid.java
+CompilationAction 1481120141994 Grid.java
+EditAction 1481120257394 TestGrid.java 270 1 3 2
+RefactoringAction 1481120266219 TestCell.java ADD void cellNotAliveTest()/2 METHOD
+RefactoringAction 1481120277226 TestCell.java RENAME cellNotAliveTest()/2=>void get() METHOD
+RefactoringAction 1481120280769 TestCell.java RENAME get()=>void getXY() METHOD
+RefactoringAction 1481120282276 TestCell.java RENAME getXY()=>void getXYCell() METHOD
+EditAction 1481120331390 TestCell.java 602 3 2 2
+CompilationAction 1481120331514 TestCell.java
+CompilationAction 1481120331515 TestCell.java
+CompilationAction 1481120331515 TestCell.java
+CompilationAction 1481120331515 TestCell.java
+EditAction 1481120336523 TestCell.java 602 3 5 4
+CompilationAction 1481120336677 TestCell.java
+CompilationAction 1481120336677 TestCell.java
+CompilationAction 1481120336678 TestCell.java
+CompilationAction 1481120345133 TestCell.java
+CompilationAction 1481120345133 TestCell.java
+CompilationAction 1481120345133 TestCell.java
+CompilationAction 1481120345296 TestCell.java
+CompilationAction 1481120345297 TestCell.java
+CompilationAction 1481120345297 TestCell.java
+RefactoringAction 1481120352031 Cell.java ADD Cell(boolean, int, int) METHOD
+RefactoringAction 1481120356602 Cell.java RENAME Cell(boolean, int, int)=>Cell()/2 METHOD
+RefactoringAction 1481120359614 Cell.java RENAME Cell()/2=>Cell(boolean, int, int) METHOD
+CompilationAction 1481120386722 Cell.java
+CompilationAction 1481120386723 TestCell.java
+CompilationAction 1481120386723 TestCell.java
+CompilationAction 1481120391483 Cell.java
+CompilationAction 1481120391679 TestCell.java
+CompilationAction 1481120391679 TestCell.java
+RefactoringAction 1481120395586 Cell.java ADD Object getX() METHOD
+EditAction 1481120400620 Cell.java 632 5 7 0
+CompilationAction 1481120400769 TestCell.java
+RefactoringAction 1481120405818 Cell.java ADD Object getY() METHOD
+EditAction 1481120410303 Cell.java 707 6 8 0
+UnitTestCaseAction 1481120418241 TestCell.java OK
+UnitTestSessionAction 1481120418242 TestCell OK
+RefactoringAction 1481120539608 TestGrid.java ADD void eachCell FIELD
+RefactoringAction 1481120541114 TestGrid.java RENAME eachCell=>void eachCellS FIELD
+RefactoringAction 1481120544623 TestGrid.java RENAME eachCellS=>void eachCellShall FIELD
+RefactoringAction 1481120545637 TestGrid.java RENAME eachCellShall=>void eachCellShallBe FIELD
+RefactoringAction 1481120546650 TestGrid.java RENAME eachCellShallBe=>void eachCellShallBeA FIELD
+RefactoringAction 1481120550156 TestGrid.java RENAME eachCellShallBeA=>void eachCellShallBeAccessible FIELD
+RefactoringAction 1481120552162 TestGrid.java RENAME eachCellShallBeAccessible=>void eachCellShallBeAccessibleBy FIELD
+RefactoringAction 1481120555169 TestGrid.java RENAME eachCellShallBeAccessibleBy=>void eachCellShallBeAccessibleByUniqueXY FIELD
+RefactoringAction 1481120556179 TestGrid.java RENAME eachCellShallBeAccessibleByUniqueXY=>void eachCellShallBeAccessibleByUniqueXY() METHOD
+RefactoringAction 1481120594226 TestGrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1481120611154 TestGrid.java ADD import classes.Cell IMPORT
+EditAction 1481120670059 TestGrid.java 606 2 9 2
+CompilationAction 1481120670222 TestGrid.java
+RefactoringAction 1481120676752 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
+CompilationAction 1481120678811 TestGrid.java
+EditAction 1481120872080 TestGrid.java 722 2 10 3
+CompilationAction 1481120872228 TestGrid.java
+RefactoringAction 1481120876049 Grid.java ADD Object get(int, int) METHOD
+CompilationAction 1481120953239 TestGrid.java
+EditAction 1481120973051 Grid.java 712 7 7 0
+UnitTestCaseAction 1481120977909 TestGrid.java FAIL
+UnitTestSessionAction 1481120977909 TestGrid FAIL
+EditAction 1481121093207 Grid.java 815 7 8 0
+UnitTestCaseAction 1481121097070 TestGrid.java FAIL
+UnitTestSessionAction 1481121097071 TestGrid FAIL
+UnitTestCaseAction 1481121176520 TestGrid.java OK
+UnitTestSessionAction 1481121176521 TestGrid OK
+EditAction 1481121211485 TestGrid.java 813 2 12 4
+UnitTestCaseAction 1481121213486 TestGrid.java OK
+UnitTestSessionAction 1481121213486 TestGrid OK
+RefactoringAction 1481121505441 TestGrid.java ADD void eachCellShallBeAccessibleByUniqueXY()/2 METHOD
+RefactoringAction 1481121511955 TestGrid.java RENAME eachCellShallBeAccessibleByUniqueXY()/2=>void numberOf() METHOD
+RefactoringAction 1481121516474 TestGrid.java RENAME numberOf()=>void numberOfAliveCells() METHOD
+RefactoringAction 1481121520480 TestGrid.java RENAME numberOfAliveCells()=>void numberOfAliveCellsSho() METHOD
+RefactoringAction 1481121521489 TestGrid.java RENAME numberOfAliveCellsSho()=>void numberOfAliveCellsShould() METHOD
+RefactoringAction 1481121529998 TestGrid.java RENAME numberOfAliveCellsShould()=>void numberOfAliveCellsShouldBeInitialized() METHOD
+RefactoringAction 1481121567009 TestGrid.java RENAME numberOfAliveCellsShouldBeInitialized()=>void numberOfAliveCellsShouldBeInitializedRou() METHOD
+RefactoringAction 1481121570516 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRou()=>void numberOfAliveCellsShouldBeInitializedRoughly() METHOD
+RefactoringAction 1481121577027 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughly()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqual() METHOD
+RefactoringAction 1481121579536 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqual()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualTo() METHOD
+RefactoringAction 1481121584058 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualTo()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber() METHOD
+RefactoringAction 1481121696310 Grid.java ADD Object getAliveCells() METHOD
+EditAction 1481121740207 Grid.java 1038 8 13 0
+CompilationAction 1481121740357 Grid.java
+EditAction 1481121768396 TestGrid.java 1465 3 25 6
+CompilationAction 1481121768521 TestGrid.java
+UnitTestCaseAction 1481121769977 TestCell.java OK
+UnitTestSessionAction 1481121769978 TestCell OK
+RefactoringAction 1481121787652 Grid.java ADD int getAliveCells()/2 METHOD
+RefactoringAction 1481121791663 Grid.java RENAME getAliveCells()/2=>int getDeadCells() METHOD
+EditAction 1481121794689 Grid.java 1225 9 16 0
+UnitTestCaseAction 1481121797775 TestGrid.java OK
+UnitTestSessionAction 1481121797776 TestGrid OK
+EditAction 1481121812329 TestGrid.java 1465 3 25 6
+EditAction 1481121814298 TestGrid.java 1462 3 25 6
+RefactoringAction 1481122167300 TestGrid.java ADD void get FIELD
+RefactoringAction 1481122169812 TestGrid.java RENAME get=>void getNeight FIELD
+RefactoringAction 1481122170827 TestGrid.java RENAME getNeight=>void getNeigh FIELD
+RefactoringAction 1481122176342 TestGrid.java RENAME getNeigh=>void getNeighbors FIELD
+RefactoringAction 1481122179348 TestGrid.java RENAME getNeighbors=>void getNeighborsCellIn FIELD
+RefactoringAction 1481122188854 TestGrid.java RENAME getNeighborsCellIn=>void getNeighborsCellInsideTheGrid() METHOD
+EditAction 1481122211367 TestGrid.java 2060 4 38 8
+EditAction 1481122224582 TestGrid.java 2026 4 37 7
+RefactoringAction 1481122322910 Grid.java ADD Object getNeighborsNumber(int) METHOD
+EditAction 1481122332246 Grid.java 1322 10 17 0
+EditAction 1481122333926 TestGrid.java 2034 4 37 7
+RefactoringAction 1481122339005 TestGrid.java ADD void getNeighborsCellInsideTheGrid()/2 METHOD
+RefactoringAction 1481122357521 TestGrid.java RENAME getNeighborsCellInsideTheGrid()/2=>void getNeighborsCellAtTheBorderTheGrid() METHOD
+RefactoringAction 1481122359029 TestGrid.java RENAME getNeighborsCellAtTheBorderTheGrid()=>void getNeighborsCellAtTheBorderOfTheGrid() METHOD
+RefactoringAction 1481122379563 TestGrid.java ADD void getNeighborsCellAtTheBorderOfTheGrid()/2 METHOD
+RefactoringAction 1481122394073 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid()/2=>void getNeighborsCellAtTheCornerOfTheGrid() METHOD
+EditAction 1481122402039 TestGrid.java 3204 6 61 9
+UnitTestCaseAction 1481122404447 TestGrid.java FAIL
+UnitTestSessionAction 1481122404447 TestGrid FAIL
+RefactoringAction 1481122711622 TestGrid.java REMOVE getNeighborsCellInsideTheGrid() METHOD
+RefactoringAction 1481122711622 TestGrid.java REMOVE getNeighborsCellAtTheBorderOfTheGrid() METHOD
+EditAction 1481122711705 TestGrid.java 3286 4 37 7
+EditAction 1481122717266 Grid.java 1399 10 16 0
+CompilationAction 1481122717380 Grid.java
+UnitTestCaseAction 1481122718413 TestGrid.java FAIL
+UnitTestSessionAction 1481122718414 TestGrid FAIL
+EditAction 1481122871386 Grid.java 1421 10 18 0
+EditAction 1481122906986 Grid.java 1460 10 18 0
+UnitTestCaseAction 1481122907533 TestGrid.java OK
+UnitTestSessionAction 1481122907534 TestGrid OK
+RefactoringAction 1481122916192 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid()=>void getNeighborsCellAtTheCornerOfTheGrid3£() METHOD
+RefactoringAction 1481122917700 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid3£()=>void getNeighborsCellAtTheCornerOfTheGrid3() METHOD
+RefactoringAction 1481122919207 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid3()=>void getNeighborsCellAtTheCornerOfTheGrid3X3() METHOD
+RefactoringAction 1481122925232 TestGrid.java ADD void getNeighborsCellAtTheCornerOfTheGrid3X3()/2 METHOD
+RefactoringAction 1481122929742 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid3X3()/2=>void getNeighborsCellAtTheCornerOfTheGrid2X2() METHOD
+EditAction 1481122942689 TestGrid.java 3700 5 44 8
+EditAction 1481122971018 TestGrid.java 3847 5 47 11
+UnitTestCaseAction 1481122973804 TestGrid.java OK
+UnitTestSessionAction 1481122973805 TestGrid OK
+EditAction 1481122996962 TestGrid.java 3994 5 50 14
+UnitTestCaseAction 1481122998801 TestGrid.java OK
+UnitTestSessionAction 1481122998802 TestGrid OK
+RefactoringAction 1481123006924 TestGrid.java ADD void getNeighborsCellAtTheCornerOfTheGrid3X3()/2 METHOD
+RefactoringAction 1481123009956 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid3X3()/2=>void getNeighborsCellAtTheCornerOfTheGrid34() METHOD
+RefactoringAction 1481123010963 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid34()=>void getNeighborsCellAtTheCornerOfTheGrid34X4() METHOD
+EditAction 1481123066737 TestGrid.java 4978 6 72 18
+UnitTestCaseAction 1481123068608 TestGrid.java OK
+UnitTestSessionAction 1481123068608 TestGrid OK
+RefactoringAction 1481123085196 Grid.java ADD boolean is FIELD
+RefactoringAction 1481123086202 Grid.java RENAME is=>boolean isC FIELD
+RefactoringAction 1481123089210 Grid.java RENAME isC=>boolean isCornerCell FIELD
+RefactoringAction 1481123090216 Grid.java RENAME isCornerCell=>boolean isCornerCell() METHOD
+RefactoringAction 1481123095735 Grid.java RENAME isCornerCell()=>boolean isCornerCell(int) METHOD
+CompilationAction 1481123131473 Grid.java
+EditAction 1481123142355 Grid.java 1594 11 20 0
+RefactoringAction 1481123157108 TestGrid.java ADD void getNeighborsCellAtTheBorderOfTheGrid() METHOD
+EditAction 1481123175386 TestGrid.java 4938 7 84 19
+UnitTestCaseAction 1481123175899 TestGrid.java FAIL
+UnitTestSessionAction 1481123175900 TestGrid FAIL
+EditAction 1481123202015 Grid.java 1622 11 18 0
+CompilationAction 1481123202154 Grid.java
+EditAction 1481123227207 Grid.java 1634 11 21 0
+UnitTestCaseAction 1481123233232 TestGrid.java FAIL
+UnitTestSessionAction 1481123233232 TestGrid FAIL
+EditAction 1481123264191 Grid.java 1634 11 21 0
+UnitTestCaseAction 1481123266706 TestGrid.java OK
+UnitTestSessionAction 1481123266707 TestGrid OK
+EditAction 1481123293290 TestGrid.java 5085 7 87 22
+EditAction 1481123339648 TestGrid.java 5131 6 72 18
+RefactoringAction 1481123435523 Grid.java ADD boolean is FIELD
+RefactoringAction 1481123441528 Grid.java REMOVE is FIELD
+RefactoringAction 1481123442549 Grid.java ADD boolean ce FIELD
+RefactoringAction 1481123443554 Grid.java REMOVE ce FIELD
+RefactoringAction 1481123445564 Grid.java ADD boolean areCells FIELD
+RefactoringAction 1481123455583 Grid.java RENAME areCells=>boolean areCellsUniformlyIni FIELD
+RefactoringAction 1481123459100 Grid.java RENAME areCellsUniformlyIni=>boolean areCellsUniformlyInitialized FIELD
+RefactoringAction 1481123460128 Grid.java RENAME areCellsUniformlyInitialized=>boolean areCellsUniformlyInitialized() METHOD
+CompilationAction 1481123478385 Grid.java
+UnitTestCaseAction 1481123582002 TestGrid.java OK
+UnitTestSessionAction 1481123582002 TestGrid OK
+RefactoringAction 1481123611269 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3() METHOD
+RefactoringAction 1481123612276 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3X3() METHOD
+RefactoringAction 1481123620318 TestGrid.java ADD void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3X3()/2 METHOD
+RefactoringAction 1481123631333 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3X3()/2=>void numberOfAliveCellsAreNotInitializedRoughlyEqualToDeadCellNumber3X3() METHOD
+EditAction 1481123642268 TestGrid.java 5741 7 83 18
+RefactoringAction 1481123649867 TestGrid.java ADD void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3X3()/2 METHOD
+RefactoringAction 1481123653375 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3X3()/2=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber() METHOD
+RefactoringAction 1481123654883 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber2X2() METHOD
+RefactoringAction 1481123680435 TestGrid.java ADD void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber2X2()/2 METHOD
+RefactoringAction 1481123686943 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber2X2()/2=>void numberOfAliveCellsAreNotInitializedRoughlyEqualToDeadCellNumber2X2() METHOD
+EditAction 1481123696180 TestGrid.java 6647 9 97 20
+UnitTestCaseAction 1481123697681 TestGrid.java FAIL
+UnitTestSessionAction 1481123697682 TestGrid FAIL
+CompilationAction 1481123708164 Grid.java
+CompilationAction 1481123739350 Grid.java
+UnitTestCaseAction 1481123792914 TestGrid.java FAIL
+UnitTestSessionAction 1481123792914 TestGrid FAIL
+CompilationAction 1481123862171 Grid.java
+CompilationAction 1481123866971 Grid.java
+UnitTestCaseAction 1481123870492 TestGrid.java OK
+UnitTestSessionAction 1481123870492 TestGrid OK
+UnitTestCaseAction 1481123995801 TestGrid.java FAIL
+UnitTestSessionAction 1481123995802 TestGrid FAIL
+UnitTestCaseAction 1481124006546 TestGrid.java FAIL
+UnitTestSessionAction 1481124006546 TestGrid FAIL
+UnitTestCaseAction 1481124049183 TestGrid.java OK
+UnitTestSessionAction 1481124049184 TestGrid OK
+UnitTestCaseAction 1481124099419 TestGrid.java OK
+UnitTestSessionAction 1481124099420 TestGrid OK
+EditAction 1481124184483 TestGrid.java 6599 10 112 24
+RefactoringAction 1481124187551 TestGrid.java REMOVE getNeighborsCellAtTheBorderOfTheGrid() METHOD
+EditAction 1481124189455 TestGrid.java 6647 9 97 20
+UnitTestCaseAction 1481124189948 TestGrid.java OK
+UnitTestSessionAction 1481124189949 TestGrid OK
+EditAction 1481124193081 TestGrid.java 6599 10 112 24
+UnitTestCaseAction 1481124195526 TestGrid.java FAIL
+UnitTestSessionAction 1481124195527 TestGrid FAIL
+RefactoringAction 1481124278997 Grid.java ADD boolean get FIELD
+RefactoringAction 1481124282008 Grid.java REMOVE get FIELD
+RefactoringAction 1481124283513 Grid.java ADD boolean is FIELD
+RefactoringAction 1481124286519 Grid.java RENAME is=>boolean isBorder FIELD
+RefactoringAction 1481124290035 Grid.java REMOVE isBorder FIELD
+RefactoringAction 1481124317083 Grid.java ADD ArrayList<Integer> get FIELD
+RefactoringAction 1481124322589 Grid.java RENAME get=>ArrayList<Integer> getBorderValues() METHOD
+RefactoringAction 1481124485105 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid()=>void getNeighborsCellAtTheBorderOfTheGrid3() METHOD
+RefactoringAction 1481124486114 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid3()=>void getNeighborsCellAtTheBorderOfTheGrid3X3() METHOD
+RefactoringAction 1481124491621 TestGrid.java ADD void getNeighborsCellAtTheBorderOfTheGrid3X3()/2 METHOD
+RefactoringAction 1481124495645 TestGrid.java RENAME getNeighborsCellAtTheBorderOfTheGrid3X3()/2=>void getNeighborsCellAtTheBorderOfTheGrid4X4() METHOD
+EditAction 1481124511990 TestGrid.java 7583 11 134 28
+EditAction 1481124634589 TestGrid.java 7782 11 138 32
+UnitTestCaseAction 1481124643229 TestGrid.java FAIL
+UnitTestSessionAction 1481124643229 TestGrid FAIL
+CompilationAction 1481125297141 Grid.java
+CompilationAction 1481125297141 Grid.java
+CompilationAction 1481125297142 Grid.java
+CompilationAction 1481125297142 Grid.java
+CompilationAction 1481125311764 Grid.java
+UnitTestCaseAction 1481125314624 TestGrid.java FAIL
+UnitTestSessionAction 1481125314624 TestGrid FAIL
+UnitTestCaseAction 1481125476268 TestGrid.java FAIL
+UnitTestSessionAction 1481125476269 TestGrid FAIL
+EditAction 1481125488742 TestGrid.java 7850 10 112 24
+UnitTestCaseAction 1481125490531 TestGrid.java OK
+UnitTestSessionAction 1481125490532 TestGrid OK
+RefactoringAction 1481125496896 TestGrid.java ADD void getNeighborsCellAtTheBorderOfTheGrid4X4() METHOD
+EditAction 1481125497021 TestGrid.java 7782 11 138 32
+UnitTestCaseAction 1481125737607 TestGrid.java FAIL
+UnitTestSessionAction 1481125737607 TestGrid FAIL
+UnitTestCaseAction 1481125739715 TestGrid.java FAIL
+UnitTestSessionAction 1481125739715 TestGrid FAIL
+UnitTestCaseAction 1481125771118 TestGrid.java FAIL
+UnitTestSessionAction 1481125771118 TestGrid FAIL
+EditAction 1481125816573 Grid.java 2682 13 33 0
+UnitTestCaseAction 1481125819267 TestGrid.java OK
+UnitTestSessionAction 1481125819267 TestGrid OK
+RefactoringAction 1481125849863 Grid.java RENAME isCornerCell(int)=>boolean getCornerValues(int) METHOD
+CompilationAction 1481125929780 Grid.java
+CompilationAction 1481125929781 Grid.java
+CompilationAction 1481125933235 Grid.java
+CompilationAction 1481125933235 Grid.java
+CompilationAction 1481125933404 Grid.java
+CompilationAction 1481125958323 Grid.java
+CompilationAction 1481125958490 Grid.java
+CompilationAction 1481125970216 Grid.java
+UnitTestCaseAction 1481125972521 TestGrid.java OK
+UnitTestSessionAction 1481125972521 TestGrid OK
+UnitTestCaseAction 1481126175717 TestGrid.java OK
+UnitTestSessionAction 1481126175717 TestGrid OK
+UnitTestCaseAction 1481126233701 TestGrid.java OK
+UnitTestSessionAction 1481126233702 TestGrid OK
+RefactoringAction 1481126244528 TestGrid.java ADD void getNeighborsCellInsideTheGrid() METHOD
+RefactoringAction 1481126247546 TestGrid.java RENAME getNeighborsCellInsideTheGrid()=>void getNeighborsCellInsideTheGrid3() METHOD
+RefactoringAction 1481126248553 TestGrid.java RENAME getNeighborsCellInsideTheGrid3()=>void getNeighborsCellInsideTheGrid3X() METHOD
+RefactoringAction 1481126249561 TestGrid.java RENAME getNeighborsCellInsideTheGrid3X()=>void getNeighborsCellInsideTheGrid3X3() METHOD
+EditAction 1481126301721 TestGrid.java 7745 12 150 33
+UnitTestCaseAction 1481126303213 TestGrid.java FAIL
+UnitTestSessionAction 1481126303213 TestGrid.getNeighborsCellInsideTheGrid3X3 FAIL
+UnitTestCaseAction 1481126307244 TestGrid.java FAIL
+UnitTestSessionAction 1481126307245 TestGrid FAIL
+RefactoringAction 1481126312083 Grid.java ADD ArrayList<Integer> getBorderValues()/2 METHOD
+RefactoringAction 1481126326591 Grid.java RENAME getBorderValues()/2=>ArrayList<Integer> getIsValues() METHOD
+RefactoringAction 1481126334100 Grid.java RENAME getIsValues()=>ArrayList<Integer> getInsideValues() METHOD
+EditAction 1481126411569 Grid.java 3186 14 41 0
+EditAction 1481126414785 Grid.java 3186 14 41 0
+UnitTestCaseAction 1481126418024 TestGrid.java FAIL
+UnitTestSessionAction 1481126418024 TestGrid FAIL
+UnitTestCaseAction 1481126575647 TestGrid.java OK
+UnitTestSessionAction 1481126575648 TestGrid OK
+RefactoringAction 1481126585625 TestGrid.java ADD void getNeighborsCellInsideTheGrid3X3()/2 METHOD
+RefactoringAction 1481126591143 TestGrid.java RENAME getNeighborsCellInsideTheGrid3X3()/2=>void getNeighborsCellInsideTheGrid4X4() METHOD
+EditAction 1481126629922 TestGrid.java 8720 13 172 37
+UnitTestCaseAction 1481126631530 TestGrid.java OK
+UnitTestSessionAction 1481126631530 TestGrid OK
+RefactoringAction 1481126653951 Grid.java REMOVE getNeighborsNumber(int) METHOD
+RefactoringAction 1481126655467 Grid.java ADD int getNeighborsNumber(int) METHOD
+RefactoringAction 1481126720529 Grid.java ADD import org.junit.Assert.assertEquals IMPORT
+RefactoringAction 1481126723559 Grid.java REMOVE import org.junit.Assert.assertEquals IMPORT
+EditAction 1481126756685 Grid.java 3363 14 44 0
+RefactoringAction 1481126779103 Grid.java RENAME getInsideValues()=>ArrayList<Integer> getInsideTheGridValues() METHOD
+UnitTestCaseAction 1481126782504 TestGrid.java OK
+UnitTestSessionAction 1481126782504 TestGrid OK
+RefactoringAction 1481126925247 TestGrid.java ADD void getNeighborsCellAtTheCornerOfTheGrid34X4()/2 METHOD
+RefactoringAction 1481126934257 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid34X4()/2=>void an() METHOD
+RefactoringAction 1481126940270 TestGrid.java RENAME an()=>void anyLiveCe() METHOD
+RefactoringAction 1481126941779 TestGrid.java RENAME anyLiveCe()=>void anyLiveCell() METHOD
+RefactoringAction 1481126944289 TestGrid.java RENAME anyLiveCell()=>void anyLiveCellWithFew() METHOD
+RefactoringAction 1481126947301 TestGrid.java RENAME anyLiveCellWithFew()=>void anyLiveCellWithFewerThan() METHOD
+RefactoringAction 1481126952310 TestGrid.java RENAME anyLiveCellWithFewerThan()=>void anyLiveCellWithFewerThanTwoLiveNeigh() METHOD
+RefactoringAction 1481126960823 TestGrid.java RENAME anyLiveCellWithFewerThanTwoLiveNeigh()=>void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest() METHOD
+RefactoringAction 1481126962833 TestGrid.java RENAME anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest()=>void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+EditAction 1481126965676 TestGrid.java 8813 14 172 37
+EditAction 1481126988972 TestGrid.java 9068 14 178 37
+EditAction 1481127104978 TestGrid.java 9176 14 181 39
+UnitTestCaseAction 1481127109626 TestGrid.java FAIL
+UnitTestSessionAction 1481127109627 TestGrid FAIL
+EditAction 1481127169231 TestGrid.java 9191 14 181 39
+UnitTestCaseAction 1481127170943 TestGrid.java FAIL
+UnitTestSessionAction 1481127170944 TestGrid FAIL
+RefactoringAction 1481127255686 Grid.java ADD ArrayList<Cell> get FIELD
+RefactoringAction 1481127257692 Grid.java RENAME get=>ArrayList<Cell> getNeigh FIELD
+RefactoringAction 1481127261199 Grid.java RENAME getNeigh=>ArrayList<Cell> getNeighbors FIELD
+RefactoringAction 1481127262204 Grid.java RENAME getNeighbors=>ArrayList<Cell> getNeighbors() METHOD
+CompilationAction 1481127271199 Grid.java
+RefactoringAction 1481127407267 Grid.java REMOVE getNeighbors() METHOD
+RefactoringAction 1481127430292 Grid.java ADD ArrayList<Integer> getCorner FIELD
+RefactoringAction 1481127451799 Grid.java RENAME getCorner=>ArrayList<Integer> getCornerNeigh FIELD
+RefactoringAction 1481127459307 Grid.java RENAME getCornerNeigh=>ArrayList<Integer> getCornerNeighbors FIELD
+RefactoringAction 1481127461320 Grid.java RENAME getCornerNeighbors=>ArrayList<Integer> getCornerNeighbors() METHOD
+RefactoringAction 1481127482838 Grid.java RENAME getCornerNeighbors()=>ArrayList<Integer> getCornerNeighbors(int) METHOD
+RefactoringAction 1481127542347 Grid.java REMOVE getCornerNeighbors(int) METHOD
+UnitTestCaseAction 1481127750268 TestGrid.java FAIL
+UnitTestSessionAction 1481127750268 TestGrid FAIL
+UnitTestCaseAction 1481127797962 TestGrid.java OK
+UnitTestSessionAction 1481127797963 TestGrid OK
+RefactoringAction 1481127816244 TestGrid.java ADD void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2()/2 METHOD
+EditAction 1481127821040 TestGrid.java 9652 15 190 41
+RefactoringAction 1481127905312 TestGrid.java RENAME anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void cellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481127916322 TestGrid.java RENAME anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void cellWithFewerThanTwoLiveNeighborsDiesTest2X2()/2 METHOD
+RefactoringAction 1481127936343 TestGrid.java RENAME cellWithFewerThanTwoLiveNeighborsDiesTest2X2()/2=>void ellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481127937353 TestGrid.java RENAME ellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void NoellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481127938876 TestGrid.java RENAME NoellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void NoCellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128026416 TestGrid.java RENAME cellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void noCellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128041428 TestGrid.java RENAME noCellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void ellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128042436 TestGrid.java RENAME ellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void cellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128061946 TestGrid.java RENAME NoCellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void CellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+RefactoringAction 1481128062954 TestGrid.java RENAME CellWithFewerThanTwoLiveNeighborsDiesTest2X2()=>void twoCellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+EditAction 1481128113971 TestGrid.java 9639 15 190 41
+UnitTestCaseAction 1481128116920 TestGrid.java OK
+UnitTestSessionAction 1481128116920 TestGrid OK
+RefactoringAction 1481128179985 TestGrid.java ADD void twoCellWithFewerThanTwoLiveNeighborsDiesTest2X2()/2 METHOD
+RefactoringAction 1481128201995 TestGrid.java RENAME twoCellWithFewerThanTwoLiveNeighborsDiesTest2X2()/2=>void twoCellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+EditAction 1481128216244 TestGrid.java 10277 16 204 43
+RefactoringAction 1481128266036 TestGrid.java RENAME twoCellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void cellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+EditAction 1481128266468 TestGrid.java 10274 16 204 43
+EditAction 1481128417876 TestGrid.java 10274 16 204 43
+UnitTestCaseAction 1481128419848 TestGrid.java FAIL
+UnitTestSessionAction 1481128419848 TestGrid FAIL
+RefactoringAction 1481128486616 TestGrid.java RENAME cellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void TwocellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+RefactoringAction 1481128488136 TestGrid.java RENAME TwocellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void cellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+RefactoringAction 1481128489144 TestGrid.java RENAME cellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void twocellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+RefactoringAction 1481128491654 TestGrid.java RENAME twocellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void twoCornercellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+RefactoringAction 1481128493163 TestGrid.java RENAME twoCornercellWithFewerThanTwoLiveNeighborsDiesTest3X3()=>void twoCornerCellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+EditAction 1481128500953 TestGrid.java 10297 16 204 43
+RefactoringAction 1481128541309 Grid.java ADD void getCornerNeighbors() METHOD
+RefactoringAction 1481128569832 Grid.java RENAME getCornerNeighbors()=>ArrayList<Integer> getCornerNeighbors(int) METHOD
+CompilationAction 1481128570747 Grid.java
+RefactoringAction 1481128606857 Grid.java ADD int getNeighborsNumber(int)/2 METHOD
+RefactoringAction 1481128611375 Grid.java RENAME getNeighborsNumber(int)/2=>int getNeighbors(int) METHOD
+CompilationAction 1481128651521 Grid.java
+CompilationAction 1481128651691 Grid.java
+RefactoringAction 1481128665474 Grid.java REMOVE getNeighbors(int) METHOD
+RefactoringAction 1481128670482 Grid.java ADD ArrayList<Integer> getNeighbors(int) METHOD
+CompilationAction 1481128673001 Grid.java
+CompilationAction 1481128673169 Grid.java
+CompilationAction 1481128735552 Grid.java
+CompilationAction 1481128735725 Grid.java
+CompilationAction 1481128746966 Grid.java
+CompilationAction 1481128747114 Grid.java
+CompilationAction 1481128769504 Grid.java
+CompilationAction 1481128769669 Grid.java
+CompilationAction 1481128769671 Grid.java
+CompilationAction 1481128773863 Grid.java
+CompilationAction 1481128774023 Grid.java
+CompilationAction 1481128810263 Grid.java
+CompilationAction 1481128810423 Grid.java
+CompilationAction 1481128935766 Grid.java
+CompilationAction 1481128935926 Grid.java
+CompilationAction 1481129225006 Grid.java
+CompilationAction 1481129225134 Grid.java
+CompilationAction 1481129283852 Grid.java
+CompilationAction 1481129284013 Grid.java
+CompilationAction 1481129308036 Grid.java
+CompilationAction 1481129407766 Grid.java
+CompilationAction 1481129413565 Grid.java
+RefactoringAction 1481129504327 Grid.java ADD int getAliveCells()/2 METHOD
+RefactoringAction 1481129518857 Grid.java RENAME getAliveCells()/2=>int getAliveCells(ArrayList<Cell>) METHOD
+UnitTestCaseAction 1481129613718 TestGrid.java FAIL
+UnitTestSessionAction 1481129613719 TestGrid FAIL
+UnitTestCaseAction 1481129634665 TestCell.java OK
+UnitTestSessionAction 1481129634665 TestCell OK
+CompilationAction 1481129746290 Grid.java
+CompilationAction 1481129757866 Grid.java
+UnitTestCaseAction 1481129760622 TestGrid.java FAIL
+UnitTestSessionAction 1481129760623 TestGrid FAIL
+UnitTestCaseAction 1481129866861 TestGrid.java FAIL
+UnitTestSessionAction 1481129866861 TestGrid FAIL
+UnitTestCaseAction 1481129994322 TestGrid.java FAIL
+UnitTestSessionAction 1481129994322 TestGrid FAIL
+EditAction 1481130005008 TestGrid.java 9647 15 190 41
+UnitTestCaseAction 1481130006410 TestGrid.java FAIL
+UnitTestSessionAction 1481130006411 TestGrid FAIL
+RefactoringAction 1481130020377 TestGrid.java ADD void twoCornerCellWithFewerThanTwoLiveNeighborsDiesTest3X3() METHOD
+EditAction 1481130020742 TestGrid.java 10297 16 204 43
