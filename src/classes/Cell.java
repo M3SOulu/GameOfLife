@@ -6,7 +6,7 @@ public class Cell {
 	private boolean alive;
 
 	public Cell() throws NegativeCoordinateException {
-		
+		this(0,0,false);
 	}
 
 	public Cell(int x, int y,boolean t) throws NegativeCoordinateException {
