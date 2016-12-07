@@ -282,3 +282,5 @@ CompilationAction 1481127594118 Grid.java
 CompilationAction 1481127758524 Grid.java
 EditAction 1481128170232 Grid.java 2548 8 17 0
 EditAction 1481128461110 TestGrid.java 2565 5 28 2
+UnitTestCaseAction 1481128462778 TestGrid.java OK
+UnitTestSessionAction 1481128462780 TestGrid OK
