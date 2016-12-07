@@ -40,7 +40,7 @@ public class Grid {
 		int alive=0;
 		int dead=0;
 		for(int i=0;i<cells.size();i++){
-			if(cells.get(i).getAlive()=true){
+			if(cells.get(i).getAlive()==true){
 				alive++;
 			}else{
 				dead++;
