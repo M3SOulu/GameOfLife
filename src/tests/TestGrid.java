@@ -76,7 +76,6 @@ public class TestGrid {
 				x++;
 			}
 		}
-		
 		grid = new Grid(arrayCell, 4, 4);
 	}
 	
