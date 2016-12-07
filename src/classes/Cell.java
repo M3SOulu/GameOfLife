@@ -7,12 +7,10 @@ public class Cell {
 	
 	
 	public Cell() throws NegativeCoordinateException {
-		
-		this.x = x;
-		this.y = y;
+
 		
 		if(this.x < 0 && this.y < 0) {
-			throw NegativeCoordinateException();
+			throw new NegativeCoordinateException("Coordinate negative");
 		}
 		alive = true;
 	}

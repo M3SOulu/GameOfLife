@@ -18,3 +18,9 @@ EditAction 1481119483728 Cell.java 267 3 2 0
 EditAction 1481119484037 TestCell.java 161 1 1 0
 CompilationAction 1481119485122 TestCell.java
 EditAction 1481119609311 Cell.java 394 3 6 0
+CompilationAction 1481119609578 Cell.java
+CompilationAction 1481119620244 Cell.java
+CompilationAction 1481119620390 Cell.java
+FileOpenedAction 1481119627509 NegativeCoordinateException.java 205 1 1 0
+CompilationAction 1481119676241 Cell.java
+EditAction 1481119680398 Cell.java 389 3 4 0
