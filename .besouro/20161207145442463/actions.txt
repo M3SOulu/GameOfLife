@@ -18,3 +18,15 @@ EditAction 1481120078677 Cell.java 345 2 4 0
 EditAction 1481120091695 Cell.java 360 2 4 0
 EditAction 1481120128320 Cell.java 363 2 4 0
 EditAction 1481120164773 TestCell.java 205 1 1 0
+CompilationAction 1481120165062 TestCell.java
+RefactoringAction 1481120174581 TestCell.java ADD void AssertFalse(int, int, boolean) METHOD
+RefactoringAction 1481120188514 TestCell.java REMOVE AssertFalse(int, int, boolean) METHOD
+RefactoringAction 1481120286175 TestCell.java ADD void testNegativeCoordinate FIELD
+RefactoringAction 1481120288189 TestCell.java RENAME testNegativeCoordinate=>void testNegativeCoordinateFor FIELD
+RefactoringAction 1481120291705 TestCell.java RENAME testNegativeCoordinateFor=>void testNegativeCoordinateForCell FIELD
+RefactoringAction 1481120292710 TestCell.java RENAME testNegativeCoordinateForCell=>void testNegativeCoordinateForCell() METHOD
+CompilationAction 1481120320660 TestCell.java
+CompilationAction 1481120320821 TestCell.java
+CompilationAction 1481120320822 TestCell.java
+RefactoringAction 1481120329241 Cell.java RENAME Cell(int, int, boolean)=>Cell(int, int) METHOD
+EditAction 1481120333264 TestCell.java 311 2 1 0

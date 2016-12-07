@@ -10,6 +10,13 @@ public class TestCell {
 	
 	@Test
 	public void firstCellTest(){
-		AssertFalse(-1,-1,true);
+		
 	}
+	
+	@Test(expected=NegativeCoordinateException.class)
+	public void testNegativeCoordinateForCell(){
+		cella=new Cell(-1,-1);
+	}
+
+	
 }
