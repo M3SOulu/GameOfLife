@@ -106,3 +106,7 @@ EditAction 1481122079599 TestGrid.java 768 2 5 1
 UnitTestCaseAction 1481122080113 TestGrid.java FAIL
 UnitTestSessionAction 1481122080114 TestGrid FAIL
 EditAction 1481122120858 TestGrid.java 805 2 6 1
+UnitTestCaseAction 1481122122363 TestGrid.java OK
+UnitTestSessionAction 1481122122363 TestGrid OK
+RefactoringAction 1481122126622 TestGrid.java ADD void testCellCoordinate() METHOD
+EditAction 1481122132076 TestGrid.java 801 3 7 1

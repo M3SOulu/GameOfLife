@@ -32,9 +32,9 @@ public class TestGrid {
 		assertTrue(grid.getWidth()==grid.getHeight());
 	}
 	
-	/*@Test(expected=CellCoordinateOutOfBoundariesException.class)
+	@Test(expected=CellCoordinateOutOfBoundariesException.class)
 	public void testCellCoordinate(){
 			grid = new Grid(arrayCell,3,3);
-	}*/
+	}
 	
 }
