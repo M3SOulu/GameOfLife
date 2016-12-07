@@ -152,7 +152,7 @@ public class Grid {
 	 * 
 	 * @return a list with indexes of inside positions in 2D square grid
 	 */
-	private ArrayList<Integer> getInsideValues(){
+	private ArrayList<Integer> getInsideTheGridValues(){
 		if( width <= 2 ){
 			return null;
 		}
@@ -178,7 +178,7 @@ public class Grid {
 		if( getBorderValues().contains(index) ){	//border cell			
 			return 5;
 		}
-		if( getInsideValues().contains(index) ){	//inside the grid cell			
+		if( getInsideTheGridValues().contains(index) ){	//inside the grid cell			
 			return 8;
 		}
 		

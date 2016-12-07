@@ -300,4 +300,14 @@ public class TestGrid {
 		assertEquals(3, grid.getNeighborsNumber( 12 ));
 		assertEquals(3, grid.getNeighborsNumber( 15 ));
 	}
+	
+	@Test
+	public void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2(){
+		
+	}
+	
+	
+	
+	
+	
 }

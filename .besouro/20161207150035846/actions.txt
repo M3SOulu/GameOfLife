@@ -337,3 +337,16 @@ RefactoringAction 1481126655467 Grid.java ADD int getNeighborsNumber(int) METHOD
 RefactoringAction 1481126720529 Grid.java ADD import org.junit.Assert.assertEquals IMPORT
 RefactoringAction 1481126723559 Grid.java REMOVE import org.junit.Assert.assertEquals IMPORT
 EditAction 1481126756685 Grid.java 3363 14 44 0
+RefactoringAction 1481126779103 Grid.java RENAME getInsideValues()=>ArrayList<Integer> getInsideTheGridValues() METHOD
+UnitTestCaseAction 1481126782504 TestGrid.java OK
+UnitTestSessionAction 1481126782504 TestGrid OK
+RefactoringAction 1481126925247 TestGrid.java ADD void getNeighborsCellAtTheCornerOfTheGrid34X4()/2 METHOD
+RefactoringAction 1481126934257 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid34X4()/2=>void an() METHOD
+RefactoringAction 1481126940270 TestGrid.java RENAME an()=>void anyLiveCe() METHOD
+RefactoringAction 1481126941779 TestGrid.java RENAME anyLiveCe()=>void anyLiveCell() METHOD
+RefactoringAction 1481126944289 TestGrid.java RENAME anyLiveCell()=>void anyLiveCellWithFew() METHOD
+RefactoringAction 1481126947301 TestGrid.java RENAME anyLiveCellWithFew()=>void anyLiveCellWithFewerThan() METHOD
+RefactoringAction 1481126952310 TestGrid.java RENAME anyLiveCellWithFewerThan()=>void anyLiveCellWithFewerThanTwoLiveNeigh() METHOD
+RefactoringAction 1481126960823 TestGrid.java RENAME anyLiveCellWithFewerThanTwoLiveNeigh()=>void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest() METHOD
+RefactoringAction 1481126962833 TestGrid.java RENAME anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest()=>void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2() METHOD
+EditAction 1481126965676 TestGrid.java 8813 14 172 37
