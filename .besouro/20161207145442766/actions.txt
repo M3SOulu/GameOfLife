@@ -49,3 +49,7 @@ RefactoringAction 1481119785258 TestCell.java RENAME constructingACellWithNegati
 RefactoringAction 1481119793288 TestCell.java ADD void constructingACellWithNegativeXShouldRiseAnException()/2 METHOD
 RefactoringAction 1481119798318 TestCell.java RENAME constructingACellWithNegativeXShouldRiseAnException()/2=>void constructingACellWithNegativeYShouldRiseAnException() METHOD
 EditAction 1481119807684 TestCell.java 601 2 2 0
+UnitTestCaseAction 1481119810570 TestGrid.java FAIL
+UnitTestCaseAction 1481119810570 TestCell.java FAIL
+UnitTestSessionAction 1481119810571 GameOfLife FAIL
+EditAction 1481119820310 TestCell.java 602 2 2 0
