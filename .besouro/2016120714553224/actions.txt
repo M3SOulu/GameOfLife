@@ -142,3 +142,5 @@ EditAction 1481126243708 TestCell.java 417 2 2 1
 RefactoringAction 1481126248028 TestCell.java REMOVE import classes.Grid IMPORT
 EditAction 1481127006127 TestGrid.java 418 2 2 1
 EditAction 1481127016993 Grid.java 1319 10 19 0
+RefactoringAction 1481127880749 TestGrid.java ADD import classes.CustomLifeException IMPORT
+EditAction 1481127891893 Grid.java 1319 10 19 0

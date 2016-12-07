@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import classes.Cell;
+import classes.CustomLifeException;
 import classes.Grid;
 
 
@@ -23,7 +24,7 @@ public class TestGrid {
 		grid = new Grid(x,y);	
 	}
 	
-	@Test
+	@Test (expected = CustomLifeException.class)
 	public void GridCoordinate(){
 		assertEquals("",grid);
 	}
