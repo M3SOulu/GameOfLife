@@ -10,6 +10,6 @@ public class TestCell {
 	
 	@Test
 	public void cellAliveTest() throws NegativeCoordinateException{
-		assertEquals(true, new Cell( true ));
+		assertEquals(true, new Cell( true ).isAlive());
 	}
 }
