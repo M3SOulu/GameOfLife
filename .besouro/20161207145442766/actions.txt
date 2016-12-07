@@ -147,3 +147,7 @@ RefactoringAction 1481122458756 Grid.java REMOVE a FIELD
 RefactoringAction 1481122460767 Grid.java ADD Cell FIELD
 RefactoringAction 1481122462283 Grid.java RENAME g=>Cell FIELD
 EditAction 1481122638216 Grid.java 1260 10 12 0
+CompilationAction 1481122638417 Grid.java
+CompilationAction 1481122638418 Grid.java
+CompilationAction 1481122638418 Grid.java
+EditAction 1481122696989 Grid.java 1260 10 12 0

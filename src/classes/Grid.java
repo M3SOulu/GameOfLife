@@ -10,14 +10,14 @@ public class Grid {
 
 
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
+		setWidth(w);
+		setHeight(h);
 		grid = new Cell[width][height];
 		for(int i = 0; i<cells.size(); i++)
 			if(cells.get(i).getX()>w || cells.get(i).getY()>h )
 				throw new CellCoordinateOutOfBoundariesException("");
 			else
 				grid[cells.get(i).getX()][cells.get(i).getY()] = cells.get(i);
-		setWidth(w);
-		setHeight(h);
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
