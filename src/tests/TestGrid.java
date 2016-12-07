@@ -53,6 +53,12 @@ public class TestGrid {
 		cells.add(deadNeighbor6);
 		cells.add(deadNeighbor7);
 		cells.add(deadNeighbor8);
+		grid = new Grid(cells, 10, 10);
+		//Act
+		grid.tick(5, 5);
+		//Assert
+		
+		
 		
 		
 	}
