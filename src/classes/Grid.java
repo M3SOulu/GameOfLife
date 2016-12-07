@@ -40,7 +40,15 @@ public class Grid {
 	}
 
 	public Grid tick() {
+		
+		
+		
 		return null;
+	}
+	
+	public void countCellNeighbors(int x,int y){
+		
+		
 	}
 
 	public boolean isEqualsAliveDead() {

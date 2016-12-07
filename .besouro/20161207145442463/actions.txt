@@ -349,3 +349,15 @@ UnitTestCaseAction 1481125216477 TestGrid.java OK
 UnitTestSessionAction 1481125216477 TestGrid OK
 EditAction 1481125224114 Grid.java 1254 5 16 0
 EditAction 1481125272091 TestGrid.java 1988 8 19 1
+UnitTestCaseAction 1481125276679 TestGrid.java OK
+UnitTestSessionAction 1481125276679 TestGrid OK
+UnitTestCaseAction 1481125278031 TestGrid.java OK
+UnitTestSessionAction 1481125278031 TestGrid OK
+RefactoringAction 1481125746504 Grid.java ADD void countCellN FIELD
+RefactoringAction 1481125747509 Grid.java RENAME countCellN=>void countCell FIELD
+RefactoringAction 1481125750015 Grid.java RENAME countCell=>void countCellN FIELD
+RefactoringAction 1481125751522 Grid.java RENAME countCellN=>void countCellNeigh FIELD
+RefactoringAction 1481125753533 Grid.java RENAME countCellNeigh=>void countCellNeighbors FIELD
+RefactoringAction 1481125754539 Grid.java RENAME countCellNeighbors=>void countCellNeighbors() METHOD
+RefactoringAction 1481125775567 Grid.java RENAME countCellNeighbors()=>void countCellNeighbors(int, int) METHOD
+EditAction 1481125779481 Grid.java 1320 6 16 0
