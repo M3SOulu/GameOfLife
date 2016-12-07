@@ -107,3 +107,5 @@ RefactoringAction 1481124157338 TestGrid.java RENAME tick()=>void ticktest() MET
 RefactoringAction 1481124159348 TestGrid.java RENAME ticktest()=>void tick() METHOD
 RefactoringAction 1481124161369 TestGrid.java RENAME tick()=>void tickTest() METHOD
 EditAction 1481124333954 TestGrid.java 2084 6 26 2
+CompilationAction 1481124334197 TestGrid.java
+EditAction 1481124334212 Grid.java 1664 6 19 0
