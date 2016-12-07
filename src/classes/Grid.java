@@ -31,15 +31,15 @@ public class Grid {
 		String res = "";
 		int count = 0;
 		for (int i = 0; i < width * height; i++) {
+			if (count - width == 0) {
+				res += "/n";
+				count = 0;
+			}
 			count++;
 			if (cells.get(i).getAlive())
 				res += "*";
 			else
 				res += "-";
-			if (count - width == 0) {
-				res += "/n";
-				count = 0;
-			}
 		}
 		return res;
 	}
