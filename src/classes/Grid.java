@@ -121,9 +121,19 @@ public class Grid {
 		for( int i = 1; i < width-1; i++ ){	//border values first row
 			indexes.add(i);
 		}
-		for( int i = width; i < (width*height)-width; i += (width-1) ){	//border values in the middle
-			indexes.add(i);
+		
+		int j = width;
+		int count = 0;
+		while( j < (width*height)-width ){
+			indexes.add(j);
+			
+			count++;
+			if( (count%2) == 0 )
+				j++;
+			else
+				j += (width-1);
 		}
+		
 		for( int i = (width*height)-width+1; i < (width*height-1); i++ ){	//border values last row
 			indexes.add(i);
 		}
