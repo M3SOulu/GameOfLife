@@ -6,4 +6,31 @@ public class Cell {
 	private boolean alive;
 	public Cell() throws NegativeCoordinateException {
 	}
+	
+	public Cell(int x, int y, boolean alive) throws NegativeCoordinateException {
+		if(x<0 || y<0) throw new NegativeCoordinateException("");
+		this.x=x;
+		this.y=y;
+		this.setAlive(alive);
+	}
+	
+	public Cell(boolean alive) {
+		this.setAlive(alive);
+	}
+
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public boolean getAlive() {
+		return alive;
+	}
+
+	public void setAlive(boolean alive) {
+		this.alive = alive;
+	}
 }
