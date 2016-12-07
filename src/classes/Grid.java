@@ -12,6 +12,8 @@ public class Grid {
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
+		this.width = w;
+		this.height = h;
 	}
 	
 	

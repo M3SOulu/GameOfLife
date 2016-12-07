@@ -14,4 +14,6 @@ public class TestGrid {
 		assertEquals(10, grid.getWidth());
 		assertEquals(10, grid.getHeight());
 	}
+	
+	
 }
