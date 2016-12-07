@@ -77,3 +77,28 @@ UnitTestSessionAction 1481120674513 TestCell OK
 UnitTestCaseAction 1481120676346 TestCell.java OK
 UnitTestSessionAction 1481120676346 TestCell OK
 EditAction 1481120687599 TestCell.java 664 3 5 0
+UnitTestCaseAction 1481120688147 TestCell.java OK
+UnitTestSessionAction 1481120688148 TestCell OK
+FileOpenedAction 1481120991276 CustomLifeException.java 189 1 1 0
+FileOpenedAction 1481121008339 TestGrid.java 181 1 1 0
+RefactoringAction 1481121106479 TestGrid.java ADD ArrayList<Cell> cells FIELD
+RefactoringAction 1481121117508 TestGrid.java ADD void setUp() METHOD
+RefactoringAction 1481121119522 TestGrid.java RENAME import org.junit.Assert.*=>import java.util.ArrayList IMPORT
+RefactoringAction 1481121140693 TestGrid.java ADD void firstGridTest()/2 METHOD
+RefactoringAction 1481121154246 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
+RefactoringAction 1481121166778 TestGrid.java RENAME import classes.NegativeCoordinateException=>import classes.CustomLifeException IMPORT
+RefactoringAction 1481121185297 TestGrid.java RENAME firstGridTest()/2=>void gridWithW() METHOD
+RefactoringAction 1481121189302 TestGrid.java RENAME gridWithW()=>void gridWithW FIELD
+RefactoringAction 1481121190822 TestGrid.java RENAME <initializer /1>=>void H() METHOD
+RefactoringAction 1481121196842 TestGrid.java RENAME gridWith()=>void gridWithDifferentW() METHOD
+RefactoringAction 1481121198347 TestGrid.java RENAME gridWithDifferentW()=>void gridWithDifferentWeidth() METHOD
+RefactoringAction 1481121199861 TestGrid.java RENAME gridWithDifferentWeidth()=>void gridWithDifferentW() METHOD
+RefactoringAction 1481121207916 TestGrid.java RENAME gridWithDifferentW()=>void gridWithDifferentWidth() METHOD
+RefactoringAction 1481121209438 TestGrid.java RENAME gridWithDifferentWidth()=>void gridWithDifferentWidth FIELD
+RefactoringAction 1481121210953 TestGrid.java RENAME W()=>void We() METHOD
+RefactoringAction 1481121216477 TestGrid.java RENAME gridWithDifferentWidth()=>void gridWithDifferentWidthAnd() METHOD
+RefactoringAction 1481121218528 TestGrid.java RENAME gridWithDifferentWidthAnd()=>void gridWithDifferentWidthAndHeight() METHOD
+RefactoringAction 1481121264167 TestGrid.java ADD int width FIELD
+RefactoringAction 1481121267182 TestGrid.java ADD int height FIELD
+RefactoringAction 1481121391151 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
+EditAction 1481121452044 TestGrid.java 753 3 7 0
