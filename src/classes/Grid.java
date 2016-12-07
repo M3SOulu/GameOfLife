@@ -13,6 +13,8 @@ public class Grid {
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
 	}
+	
+	
 
 	public String print() {
 	    return null;
@@ -20,5 +22,15 @@ public class Grid {
 	
 	public Grid tick() {
 	    return null;
+	}
+
+	public int getWidth() {
+		// TODO Auto-generated method stub
+		return width;
+	}
+
+	public int getHeight() {
+		// TODO Auto-generated method stub
+		return height;
 	}
 }
