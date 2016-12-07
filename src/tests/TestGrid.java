@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import classes.Cell;
+import classes.CellConformityException;
 import classes.CellCoordinateDuplicate;
 import classes.CellCoordinateOutOfBoundariesException;
 import classes.Grid;

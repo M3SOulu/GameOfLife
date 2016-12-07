@@ -3,7 +3,7 @@ package classes;
 public class Cell {
 	private int x;
 	private int y;
-	private boolean alive;
+	private boolean alive=false;
 	
 	public Cell() throws NegativeCoordinateException {
 	}
