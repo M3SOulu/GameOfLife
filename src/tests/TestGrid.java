@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import classes.Cell;
+import classes.CellCoordinateDuplicate;
 import classes.CellCoordinateOutOfBoundariesException;
 import classes.Grid;
 import classes.NegativeCoordinateException;
@@ -33,8 +34,14 @@ public class TestGrid {
 	}
 	
 	@Test(expected=CellCoordinateOutOfBoundariesException.class)
-	public void testCellCoordinate(){
+	public void testCellCoordinate() throws CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate{
 			grid = new Grid(arrayCell,3,3);
+	}
+	
+	@Test(expected=CellCoordinateDuplicate.class)
+	public void testCellCoordinateDuplicate() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate{
+		arrayCell.add(new Cell(1,3));
+		grid = new Grid(arrayCell,3,3);
 	}
 	
 	
