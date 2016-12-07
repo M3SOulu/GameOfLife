@@ -362,3 +362,6 @@ RefactoringAction 1481125754539 Grid.java RENAME countCellNeighbors=>void countC
 RefactoringAction 1481125775567 Grid.java RENAME countCellNeighbors()=>void countCellNeighbors(int, int) METHOD
 EditAction 1481125779481 Grid.java 1320 6 16 0
 EditAction 1481125880326 Grid.java 1351 6 17 0
+RefactoringAction 1481125907060 Cell.java ADD int get FIELD
+RefactoringAction 1481125911075 Cell.java RENAME get=>int getX() METHOD
+EditAction 1481125919094 Cell.java 532 5 8 0

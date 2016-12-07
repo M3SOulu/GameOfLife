@@ -22,5 +22,13 @@ public class Cell {
 	public boolean getAlive() {
 		return alive;
 	}
+	
+	public int getX(){
+		return x;
+	}
+	
+	public int getY(){
+		return y;
+	}
 
 }
