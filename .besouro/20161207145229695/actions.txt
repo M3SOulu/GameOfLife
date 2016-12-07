@@ -92,3 +92,32 @@ RefactoringAction 1481122865222 Cell.java ADD import java.util.Random IMPORT
 EditAction 1481122933436 Cell.java 605 4 7 0
 EditAction 1481122933527 Grid.java 791 4 6 0
 EditAction 1481122933637 TestGrid.java 410 2 2 0
+CompilationAction 1481122933973 Grid.java
+CompilationAction 1481122933973 Grid.java
+CompilationAction 1481122933973 Grid.java
+CompilationAction 1481122982397 Grid.java
+CompilationAction 1481122982398 Grid.java
+CompilationAction 1481122982398 Grid.java
+CompilationAction 1481122982591 TestGrid.java
+RefactoringAction 1481123001255 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
+CompilationAction 1481123006185 TestGrid.java
+UnitTestCaseAction 1481123006604 TestGrid.java FAIL
+UnitTestSessionAction 1481123006605 TestGrid FAIL
+UnitTestCaseAction 1481123021421 TestCell.java OK
+UnitTestSessionAction 1481123021422 TestCell OK
+UnitTestCaseAction 1481123025826 TestCell.java OK
+UnitTestSessionAction 1481123025826 TestCell OK
+UnitTestCaseAction 1481123026918 TestCell.java OK
+UnitTestSessionAction 1481123026919 TestCell OK
+UnitTestCaseAction 1481123027726 TestCell.java OK
+UnitTestSessionAction 1481123027726 TestCell OK
+UnitTestCaseAction 1481123028628 TestCell.java OK
+UnitTestSessionAction 1481123028629 TestCell OK
+RefactoringAction 1481123495454 TestGrid.java RENAME areCellsInGridInizialized()=>void areCellsInGridInizializedHalfDeat() METHOD
+RefactoringAction 1481123500968 TestGrid.java RENAME areCellsInGridInizializedHalfDeat()=>void areCellsInGridInizializedHalfDeadHalfAlive() METHOD
+RefactoringAction 1481123713701 Cell.java ADD void set FIELD
+RefactoringAction 1481123719761 Cell.java RENAME set=>void setX() METHOD
+RefactoringAction 1481123733313 Cell.java RENAME setX()=>void setX(int) METHOD
+RefactoringAction 1481123747327 Cell.java ADD void setX(int)/2 METHOD
+RefactoringAction 1481123754334 Cell.java RENAME setX(int)/2=>void setY(int) METHOD
+EditAction 1481123760657 Cell.java 524 6 6 0
