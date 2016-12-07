@@ -25,6 +25,6 @@ public class TestGrid {
 	
 	@Test
 	public void GridCoordinate(){
-		
+		assertEquals("",grid);
 	}
 }

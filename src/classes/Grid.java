@@ -32,38 +32,41 @@ public class Grid {
 		this.height = height;
 	}
 
-	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
+	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException {
 	}
-	
+
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
 	}
 
 	public String print() {
-		
+
+		String state = null;
+		return state;
+	}
+
+	public Grid tick() throws CustomLifeException {
 		String state = null;
 		Cell currentCell;
 		ArrayList<Cell> cells = new ArrayList<Cell>();
-		Grid grid = new Grid(cells,10,10);	
+		Grid grid = new Grid(cells, 10, 10);
 		Iterator<Cell> iterator = cells.iterator();
 		int alive = 0;
 		int dead = 0;
 		
-		while(iterator.hasNext()) {
-			currentCell = iterator.next();
-			if(currentCell.isAlive()){
-				alive++;
-			}
-			else dead++;
-		}
-		
-		if(dead != alive) state = null;
-		
-		return state;   			
-	}
-	
-	public Grid tick() {
-	    return null;
-	}
+		if(grid.getHeight() != grid.getWidth()) throw new CustomLifeException("Grid dimension error");
 
+		while (iterator.hasNext()) {
+			currentCell = iterator.next();
+			if (currentCell.isAlive()) {
+				alive++;
+			} else
+				dead++;
+		}
+
+		if (dead != alive)
+			state = null;
+
+		return grid;
+	}
 
 }

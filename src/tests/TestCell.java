@@ -6,7 +6,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import classes.Cell;
-import classes.Grid;
 import classes.NegativeCoordinateException;
 
 public class TestCell {
