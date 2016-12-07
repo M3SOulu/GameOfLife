@@ -197,3 +197,11 @@ RefactoringAction 1481126148034 Grid.java RENAME get=>ArrayList<Cell> getCells F
 RefactoringAction 1481126149049 Grid.java RENAME getCells=>ArrayList<Cell> getCells() METHOD
 EditAction 1481126161961 Grid.java 1786 5 16 0
 EditAction 1481126162091 TestGrid.java 741 3 4 1
+RefactoringAction 1481126196412 TestGrid.java RENAME import org.junit.Assert.*=>import org.junit.Assert.assertEquals IMPORT
+RefactoringAction 1481126283586 TestGrid.java RENAME CellsHaveTheRightCoordinates()=>void CellHaveTheRightCoordinates() METHOD
+RefactoringAction 1481126285593 TestGrid.java RENAME CellHaveTheRightCoordinates()=>void CellHaveTheRightCoordinate() METHOD
+RefactoringAction 1481126288598 TestGrid.java RENAME CellHaveTheRightCoordinate()=>void CellHasTheRightCoordinate() METHOD
+RefactoringAction 1481126291603 TestGrid.java RENAME CellHasTheRightCoordinate()=>void CellHasTheRightCoordinateX() METHOD
+UnitTestCaseAction 1481126321489 TestGrid.java FAIL
+UnitTestSessionAction 1481126321489 TestGrid FAIL
+EditAction 1481126342011 TestGrid.java 945 3 8 2
