@@ -40,18 +40,25 @@ public class Grid {
 	}
 
 	public Grid tick() {
-		
-		
-		
+
 		return null;
 	}
-	
-	public void countCellNeighbors(int x,int y){
-		int numberNeighbors=0;
+
+	public void countCellNeighbors(Cell cella) {
+		int numberNeighborsAlive = 0;
+		int numberNeighborsDead = 0;
+
+		if(cella.getX()==0 && cella.getY()==0){
+			
+		}else{
+			for(int i=cella.getX()-1;i<cella.getX();i++){
+				for(int j=cella.getY()-1;j<cella.getY();j--){
+					
+				}
+			}
+		}
 		
-		
-		
-		
+
 	}
 
 	public boolean isEqualsAliveDead() {
