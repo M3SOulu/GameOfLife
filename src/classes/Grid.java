@@ -43,7 +43,7 @@ public class Grid {
 			if(cellIterator.next().getAlive()==true){
 				alive++;
 			}else{
-				alive--;
+				dead++;
 			}
 		}
 		return alive==dead;
