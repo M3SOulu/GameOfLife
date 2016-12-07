@@ -340,3 +340,7 @@ EditAction 1481125093470 TestGrid.java 1914 7 18 1
 UnitTestCaseAction 1481125104114 TestGrid.java FAIL
 UnitTestSessionAction 1481125104115 TestGrid FAIL
 EditAction 1481125168624 TestGrid.java 1914 7 18 1
+UnitTestCaseAction 1481125170987 TestGrid.java OK
+UnitTestSessionAction 1481125170987 TestGrid OK
+RefactoringAction 1481125185077 TestGrid.java ADD void addCell() METHOD
+EditAction 1481125195823 TestGrid.java 1982 8 18 1

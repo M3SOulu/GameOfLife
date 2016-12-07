@@ -55,15 +55,7 @@ public class TestGrid {
 			throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CustomLifeException {
 		cells = new ArrayList<>(100);
 		
-		boolean alive=false;
-		for (int i = 0; i < 10; i++) {
-			if(i==5){
-				alive=true;
-			}
-			for (int j = 0; j < 10; j++) {
-				cells.add(new Cell(i, j, alive));
-			}
-		}
+		
 		
 		griglia = new Grid(cells, 10, 10);
 	}
@@ -77,5 +69,17 @@ public class TestGrid {
 		cells.add(quartaCella);
 		griglia = new Grid(cells, 2, 2);
 		assertTrue(griglia.isEqualsAliveDead());
+	}
+	
+	private void addCell() throws NegativeCoordinateException{
+		boolean alive=false;
+		for (int i = 0; i < 10; i++) {
+			if(i==5){
+				alive=true;
+			}
+			for (int j = 0; j < 10; j++) {
+				cells.add(new Cell(i, j, alive));
+			}
+		}
 	}
 }
