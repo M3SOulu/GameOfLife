@@ -146,3 +146,4 @@ RefactoringAction 1481122176342 TestGrid.java RENAME getNeigh=>void getNeighbors
 RefactoringAction 1481122179348 TestGrid.java RENAME getNeighbors=>void getNeighborsCellIn FIELD
 RefactoringAction 1481122188854 TestGrid.java RENAME getNeighborsCellIn=>void getNeighborsCellInsideTheGrid() METHOD
 EditAction 1481122211367 TestGrid.java 2060 4 38 8
+EditAction 1481122224582 TestGrid.java 2026 4 37 7

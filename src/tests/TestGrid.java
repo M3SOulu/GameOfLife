@@ -52,6 +52,7 @@ public class TestGrid {
 		cells.add(new Cell(true, 3, 1));
 		cells.add(new Cell(false, 3, 2));
 		cells.add(new Cell(true, 3, 3));
+		
 		//Act
 		Grid grid = new Grid(cells, 3, 3);
 
@@ -73,11 +74,11 @@ public class TestGrid {
 		cells.add(new Cell(true, 3, 1));
 		cells.add(new Cell(false, 3, 2));
 		cells.add(new Cell(true, 3, 3));
+		
 		//Act
 		Grid grid = new Grid(cells, 3, 3);
 
 		//Assert
 		assertEquals(5, grid.getAliveCells());
-		assertEquals(4, grid.getDeadCells());
 	}
 }
