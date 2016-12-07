@@ -98,3 +98,6 @@
 1481122907554 test-first 3 1095 true
 1481122907555 test-first 3 1095 true
 1481122907556 test-first 3 1095 true
+1481122973805 test-addition 1 57 true
+1481122973806 test-addition 1 57 true
+1481122973807 test-addition 1 57 true

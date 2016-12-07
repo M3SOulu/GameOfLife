@@ -141,5 +141,8 @@ public class TestGrid {
 
 		//Assert
 		assertEquals(3, grid.getNeighborsNumber( 0 ));
+		assertEquals(3, grid.getNeighborsNumber( 2 ));
+		assertEquals(3, grid.getNeighborsNumber( 6 ));
+		assertEquals(3, grid.getNeighborsNumber( 8 ));
 	}
 }
