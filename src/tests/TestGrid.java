@@ -65,6 +65,6 @@ public class TestGrid {
 		cells.add(terzaCella);
 		cells.add(quartaCella);
 		griglia = new Grid(cells, 2, 2);
-		assertTrue(griglia.isEqualsAliveDead());
+		assertFalse(griglia.isEqualsAliveDead());
 	}
 }
