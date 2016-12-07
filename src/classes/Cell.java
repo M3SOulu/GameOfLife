@@ -13,6 +13,10 @@ public class Cell {
 		this.y=y;
 		this.setAlive(alive);
 	}
+	
+	public Cell(boolean alive) {
+		this.setAlive(alive);
+	}
 
 	public boolean getAlive() {
 		return alive;

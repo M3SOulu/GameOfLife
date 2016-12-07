@@ -109,3 +109,9 @@ RefactoringAction 1481124161369 TestGrid.java RENAME tick()=>void tickTest() MET
 EditAction 1481124333954 TestGrid.java 2084 6 26 2
 CompilationAction 1481124334197 TestGrid.java
 EditAction 1481124334212 Grid.java 1664 6 19 0
+CompilationAction 1481124334430 TestGrid.java
+UnitTestCaseAction 1481124337334 TestGrid.java FAIL
+UnitTestSessionAction 1481124337334 TestGrid FAIL
+RefactoringAction 1481124929359 Cell.java ADD Cell(int, int, boolean)/2 METHOD
+RefactoringAction 1481124941387 Cell.java RENAME Cell(int, int, boolean)/2=>Cell(boolean) METHOD
+EditAction 1481125130583 Cell.java 516 5 7 0
