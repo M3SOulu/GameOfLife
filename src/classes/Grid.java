@@ -79,7 +79,7 @@ public class Grid {
 			}
 		}
 		
-	    return null;
+	    return sGrid;
 	}
 	
 	public Grid tick() {
