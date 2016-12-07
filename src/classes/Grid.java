@@ -13,7 +13,7 @@ public class Grid {
 			if(cells.get(i).getX()>w || cells.get(i).getY()>h )
 				throw new CellCoordinateOutOfBoundariesException("");
 		setWidth(w);
-		height = h;
+		setHeight(h);
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
@@ -42,5 +42,13 @@ public class Grid {
 
 	public void setWidth(int width) {
 		this.width = width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
 	}
 }

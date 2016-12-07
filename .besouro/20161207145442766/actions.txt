@@ -109,3 +109,6 @@ EditAction 1481120669842 Grid.java 761 6 8 0
 RefactoringAction 1481120674126 Grid.java ADD int getWidth() METHOD
 RefactoringAction 1481120674126 Grid.java ADD void setWidth(int) METHOD
 EditAction 1481120674129 Grid.java 869 8 10 0
+RefactoringAction 1481120678957 Grid.java ADD int getHeight() METHOD
+RefactoringAction 1481120678957 Grid.java ADD void setHeight(int) METHOD
+EditAction 1481120678965 Grid.java 983 10 12 0
