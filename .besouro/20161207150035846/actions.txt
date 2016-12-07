@@ -179,3 +179,9 @@ EditAction 1481122971018 TestGrid.java 3847 5 47 11
 UnitTestCaseAction 1481122973804 TestGrid.java OK
 UnitTestSessionAction 1481122973805 TestGrid OK
 EditAction 1481122996962 TestGrid.java 3994 5 50 14
+UnitTestCaseAction 1481122998801 TestGrid.java OK
+UnitTestSessionAction 1481122998802 TestGrid OK
+RefactoringAction 1481123006924 TestGrid.java ADD void getNeighborsCellAtTheCornerOfTheGrid3X3()/2 METHOD
+RefactoringAction 1481123009956 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid3X3()/2=>void getNeighborsCellAtTheCornerOfTheGrid34() METHOD
+RefactoringAction 1481123010963 TestGrid.java RENAME getNeighborsCellAtTheCornerOfTheGrid34()=>void getNeighborsCellAtTheCornerOfTheGrid34X4() METHOD
+EditAction 1481123066737 TestGrid.java 4978 6 72 18
