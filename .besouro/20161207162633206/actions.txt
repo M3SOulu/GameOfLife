@@ -134,3 +134,8 @@ FileOpenedAction 1481127956894 Cell.java 576 7 10 0
 RefactoringAction 1481128066729 Grid.java ADD Cell METHOD
 RefactoringAction 1481128066730 Grid.java ADD void setGrid(Cell METHOD
 EditAction 1481128224862 Grid.java 2580 13 21 0
+UnitTestCaseAction 1481128232889 TestGrid.java OK
+UnitTestSessionAction 1481128232891 TestGrid OK
+RefactoringAction 1481128269483 TestGrid.java ADD void tickingABottomSideAliveCellWithMoreThan3AliveNeighborsMakesItDie()/2 METHOD
+RefactoringAction 1481128275489 TestGrid.java RENAME tickingABottomSideAliveCellWithMoreThan3AliveNeighborsMakesItDie()/2=>void tickingALeftSideAliveCellWithMoreThan3AliveNeighborsMakesItDie() METHOD
+EditAction 1481128329187 TestGrid.java 4241 8 82 6
