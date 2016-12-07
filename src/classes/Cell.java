@@ -12,7 +12,7 @@ public class Cell {
 		if(this.x < 0 && this.y < 0) {
 			throw new NegativeCoordinateException("Coordinate negative");
 		}
-		alive = true;
+		alive = false;
 	}
 	
 	
