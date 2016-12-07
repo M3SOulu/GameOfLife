@@ -104,3 +104,6 @@ CompilationAction 1481120872228 TestGrid.java
 RefactoringAction 1481120876049 Grid.java ADD Object get(int, int) METHOD
 CompilationAction 1481120953239 TestGrid.java
 EditAction 1481120973051 Grid.java 712 7 7 0
+UnitTestCaseAction 1481120977909 TestGrid.java FAIL
+UnitTestSessionAction 1481120977909 TestGrid FAIL
+EditAction 1481121093207 Grid.java 815 7 8 0

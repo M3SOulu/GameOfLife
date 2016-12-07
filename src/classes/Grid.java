@@ -38,6 +38,12 @@ public class Grid {
 
 	public Cell get(int x, int y) {
 		// TODO Auto-generated method stub
+		for( Cell cell: cells ){
+			if( cell.getX() == x && cell.getY() == y ){
+				return cell;
+			}
+		}
+		
 		return null;
 	}
 }
