@@ -9,6 +9,7 @@ public class Grid {
 
 
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
+		if(w!=h)throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
 		if(cells.size()!=(w*h))throw new CellCoordinateOutOfBoundariesException("errore fuori indice");
 		width=w;
 		height=h;
