@@ -31,4 +31,5 @@ public class Cell {
 
 	public Cell() throws NegativeCoordinateException {
 	}
+	
 }
