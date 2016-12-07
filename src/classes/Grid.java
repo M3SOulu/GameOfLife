@@ -52,7 +52,18 @@ public class Grid {
 			throw new CellConformityException("Number of alive != numbere of dead");
 	}
 	
-	public void calculateNeighbors
+	public void calculateNeighbors(){
+		int neighbors=0;
+		
+		for (Cell cell : cells){
+			Cell newCell = new Cell(cell.getX(), cell.getY());
+			if(cells.contains(newCell))
+	
+		}
+		
+		
+	
+	}
 	
 
 	public String print() {

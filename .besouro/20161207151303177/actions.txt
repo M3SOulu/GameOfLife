@@ -275,3 +275,6 @@ RefactoringAction 1481127499613 Cell.java REMOVE equals() METHOD
 RefactoringAction 1481127521140 Cell.java ADD int hashCode() METHOD
 RefactoringAction 1481127521141 Cell.java ADD boolean equals(Object) METHOD
 EditAction 1481127571678 Cell.java 1227 11 23 0
+CompilationAction 1481127571824 Grid.java
+CompilationAction 1481127571825 Grid.java
+EditAction 1481127593916 Grid.java 1742 8 15 0
