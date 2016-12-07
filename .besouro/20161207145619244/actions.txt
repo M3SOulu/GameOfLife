@@ -61,3 +61,6 @@ UnitTestSessionAction 1481122151790 TestGrid OK
 RefactoringAction 1481122252234 TestGrid.java ADD void testCellCoordinateOutOfBoundariesException()/2 METHOD
 RefactoringAction 1481122289295 TestGrid.java RENAME testCellCoordinateOutOfBoundariesException()/2=>void testNegativeCoordinateException() METHOD
 EditAction 1481122294503 TestGrid.java 930 4 2 0
+UnitTestCaseAction 1481122295170 TestGrid.java FAIL
+UnitTestSessionAction 1481122295171 TestGrid FAIL
+EditAction 1481122342950 Grid.java 1061 5 12 0

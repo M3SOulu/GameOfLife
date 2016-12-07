@@ -11,6 +11,7 @@ public class Grid {
 
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException{
 		if(w!=h) throw new CellCoordinateOutOfBoundariesException("");
+		if(w<0 || h<0) throw new NegativeCoordinateException("");
 		width=w;
 		height=h;
 		if(cells==null){
