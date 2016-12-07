@@ -114,7 +114,7 @@ public class TestGrid {
 		// Act
 		grid = grid.tick();
 		// Assert
-		assertTrue(grid.getCells().get(0).isAlive());
+		assertTrue(!grid.getCells().get(0).isAlive());
 	}
 	
 	@Test
@@ -139,6 +139,6 @@ public class TestGrid {
 		// Act
 		grid = grid.tick();
 		// Assert
-		assertTrue(grid.getCells().get(0).isAlive());
+		assertTrue(!grid.getCells().get(0).isAlive());
 	}
 }
