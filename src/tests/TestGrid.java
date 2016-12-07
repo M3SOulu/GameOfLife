@@ -77,7 +77,7 @@ public class TestGrid {
 	
 	@Test
 	public void CellHasTheRightCoordinateY2() throws CustomLifeException, NegativeCoordinateException {
-		Grid grid = new Grid(1, 1);
+		Grid grid = new Grid(2, 2);
 		
 		ArrayList<Cell> gCells = grid.getCells();
 		
@@ -85,7 +85,7 @@ public class TestGrid {
 
 		
 		for (Cell c : gCells) {
-			y+= c.getY();
+			y += c.getY();
 	
 		}
 		

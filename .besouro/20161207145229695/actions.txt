@@ -250,3 +250,6 @@ UnitTestSessionAction 1481126947227 TestGrid FAIL
 RefactoringAction 1481126964363 TestGrid.java ADD void CellHasTheRightCoordinateY()/2 METHOD
 RefactoringAction 1481126966373 TestGrid.java RENAME CellHasTheRightCoordinateY()/2=>void CellHasTheRightCoordinateY2() METHOD
 EditAction 1481127006822 TestGrid.java 1826 6 23 5
+UnitTestCaseAction 1481127007777 TestGrid.java FAIL
+UnitTestSessionAction 1481127007778 TestGrid FAIL
+EditAction 1481127021694 TestGrid.java 1827 6 23 5
