@@ -64,6 +64,7 @@ public class TestGrid {
 				cells.add(new Cell(i, j, alive));
 			}
 		}
+		
 		griglia = new Grid(cells, 10, 10);
 	}
 
