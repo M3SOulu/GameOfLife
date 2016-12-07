@@ -37,3 +37,22 @@ RefactoringAction 1481120586881 Grid.java ADD void setWidth(int) METHOD
 RefactoringAction 1481120586881 Grid.java ADD int getHeight() METHOD
 RefactoringAction 1481120586882 Grid.java ADD void setHeight(int) METHOD
 EditAction 1481120606945 Grid.java 764 10 8 0
+CompilationAction 1481120607084 Cell.java
+FileOpenedAction 1481120836384 CellCoordinateOutOfBoundariesException.java 235 1 1 0
+RefactoringAction 1481120889864 TestGrid.java ADD Grid grid FIELD
+RefactoringAction 1481120892267 TestGrid.java ADD import classes.Grid IMPORT
+RefactoringAction 1481120911448 TestGrid.java ADD void inizialize() METHOD
+RefactoringAction 1481120914207 TestGrid.java ADD import org.junit.Before IMPORT
+RefactoringAction 1481120953524 TestGrid.java ADD int x FIELD
+RefactoringAction 1481120953524 TestGrid.java ADD int y FIELD
+RefactoringAction 1481120995583 TestGrid.java ADD ArrayList<Cell> cell FIELD
+RefactoringAction 1481121002502 TestGrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1481121005405 TestGrid.java ADD import classes.Cell IMPORT
+RefactoringAction 1481121041129 TestGrid.java ADD void firstGridTest()/2 METHOD
+RefactoringAction 1481121047135 TestGrid.java RENAME firstGridTest()/2=>void Grid() METHOD
+RefactoringAction 1481121049142 TestGrid.java RENAME Grid()=>void GridC() METHOD
+RefactoringAction 1481121051649 TestGrid.java RENAME GridC()=>void GridCoordinate() METHOD
+RefactoringAction 1481121053157 TestGrid.java RENAME GridCoordinate()=>void GridCoordinateOut() METHOD
+RefactoringAction 1481121055180 TestGrid.java RENAME GridCoordinateOut()=>void GridCoordinateOutOf() METHOD
+RefactoringAction 1481121058195 TestGrid.java RENAME GridCoordinateOutOf()=>void GridCoordinateOutOfBound() METHOD
+EditAction 1481121099252 Grid.java 859 10 9 0
