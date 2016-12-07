@@ -55,8 +55,8 @@ public class Grid {
 	private int countAliveNeighbors(int x, int y) {
 		int count = 0;
 		
+		// Upper-Left Angle
 		if (x == 0 && y == 0) {
-			// Upper-Left Angle
 			if (grid[x][y + 1].isAlive())
 				count++;
 			if (grid[x + 1][y].isAlive())
@@ -65,8 +65,9 @@ public class Grid {
 				count++;
 		}
 
+		// Upper Side
 		else if (x == 0 && y != 0 && y<width-1) {
-			// Upper Side
+			
 			if (grid[x][y - 1].isAlive())
 				count++;
 			if (grid[x][y + 1].isAlive())
