@@ -47,6 +47,9 @@ public class Grid {
 	}
 	
 	public void countCellNeighbors(int x,int y){
+		int numberNeighbors=0;
+		
+		
 		
 		
 	}
