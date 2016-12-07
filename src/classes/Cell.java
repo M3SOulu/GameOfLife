@@ -4,7 +4,7 @@ public class Cell {
 	private int x;
 	private int y;
 	private boolean alive=false;
-	
+	int neighbors = 0;
 	public Cell() throws NegativeCoordinateException {
 	}
 	

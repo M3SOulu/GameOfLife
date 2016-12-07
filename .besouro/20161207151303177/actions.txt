@@ -249,3 +249,10 @@ EditAction 1481126647167 Grid.java 1403 7 15 0
 UnitTestCaseAction 1481126647666 TestGrid.java FAIL
 UnitTestSessionAction 1481126647667 TestGrid FAIL
 EditAction 1481126696677 TestGrid.java 2368 5 24 1
+UnitTestCaseAction 1481126698562 TestGrid.java OK
+UnitTestSessionAction 1481126698562 TestGrid OK
+RefactoringAction 1481126742689 Cell.java ADD int n FIELD
+RefactoringAction 1481126743717 Cell.java RENAME n=>int nei FIELD
+RefactoringAction 1481126744736 Cell.java RENAME nei=>int neigh FIELD
+RefactoringAction 1481126746247 Cell.java RENAME neigh=>int neighbors FIELD
+EditAction 1481126755944 Cell.java 667 7 9 0
