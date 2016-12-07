@@ -4,8 +4,13 @@ public class Cell {
 	private int x;
 	private int y;
 	private boolean alive;
+	
 	public Cell() throws NegativeCoordinateException {
-		
+	}
+	
+	public Cell(int x,int y) throws NegativeCoordinateException {
+		this.x=x;
+		this.y=y;
 	}
 	
 	public String getState(){

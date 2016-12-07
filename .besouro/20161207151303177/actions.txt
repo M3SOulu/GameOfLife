@@ -66,3 +66,26 @@ EditAction 1481121178845 Grid.java 508 6 4 0
 CompilationAction 1481121179041 TestGrid.java
 CompilationAction 1481121179041 TestGrid.java
 EditAction 1481121203919 Grid.java 531 6 6 0
+CompilationAction 1481121212650 TestGrid.java
+CompilationAction 1481121212650 TestGrid.java
+CompilationAction 1481121212814 TestGrid.java
+CompilationAction 1481121258249 TestGrid.java
+UnitTestCaseAction 1481121260637 TestGrid.java OK
+UnitTestSessionAction 1481121260638 TestGrid OK
+RefactoringAction 1481121514205 TestGrid.java ADD void test FIELD
+RefactoringAction 1481121528717 TestGrid.java RENAME test=>void testCell FIELD
+RefactoringAction 1481121533744 TestGrid.java RENAME testCell=>void test FIELD
+RefactoringAction 1481121540760 TestGrid.java RENAME test=>void testU FIELD
+RefactoringAction 1481121542794 TestGrid.java RENAME testU=>void testCell FIELD
+RefactoringAction 1481121547800 TestGrid.java RENAME testCell=>void testCellUnique FIELD
+RefactoringAction 1481121548805 TestGrid.java RENAME testCellUnique=>void testCellUniqueC FIELD
+RefactoringAction 1481121551810 TestGrid.java RENAME testCellUniqueC=>void testCellUniqueCoordinate() METHOD
+RefactoringAction 1481121691013 TestGrid.java ADD import classes.CellCoordinateOutOfBoundariesException IMPORT
+RefactoringAction 1481121704530 TestGrid.java RENAME testCellUniqueCoordinate()=>void testCellCoordinate() METHOD
+RefactoringAction 1481121781163 TestGrid.java ADD ArrayList<Cell> arrayCell FIELD
+RefactoringAction 1481121789445 TestGrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1481121796172 TestGrid.java ADD import classes.Cell IMPORT
+RefactoringAction 1481121904016 Cell.java ADD Cell()/2 METHOD
+RefactoringAction 1481121924598 Cell.java RENAME Cell()/2=>Cell(int) METHOD
+RefactoringAction 1481121926119 Cell.java RENAME Cell(int)=>Cell(int, int) METHOD
+EditAction 1481121938121 Cell.java 446 4 4 0

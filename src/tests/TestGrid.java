@@ -19,12 +19,7 @@ public class TestGrid {
 	
 	@Test
 	public void testGridSize(){
-
-		assertEqual(grid.getWidth,grid.getHeight);
+		assertTrue(grid.getWidth()==grid.getHeight());
 	}
 	
-	@Test
-	public void firstGridTest(){
-		fail("implement some proper tests");
-	}
 }
