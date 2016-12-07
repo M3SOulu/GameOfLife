@@ -55,7 +55,6 @@ public class TestGrid {
 		//Act
 		Grid grid = new Grid(cells, 3, 3);
 		
-		
 		//Assert
 		assertEquals(5, grid.getAliveCells());
 		assertEquals(4, grid.getDeadCells());
