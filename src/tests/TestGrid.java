@@ -56,19 +56,29 @@ public class TestGrid {
 	}
 
 	@Test
-	public void testCalculateNeighbors(){
+	public void testCalculateNeighbors() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, CellConformityException{
+		
+		//Inizializza un array di celle con lo stesso numero di celle "vive" e "morte"
 		arrayCell = new ArrayList<Cell>();
 		String state;
 		int x=1;
 		int y=1;
-		for (int i = 0;i<=16; i++){
+		//Dimensione array
+		int n=4;
+		for (int i = 0;i<=(n*n); i++){
 			if(i % 2 == 0)
 				state = "alive";
 			else state = "dead";
 			arrayCell.add(new Cell(x, y, state));
-			x++;
 			y++;
+			if (y>n){
+				y=1;
+				x++;
+			}
 		}
+		
+		grid = new Grid(arrayCell, 4, 4);
 	}
+	
 
 }

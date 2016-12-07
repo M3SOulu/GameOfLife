@@ -241,3 +241,6 @@ RefactoringAction 1481125757710 TestGrid.java RENAME testCalculate=>void testCal
 RefactoringAction 1481125758740 TestGrid.java RENAME testCalculateNeighbo=>void testCalculateNeighbors FIELD
 RefactoringAction 1481125766745 TestGrid.java RENAME testCalculateNeighbors=>void testCalculateNeighbors() METHOD
 EditAction 1481126331062 TestGrid.java 2059 5 22 1
+CompilationAction 1481126331333 TestGrid.java
+CompilationAction 1481126569525 TestGrid.java
+EditAction 1481126621026 TestGrid.java 2372 5 24 1
