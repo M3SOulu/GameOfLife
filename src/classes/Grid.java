@@ -11,7 +11,7 @@ public class Grid {
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException {
 		setWidth(w);
 		setHeight(h);
-		grid = new Cell[width][height];
+		grid = new Cell[height][width];
 		this.cells = cells;
 
 		// Carica le celle nella griglia
@@ -87,7 +87,7 @@ public class Grid {
 				count++;
 		}
 
-		else if (y == 0 && y != 0 && x < height - 1) {
+		else if (y == 0 && x != 0 && x < height - 1) {
 
 			if (grid[x - 1][y].isAlive())
 				count++;
