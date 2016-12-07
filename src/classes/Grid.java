@@ -74,6 +74,13 @@ public class Grid {
 		
 		return count;
 	}
+	
+	public boolean areCellsUniformlyInitialized(){
+		int aliveCells = getAliveCells();
+		int deadCells = getDeadCells();
+		
+		return false;
+	}
 
 	private boolean isCornerCell( int index ){
 		if( index == 0 || 

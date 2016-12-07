@@ -208,3 +208,19 @@ UnitTestCaseAction 1481123266706 TestGrid.java OK
 UnitTestSessionAction 1481123266707 TestGrid OK
 EditAction 1481123293290 TestGrid.java 5085 7 87 22
 EditAction 1481123339648 TestGrid.java 5131 6 72 18
+RefactoringAction 1481123435523 Grid.java ADD boolean is FIELD
+RefactoringAction 1481123441528 Grid.java REMOVE is FIELD
+RefactoringAction 1481123442549 Grid.java ADD boolean ce FIELD
+RefactoringAction 1481123443554 Grid.java REMOVE ce FIELD
+RefactoringAction 1481123445564 Grid.java ADD boolean areCells FIELD
+RefactoringAction 1481123455583 Grid.java RENAME areCells=>boolean areCellsUniformlyIni FIELD
+RefactoringAction 1481123459100 Grid.java RENAME areCellsUniformlyIni=>boolean areCellsUniformlyInitialized FIELD
+RefactoringAction 1481123460128 Grid.java RENAME areCellsUniformlyInitialized=>boolean areCellsUniformlyInitialized() METHOD
+CompilationAction 1481123478385 Grid.java
+UnitTestCaseAction 1481123582002 TestGrid.java OK
+UnitTestSessionAction 1481123582002 TestGrid OK
+RefactoringAction 1481123611269 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3() METHOD
+RefactoringAction 1481123612276 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3X3() METHOD
+RefactoringAction 1481123620318 TestGrid.java ADD void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3X3()/2 METHOD
+RefactoringAction 1481123631333 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber3X3()/2=>void numberOfAliveCellsAreNotInitializedRoughlyEqualToDeadCellNumber3X3() METHOD
+EditAction 1481123642268 TestGrid.java 5741 7 83 18
