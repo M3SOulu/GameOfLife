@@ -254,3 +254,11 @@ CompilationAction 1481123670729 isNotDeadAliveEqualsException.java
 CompilationAction 1481123670908 Grid.java
 RefactoringAction 1481123676641 isNotDeadAliveEqualsException.java ADD long serialVersionUID FIELD
 EditAction 1481123677344 isNotDeadAliveEqualsException.java 233 1 1 0
+CompilationAction 1481123677666 Grid.java
+CompilationAction 1481123688424 Grid.java
+CompilationAction 1481123688608 TestGrid.java
+RefactoringAction 1481123692406 TestGrid.java ADD import classes.isNotDeadAliveEqualsException IMPORT
+CompilationAction 1481123749271 TestGrid.java
+CompilationAction 1481123749435 TestGrid.java
+CompilationAction 1481123756809 TestGrid.java
+EditAction 1481123762950 Grid.java 1190 5 16 0

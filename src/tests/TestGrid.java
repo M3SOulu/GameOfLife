@@ -11,6 +11,7 @@ import classes.Cell;
 import classes.CellCoordinateOutOfBoundariesException;
 import classes.Grid;
 import classes.NegativeCoordinateException;
+import classes.isNotDeadAliveEqualsException;
 
 public class TestGrid {
 	Grid griglia;
@@ -39,7 +40,7 @@ public class TestGrid {
 	}
 
 	@Test(expected = CellCoordinateOutOfBoundariesException.class)
-	public void grigliaErrataWithCellException() throws NegativeCoordinateException {
+	public void grigliaErrataWithCellException() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, isNotDeadAliveEqualsException {
 		griglia = new Grid(cells, 50, 10);
 	}
 
@@ -49,7 +50,7 @@ public class TestGrid {
 	}
 
 	@Test
-	public void GridNumberOfCellisOk() throws NegativeCoordinateException {
+	public void GridNumberOfCellisOk() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, isNotDeadAliveEqualsException {
 		cells = new ArrayList<>(4);
 		cells.add(primaCella);
 		cells.add(secondaCella);
@@ -58,7 +59,7 @@ public class TestGrid {
 		griglia = new Grid(cells, 2, 2);
 	}
 	@Test
-	public void GridCellDeadOrAliveIsEquals(){
+	public void GridCellDeadOrAliveIsEquals() throws CellCoordinateOutOfBoundariesException, isNotDeadAliveEqualsException{
 		cells = new ArrayList<>(4);
 		cells.add(primaCella);
 		cells.add(secondaCella);

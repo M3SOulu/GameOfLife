@@ -10,9 +10,8 @@ public class Grid {
 	
 	Iterator<Cell>cellIterator;
 
-	
 
-	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
+	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException, isNotDeadAliveEqualsException{
 		if(w!=h)throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
 		if(cells.size()!=(w*h))throw new CellCoordinateOutOfBoundariesException("errore fuori indice");
 		if(!isEqualsAliveDead()) throw new isNotDeadAliveEqualsException(" ");
