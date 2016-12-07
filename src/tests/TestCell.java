@@ -18,7 +18,7 @@ public class TestCell {
 	
 	@Test
 	public void testCellState(){
-		assertFalse(cell.getState());
+		assertTrue(cell.getState().equals("dead"));
 		
 		cell.setState("alive");
 	}

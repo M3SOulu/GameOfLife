@@ -14,5 +14,11 @@ public class Cell {
 		else return "dead";
 	}
 	
+	public void setState(String state){
+		if(state.equals("alive"))
+			alive = true;
+		else alive = false;
+	}
+	
 	
 }

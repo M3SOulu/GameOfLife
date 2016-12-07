@@ -16,3 +16,18 @@ UnitTestCaseAction 1481120183409 TestCell.java OK
 UnitTestSessionAction 1481120183410 TestCell OK
 CompilationAction 1481120266346 TestCell.java
 EditAction 1481120330494 Cell.java 243 2 1 0
+CompilationAction 1481120330663 TestCell.java
+CompilationAction 1481120330663 TestCell.java
+CompilationAction 1481120407582 TestCell.java
+CompilationAction 1481120407583 TestCell.java
+UnitTestCaseAction 1481120410959 TestCell.java OK
+UnitTestSessionAction 1481120410959 TestCell OK
+CompilationAction 1481120420794 TestCell.java
+UnitTestCaseAction 1481120422141 TestCell.java FAIL
+UnitTestSessionAction 1481120422170 TestCell FAIL
+RefactoringAction 1481120432719 Cell.java ADD String set FIELD
+RefactoringAction 1481120434237 Cell.java RENAME set=>String setC FIELD
+RefactoringAction 1481120436755 Cell.java RENAME setC=>String setState FIELD
+RefactoringAction 1481120437771 Cell.java RENAME setState=>String setState() METHOD
+RefactoringAction 1481120446356 Cell.java RENAME setState()=>void setState(String) METHOD
+EditAction 1481120482128 Cell.java 352 3 2 0
