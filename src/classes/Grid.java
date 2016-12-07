@@ -17,11 +17,11 @@ public class Grid {
 		if (cells.size() != (w * h))
 			throw new CellCoordinateOutOfBoundariesException("Index Out Of Boundaries");
 		
-		width = w;
-		height = h;
 		this.cells = new ArrayList<>(cells.size());
 		if (!isEqualsAliveDead())
 			throw new CustomLifeException("cells alive!=dead");
+		width = w;
+		height = h;
 	}
 
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
