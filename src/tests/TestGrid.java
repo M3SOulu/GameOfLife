@@ -20,6 +20,7 @@ public class TestGrid {
 	
 	@Before
 	public void initialize() throws NegativeCoordinateException{
+		arrayCell = new ArrayList<Cell>();
 		arrayCell.add(new Cell(1,1));
 		arrayCell.add(new Cell(1,2));
 		arrayCell.add(new Cell(1,4));
