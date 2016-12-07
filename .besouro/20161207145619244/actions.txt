@@ -14,3 +14,11 @@ RefactoringAction 1481120435907 TestCell.java RENAME Tear()=>void TearDown() MET
 RefactoringAction 1481120439633 TestCell.java ADD import org.junit.After IMPORT
 EditAction 1481120452222 Cell.java 339 2 4 0
 EditAction 1481120452501 TestCell.java 349 3 1 0
+RefactoringAction 1481120488179 Cell.java ADD boolean getAlive() METHOD
+RefactoringAction 1481120488180 Cell.java ADD void setAlive(boolean) METHOD
+RefactoringAction 1481120523808 TestCell.java ADD import classes.Cell IMPORT
+RefactoringAction 1481120549070 TestCell.java ADD void firstCellTest()/2 METHOD
+RefactoringAction 1481120598658 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
+RefactoringAction 1481120609696 TestCell.java RENAME firstCellTest()/2=>void s() METHOD
+RefactoringAction 1481120643809 TestCell.java ADD Cell cell FIELD
+EditAction 1481120738672 Cell.java 457 4 6 0

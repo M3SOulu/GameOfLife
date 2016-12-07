@@ -11,6 +11,14 @@ public class Cell {
 		if(x<0 || y<0) throw new NegativeCoordinateException("");
 		this.x=x;
 		this.y=y;
-		this.alive=alive;
+		this.setAlive(alive);
+	}
+
+	public boolean getAlive() {
+		return alive;
+	}
+
+	public void setAlive(boolean alive) {
+		this.alive = alive;
 	}
 }

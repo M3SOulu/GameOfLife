@@ -67,9 +67,9 @@ influenzare l'esito.
 - Lo stato della rete è rappresentato
  come una stringa, in cui le cellule
   morte sono rappresentate con un 
-  â € œ â €-(trattino) e cellule 
+ "-"(trattino) e cellule 
   vive sono rappresentati con un 
-  â € œ â € * carattere (stella). 
+  "*" carattere (stella). 
   Quando stampata, questa stringa 
   dovrebbe essere visualizzato in N 
   righe (righe della griglia), ciascuno 
@@ -83,3 +83,8 @@ un` CellCoordinateOutOfBoundariesException`
 quando il `Grid` contiene cellule di fuori
  dei suoi limiti, e un` CustomLifeException` 
  per tutti gli altri casi di errore.
+ 
+ 
+ 
+ 
+ 
