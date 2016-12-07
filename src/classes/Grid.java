@@ -66,6 +66,9 @@ public class Grid {
 		String sGrid = "";
 		for (int i = 0; i < width * height; i++)  {
 			for (Cell c : cells) {
+				if(c.getX() == width) {
+					sGrid = sGrid + "\n";
+				}
 				String state;
 				if(c.isAlive()) {
 					state = "*";
