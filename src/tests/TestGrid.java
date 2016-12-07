@@ -33,27 +33,19 @@ public class TestGrid {
 	}
 	
 	@Test 
-	public void trickingALiveCellWithLessThan2LiveNeighborsMakesItDie() throws NegativeCoordinateException{
+	public void trickingAnAngleAliveCellWithLessThan2LiveNeighborsMakesItDie() throws NegativeCoordinateException{
 		//Arrange
-		Cell liveCell = new Cell(5,5, true);
-		Cell deadNeighbor1 = new Cell(4,5, false);
-		Cell deadNeighbor2 = new Cell(6,5, false);
-		Cell deadNeighbor3 = new Cell(5,4, false);
-		Cell deadNeighbor4 = new Cell(5,6, false);
-		Cell deadNeighbor5 = new Cell(4,4, false);
-		Cell deadNeighbor6 = new Cell(6,4, false);
-		Cell deadNeighbor7 = new Cell(4,6, false);
-		Cell deadNeighbor8 = new Cell(6,6, false);
+		Cell liveCell = new Cell(0,0, true);
+		Cell liveNeighbor1 = new Cell(0,1, true);
+		Cell deadNeighbor2 = new Cell(1,0, false);
+		Cell deadNeighbor3 = new Cell(1,1, false);
+		
 		cells.add(liveCell);
-		cells.add(deadNeighbor1);
+		cells.add(liveNeighbor1);
 		cells.add(deadNeighbor2);
 		cells.add(deadNeighbor3);
-		cells.add(deadNeighbor4);
-		cells.add(deadNeighbor5);
-		cells.add(deadNeighbor6);
-		cells.add(deadNeighbor7);
-		cells.add(deadNeighbor8);
-		grid = new Grid(cells, 10, 10);
+
+		grid = new Grid(cells, 3, 3);
 		//Act
 		grid = grid.tick();
 		//Assert

@@ -151,3 +151,25 @@ CompilationAction 1481122638417 Grid.java
 CompilationAction 1481122638418 Grid.java
 CompilationAction 1481122638418 Grid.java
 EditAction 1481122696989 Grid.java 1260 10 12 0
+CompilationAction 1481122697280 Grid.java
+CompilationAction 1481122697280 Grid.java
+CompilationAction 1481122697281 Grid.java
+CompilationAction 1481122738016 Grid.java
+CompilationAction 1481122738016 Grid.java
+CompilationAction 1481122738017 Grid.java
+CompilationAction 1481122738167 Grid.java
+CompilationAction 1481122738167 Grid.java
+CompilationAction 1481122738168 Grid.java
+CompilationAction 1481122759589 Grid.java
+CompilationAction 1481122759754 Grid.java
+RefactoringAction 1481122897995 Grid.java ADD void count FIELD
+RefactoringAction 1481122899507 Grid.java RENAME count=>void countAlive FIELD
+RefactoringAction 1481122902022 Grid.java RENAME countAlive=>void countAliveNeigh FIELD
+RefactoringAction 1481122904543 Grid.java RENAME countAliveNeigh=>void countAliveNeighbors() METHOD
+RefactoringAction 1481122914061 Grid.java RENAME countAliveNeighbors()=>void countAliveNeighbors(int) METHOD
+RefactoringAction 1481122916085 Grid.java RENAME countAliveNeighbors(int)=>void countAliveNeighbors(int, int) METHOD
+RefactoringAction 1481123168856 TestGrid.java RENAME trickingALiveCellWithLessThan2LiveNeighborsMakesItDie()=>void trickingAnALiveCellWithLessThan2LiveNeighborsMakesItDie() METHOD
+RefactoringAction 1481123170919 TestGrid.java RENAME trickingAnALiveCellWithLessThan2LiveNeighborsMakesItDie()=>void trickingAnAngleLiveCellWithLessThan2LiveNeighborsMakesItDie() METHOD
+RefactoringAction 1481123172931 TestGrid.java RENAME trickingAnAngleLiveCellWithLessThan2LiveNeighborsMakesItDie()=>void trickingAnAngleAiveCellWithLessThan2LiveNeighborsMakesItDie() METHOD
+RefactoringAction 1481123173962 TestGrid.java RENAME trickingAnAngleAiveCellWithLessThan2LiveNeighborsMakesItDie()=>void trickingAnAngleAliveCellWithLessThan2LiveNeighborsMakesItDie() METHOD
+EditAction 1481123353800 TestGrid.java 1274 3 15 1

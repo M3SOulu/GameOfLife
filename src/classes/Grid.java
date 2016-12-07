@@ -13,11 +13,13 @@ public class Grid {
 		setWidth(w);
 		setHeight(h);
 		grid = new Cell[width][height];
-		for(int i = 0; i<cells.size(); i++)
+		
+		for(int i = 0; i<cells.size(); i++){
 			if(cells.get(i).getX()>w || cells.get(i).getY()>h )
 				throw new CellCoordinateOutOfBoundariesException("");
 			else
 				grid[cells.get(i).getX()][cells.get(i).getY()] = cells.get(i);
+		}
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
@@ -36,7 +38,7 @@ public class Grid {
 				}
 			}
 		}
-	    return new Grid()
+	    return null;
 	}
 
 	public ArrayList<Cell> getCells() {
