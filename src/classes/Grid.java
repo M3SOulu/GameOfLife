@@ -12,7 +12,7 @@ public class Grid {
 		for(int i = 0; i<cells.size(); i++)
 			if(cells.get(i).getX()>w || cells.get(i).getY()>h )
 				throw new CellCoordinateOutOfBoundariesException("");
-		width = w;
+		setWidth(w);
 		height = h;
 	}
 	
@@ -34,5 +34,13 @@ public class Grid {
 
 	public void setCells(ArrayList<Cell> cells) {
 		this.cells = cells;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
 	}
 }
