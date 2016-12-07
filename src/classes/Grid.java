@@ -112,8 +112,8 @@ public class Grid {
 		String state = "";
 
 		for (Cell c : cells) {
-			if (c.getX() + 1 % width == 0) {
-				state+="\\n";
+			if ((c.getY() + 1) % width == 0) {
+				state+="\n";
 			}
 			if (c.getState()) {
 				state += "*";
