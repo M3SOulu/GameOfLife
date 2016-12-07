@@ -79,3 +79,6 @@ CompilationAction 1481120391679 TestCell.java
 CompilationAction 1481120391679 TestCell.java
 RefactoringAction 1481120395586 Cell.java ADD Object getX() METHOD
 EditAction 1481120400620 Cell.java 632 5 7 0
+CompilationAction 1481120400769 TestCell.java
+RefactoringAction 1481120405818 Cell.java ADD Object getY() METHOD
+EditAction 1481120410303 Cell.java 707 6 8 0

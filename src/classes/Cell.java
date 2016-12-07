@@ -36,4 +36,10 @@ public class Cell {
 		// TODO Auto-generated method stub
 		return x;
 	}
+
+
+	public int getY() {
+		// TODO Auto-generated method stub
+		return y;
+	}
 }
