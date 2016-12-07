@@ -19,6 +19,13 @@ public class TestGrid {
 	}
 	
 	@Test
+	public void CellsHaveTheRightCoordinates() throws CustomLifeException, NegativeCoordinateException {
+		Grid grid = new Grid(1, 1);
+		
+		
+	}
+	
+	@Test
 	public void areCellsInGridInizializedWell() throws CustomLifeException, NegativeCoordinateException  {
 		
 		Grid grid = new Grid(2, 2);
