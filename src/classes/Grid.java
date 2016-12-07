@@ -29,7 +29,7 @@ public class Grid {
 
 	public String print() {
 		String res = "";
-		int count = 1;
+		int count = 0;
 		for (int i = 0; i < width * height; i++) {
 			count++;
 			if (cells.get(i).getAlive())
@@ -38,7 +38,7 @@ public class Grid {
 				res += "-";
 			if (count - width == 0) {
 				res += "/n";
-				count = 1;
+				count = 0;
 			}
 		}
 		return res;
