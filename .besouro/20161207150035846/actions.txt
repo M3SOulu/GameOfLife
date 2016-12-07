@@ -1,0 +1,12 @@
+FileOpenedAction 1481119236300 Cell.java 151 1 0 0
+FileOpenedAction 1481119356259 TestCell.java 178 1 1 0
+FileOpenedAction 1481119466041 Cell.java 151 1 0 0
+FileOpenedAction 1481119491426 CellCoordinateOutOfBoundariesException.java 235 1 1 0
+FileOpenedAction 1481119492346 CustomLifeException.java 189 1 1 0
+FileOpenedAction 1481119494390 Grid.java 416 4 2 0
+FileOpenedAction 1481119495440 NegativeCoordinateException.java 205 1 1 0
+RefactoringAction 1481119546314 TestCell.java RENAME firstCellTest()=>void c() METHOD
+RefactoringAction 1481119548820 TestCell.java RENAME c()=>void cellAlive() METHOD
+RefactoringAction 1481119549825 TestCell.java RENAME cellAlive()=>void cellAliveTes() METHOD
+RefactoringAction 1481119550832 TestCell.java RENAME cellAliveTes()=>void cellAliveTest() METHOD
+EditAction 1481119591948 TestCell.java 183 1 1 1
