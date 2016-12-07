@@ -79,6 +79,6 @@ public class TestGrid {
 		Grid grid = new Grid(cells, 3, 3);
 
 		//Assert
-		assertEquals(5, grid.getAliveCells());
+		assertEquals(8, grid.getNeighborsNumber( 4 ));
 	}
 }
