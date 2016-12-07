@@ -15,8 +15,7 @@ import classes.NegativeCoordinateException;
 public class TestGrid {
 	Grid griglia;
 	ArrayList<Cell> cells;
-	
-	Cell primaCella=new Cell(1,1,true);
+	Cell primaCella;
 
 	@Test
 	public void firstGridTest(){
@@ -39,9 +38,15 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void cellsIsEqualDeadOrAlive(){
+	public void cellsIsEqualDeadOrAlive() throws NegativeCoordinateException{
 		cells=new ArrayList<>(4);
+		Cell primaCella=new Cell(0,0,true);
+		Cell secondaCella=new Cell(0,1,true);
+		Cell terzaCella=new Cell(1,0,false);
+		Cell quartaCella=new Cell(1,1,false);
+		cells.add(primaCella,secondaCella,terzaCella,quartaCella);
 		griglia=new Grid(2,2);
+		
 		
 	}
 }
