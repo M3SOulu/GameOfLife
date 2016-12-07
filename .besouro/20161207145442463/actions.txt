@@ -140,3 +140,24 @@ EditAction 1481122203099 TestGrid.java 1132 5 10 0
 CompilationAction 1481122203278 TestGrid.java
 CompilationAction 1481122243030 TestGrid.java
 EditAction 1481122251616 TestGrid.java 1183 5 13 0
+UnitTestCaseAction 1481122252159 TestGrid.java OK
+UnitTestSessionAction 1481122252159 TestGrid OK
+RefactoringAction 1481122275704 TestGrid.java ADD Cell primaCella/2 FIELD
+RefactoringAction 1481122275705 TestGrid.java ADD Cell secondaCella FIELD
+RefactoringAction 1481122275705 TestGrid.java ADD Cell terzaCella FIELD
+RefactoringAction 1481122275705 TestGrid.java ADD Cell quartaCella FIELD
+RefactoringAction 1481122279711 TestGrid.java REMOVE primaCella/2 FIELD
+RefactoringAction 1481122287289 TestGrid.java REMOVE primaCella FIELD
+RefactoringAction 1481122287290 TestGrid.java REMOVE terzaCella FIELD
+RefactoringAction 1481122287290 TestGrid.java REMOVE quartaCella FIELD
+RefactoringAction 1481122287290 TestGrid.java REMOVE secondaCella FIELD
+RefactoringAction 1481122300336 TestGrid.java ADD void setUp() METHOD
+RefactoringAction 1481122309084 TestGrid.java ADD import org.junit.Before IMPORT
+RefactoringAction 1481122336958 TestGrid.java ADD Cell primaCella FIELD
+RefactoringAction 1481122341477 TestGrid.java ADD Cell primaCella/2 FIELD
+RefactoringAction 1481122341478 TestGrid.java ADD Cell primaCella/3 FIELD
+RefactoringAction 1481122341478 TestGrid.java ADD Cell primaCella/4 FIELD
+RefactoringAction 1481122344025 TestGrid.java RENAME primaCella/4=>Cell secondaCella FIELD
+RefactoringAction 1481122346041 TestGrid.java RENAME primaCella/3=>Cell terzaCella FIELD
+RefactoringAction 1481122348067 TestGrid.java RENAME primaCella/2=>Cell quartaCella FIELD
+EditAction 1481122356750 TestGrid.java 1342 6 13 0
