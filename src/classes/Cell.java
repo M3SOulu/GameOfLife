@@ -1,9 +1,13 @@
 package classes;
 
+import java.util.Iterator;
+
 public class Cell {
 	private int x;
 	private int y;
 	private boolean alive;
+	
+	Iterator<Cell>cellIterator;
 
 	public Cell() throws NegativeCoordinateException {
 		this(0,0,false);
@@ -20,6 +24,8 @@ public class Cell {
 	public boolean getAlive(){
 		return alive;
 	}
+	
+	
 	
 	
 }

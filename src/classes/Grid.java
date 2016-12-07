@@ -1,12 +1,16 @@
 package classes;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Grid {
 	private ArrayList<Cell> cells;
 	private int width;
 	private int height;
+	
+	Iterator<Cell>cellIterator;
 
+	
 
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
 		if(w!=h)throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
@@ -21,7 +25,6 @@ public class Grid {
 		width=w;
 		height=h;
 		this.cells=new ArrayList<>(w*h);
-		
 		
 	}
 
