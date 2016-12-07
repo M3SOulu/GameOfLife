@@ -139,3 +139,4 @@ UnitTestSessionAction 1481128232891 TestGrid OK
 RefactoringAction 1481128269483 TestGrid.java ADD void tickingABottomSideAliveCellWithMoreThan3AliveNeighborsMakesItDie()/2 METHOD
 RefactoringAction 1481128275489 TestGrid.java RENAME tickingABottomSideAliveCellWithMoreThan3AliveNeighborsMakesItDie()/2=>void tickingALeftSideAliveCellWithMoreThan3AliveNeighborsMakesItDie() METHOD
 EditAction 1481128329187 TestGrid.java 4241 8 82 6
+EditAction 1481128347852 TestGrid.java 4241 8 82 6

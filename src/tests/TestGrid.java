@@ -160,10 +160,10 @@ public class TestGrid {
 		cells.add(neighbor4);
 		cells.add(neighbor5);
 
-		grid = new Grid(cells, 2, 3);
+		grid = new Grid(cells, 3, 2);
 		// Act
 		grid = grid.tick();
 		// Assert
-		assertTrue(!grid.getGrid()[1][1].isAlive());
+		assertTrue(!grid.getGrid()[1][0].isAlive());
 	}
 }
