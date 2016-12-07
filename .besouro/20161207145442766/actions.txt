@@ -53,3 +53,38 @@ UnitTestCaseAction 1481119810570 TestGrid.java FAIL
 UnitTestCaseAction 1481119810570 TestCell.java FAIL
 UnitTestSessionAction 1481119810571 GameOfLife FAIL
 EditAction 1481119820310 TestCell.java 602 2 2 0
+UnitTestCaseAction 1481119821736 TestGrid.java FAIL
+UnitTestCaseAction 1481119821736 TestCell.java OK
+UnitTestSessionAction 1481119821737 GameOfLife FAIL
+FileOpenedAction 1481119874691 Grid.java 416 4 2 0
+FileOpenedAction 1481119886472 TestGrid.java 181 1 1 0
+RefactoringAction 1481119958475 TestGrid.java RENAME firstGridTest()=><initializer /1> null
+RefactoringAction 1481119971512 TestGrid.java RENAME <initializer /1>=>void ifA() METHOD
+RefactoringAction 1481119976038 TestGrid.java RENAME ifA()=>void ifACell() METHOD
+RefactoringAction 1481119977059 TestGrid.java RENAME ifACell()=>void ifACellIs() METHOD
+RefactoringAction 1481119979080 TestGrid.java RENAME ifACellIs()=>void ifACellIsOut() METHOD
+RefactoringAction 1481119981086 TestGrid.java RENAME ifACellIsOut()=>void ifACellIsOutOf() METHOD
+RefactoringAction 1481119985604 TestGrid.java RENAME ifACellIsOutOf()=>void ifACellIsOutOft() METHOD
+RefactoringAction 1481119988122 TestGrid.java RENAME ifACellIsOutOft()=>void ifACellIsOutOfTh() METHOD
+RefactoringAction 1481119990634 TestGrid.java RENAME ifACellIsOutOfTh()=>void ifACellIsOutOfThe() METHOD
+RefactoringAction 1481119993150 TestGrid.java RENAME ifACellIsOutOfThe()=>void ifACellIsOutOfTheG() METHOD
+RefactoringAction 1481119994163 TestGrid.java RENAME ifACellIsOutOfTheG()=>void ifACellIsOutOfTheGrid() METHOD
+RefactoringAction 1481119998195 TestGrid.java RENAME ifACellIsOutOfTheGrid()=>void ifACellIsOutOfTheGridLimits() METHOD
+RefactoringAction 1481119999711 TestGrid.java RENAME ifACellIsOutOfTheGridLimits()=>void ifACellIsOutOfTheGridLimitsAn() METHOD
+RefactoringAction 1481120004272 TestGrid.java RENAME ifACellIsOutOfTheGridLimitsAn()=>void ifACellIsOutOfTheGridLimitsAnExceptionShould() METHOD
+RefactoringAction 1481120005836 TestGrid.java RENAME ifACellIsOutOfTheGridLimitsAnExceptionShould()=>void ifACellIsOutOfTheGridLimitsAnExceptionShouldBe() METHOD
+RefactoringAction 1481120008344 TestGrid.java RENAME ifACellIsOutOfTheGridLimitsAnExceptionShouldBe()=>void ifACellIsOutOfTheGridLimitsAnExceptionShouldBeRi() METHOD
+RefactoringAction 1481120009860 TestGrid.java RENAME ifACellIsOutOfTheGridLimitsAnExceptionShouldBeRi()=>void ifACellIsOutOfTheGridLimitsAnExceptionShouldBeRised() METHOD
+FileOpenedAction 1481120029782 CellCoordinateOutOfBoundariesException.java 235 1 1 0
+RefactoringAction 1481120043521 TestGrid.java ADD import classes.CellCoordinateOutOfBoundariesException IMPORT
+RefactoringAction 1481120073103 TestGrid.java ADD Grid grid FIELD
+RefactoringAction 1481120097310 TestGrid.java ADD import classes.Grid IMPORT
+RefactoringAction 1481120131024 TestGrid.java ADD import classes.Cell IMPORT
+RefactoringAction 1481120134813 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
+RefactoringAction 1481120210658 TestGrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1481120219577 TestGrid.java REMOVE grid FIELD
+RefactoringAction 1481120230598 TestGrid.java ADD void setup() METHOD
+RefactoringAction 1481120243741 TestGrid.java ADD Grid grid FIELD
+RefactoringAction 1481120249776 TestGrid.java ADD ArrayList<Cell> cells FIELD
+RefactoringAction 1481120259319 TestGrid.java ADD import org.junit.Before IMPORT
+EditAction 1481120276671 TestGrid.java 691 2 1 0
