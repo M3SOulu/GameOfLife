@@ -51,12 +51,6 @@ public class Grid {
 		int w = 0;
 		int h = 0;
 		for (int i = 0; i < width * height; i++) {
-			if (h + 1 - width == 0) {
-				h = 0;
-				w++;
-			} else {
-				h++;
-			}
 			numNeighborsLife = neighborsLife(i);
 			if (cells.get(i).getAlive()) {
 				if (numNeighborsLife < 2 || numNeighborsLife > 3)
@@ -68,6 +62,12 @@ public class Grid {
 					temp = new Cell(w, h, true);
 				else
 					temp = new Cell(w, h, false);
+			}
+			if (h + 1 - width == 0) {
+				h = 0;
+				w++;
+			} else {
+				h++;
 			}
 			newCells.add(temp);
 		}

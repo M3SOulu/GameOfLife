@@ -81,7 +81,7 @@ public class TestGrid {
 		grid = new Grid(cells, 3, 3);
 		
 		// Assert
-		assertEquals("**-/n---/n**-", grid.tick().print());
+		assertEquals("***/n**-/n---", grid.tick().print());
 
 	}
 
