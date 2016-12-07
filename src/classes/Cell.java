@@ -25,11 +25,17 @@ public class Cell {
 		
 	}
 	
-	public void setX(int x) {
+	public void setX(int x)throws NegativeCoordinateException {
+		if(x < 0) {
+			throw new NegativeCoordinateException("Coordinate negative");
+		}
 		this.x = x;
 	}
 	
-	public void setY(int y) {
+	public void setY(int y)throws NegativeCoordinateException {
+		if(y < 0) {
+			throw new NegativeCoordinateException("Coordinate negative");
+		}
 		this.y = y;
 	}
 	
