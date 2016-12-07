@@ -82,3 +82,17 @@ EditAction 1481120400620 Cell.java 632 5 7 0
 CompilationAction 1481120400769 TestCell.java
 RefactoringAction 1481120405818 Cell.java ADD Object getY() METHOD
 EditAction 1481120410303 Cell.java 707 6 8 0
+UnitTestCaseAction 1481120418241 TestCell.java OK
+UnitTestSessionAction 1481120418242 TestCell OK
+RefactoringAction 1481120539608 TestGrid.java ADD void eachCell FIELD
+RefactoringAction 1481120541114 TestGrid.java RENAME eachCell=>void eachCellS FIELD
+RefactoringAction 1481120544623 TestGrid.java RENAME eachCellS=>void eachCellShall FIELD
+RefactoringAction 1481120545637 TestGrid.java RENAME eachCellShall=>void eachCellShallBe FIELD
+RefactoringAction 1481120546650 TestGrid.java RENAME eachCellShallBe=>void eachCellShallBeA FIELD
+RefactoringAction 1481120550156 TestGrid.java RENAME eachCellShallBeA=>void eachCellShallBeAccessible FIELD
+RefactoringAction 1481120552162 TestGrid.java RENAME eachCellShallBeAccessible=>void eachCellShallBeAccessibleBy FIELD
+RefactoringAction 1481120555169 TestGrid.java RENAME eachCellShallBeAccessibleBy=>void eachCellShallBeAccessibleByUniqueXY FIELD
+RefactoringAction 1481120556179 TestGrid.java RENAME eachCellShallBeAccessibleByUniqueXY=>void eachCellShallBeAccessibleByUniqueXY() METHOD
+RefactoringAction 1481120594226 TestGrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1481120611154 TestGrid.java ADD import classes.Cell IMPORT
+EditAction 1481120670059 TestGrid.java 606 2 9 2
