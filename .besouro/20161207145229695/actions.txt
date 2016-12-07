@@ -122,3 +122,9 @@ RefactoringAction 1481123747327 Cell.java ADD void setX(int)/2 METHOD
 RefactoringAction 1481123754334 Cell.java RENAME setX(int)/2=>void setY(int) METHOD
 EditAction 1481123760657 Cell.java 524 6 6 0
 EditAction 1481123760789 Grid.java 847 4 10 0
+RefactoringAction 1481123838415 Cell.java REMOVE setX(int) METHOD
+RefactoringAction 1481123838416 Cell.java REMOVE setY(int) METHOD
+RefactoringAction 1481123854421 Cell.java ADD void setX(int) METHOD
+RefactoringAction 1481123854422 Cell.java ADD void setY(int) METHOD
+RefactoringAction 1481123896453 Cell.java ADD import java.util.Random IMPORT
+EditAction 1481123923272 Cell.java 665 6 9 0

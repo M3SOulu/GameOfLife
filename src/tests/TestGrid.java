@@ -17,10 +17,9 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void areCellsInGridInizialized() throws CustomLifeException, NegativeCoordinateException  {
+	public void areCellsInGridInizializedHalfDeadHalfAlive() throws CustomLifeException, NegativeCoordinateException  {
 		
-		Grid grid = new Grid(1, 1);
-		
+		Grid grid = new Grid(2, 2);
 		
 
 	}
