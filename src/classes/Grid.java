@@ -22,6 +22,7 @@ public class Grid {
 				grid[cells.get(i).getX()][cells.get(i).getY()] = cells.get(i);
 		}
 		
+		
 	}
 
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {

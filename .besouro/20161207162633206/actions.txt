@@ -93,3 +93,7 @@ UnitTestCaseAction 1481126605684 TestGrid.java FAIL
 UnitTestSessionAction 1481126605684 TestGrid FAIL
 FileOpenedAction 1481126624568 Cell.java 576 7 10 0
 EditAction 1481126963594 TestGrid.java 2944 6 52 4
+UnitTestCaseAction 1481126978333 TestGrid.java FAIL
+UnitTestSessionAction 1481126978333 TestGrid FAIL
+RefactoringAction 1481127005451 TestGrid.java RENAME tickingAnAngleAliveCellWithMoreThan3AliveNeighborsMakesItDie()=>void tickingAnAliveCellWithMoreThan3AliveNeighborsMakesItDie() METHOD
+EditAction 1481127006418 TestGrid.java 2939 6 52 4
