@@ -132,3 +132,11 @@ EditAction 1481123976396 Cell.java 899 6 11 0
 EditAction 1481124257493 Grid.java 956 4 12 0
 EditAction 1481124310250 Cell.java 783 6 8 0
 EditAction 1481124310365 TestGrid.java 532 2 2 0
+RefactoringAction 1481124349261 Cell.java ADD int getX() METHOD
+RefactoringAction 1481124351266 Cell.java RENAME getX()=>int getX(int) METHOD
+RefactoringAction 1481124360315 Cell.java RENAME getX(int)=><initializer /1> null
+RefactoringAction 1481124361321 Cell.java RENAME <initializer /1>=>int getX(int) METHOD
+RefactoringAction 1481124363826 Cell.java RENAME getX(int)=>int getX() METHOD
+RefactoringAction 1481124369843 Cell.java ADD int getX()/2 METHOD
+RefactoringAction 1481124372356 Cell.java RENAME getX()/2=>int getY() METHOD
+EditAction 1481124374378 Cell.java 873 8 10 0
