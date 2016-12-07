@@ -2,6 +2,10 @@ package classes;
 
 import java.util.ArrayList;
 
+
+//HO ASSUNTO CHE L'INDICE DELLLA GRIGLIA PARTA DA UNO 
+//E CHE LA GRIGLIA VENGA COMPLETAMENTE RIEMPITA DI CELLE PER CALCOLARE IL NUMERO DI VICINI 
+
 public class Grid {
 	private ArrayList<Cell> cells;
 	private int width;
@@ -47,6 +51,9 @@ public class Grid {
 		if (alive != dead)
 			throw new CellConformityException("Number of alive != numbere of dead");
 	}
+	
+	public void calculateNeighbors
+	
 
 	public String print() {
 		return null;

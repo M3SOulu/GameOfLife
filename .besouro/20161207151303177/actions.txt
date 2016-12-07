@@ -263,3 +263,6 @@ RefactoringAction 1481126792887 Cell.java ADD void setNeighbors FIELD
 RefactoringAction 1481126794896 Cell.java RENAME setNeighbors=>void setNeighbors() METHOD
 RefactoringAction 1481126796407 Cell.java RENAME setNeighbors()=>void setNeighbors(int) METHOD
 EditAction 1481126807332 Cell.java 772 9 11 0
+RefactoringAction 1481126837882 Grid.java ADD void calculate FIELD
+RefactoringAction 1481126841424 Grid.java RENAME calculate=>void calculateNeighbors FIELD
+EditAction 1481126943137 Grid.java 1588 7 15 0
