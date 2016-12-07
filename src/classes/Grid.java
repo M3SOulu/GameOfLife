@@ -18,11 +18,13 @@ public class Grid {
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException, CustomLifeException {
-		this.width = w;
-		this.height = h;
+		
 		if (w != h) {
 			throw new CustomLifeException("Generic Error");
 		}
+		
+		this.width = w;
+		this.height = h;
 		
 		
 	}
