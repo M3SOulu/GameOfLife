@@ -8,7 +8,9 @@ public class Cell {
 		
 	}
 	
-	
+	public boolean getState(){
+		return alive;
+	}
 	
 	
 }
