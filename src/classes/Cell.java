@@ -16,4 +16,10 @@ public class Cell {
 		this();
 		this.alive = alive;
 	}
+
+
+	public Object isAlive() {
+		// TODO Auto-generated method stub
+		return alive;
+	}
 }

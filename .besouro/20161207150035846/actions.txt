@@ -15,3 +15,10 @@ RefactoringAction 1481119600255 TestCell.java ADD import classes.Cell IMPORT
 RefactoringAction 1481119609696 Cell.java ADD Cell(boolean) METHOD
 CompilationAction 1481119647898 TestCell.java
 EditAction 1481119647915 Cell.java 301 2 2 0
+CompilationAction 1481119648155 TestCell.java
+RefactoringAction 1481119652179 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
+CompilationAction 1481119653104 TestCell.java
+UnitTestCaseAction 1481119654912 TestCell.java FAIL
+UnitTestSessionAction 1481119654917 TestCell FAIL
+RefactoringAction 1481119672995 Cell.java ADD Object isAlive() METHOD
+EditAction 1481119677049 Cell.java 386 3 3 0
