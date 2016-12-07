@@ -127,3 +127,5 @@ RefactoringAction 1481121579536 TestGrid.java RENAME numberOfAliveCellsShouldBeI
 RefactoringAction 1481121584058 TestGrid.java RENAME numberOfAliveCellsShouldBeInitializedRoughlyEqualTo()=>void numberOfAliveCellsShouldBeInitializedRoughlyEqualToDeadCellNumber() METHOD
 RefactoringAction 1481121696310 Grid.java ADD Object getAliveCells() METHOD
 EditAction 1481121740207 Grid.java 1038 8 13 0
+CompilationAction 1481121740357 Grid.java
+EditAction 1481121768396 TestGrid.java 1465 3 25 6

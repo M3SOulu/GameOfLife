@@ -26,7 +26,7 @@ public class Cell {
 	}
 
 
-	public Object isAlive() {
+	public boolean isAlive() {
 		// TODO Auto-generated method stub
 		return alive;
 	}
