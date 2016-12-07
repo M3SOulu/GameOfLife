@@ -18,6 +18,14 @@ public class Cell {
 		this.setAlive(alive);
 	}
 
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
 	public boolean getAlive() {
 		return alive;
 	}

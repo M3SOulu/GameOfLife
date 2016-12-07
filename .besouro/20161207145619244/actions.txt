@@ -135,3 +135,4 @@ RefactoringAction 1481125883136 Cell.java ADD boolean getAlive()/3 METHOD
 RefactoringAction 1481125887639 Cell.java RENAME getAlive()/3=>boolean getX() METHOD
 RefactoringAction 1481125891154 Cell.java RENAME getAlive()/2=>boolean getY() METHOD
 EditAction 1481125914864 Grid.java 2091 6 23 0
+EditAction 1481125915100 Cell.java 590 7 9 0
