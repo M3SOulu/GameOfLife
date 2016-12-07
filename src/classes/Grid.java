@@ -33,8 +33,8 @@ public class Grid {
 	public Grid tick() throws NegativeCoordinateException {
 		ArrayList<Cell> tickedCells = new ArrayList<Cell>();
 		
-		for(int i = 0; i<width; i++){
-			for(int j = 0; j<height; j++){
+		for(int i = 0; i<2; i++){
+			for(int j = 0; j<2; j++){
 				if(grid[i][j].isAlive() && countAliveNeighbors(i, j)<2)
 					tickedCells.add(new Cell(i, j, false));	
 			}
