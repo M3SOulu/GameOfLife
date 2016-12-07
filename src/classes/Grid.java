@@ -13,9 +13,9 @@ public class Grid {
 	public Grid(ArrayList<Cell> cells, int w, int h)
 			throws CellCoordinateOutOfBoundariesException, CustomLifeException {
 		if (w != h)
-			throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
+			throw new CellCoordinateOutOfBoundariesException("Rows and Columns not Equals");
 		if (cells.size() != (w * h))
-			throw new CellCoordinateOutOfBoundariesException("errore fuori indice");
+			throw new CellCoordinateOutOfBoundariesException("Index Out Of Boundaries");
 		if (!isEqualsAliveDead())
 			throw new CustomLifeException("cells alive!=dead");
 		width = w;
