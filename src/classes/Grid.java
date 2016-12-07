@@ -21,4 +21,28 @@ public class Grid {
 	public Grid tick() {
 	    return null;
 	}
+
+	public ArrayList<Cell> getCells() {
+		return cells;
+	}
+
+	public void setCells(ArrayList<Cell> cells) {
+		this.cells = cells;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
 }

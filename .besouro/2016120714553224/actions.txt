@@ -30,3 +30,10 @@ EditAction 1481120491185 TestCell.java 400 2 2 0
 EditAction 1481120491294 Cell.java 550 8 6 0
 CompilationAction 1481120491421 Cell.java
 EditAction 1481120491436 TestGrid.java 183 1 1 0
+RefactoringAction 1481120586872 Grid.java ADD ArrayList<Cell> getCells() METHOD
+RefactoringAction 1481120586873 Grid.java ADD void setCells(ArrayList<Cell>) METHOD
+RefactoringAction 1481120586881 Grid.java ADD int getWidth() METHOD
+RefactoringAction 1481120586881 Grid.java ADD void setWidth(int) METHOD
+RefactoringAction 1481120586881 Grid.java ADD int getHeight() METHOD
+RefactoringAction 1481120586882 Grid.java ADD void setHeight(int) METHOD
+EditAction 1481120606945 Grid.java 764 10 8 0
