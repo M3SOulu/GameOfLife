@@ -43,3 +43,15 @@ RefactoringAction 1481120166645 TestCell.java RENAME makeADeadCellAlive()/2=>voi
 RefactoringAction 1481120169177 TestCell.java RENAME makeAAlive()=>void makeAAliveCellDea() METHOD
 RefactoringAction 1481120170185 TestCell.java RENAME makeAAliveCellDea()=>void makeAAliveCellDead() METHOD
 EditAction 1481120187551 TestCell.java 651 2 8 2
+UnitTestCaseAction 1481120193926 TestCell.java OK
+UnitTestSessionAction 1481120193933 TestCell OK
+FileOpenedAction 1481120220819 TestGrid.java 181 1 1 0
+RefactoringAction 1481120549379 TestGrid.java RENAME firstGridTest()=>void is() METHOD
+RefactoringAction 1481120551887 TestGrid.java RENAME is()=>void isGridA() METHOD
+RefactoringAction 1481120562400 TestGrid.java RENAME isGridA()=>void isGridOfASquareArrengment() METHOD
+RefactoringAction 1481121836131 TestGrid.java RENAME import org.junit.Assert.*=>import classes.Grid IMPORT
+RefactoringAction 1481121885757 TestGrid.java ADD import classes.CustomLifeException IMPORT
+RefactoringAction 1481121942299 TestGrid.java RENAME isGridOfASquareArrengment()=>void isGridnfASquareArrengment() METHOD
+RefactoringAction 1481121944304 TestGrid.java RENAME isGridnfASquareArrengment()=>void isGridNotfASquareArrengment() METHOD
+RefactoringAction 1481121945826 TestGrid.java RENAME isGridNotfASquareArrengment()=>void isGridNotASquareArrengment() METHOD
+EditAction 1481121965795 TestGrid.java 316 1 1 0
