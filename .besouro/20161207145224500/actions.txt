@@ -23,3 +23,11 @@ RefactoringAction 1481119795793 Cell.java ADD Cell()/2 METHOD
 RefactoringAction 1481119800306 Cell.java RENAME Cell()/2=>Cell(int, int) METHOD
 EditAction 1481119932816 Cell.java 335 2 3 0
 EditAction 1481119933002 Grid.java 925 8 11 0
+RefactoringAction 1481119961701 Cell.java ADD void getX() METHOD
+RefactoringAction 1481119977753 Cell.java ADD int getX()/2 METHOD
+RefactoringAction 1481119982759 Cell.java RENAME getX()/2=>int get() METHOD
+RefactoringAction 1481119983769 Cell.java RENAME get()=>int getY() METHOD
+RefactoringAction 1481120014848 Cell.java ADD import java.util.Random IMPORT
+RefactoringAction 1481120059955 Cell.java ADD Random r FIELD
+RefactoringAction 1481120068992 Cell.java RENAME Cell(int, int)=>int x/2 FIELD
+EditAction 1481120178148 TestCell.java 228 2 1 0

@@ -10,7 +10,7 @@ public class TestCell {
 	
 	@Before
 	public void setUp(){
-		
+		cell = new Cell();
 	}
 	
 	@Test
