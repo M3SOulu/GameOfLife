@@ -194,3 +194,5 @@ RefactoringAction 1481123090216 Grid.java RENAME isCornerCell=>boolean isCornerC
 RefactoringAction 1481123095735 Grid.java RENAME isCornerCell()=>boolean isCornerCell(int) METHOD
 CompilationAction 1481123131473 Grid.java
 EditAction 1481123142355 Grid.java 1594 11 20 0
+RefactoringAction 1481123157108 TestGrid.java ADD void getNeighborsCellAtTheBorderOfTheGrid() METHOD
+EditAction 1481123175386 TestGrid.java 4938 7 84 19
