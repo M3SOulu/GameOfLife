@@ -14,7 +14,7 @@ public class TestCell {
 	
 	@Before
 	public void inizialize() throws NegativeCoordinateException{
-		cell = new Cell(10,10,true);
+		cell = new Cell();
 	}
 	@Test
 	public void NegativeCoordinateExceptionTest(){

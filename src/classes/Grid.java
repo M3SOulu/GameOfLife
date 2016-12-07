@@ -18,8 +18,8 @@ public class Grid {
 		int i;
 		String state = null;
 		ArrayList<Cell> cell = null;
-		Grid grid = new Grid(10,10);
-		
+		Grid grid = new Grid(10,5);
+		if(grid.getHeight() != grid.getWidth()) state = "Grid invalid";		
 		return state;   
 			
 	}
