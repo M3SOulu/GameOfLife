@@ -13,3 +13,4 @@ RefactoringAction 1481120433895 TestCell.java RENAME setUp()/2=>void Tear() METH
 RefactoringAction 1481120435907 TestCell.java RENAME Tear()=>void TearDown() METHOD
 RefactoringAction 1481120439633 TestCell.java ADD import org.junit.After IMPORT
 EditAction 1481120452222 Cell.java 339 2 4 0
+EditAction 1481120452501 TestCell.java 349 3 1 0
