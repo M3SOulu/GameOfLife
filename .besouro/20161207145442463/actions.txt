@@ -106,3 +106,9 @@ RefactoringAction 1481121463937 Cell.java RENAME cellValueEqualsDeadAlive()=>boo
 RefactoringAction 1481121465446 Cell.java RENAME get()=>boolean getAlive() METHOD
 RefactoringAction 1481121469457 Cell.java RENAME getAlive()=>boolean isAlive() METHOD
 EditAction 1481121479569 Cell.java 411 3 5 0
+CompilationAction 1481121479897 Grid.java
+CompilationAction 1481121479897 TestCell.java
+RefactoringAction 1481121488011 Cell.java RENAME isAlive()=>boolean getAlive() METHOD
+RefactoringAction 1481121494028 Cell.java RENAME getAlive()=>boolean getIsAlive() METHOD
+RefactoringAction 1481121503540 Cell.java RENAME getIsAlive()=>boolean getIs FIELD
+EditAction 1481121505023 Cell.java 412 3 5 0

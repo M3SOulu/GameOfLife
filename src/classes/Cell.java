@@ -17,7 +17,7 @@ public class Cell {
 		alive=t;
 	}
 	
-	public boolean isAlive(){
+	public boolean getAlive(){
 		return alive;
 	}
 	
