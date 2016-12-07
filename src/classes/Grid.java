@@ -12,7 +12,7 @@ public class Grid {
 		if(w!=h)throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
 		width=w;
 		height=h;
-		cells=new ArrayList<>(w*h);
+		this.cells=new ArrayList<>(cells.size());
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
