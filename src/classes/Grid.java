@@ -85,11 +85,14 @@ public class Grid {
 		int aliveCells = getAliveCells();
 		int deadCells = getDeadCells();
 
-		if( (width*height)%2 == 0 && aliveCells != deadCells  ){
+		if( (width*height)%2 == 0 && 
+				aliveCells != deadCells  ){
 			return false;
 
 		}
-		else if( (width*height)%2 != 0 && aliveCells != (deadCells+1) && deadCells != (aliveCells+1) ){
+		else if( (width*height)%2 != 0 && 
+				aliveCells != (deadCells+1) && 
+				deadCells != (aliveCells+1) ){
 			return false;
 		}
 
@@ -147,7 +150,7 @@ public class Grid {
 	
 	/**
 	 * 
-	 * @return a list with indexes of inside the 2D square grid positions
+	 * @return a list with indexes of inside positions in 2D square grid
 	 */
 	private ArrayList<Integer> getInsideValues(){
 		if( width <= 2 ){
@@ -166,6 +169,7 @@ public class Grid {
 		return indexes;
 	}
 
+	
 	public int getNeighborsNumber(int index) {
 		// TODO Auto-generated method stub
 		if( getCornerValues().contains( index ) ){	//corner cell
@@ -174,7 +178,7 @@ public class Grid {
 		if( getBorderValues().contains(index) ){	//border cell			
 			return 5;
 		}
-		if( getInsideValues().contains(index) ){	//border cell			
+		if( getInsideValues().contains(index) ){	//inside the grid cell			
 			return 8;
 		}
 		

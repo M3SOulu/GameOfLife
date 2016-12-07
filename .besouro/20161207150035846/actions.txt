@@ -330,3 +330,10 @@ UnitTestSessionAction 1481126575648 TestGrid OK
 RefactoringAction 1481126585625 TestGrid.java ADD void getNeighborsCellInsideTheGrid3X3()/2 METHOD
 RefactoringAction 1481126591143 TestGrid.java RENAME getNeighborsCellInsideTheGrid3X3()/2=>void getNeighborsCellInsideTheGrid4X4() METHOD
 EditAction 1481126629922 TestGrid.java 8720 13 172 37
+UnitTestCaseAction 1481126631530 TestGrid.java OK
+UnitTestSessionAction 1481126631530 TestGrid OK
+RefactoringAction 1481126653951 Grid.java REMOVE getNeighborsNumber(int) METHOD
+RefactoringAction 1481126655467 Grid.java ADD int getNeighborsNumber(int) METHOD
+RefactoringAction 1481126720529 Grid.java ADD import org.junit.Assert.assertEquals IMPORT
+RefactoringAction 1481126723559 Grid.java REMOVE import org.junit.Assert.assertEquals IMPORT
+EditAction 1481126756685 Grid.java 3363 14 44 0
