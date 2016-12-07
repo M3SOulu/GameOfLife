@@ -55,3 +55,5 @@ RefactoringAction 1481121942299 TestGrid.java RENAME isGridOfASquareArrengment()
 RefactoringAction 1481121944304 TestGrid.java RENAME isGridnfASquareArrengment()=>void isGridNotfASquareArrengment() METHOD
 RefactoringAction 1481121945826 TestGrid.java RENAME isGridNotfASquareArrengment()=>void isGridNotASquareArrengment() METHOD
 EditAction 1481121965795 TestGrid.java 316 1 1 0
+CompilationAction 1481121966026 TestGrid.java
+EditAction 1481121966040 Grid.java 696 4 9 0

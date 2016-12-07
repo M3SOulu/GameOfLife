@@ -8,10 +8,23 @@ public class Grid {
 	private int height;
 
 
-	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
+	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException, CustomLifeException{
+	this.cells = cells;
+	this.width = w;
+	this.height = h;
+	if (w != h) {
+		throw new CustomLifeException("Generic Error");
+	}
 	}
 	
-	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
+	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException, CustomLifeException {
+		this.width = w;
+		this.height = h;
+		if (w != h) {
+			throw new CustomLifeException("Generic Error");
+		}
+		
+		
 	}
 
 	public String print() {
