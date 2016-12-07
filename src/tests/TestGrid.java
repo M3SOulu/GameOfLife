@@ -48,9 +48,9 @@ public class TestGrid {
 	@Test(expected=CellConformityException.class)
 	public void testCellConformity() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, CellConformityException{
 		arrayCell = new ArrayList<Cell>();
-		arrayCell.add(new Cell(1,1));
-		arrayCell.add(new Cell(1,2));
-		arrayCell.add(new Cell(2,1));
+		arrayCell.add(new Cell(1,1,"alive"));
+		arrayCell.add(new Cell(1,2,"alive"));
+		arrayCell.add(new Cell(2,1,"dead"));
 		grid = new Grid(arrayCell,2,2);
 		
 		
