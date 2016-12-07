@@ -1,0 +1,37 @@
+FileOpenedAction 1481118883252 Cell.java 151 1 0 0
+FileOpenedAction 1481118894021 Grid.java 416 4 2 0
+RefactoringAction 1481119278213 Cell.java RENAME Cell()=>Cell(int) METHOD
+RefactoringAction 1481119280757 Cell.java RENAME Cell(int)=>Cell(int, int) METHOD
+RefactoringAction 1481119301803 Cell.java RENAME Cell(int, int)=>Cell(int, int, boolean) METHOD
+RefactoringAction 1481119319699 Cell.java REMOVE alive FIELD
+RefactoringAction 1481119319700 Cell.java REMOVE x FIELD
+RefactoringAction 1481119319700 Cell.java REMOVE y FIELD
+RefactoringAction 1481119324399 Cell.java ADD int x FIELD
+RefactoringAction 1481119324405 Cell.java ADD int y FIELD
+RefactoringAction 1481119324405 Cell.java ADD boolean alive FIELD
+RefactoringAction 1481119403000 Cell.java ADD boolean isAlive() METHOD
+RefactoringAction 1481119403002 Cell.java ADD void setAlive(boolean) METHOD
+RefactoringAction 1481119413226 Cell.java ADD int getX() METHOD
+RefactoringAction 1481119413226 Cell.java ADD void setX(int) METHOD
+RefactoringAction 1481119418540 Cell.java ADD int getY() METHOD
+RefactoringAction 1481119418540 Cell.java ADD void setY(int) METHOD
+FileOpenedAction 1481119463427 TestCell.java 178 1 1 0
+RefactoringAction 1481119489788 TestCell.java ADD void setup() METHOD
+RefactoringAction 1481119495189 TestCell.java ADD import org.junit.Before IMPORT
+RefactoringAction 1481119507925 TestCell.java REMOVE setup() METHOD
+RefactoringAction 1481119515953 TestCell.java ADD Cell cell FIELD
+RefactoringAction 1481119518002 TestCell.java ADD import classes.Cell IMPORT
+RefactoringAction 1481119524514 TestCell.java REMOVE import org.junit.Before IMPORT
+RefactoringAction 1481119550551 TestCell.java RENAME firstCellTest()=>void cell() METHOD
+RefactoringAction 1481119554559 TestCell.java RENAME cell()=>void cellWithNegative() METHOD
+RefactoringAction 1481119556076 TestCell.java RENAME cellWithNegative()=>void cellWithNegativeCoo() METHOD
+RefactoringAction 1481119558084 TestCell.java RENAME cellWithNegativeCoo()=>void cellWithNegativeCoordi() METHOD
+RefactoringAction 1481119561598 TestCell.java RENAME cellWithNegativeCoordi()=>void cellWithNegativeCoordinates() METHOD
+RefactoringAction 1481119569656 TestCell.java RENAME cellWithNegativeCoordinates()=>void cellWithNegativeCoordinateShouldRiseAnException() METHOD
+RefactoringAction 1481119593772 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
+RefactoringAction 1481119627680 TestCell.java RENAME cellWithNegativeCoordinateShouldRiseAnException()=>void concellWithNegativeCoordinateShouldRiseAnException() METHOD
+RefactoringAction 1481119629698 TestCell.java RENAME concellWithNegativeCoordinateShouldRiseAnException()=>void consdcellWithNegativeCoordinateShouldRiseAnException() METHOD
+RefactoringAction 1481119633708 TestCell.java RENAME consdcellWithNegativeCoordinateShouldRiseAnException()=>void constructingcellWithNegativeCoordinateShouldRiseAnException() METHOD
+RefactoringAction 1481119636248 TestCell.java RENAME constructingcellWithNegativeCoordinateShouldRiseAnException()=>void constructingAellWithNegativeCoordinateShouldRiseAnException() METHOD
+RefactoringAction 1481119637263 TestCell.java RENAME constructingAellWithNegativeCoordinateShouldRiseAnException()=>void constructingACellWithNegativeCoordinateShouldRiseAnException() METHOD
+EditAction 1481119680861 TestCell.java 400 1 1 0
