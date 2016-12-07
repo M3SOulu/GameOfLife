@@ -176,3 +176,10 @@ CompilationAction 1481123634985 TestGrid.java
 UnitTestCaseAction 1481123646140 TestGrid.java FAIL
 UnitTestSessionAction 1481123646141 TestGrid FAIL
 EditAction 1481123694768 TestGrid.java 1178 4 9 1
+UnitTestCaseAction 1481123696765 TestGrid.java FAIL
+UnitTestSessionAction 1481123696765 TestGrid FAIL
+UnitTestCaseAction 1481123696822 TestGrid.java FAIL
+UnitTestSessionAction 1481123696823 TestGrid FAIL
+RefactoringAction 1481123779878 TestGrid.java REMOVE initialize() METHOD
+RefactoringAction 1481123786383 TestGrid.java ADD void initialize() METHOD
+EditAction 1481123793511 TestGrid.java 1241 4 10 1
