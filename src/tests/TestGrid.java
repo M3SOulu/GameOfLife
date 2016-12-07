@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import classes.Cell;
 import classes.Grid;
+import classes.NegativeCoordinateException;
 
 
 public class TestGrid {
@@ -20,7 +21,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void eachCellShallBeAccessibleByUniqueXY(){
+	public void eachCellShallBeAccessibleByUniqueXY() throws NegativeCoordinateException{
 		ArrayList<Cell> cells = new ArrayList<>();
 		cells.add(new Cell(true, 1, 1));
 		cells.add(new Cell(true, 1, 2));
@@ -28,5 +29,6 @@ public class TestGrid {
 		cells.add(new Cell(true, 2, 2));
 		
 		Grid grid = new Grid(cells, 2, 2);
+		assertEquals(2, grid.get( 2, 1 ));
 	}
 }

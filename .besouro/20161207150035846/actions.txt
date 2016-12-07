@@ -96,3 +96,7 @@ RefactoringAction 1481120556179 TestGrid.java RENAME eachCellShallBeAccessibleBy
 RefactoringAction 1481120594226 TestGrid.java ADD import java.util.ArrayList IMPORT
 RefactoringAction 1481120611154 TestGrid.java ADD import classes.Cell IMPORT
 EditAction 1481120670059 TestGrid.java 606 2 9 2
+CompilationAction 1481120670222 TestGrid.java
+RefactoringAction 1481120676752 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
+CompilationAction 1481120678811 TestGrid.java
+EditAction 1481120872080 TestGrid.java 722 2 10 3
