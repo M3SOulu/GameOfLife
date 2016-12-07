@@ -16,7 +16,7 @@ public class TestGrid {
 	Grid griglia;
 	ArrayList<Cell> cells;
 	
-	Cell primaCella=new Cell(0,0,true);
+	Cell primaCella=new Cell(1,1,true);
 
 	@Test
 	public void firstGridTest(){
