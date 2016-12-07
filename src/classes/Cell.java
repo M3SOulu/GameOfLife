@@ -29,8 +29,6 @@ public class Cell {
 		this.alive = alive;
 	}
 	
-
-	
 	public Cell() throws NegativeCoordinateException {
 	}
 }

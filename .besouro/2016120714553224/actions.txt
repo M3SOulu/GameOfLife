@@ -80,3 +80,6 @@ RefactoringAction 1481122125305 Cell.java REMOVE Cell(int, int, boolean) METHOD
 EditAction 1481122314635 Grid.java 869 10 11 0
 CompilationAction 1481122314771 Grid.java
 EditAction 1481122314782 Cell.java 439 7 6 0
+CompilationAction 1481122315852 Grid.java
+CompilationAction 1481122315852 TestCell.java
+EditAction 1481122650664 Cell.java 436 7 6 0

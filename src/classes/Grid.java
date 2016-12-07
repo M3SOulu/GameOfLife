@@ -17,10 +17,11 @@ public class Grid {
 	public String print() {
 		int i;
 		String state = null;
+		ArrayList<Cell> cell = null;
 		Grid grid = new Grid(10,10);
 		
-		for(i = 0; i < grid.getWidth();i++)
-	    return state;
+		return state;   
+			
 	}
 	
 	public Grid tick() {
