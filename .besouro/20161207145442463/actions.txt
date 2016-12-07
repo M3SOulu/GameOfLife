@@ -58,3 +58,21 @@ EditAction 1481120676769 TestGrid.java 406 2 2 0
 UnitTestCaseAction 1481120678563 TestGrid.java FAIL
 UnitTestSessionAction 1481120678570 TestGrid FAIL
 EditAction 1481120685057 TestGrid.java 370 2 1 0
+UnitTestCaseAction 1481120685560 TestGrid.java OK
+UnitTestSessionAction 1481120685561 TestGrid OK
+UnitTestCaseAction 1481120693817 TestCell.java OK
+UnitTestSessionAction 1481120693818 TestCell OK
+RefactoringAction 1481120793743 TestGrid.java ADD Cell cella FIELD
+RefactoringAction 1481120795896 TestGrid.java ADD import classes.Cell IMPORT
+RefactoringAction 1481120811811 TestGrid.java ADD void grigliaErrataException()/2 METHOD
+RefactoringAction 1481120818317 TestGrid.java RENAME grigliaErrataException()/2=>void grigliaErrataWithCell() METHOD
+RefactoringAction 1481120820325 TestGrid.java RENAME grigliaErrataWithCell()=>void grigliaErrataWithCellException() METHOD
+RefactoringAction 1481120847079 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
+RefactoringAction 1481120879442 TestGrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1481120880953 TestGrid.java RENAME cells=>Cell cella FIELD
+RefactoringAction 1481120882963 TestGrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1481120884480 TestGrid.java RENAME cells=>Cell cella FIELD
+RefactoringAction 1481120886493 TestGrid.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1481120890505 TestGrid.java REMOVE import java.util.ArrayList IMPORT
+RefactoringAction 1481120893748 TestGrid.java ADD import java.util.ArrayList IMPORT
+EditAction 1481120913355 Grid.java 594 4 7 0

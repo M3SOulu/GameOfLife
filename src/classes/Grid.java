@@ -17,6 +17,7 @@ public class Grid {
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
 		this(new ArrayList<Cell>(w*h),w,h);
+		
 	}
 
 	public String print() {
