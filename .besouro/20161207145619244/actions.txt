@@ -22,3 +22,4 @@ RefactoringAction 1481120598658 TestCell.java ADD import classes.NegativeCoordin
 RefactoringAction 1481120609696 TestCell.java RENAME firstCellTest()/2=>void s() METHOD
 RefactoringAction 1481120643809 TestCell.java ADD Cell cell FIELD
 EditAction 1481120738672 Cell.java 457 4 6 0
+EditAction 1481120738924 TestCell.java 632 4 1 0
