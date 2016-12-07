@@ -126,3 +126,84 @@ EditAction 1481122506833 TestGrid.java 865 3 7 0
 UnitTestCaseAction 1481122507426 TestGrid.java FAIL
 UnitTestSessionAction 1481122507426 TestGrid FAIL
 EditAction 1481122595666 TestGrid.java 924 3 7 0
+UnitTestCaseAction 1481122596205 TestGrid.java FAIL
+UnitTestSessionAction 1481122596206 TestGrid FAIL
+UnitTestCaseAction 1481122648225 TestGrid.java FAIL
+UnitTestSessionAction 1481122648226 TestGrid FAIL
+UnitTestCaseAction 1481122698212 TestGrid.java FAIL
+UnitTestSessionAction 1481122698213 TestGrid FAIL
+UnitTestCaseAction 1481122834890 TestGrid.java OK
+UnitTestSessionAction 1481122834890 TestGrid OK
+UnitTestCaseAction 1481122946310 TestGrid.java OK
+UnitTestSessionAction 1481122946311 TestGrid OK
+UnitTestCaseAction 1481122951516 TestGrid.java OK
+UnitTestSessionAction 1481122951517 TestGrid OK
+UnitTestCaseAction 1481122954944 TestGrid.java OK
+UnitTestSessionAction 1481122954944 TestGrid OK
+RefactoringAction 1481123000604 TestGrid.java ADD void alive FIELD
+RefactoringAction 1481123002617 TestGrid.java RENAME alive=>void aliveCells() METHOD
+UnitTestCaseAction 1481123365276 TestGrid.java OK
+UnitTestSessionAction 1481123365277 TestGrid OK
+UnitTestCaseAction 1481123407592 TestGrid.java OK
+UnitTestSessionAction 1481123407592 TestGrid OK
+UnitTestCaseAction 1481123410221 TestGrid.java OK
+UnitTestSessionAction 1481123410221 TestGrid OK
+UnitTestCaseAction 1481123411130 TestGrid.java OK
+UnitTestSessionAction 1481123411131 TestGrid OK
+UnitTestCaseAction 1481123412114 TestGrid.java OK
+UnitTestSessionAction 1481123412114 TestGrid OK
+UnitTestCaseAction 1481123413120 TestGrid.java OK
+UnitTestSessionAction 1481123413120 TestGrid OK
+UnitTestCaseAction 1481123413975 TestGrid.java OK
+UnitTestSessionAction 1481123413976 TestGrid OK
+UnitTestCaseAction 1481123414925 TestGrid.java OK
+UnitTestSessionAction 1481123414926 TestGrid OK
+UnitTestCaseAction 1481123415858 TestGrid.java OK
+UnitTestSessionAction 1481123415859 TestGrid OK
+UnitTestCaseAction 1481123416773 TestGrid.java OK
+UnitTestSessionAction 1481123416774 TestGrid OK
+UnitTestCaseAction 1481123417646 TestGrid.java OK
+UnitTestSessionAction 1481123417647 TestGrid OK
+UnitTestCaseAction 1481123504228 TestGrid.java OK
+UnitTestSessionAction 1481123504228 TestGrid OK
+UnitTestCaseAction 1481123506684 TestGrid.java OK
+UnitTestSessionAction 1481123506685 TestGrid OK
+UnitTestCaseAction 1481123508602 TestGrid.java OK
+UnitTestSessionAction 1481123508602 TestGrid OK
+UnitTestCaseAction 1481123510043 TestGrid.java OK
+UnitTestSessionAction 1481123510044 TestGrid OK
+UnitTestCaseAction 1481123511310 TestGrid.java OK
+UnitTestSessionAction 1481123511310 TestGrid OK
+UnitTestCaseAction 1481123512234 TestGrid.java OK
+UnitTestSessionAction 1481123512235 TestGrid OK
+UnitTestCaseAction 1481123520298 TestGrid.java OK
+UnitTestSessionAction 1481123520299 TestGrid OK
+UnitTestCaseAction 1481123522353 TestGrid.java OK
+UnitTestSessionAction 1481123522354 TestGrid OK
+UnitTestCaseAction 1481123523635 TestGrid.java OK
+UnitTestSessionAction 1481123523636 TestGrid OK
+UnitTestCaseAction 1481123525966 TestGrid.java OK
+UnitTestSessionAction 1481123525967 TestGrid OK
+UnitTestCaseAction 1481123533676 TestGrid.java OK
+UnitTestSessionAction 1481123533677 TestGrid OK
+UnitTestCaseAction 1481123534961 TestGrid.java OK
+UnitTestSessionAction 1481123534962 TestGrid OK
+UnitTestCaseAction 1481123536278 TestGrid.java OK
+UnitTestSessionAction 1481123536278 TestGrid OK
+UnitTestCaseAction 1481123537452 TestGrid.java OK
+UnitTestSessionAction 1481123537452 TestGrid OK
+UnitTestCaseAction 1481123545245 TestGrid.java OK
+UnitTestSessionAction 1481123545245 TestGrid OK
+RefactoringAction 1481123637645 TestGrid.java ADD import org.junit.Assert.assertFalse IMPORT
+RefactoringAction 1481123643659 TestGrid.java REMOVE import org.junit.Assert.assertFalse IMPORT
+RefactoringAction 1481123644666 TestGrid.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1481123647685 TestGrid.java RENAME import org.junit.Assert.*=>import org.junit.Assert.assertEquals IMPORT
+UnitTestCaseAction 1481123648957 TestGrid.java FAIL
+UnitTestSessionAction 1481123648957 TestGrid FAIL
+RefactoringAction 1481123906023 Grid.java ADD boolean isUniformlyInitialized(ArrayList<Cell>) METHOD
+RefactoringAction 1481124040814 Grid.java ADD int aliveCells FIELD
+RefactoringAction 1481124044015 Grid.java REMOVE aliveCells FIELD
+RefactoringAction 1481124105504 Grid.java ADD void initialize() METHOD
+RefactoringAction 1481124125270 Grid.java RENAME initialize()=>void initialize(ArrayList<Cell>) METHOD
+RefactoringAction 1481124331034 Cell.java ADD void setState(boolean) METHOD
+EditAction 1481124351676 Cell.java 632 6 11 0

@@ -22,23 +22,53 @@ public class Grid {
 	public void setHeight(int height) {
 		this.height = height;
 	}
-	
-	public Grid(ArrayList<Cell> cells, int w, int h) throws CustomLifeException, CellCoordinateOutOfBoundariesException{
+
+	public Grid(ArrayList<Cell> cells, int w, int h)
+			throws CustomLifeException, CellCoordinateOutOfBoundariesException {
 		if (w != h) {
-			throw new CustomLifeException("cell outside limits");
+			throw new CustomLifeException("width != height");
 		}
 		setHeight(h);
 		setWidth(w);
-		
-		for(Cell c: cells){
-			if(c.getX() > w || c.getY() > h){
+
+		for (Cell c : cells) {
+			if (c.getX() > w || c.getY() > h) {
 				throw new CellCoordinateOutOfBoundariesException("cell outside limits");
 			}
 		}
-		
-		this.cells = cells;
+		this.initialize(cells);
+		if (this.isUniformlyInitialized(cells)) {
+			this.cells = cells;
+		} else {
+			throw new CustomLifeException("uniformly initialized");
+		}
 	}
-	
+
+	private void initialize(ArrayList<Cell> cells) {
+		int i=0;
+		while(!this.isUniformlyInitialized(cells)){
+			boolean state = cells.get(i).getState();
+			cells.get(i++).setState(state);
+		}
+	}
+
+	private boolean isUniformlyInitialized(ArrayList<Cell> cells) {
+		int aliveCells = 0;
+		int deadCells = 0;
+		for (Cell c : cells) {
+			if (c.getState()) {
+				aliveCells++;
+			} else {
+				deadCells++;
+			}
+		}
+		if (Math.abs(aliveCells - deadCells) >= 0 && Math.abs(aliveCells - deadCells) <= 1) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 	public Grid(int w, int h) throws CustomLifeException {
 		if (w != h) {
 			throw new CustomLifeException("cell outside limits");
@@ -48,12 +78,11 @@ public class Grid {
 	}
 
 	public String print() {
-	    return null;
-	}
-	
-	public Grid tick() {
-	    return null;
+		return null;
 	}
 
-	
+	public Grid tick() {
+		return null;
+	}
+
 }

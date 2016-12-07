@@ -35,4 +35,8 @@ public class Cell {
 	public boolean getState(){
 		return alive;
 	}
+
+	public void setState(boolean state) {
+		this.alive = state;
+	}
 }
