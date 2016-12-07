@@ -40,6 +40,24 @@ public class TestGrid {
 	}
 	
 	@Test
+	public void CellHasTheRightCoordinateY() throws CustomLifeException, NegativeCoordinateException {
+		Grid grid = new Grid(1, 1);
+		
+		ArrayList<Cell> gCells = grid.getCells();
+		
+		int y = -1;
+
+		
+		for (Cell c : gCells) {
+			y = c.getY();
+	
+		}
+		
+		assertEquals(1, y);
+		
+	}
+	
+	@Test
 	public void areCellsInGridInizializedWell() throws CustomLifeException, NegativeCoordinateException  {
 		
 		Grid grid = new Grid(2, 2);
