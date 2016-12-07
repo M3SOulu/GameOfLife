@@ -27,6 +27,9 @@ public class Grid {
 		if (w != h) {
 			throw new CustomLifeException("cell outside limits");
 		}
+		setHeight(h);
+		setWidth(w);
+		
 		for(Cell c: cells){
 			if(c.getX() > w || c.getY() > h){
 				throw new CellCoordinateOutOfBoundariesException("cell outside limits");
@@ -34,8 +37,6 @@ public class Grid {
 		}
 		
 		this.cells = cells;
-		setHeight(h);
-		setWidth(w);
 	}
 	
 	public Grid(int w, int h) throws CustomLifeException {
