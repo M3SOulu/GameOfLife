@@ -96,3 +96,5 @@ EditAction 1481121197310 Grid.java 612 4 7 0
 EditAction 1481121332471 Cell.java 356 2 4 0
 RefactoringAction 1481121370826 Cell.java RENAME Cell(int, int)=>Cell(int, int, boolean) METHOD
 EditAction 1481121388311 Cell.java 363 2 4 0
+CompilationAction 1481121388497 TestCell.java
+EditAction 1481121390523 Grid.java 646 4 7 0
