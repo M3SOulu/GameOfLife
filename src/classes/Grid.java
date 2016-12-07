@@ -114,7 +114,21 @@ public class Grid {
 	}
 	
 	private ArrayList<Integer> getBorderValues(){
-		return null;
+		if( width <= 2 ){
+			return null;
+		}
+		ArrayList<Integer> indexes = new ArrayList<>();
+		for( int i = 1; i < width-1; i++ ){	//border values first row
+			indexes.add(i);
+		}
+		for( int i = width; i < (width*height)-width; i += (width-1) ){	//border values in the middle
+			indexes.add(i);
+		}
+		for( int i = (width*height)-width+1; i < (width*height-1); i++ ){	//border values last row
+			indexes.add(i);
+		}
+		
+		return indexes;
 	}
 
 	public int getNeighborsNumber(int index) {
