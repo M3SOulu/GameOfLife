@@ -32,7 +32,7 @@ public class Grid {
 		
 		
 		int iW = 1;
-		int iH = 1;
+		int iH = 0;
 		for (int i = 0; i < w * h; i++) {
 			
 			Cell cell = new Cell();
