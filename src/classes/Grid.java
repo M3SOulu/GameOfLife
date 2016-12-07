@@ -98,7 +98,7 @@ public class Grid {
 
 	/**
 	 * 
-	 * @return a list with indexes of corner in 2D square grid
+	 * @return a list with indexes of corner positions in 2D square grid
 	 */
 	private ArrayList<Integer> getCornerValues(){
 		ArrayList<Integer> indexes = new ArrayList<>();
@@ -113,7 +113,7 @@ public class Grid {
 
 	/**
 	 * 
-	 * @return a list with indexes of border in 2D square grid
+	 * @return a list with indexes of border positions in 2D square grid
 	 */
 	private ArrayList<Integer> getBorderValues(){
 		if( width <= 2 ){
@@ -144,6 +144,22 @@ public class Grid {
 
 		return indexes;
 	}
+	
+	/**
+	 * 
+	 * @return a list with indexes of inside the 2D square grid positions
+	 */
+	private ArrayList<Integer> getInsideValues(){
+		if( width <= 2 ){
+			return null;
+		}
+
+		ArrayList<Integer> indexes = new ArrayList<>();
+
+		
+
+		return indexes;
+	}
 
 	public int getNeighborsNumber(int index) {
 		// TODO Auto-generated method stub
@@ -153,6 +169,10 @@ public class Grid {
 		if( getBorderValues().contains(index) ){	//border cell			
 			return 5;
 		}
+		if( getInsideValues().contains(index) ){	//border cell			
+			return 5;
+		}
+		
 
 		return 0;
 	}

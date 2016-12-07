@@ -314,3 +314,11 @@ RefactoringAction 1481126247546 TestGrid.java RENAME getNeighborsCellInsideTheGr
 RefactoringAction 1481126248553 TestGrid.java RENAME getNeighborsCellInsideTheGrid3()=>void getNeighborsCellInsideTheGrid3X() METHOD
 RefactoringAction 1481126249561 TestGrid.java RENAME getNeighborsCellInsideTheGrid3X()=>void getNeighborsCellInsideTheGrid3X3() METHOD
 EditAction 1481126301721 TestGrid.java 7745 12 150 33
+UnitTestCaseAction 1481126303213 TestGrid.java FAIL
+UnitTestSessionAction 1481126303213 TestGrid.getNeighborsCellInsideTheGrid3X3 FAIL
+UnitTestCaseAction 1481126307244 TestGrid.java FAIL
+UnitTestSessionAction 1481126307245 TestGrid FAIL
+RefactoringAction 1481126312083 Grid.java ADD ArrayList<Integer> getBorderValues()/2 METHOD
+RefactoringAction 1481126326591 Grid.java RENAME getBorderValues()/2=>ArrayList<Integer> getIsValues() METHOD
+RefactoringAction 1481126334100 Grid.java RENAME getIsValues()=>ArrayList<Integer> getInsideValues() METHOD
+EditAction 1481126411569 Grid.java 3186 14 41 0
