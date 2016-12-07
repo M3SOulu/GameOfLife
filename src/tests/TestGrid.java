@@ -101,6 +101,9 @@ public class TestGrid {
 
 		//Assert
 		assertEquals(5, grid.getNeighborsNumber( 1 ));
+		assertEquals(5, grid.getNeighborsNumber( 3 ));
+		assertEquals(5, grid.getNeighborsNumber( 5 ));
+		assertEquals(5, grid.getNeighborsNumber( 7 ));
 	}
 	
 	@Test
