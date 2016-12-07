@@ -28,14 +28,14 @@ public class TestGrid {
 	}
 	
 	@Test(expected=CellCoordinateOutOfBoundariesException.class)
-	public void testCellCoordinate() throws CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, NegativeCoordinateException{
+	public void testCellCoordinate() throws CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, NegativeCoordinateException, CellConformityException{
 		arrayCell = new ArrayList<Cell>();
 		arrayCell.add(new Cell(1,4));	
 		grid = new Grid(arrayCell,3,3);
 	}
 	
 	@Test(expected=CellCoordinateDuplicate.class)
-	public void testCellCoordinateDuplicate() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate{
+	public void testCellCoordinateDuplicate() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, CellConformityException{
 		arrayCell = new ArrayList<Cell>();
 		arrayCell.add(new Cell(1,3));
 		arrayCell.add(new Cell(1,3));
@@ -43,7 +43,7 @@ public class TestGrid {
 	}
 	
 	@Test(expected=CellConformityException.class)
-	public void testCellConformity() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate{
+	public void testCellConformity() throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, CellConformityException{
 		arrayCell = new ArrayList<Cell>();
 		arrayCell.add(new Cell(1,1));
 		arrayCell.add(new Cell(1,2));

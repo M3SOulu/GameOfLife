@@ -13,6 +13,12 @@ public class Cell {
 		this.y=y;
 	}
 	
+	public Cell(int x,int y, String state) throws NegativeCoordinateException {
+		this.x=x;
+		this.y=y;
+		setState(state);
+	}
+	
 	public String getState(){
 		if(alive)
 			return "alive";

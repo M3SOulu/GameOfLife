@@ -8,10 +8,11 @@ public class Grid {
 	private int height;
 
 	public Grid(ArrayList<Cell> cells, int w, int h)
-			throws CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate {
+			throws CellCoordinateOutOfBoundariesException, CellCoordinateDuplicate, CellConformityException {
 		width = w;
 		height = h;
 		this.cells = new ArrayList<Cell>();
+		controlCellsConformity(cells);
 		for (Cell cell : cells) {
 			if (cell.getX() > height || cell.getY() > width)
 				throw new CellCoordinateOutOfBoundariesException("CellCoordinateOutOfBoundaries");
@@ -32,7 +33,7 @@ public class Grid {
 
 	}
 
-	private boolean controlCellsConformity(ArrayList<Cell> arrayCells) {
+	private void controlCellsConformity(ArrayList<Cell> arrayCells) throws CellConformityException {
 		int alive = 0;
 		int dead = 0;
 
@@ -43,10 +44,8 @@ public class Grid {
 				dead++;
 		}
 
-		if (alive == dead)
-			return true;
-		else
-			return false;
+		if (alive != dead)
+			throw new CellConformityException("Number of alive != numbere of dead");
 	}
 
 	public String print() {

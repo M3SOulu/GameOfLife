@@ -220,3 +220,12 @@ RefactoringAction 1481124526713 Grid.java RENAME controlCellsConformity()=>boole
 EditAction 1481124633525 Grid.java 1216 7 14 0
 EditAction 1481124706153 Grid.java 1271 7 14 0
 EditAction 1481124711757 Grid.java 1281 7 14 0
+CompilationAction 1481124843414 TestGrid.java
+CompilationAction 1481124857721 TestGrid.java
+CompilationAction 1481124857873 TestGrid.java
+CompilationAction 1481124870353 TestGrid.java
+UnitTestCaseAction 1481124872005 TestGrid.java FAIL
+UnitTestSessionAction 1481124872006 TestGrid FAIL
+RefactoringAction 1481124964756 Cell.java ADD Cell(int, int)/2 METHOD
+RefactoringAction 1481124980765 Cell.java RENAME Cell(int, int)/2=>Cell(int, int, String) METHOD
+EditAction 1481124992671 Cell.java 649 7 9 0
