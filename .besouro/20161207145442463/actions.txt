@@ -275,3 +275,11 @@ CompilationAction 1481123931787 TestGrid.java
 EditAction 1481123940788 Grid.java 1233 5 16 0
 EditAction 1481123993029 Grid.java 1244 5 16 0
 EditAction 1481124001785 Grid.java 1251 5 16 0
+RefactoringAction 1481124041974 TestGrid.java ADD import classes.CustomLifeException IMPORT
+CompilationAction 1481124048182 TestGrid.java
+CompilationAction 1481124048323 TestGrid.java
+RefactoringAction 1481124060619 isNotDeadAliveEqualsException.java REMOVE isNotDeadAliveEqualsException.java CLASS
+CompilationAction 1481124061033 TestGrid.java
+CompilationAction 1481124061035 TestGrid.java
+CompilationAction 1481124061035 TestGrid.java
+EditAction 1481124061458 TestGrid.java 1864 7 20 1
