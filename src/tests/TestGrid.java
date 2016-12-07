@@ -334,13 +334,13 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void twoCellWithFewerThanTwoLiveNeighborsDiesTest3X3() throws NegativeCoordinateException{
+	public void cellWithFewerThanTwoLiveNeighborsDiesTest3X3() throws NegativeCoordinateException{
 		ArrayList<Cell> cells = new ArrayList<>();
 		cells.add(new Cell(true, 1, 1));
 		cells.add(new Cell(false, 1, 2));
 		cells.add(new Cell(true, 1, 3));
-		cells.add(new Cell(false, 2, 1));
-		cells.add(new Cell(true, 2, 2));
+		cells.add(new Cell(true, 2, 1));
+		cells.add(new Cell(false, 2, 2));
 		cells.add(new Cell(false, 2, 3));
 		cells.add(new Cell(true, 3, 1));
 		cells.add(new Cell(false, 3, 2));
