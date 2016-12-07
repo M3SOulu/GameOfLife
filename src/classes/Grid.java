@@ -24,9 +24,12 @@ public class Grid {
 	}
 	
 	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException{
-//		if (w != h) {
-//			throw new CellCoordinateOutOfBoundariesException("cell outside limits");
-//		}
+		for(Cell c: cells){
+			if(c.getX() > w || c.getY() > h){
+				throw new CellCoordinateOutOfBoundariesException("cell outside limits");
+			}
+		}
+		
 		this.cells = cells;
 		setHeight(h);
 		setWidth(w);
