@@ -1,5 +1,7 @@
 package tests;
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 import classes.CustomLifeException;
@@ -21,7 +23,7 @@ public class TestGrid {
 		
 		Grid grid = new Grid(2, 2);
 		
-		assertEquals(grid.print(), "")
+		assertEquals(grid.print(), "*-\n");
 		
 
 	}

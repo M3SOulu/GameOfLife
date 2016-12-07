@@ -18,7 +18,7 @@ public class Grid {
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException, CustomLifeException, NegativeCoordinateException {
-		
+		this.cells = new ArrayList<Cell>();
 		if (w != h) {
 			throw new CustomLifeException("Generic Error");
 		}
