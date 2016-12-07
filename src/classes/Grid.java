@@ -40,7 +40,8 @@ public class Grid {
 			
 			cell.setX(iW);
 			cell.setY(iH++);
-			if(this.height == iH) {
+			
+			if(this.height == iH-1) {
 				iH = 1;
 				iW++;
 			}
