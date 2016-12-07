@@ -26,3 +26,4 @@ RefactoringAction 1481120297862 Cell.java RENAME Cell()/2=>Cell(int) METHOD
 RefactoringAction 1481120305416 Cell.java RENAME Cell(int)=>Cell(int, int) METHOD
 RefactoringAction 1481120308924 Cell.java RENAME Cell(int, int)=>Cell(int, int, boolean) METHOD
 EditAction 1481120335433 Cell.java 523 8 6 0
+EditAction 1481120491185 TestCell.java 400 2 2 0
