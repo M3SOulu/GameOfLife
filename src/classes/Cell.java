@@ -30,8 +30,7 @@ public class Cell {
 	}
 	
 	public Cell(int x, int y, boolean alive) throws NegativeCoordinateException {
-		if (x < 0 || y < 0) throw new NegativeCoordinateException("Negative Coordinate Exception");
-		
+	
 	}
 	
 	public Cell() throws NegativeCoordinateException {

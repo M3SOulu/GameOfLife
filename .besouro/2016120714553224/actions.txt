@@ -74,3 +74,4 @@ RefactoringAction 1481121884305 TestCell.java REMOVE y FIELD
 RefactoringAction 1481121884305 TestCell.java REMOVE alive FIELD
 RefactoringAction 1481121884305 TestCell.java REMOVE x FIELD
 EditAction 1481122096075 Grid.java 767 10 8 0
+EditAction 1481122096203 Cell.java 522 8 6 0
