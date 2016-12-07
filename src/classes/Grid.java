@@ -77,8 +77,8 @@ public class Grid {
 
 	public int getNeighborsNumber(int index) {
 		// TODO Auto-generated method stub
-		if( index == 0 || index == (width-1) || index == (width*height - width) ){	//corner cell
-			
+		if( index == 0 || index == (width-1) || index == (width*height - width) || index == (width*height -1) ){	//corner cell
+			return 3;
 		}
 		return 0;
 	}
