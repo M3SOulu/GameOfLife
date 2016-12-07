@@ -16,7 +16,7 @@ public class Grid {
 			throw new CellCoordinateOutOfBoundariesException("Rows and Columns not Equals");
 		if (cells.size() != (w * h))
 			throw new CellCoordinateOutOfBoundariesException("Index Out Of Boundaries");
-		if (!isEqualsAliveDead())
+		if (isEqualsAliveDead())
 			throw new CustomLifeException("cells alive!=dead");
 		width = w;
 		height = h;

@@ -12,7 +12,6 @@ import classes.CellCoordinateOutOfBoundariesException;
 import classes.CustomLifeException;
 import classes.Grid;
 import classes.NegativeCoordinateException;
-import classes.isNotDeadAliveEqualsException;
 
 public class TestGrid {
 	Grid griglia;
@@ -42,7 +41,7 @@ public class TestGrid {
 
 	@Test(expected = CellCoordinateOutOfBoundariesException.class)
 	public void grigliaErrataWithCellException()
-			throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException {
+			throws NegativeCoordinateException, CellCoordinateOutOfBoundariesException, CustomLifeException {
 		griglia = new Grid(cells, 50, 10);
 	}
 
