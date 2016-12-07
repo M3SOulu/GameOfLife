@@ -12,7 +12,7 @@ public class Grid {
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
-		if(w != h) throw new CellCoordinateOutOfBoundariesException("Grid coordinate out of bound");
+		if(w != h);
 	}
 
 	public String print() {
