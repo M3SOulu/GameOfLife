@@ -135,3 +135,6 @@ UnitTestSessionAction 1481121769978 TestCell OK
 RefactoringAction 1481121787652 Grid.java ADD int getAliveCells()/2 METHOD
 RefactoringAction 1481121791663 Grid.java RENAME getAliveCells()/2=>int getDeadCells() METHOD
 EditAction 1481121794689 Grid.java 1225 9 16 0
+UnitTestCaseAction 1481121797775 TestGrid.java OK
+UnitTestSessionAction 1481121797776 TestGrid OK
+EditAction 1481121812329 TestGrid.java 1465 3 25 6
