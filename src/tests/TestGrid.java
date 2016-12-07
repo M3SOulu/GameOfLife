@@ -305,11 +305,16 @@ public class TestGrid {
 	public void anyLiveCellWithFewerThanTwoLiveNeighborsDiesTest2X2() throws NegativeCoordinateException{
 		ArrayList<Cell> cells = new ArrayList<>();
 		cells.add(new Cell(true, 1, 1));
-		cells.add(new Cell(true, 1, 2));
+		cells.add(new Cell(false, 1, 2));
 		cells.add(new Cell(true, 2, 1));
-		cells.add(new Cell(true, 2, 2));
+		cells.add(new Cell(false, 2, 2));
 
 		Grid grid = new Grid(cells, 2, 2);
+		
+		grid.tick();
+		
+		assertEquals( 4, grid.getDeadCells() );
+		assertEquals( 0, grid.getAliveCells() );
 	}
 	
 	
