@@ -7,49 +7,50 @@ public class Grid {
 	private ArrayList<Cell> cells;
 	private int width;
 	private int height;
-	
-	Iterator<Cell>cellIterator;
 
+	Iterator<Cell> cellIterator;
 
-	public Grid(ArrayList<Cell> cells, int w, int h) throws CellCoordinateOutOfBoundariesException, isNotDeadAliveEqualsException{
-		if(w!=h)throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
-		if(cells.size()!=(w*h))throw new CellCoordinateOutOfBoundariesException("errore fuori indice");
-		if(!isEqualsAliveDead()) throw new isNotDeadAliveEqualsException(" ");
-		width=w;
-		height=h;
-		this.cells=new ArrayList<>(cells.size());
+	public Grid(ArrayList<Cell> cells, int w, int h)
+			throws CellCoordinateOutOfBoundariesException, isNotDeadAliveEqualsException {
+		if (w != h)
+			throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
+		if (cells.size() != (w * h))
+			throw new CellCoordinateOutOfBoundariesException("errore fuori indice");
+		if (!isEqualsAliveDead())
+			throw new isNotDeadAliveEqualsException(" ");
+		width = w;
+		height = h;
+		this.cells = new ArrayList<>(cells.size());
 	}
-	
+
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
-		if(w!=h)throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
-		width=w;
-		height=h;
-		this.cells=new ArrayList<>(w*h);
-		
+		if (w != h)
+			throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
+		width = w;
+		height = h;
+		this.cells = new ArrayList<>(w * h);
+
 	}
 
 	public String print() {
-	    return null;
+		return null;
 	}
-	
+
 	public Grid tick() {
-	    return null;
+		return null;
 	}
-	
-	public boolean isEqualsAliveDead(){
-		int alive=0;
-		int dead=0;
-		for(int i=0;i<cells.size();i++){
-			if(cells.get(i).getAlive()==true){
+
+	public boolean isEqualsAliveDead() {
+		int alive = 0;
+		int dead = 0;
+		for (int i = 0; i < cells.size(); i++) {
+			if (cells.get(i).getAlive() == true) {
 				alive++;
-			}else{
+			} else {
 				dead++;
 			}
 		}
-		return alive==dead;
+		return alive == dead;
 	}
-	
-	
-	
-	
+
 }

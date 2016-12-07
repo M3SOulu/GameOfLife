@@ -262,3 +262,6 @@ CompilationAction 1481123749271 TestGrid.java
 CompilationAction 1481123749435 TestGrid.java
 CompilationAction 1481123756809 TestGrid.java
 EditAction 1481123762950 Grid.java 1190 5 16 0
+RefactoringAction 1481123850965 Cell.java REMOVE Cell() METHOD
+RefactoringAction 1481123851978 Cell.java ADD Cell() METHOD
+EditAction 1481123864022 Grid.java 1237 5 16 0
