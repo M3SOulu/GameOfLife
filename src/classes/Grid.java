@@ -13,7 +13,7 @@ public class Grid {
 		setWidth(w);
 		setHeight(h);
 		grid = new Cell[width][height];
-		
+		this.cells = cells;
 		for(int i = 0; i<cells.size(); i++){
 			if(cells.get(i).getX()>w || cells.get(i).getY()>h )
 				throw new CellCoordinateOutOfBoundariesException("");
@@ -30,22 +30,20 @@ public class Grid {
 	    return null;
 	}
 	
-	public Grid tick() {
-		Grid tickedGrid;
+	public Grid tick() throws NegativeCoordinateException {
 		ArrayList<Cell> tickedCells = new ArrayList<Cell>();
 		
 		for(int i = 0; i<width; i++){
 			for(int j = 0; j<height; j++){
 				if(grid[i][j].isAlive() && countAliveNeighbors(i, j)<2)
-					tickedCells.add(new Cell(i, j, false));
-				
+					tickedCells.add(new Cell(i, j, false));	
 			}
 		}
 		
-	    return null;
+	    return new Grid(tickedCells, width, height);
 	}
 	
-	private void countAliveNeighbors(int x, int y){
+	private int countAliveNeighbors(int x, int y){
 		int count = 0;
 		//Upper-Left Angle
 		if(grid[0][1].isAlive())
@@ -54,6 +52,8 @@ public class Grid {
 			count++;
 		if(grid[1][1].isAlive())
 			count++;
+		
+		return count;
 	}
 
 	public ArrayList<Cell> getCells() {
