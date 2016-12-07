@@ -57,7 +57,7 @@ public class TestGrid {
 		//Act
 		grid.tick(5, 5);
 		//Assert
-		
+		assertTrue(!grid.getCells().get(0).isAlive());
 		
 		
 		
