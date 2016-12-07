@@ -219,3 +219,10 @@ EditAction 1481126481836 TestGrid.java 1232 4 13 3
 UnitTestCaseAction 1481126483413 TestGrid.java FAIL
 UnitTestSessionAction 1481126483413 TestGrid FAIL
 EditAction 1481126505122 Grid.java 1786 5 16 0
+UnitTestCaseAction 1481126507505 TestGrid.java FAIL
+UnitTestSessionAction 1481126507506 TestGrid FAIL
+RefactoringAction 1481126525383 TestGrid.java ADD void CellHasTheRightCoordinateX()/2 METHOD
+RefactoringAction 1481126528390 TestGrid.java RENAME CellHasTheRightCoordinateX()/2=>void CellHasTheRightCoordinateX2() METHOD
+RefactoringAction 1481126529912 TestGrid.java RENAME CellHasTheRightCoordinateX2()=>void CellHasTheRightCoordinateX()/2 METHOD
+RefactoringAction 1481126533426 TestGrid.java RENAME CellHasTheRightCoordinateX()/2=>void CellHasTheRightCoordinateX2() METHOD
+EditAction 1481126558482 TestGrid.java 1520 5 18 4
