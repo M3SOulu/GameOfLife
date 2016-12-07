@@ -28,3 +28,12 @@ CompilationAction 1481119733875 TestCell.java
 RefactoringAction 1481119770327 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
 CompilationAction 1481119774747 TestCell.java
 EditAction 1481119858460 Cell.java 390 3 4 0
+CompilationAction 1481119859795 TestCell.java
+CompilationAction 1481119859796 TestCell.java
+CompilationAction 1481119859796 TestCell.java
+CompilationAction 1481119884725 TestCell.java
+CompilationAction 1481119884725 TestCell.java
+CompilationAction 1481119884725 TestCell.java
+RefactoringAction 1481119955747 Cell.java ADD boolean isAlive FIELD
+RefactoringAction 1481119958268 Cell.java RENAME isAlive=>boolean isAlive() METHOD
+EditAction 1481119967723 Cell.java 444 4 5 0

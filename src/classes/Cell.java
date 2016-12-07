@@ -25,4 +25,8 @@ public class Cell {
 		this.alive = false;
 	}
 	
+	public boolean isAlive() {
+		return this.alive;
+	}
+	
 }
