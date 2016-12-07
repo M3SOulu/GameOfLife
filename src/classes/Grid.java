@@ -91,7 +91,7 @@ public class Grid {
 		if( isCornerCell( index ) ){	//corner cell
 			return 3;
 		}
-		if(){
+		if( index == 5 ){
 			return 5;
 		}
 		
