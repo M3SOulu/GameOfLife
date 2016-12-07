@@ -12,10 +12,10 @@ public class Grid {
 	}
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
-		if(w != h);
 	}
 
 	public String print() {
+		
 	    return null;
 	}
 	

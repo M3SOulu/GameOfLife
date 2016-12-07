@@ -70,3 +70,7 @@ RefactoringAction 1481121674115 TestCell.java ADD int x FIELD
 RefactoringAction 1481121678621 TestCell.java ADD int y FIELD
 RefactoringAction 1481121774761 TestCell.java ADD boolean alive FIELD
 EditAction 1481121829011 Cell.java 617 8 7 0
+RefactoringAction 1481121884305 TestCell.java REMOVE y FIELD
+RefactoringAction 1481121884305 TestCell.java REMOVE alive FIELD
+RefactoringAction 1481121884305 TestCell.java REMOVE x FIELD
+EditAction 1481122096075 Grid.java 767 10 8 0
