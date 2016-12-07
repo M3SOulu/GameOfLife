@@ -42,3 +42,33 @@ EditAction 1481120344043 TestCell.java 379 2 4 0
 CompilationAction 1481120344194 TestCell.java
 CompilationAction 1481120344195 TestCell.java
 EditAction 1481120344208 Cell.java 567 5 10 0
+CompilationAction 1481120345279 TestCell.java
+RefactoringAction 1481120374920 TestCell.java ADD import org.junit.Assert.assertTrue IMPORT
+CompilationAction 1481120380838 TestCell.java
+CompilationAction 1481120381000 TestCell.java
+RefactoringAction 1481120395169 TestCell.java ADD void assertTrue(boolean, boolean) METHOD
+RefactoringAction 1481120404959 TestCell.java REMOVE assertTrue(boolean, boolean) METHOD
+RefactoringAction 1481120440509 TestCell.java ADD import org.junit.Assert.assertTrue/2 IMPORT
+RefactoringAction 1481120444016 TestCell.java RENAME import org.junit.Assert.assertTrue/2=>import org.junit.Assert.assertFalse IMPORT
+CompilationAction 1481120450539 TestCell.java
+UnitTestCaseAction 1481120453023 TestCell.java OK
+UnitTestSessionAction 1481120453031 TestCell OK
+UnitTestCaseAction 1481120474138 TestCell.java OK
+UnitTestSessionAction 1481120474139 TestCell OK
+UnitTestCaseAction 1481120474952 TestCell.java OK
+UnitTestSessionAction 1481120474953 TestCell OK
+UnitTestCaseAction 1481120475698 TestCell.java OK
+UnitTestSessionAction 1481120475698 TestCell OK
+UnitTestCaseAction 1481120476426 TestCell.java OK
+UnitTestSessionAction 1481120476426 TestCell OK
+UnitTestCaseAction 1481120477529 TestCell.java OK
+UnitTestSessionAction 1481120477530 TestCell OK
+RefactoringAction 1481120529735 TestCell.java ADD void f FIELD
+RefactoringAction 1481120530750 TestCell.java REMOVE f FIELD
+RefactoringAction 1481120533761 TestCell.java ADD void negative FIELD
+RefactoringAction 1481120544783 TestCell.java RENAME negative=>void negativeCoordinateInA FIELD
+RefactoringAction 1481120554329 TestCell.java RENAME negativeCoordinateInA=>void negativeCoordinateIn FIELD
+RefactoringAction 1481120556342 TestCell.java RENAME negativeCoordinateIn=>void negativeCoordinateOf FIELD
+RefactoringAction 1481120559357 TestCell.java RENAME negativeCoordinateOf=>void negativeCoordinateOfCell() METHOD
+RefactoringAction 1481120651741 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
+EditAction 1481120673839 TestCell.java 664 3 5 0
