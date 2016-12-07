@@ -41,11 +41,11 @@ public class Grid {
 			cell.setY(iH);
 			
 			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 == 0) { //riga pari, colonna pari
-				cell.makeDead();
+				cell.makeAlive();
 			}
 			
 			if((float)cell.getX() % 2 != 0 && cell.getY() % 2 == 0) {  //riga dispari, colonna pari
-				cell.makeAlive();
+				cell.makeDead();
 			}
 			
 			if((float)cell.getX() % 2 == 0 && cell.getY() % 2 != 0) { //riga pari, colonna dispari

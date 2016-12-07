@@ -21,7 +21,7 @@ public class TestGrid {
 		
 		Grid grid = new Grid(2, 2);
 		
-		assertEquals()
+		assertEquals(grid.print(), "")
 		
 
 	}
