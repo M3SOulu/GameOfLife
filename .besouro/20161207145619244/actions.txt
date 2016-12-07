@@ -96,3 +96,14 @@ EditAction 1481123743256 Grid.java 1339 5 15 0
 UnitTestCaseAction 1481123743905 TestGrid.java FAIL
 UnitTestSessionAction 1481123743906 TestGrid FAIL
 EditAction 1481123768407 Grid.java 1339 5 15 0
+UnitTestCaseAction 1481123769042 TestGrid.java OK
+UnitTestSessionAction 1481123769043 TestGrid OK
+RefactoringAction 1481124023865 Grid.java ADD int neighbors FIELD
+RefactoringAction 1481124027871 Grid.java RENAME neighbors=>int neighbors() METHOD
+RefactoringAction 1481124033415 Grid.java RENAME neighbors()=>int neighbors(Cell) METHOD
+RefactoringAction 1481124142297 TestGrid.java ADD void printGridGameOfLife()/2 METHOD
+RefactoringAction 1481124153824 TestGrid.java RENAME printGridGameOfLife()/2=>void tick() METHOD
+RefactoringAction 1481124157338 TestGrid.java RENAME tick()=>void ticktest() METHOD
+RefactoringAction 1481124159348 TestGrid.java RENAME ticktest()=>void tick() METHOD
+RefactoringAction 1481124161369 TestGrid.java RENAME tick()=>void tickTest() METHOD
+EditAction 1481124333954 TestGrid.java 2084 6 26 2
