@@ -72,3 +72,8 @@ RefactoringAction 1481120556342 TestCell.java RENAME negativeCoordinateIn=>void 
 RefactoringAction 1481120559357 TestCell.java RENAME negativeCoordinateOf=>void negativeCoordinateOfCell() METHOD
 RefactoringAction 1481120651741 TestCell.java ADD import classes.NegativeCoordinateException IMPORT
 EditAction 1481120673839 TestCell.java 664 3 5 0
+UnitTestCaseAction 1481120674512 TestCell.java OK
+UnitTestSessionAction 1481120674513 TestCell OK
+UnitTestCaseAction 1481120676346 TestCell.java OK
+UnitTestSessionAction 1481120676346 TestCell OK
+EditAction 1481120687599 TestCell.java 664 3 5 0
