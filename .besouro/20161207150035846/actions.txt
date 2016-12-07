@@ -54,3 +54,8 @@ RefactoringAction 1481120277226 TestCell.java RENAME cellNotAliveTest()/2=>void 
 RefactoringAction 1481120280769 TestCell.java RENAME get()=>void getXY() METHOD
 RefactoringAction 1481120282276 TestCell.java RENAME getXY()=>void getXYCell() METHOD
 EditAction 1481120331390 TestCell.java 602 3 2 2
+CompilationAction 1481120331514 TestCell.java
+CompilationAction 1481120331515 TestCell.java
+CompilationAction 1481120331515 TestCell.java
+CompilationAction 1481120331515 TestCell.java
+EditAction 1481120336523 TestCell.java 602 3 5 4

@@ -22,7 +22,7 @@ public class TestCell {
 	public void getXYCell() throws NegativeCoordinateException{
 		Cell cell = new Cell(alive, 3, 2);
 		assertEquals(3, cell.getX());
-		assertEquals(2. cell.getY());
+		assertEquals(2, cell.getY());
 	}
 	
 }
