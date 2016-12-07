@@ -17,6 +17,9 @@ public class Grid {
 	
 	public Grid(int w, int h) throws CellCoordinateOutOfBoundariesException {
 		if(w!=h)throw new CellCoordinateOutOfBoundariesException("griglia non quadrata");
+		width=w;
+		height=h;
+		this.cells=new ArrayList<>(w*h);
 		
 		
 	}
