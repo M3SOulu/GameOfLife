@@ -24,7 +24,7 @@ public class Grid {
 	    return null;
 	}
 	
-	public Grid tick(int x, int y) {
+	public Grid tick() {
 	    return null;
 	}
 

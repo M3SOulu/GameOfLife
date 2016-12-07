@@ -132,3 +132,8 @@ RefactoringAction 1481121803182 Grid.java RENAME tick()=>Grid tick(int, int) MET
 EditAction 1481121811986 Grid.java 995 10 12 0
 EditAction 1481121812125 TestGrid.java 1582 3 24 0
 EditAction 1481121933369 TestGrid.java 1628 3 25 1
+UnitTestCaseAction 1481121937034 TestGrid.java FAIL
+UnitTestCaseAction 1481121937034 TestCell.java OK
+UnitTestSessionAction 1481121937035 GameOfLife FAIL
+RefactoringAction 1481121995360 Grid.java RENAME tick(int, int)=>Grid tick() METHOD
+EditAction 1481122002862 Grid.java 983 10 12 0
