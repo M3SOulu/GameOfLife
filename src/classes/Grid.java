@@ -26,9 +26,19 @@ public class Grid {
 		this.width = w;
 		this.height = h;
 		
+		
+		int iW = 0;
+		int iH = 0;
 		for (int i = 0; i < w * h; i++) {
+			
 			Cell cell = new Cell();
-			cell.makeAlive();
+			
+			if(this.width == iW) {
+				iH++;
+				iW = 0;
+			}
+			cell.setX(iW++);
+			cell.setY(iH);
 			this.cells.add(cell);
 		}
 		
