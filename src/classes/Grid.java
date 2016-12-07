@@ -35,4 +35,9 @@ public class Grid {
 		// TODO Auto-generated method stub
 		return height;
 	}
+
+	public Cell get(int x, int y) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

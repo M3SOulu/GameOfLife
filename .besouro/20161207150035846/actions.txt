@@ -100,3 +100,7 @@ CompilationAction 1481120670222 TestGrid.java
 RefactoringAction 1481120676752 TestGrid.java ADD import classes.NegativeCoordinateException IMPORT
 CompilationAction 1481120678811 TestGrid.java
 EditAction 1481120872080 TestGrid.java 722 2 10 3
+CompilationAction 1481120872228 TestGrid.java
+RefactoringAction 1481120876049 Grid.java ADD Object get(int, int) METHOD
+CompilationAction 1481120953239 TestGrid.java
+EditAction 1481120973051 Grid.java 712 7 7 0

@@ -29,6 +29,8 @@ public class TestGrid {
 		cells.add(new Cell(true, 2, 2));
 		
 		Grid grid = new Grid(cells, 2, 2);
-		assertEquals(2, grid.get( 2, 1 ));
+		Cell cell = grid.get(2, 1);
+		assertEquals(2, cell.getX());
+		assertEquals(1, cell.getY());
 	}
 }
