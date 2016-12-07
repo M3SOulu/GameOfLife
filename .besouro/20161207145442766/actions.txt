@@ -88,3 +88,11 @@ RefactoringAction 1481120243741 TestGrid.java ADD Grid grid FIELD
 RefactoringAction 1481120249776 TestGrid.java ADD ArrayList<Cell> cells FIELD
 RefactoringAction 1481120259319 TestGrid.java ADD import org.junit.Before IMPORT
 EditAction 1481120276671 TestGrid.java 691 2 1 0
+CompilationAction 1481120276931 TestGrid.java
+CompilationAction 1481120276932 TestGrid.java
+CompilationAction 1481120309804 TestGrid.java
+CompilationAction 1481120309804 TestGrid.java
+UnitTestCaseAction 1481120325472 TestGrid.java FAIL
+UnitTestCaseAction 1481120325472 TestCell.java OK
+UnitTestSessionAction 1481120325474 GameOfLife FAIL
+EditAction 1481120475249 Grid.java 567 4 3 0

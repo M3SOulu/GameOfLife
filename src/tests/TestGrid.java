@@ -27,7 +27,8 @@ public class TestGrid {
 	public void ifACellIsOutOfTheGridLimitsAnExceptionShouldBeRised() throws CellCoordinateOutOfBoundariesException, NegativeCoordinateException{
 		//Arrange
 		Cell cell = new Cell(5,5, true);
+		cells.add(cell);
 		//Act
-		grid = new Grid()
+		grid = new Grid(cells, 4, 4);
 	}
 }
